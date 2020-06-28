@@ -1,0 +1,172 @@
+/* background: linear-gradient(86.76deg, #E862A5 1.5%, rgba(251, 246, 248, 0) 95.71%), rgba(255, 105, 180, 0.9);
+border: 1px solid rgba(0, 0, 0, 0.3);
+box-shadow: 0px 4px 250px rgba(255, 250, 250, 0.25); */
+
+:root{
+  --font-primary: Poppins, 'sans serif';
+  --colr-white: #FFF;
+  --colr-white-light-80: rgb(255, 255, 255, 0.9);
+  --color-black: #000;
+  --colr-primary: rgb(255, 105, 180);
+  --colr-primary-light-20: rgb(244, 228, 239);
+  --colr-primary-light-50: rgba(255, 105, 180, 0.5);
+  --colr-primary-dark: rgb(255, 5, 130);
+}
+
+body{
+  font-family:var(--font-primary);
+}
+
+header{
+  color: var(--colr-white);
+  background: linear-gradient(86.76deg, #E862A5 1.5%, rgba(251, 246, 248, 0) 95.71%), rgba(255, 105, 180, 0.9);
+}
+
+.lh-1-5{
+  line-height: 1.5;
+}
+
+.lovey-navbar-bg{
+  background-color: var(--colr-white-light-80);
+}
+
+.nav-brand-name{
+  font-size: 2rem;
+  color: var(--colr-primary)
+}
+
+.brand-logo{
+  width: 25px;
+  height: 25px;
+  margin-right: .1rem;
+}
+.btn-nav-toggle:focus{
+  outline: none;
+}
+
+.bar{
+  width: 1.5rem;
+  height: 0.25rem;
+  background-color: var(--colr-primary);
+  margin: 0.25em 0;
+  transition: 0.4s;
+  border-radius: 10px;
+}
+
+.change .bar-0 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar-1 {opacity: 0;}
+
+.change .bar-2 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.lovey-btn{
+transition: 0.4s all;
+}
+
+.lovey-nav-link{
+  color: var(--colr-primary);
+  transition: 0.4s all;
+}
+
+.lovey-nav-link:hover{
+  color: var(--colr-primary-dark);
+  text-decoration: underline;
+}
+
+.lovey-btn-primary{
+  background-color: var(--colr-primary);
+  color: var(--colr-white);
+}
+
+.lovey-btn-primary:hover{
+  background-color: var(--colr-primary-dark);
+  color: var(--colr-white);
+}
+
+.lovey-btn:focus{
+  outline: 0;
+  box-shadow:0 0 0 0.2rem var(--colr-primary-light-50);
+}
+
+.lovey-btn-primary-outline{
+  border: 1px solid var(--colr-primary);
+  color: var(--colr-primary);
+}
+
+.lovey-btn-primary-outline:hover{
+  border: 1px solid var(--colr-primary);
+  color: var(--colr-white);
+  background-color: var(--colr-primary-dark);
+}
+
+.hero img{
+ }
+
+
+/* EFFECTS */
+
+/* BUTTOM SLIDE IN FROM LEFT */
+/* button {
+  z-index: 1;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+  color: white;
+  padding: 0.5em 1em;
+  outline: none;
+  border: none;
+  background-color: hsl(236, 32%, 26%);
+}
+
+button::before {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fc2f70;
+  transform-origin: center right;
+  transform: scaleX(0);
+  transition: transform 0.25s ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:hover::before {
+  transform-origin: center left;
+  transform: scaleX(1);
+} */
+
+/* LINK UNDERLINE */
+
+/* span {
+  position: relative;
+}
+
+span::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #3cefff;
+  transform-origin: bottom right;
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+}
+
+span:hover::before {
+  transform-origin: bottom left;
+  transform: scaleX(1);
+} */
