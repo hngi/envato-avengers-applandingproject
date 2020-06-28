@@ -26,9 +26,9 @@
 
 <body>
 
-  <header>
+  <header class="pb-5">
     <!-- nav -->
-    <nav class="navbar navbar-expand-sm lovey-navbar-bg sticky-top">
+    <nav class="navbar navbar-expand-md lovey-navbar-bg sticky-top">
       <a class="navbar-brand nav-brand-name font-weight-bold d-flex justify-content-between align-items-center"
         href="#">
         <img src="./assets/images/icon-logo.png" class="brand-logo"
@@ -66,12 +66,12 @@
             <button
               class="btn lovey-btn lovey-btn-primary-outline w-100">LOGIN</button>
           </li>
-          <li class="nav-item pt-2 pt-sm-0 ml-sm-3">
+          <li class="nav-item pt-2 pt-md-0 ml-md-2">
             <button class="btn lovey-btn lovey-btn-primary w-100">
               SIGN UP
             </button>
           </li>
-          <li class="nav-item pt-2 pt-sm-0 ml-sm-3">
+          <li class="nav-item pt-2 pt-md-0 ml-md-2">
             <button class="btn lovey-btn lovey-btn-primary w-100">
               DOWNLOAD
             </button>
@@ -82,13 +82,15 @@
 
     <!-- hero -->
     <div class="hero container-fluid">
-      <div class="d-flex flex-wrap pt-4">
-        <div class="img-wrapper">
+      <div
+        class="d-flex flex-wrap flex-md-row-reverse flex-md-nowrap align-items-md-center py-4 py-md-5">
+        <div class="img-wrapper col-md-7">
           <img class="img-fluid" src="./assets/images/hero-img.webp"
             alt="a happy couple playing together">
         </div>
-        <div class="header-text">
-          <h1 class="text-center py-4">Get your ideal partner</h1>
+        <div class="header-text col-md-5">
+          <h1 class="text-center text-md-left py-4 pl-md-4">Get your ideal
+            partner</h1>
           <p class="font-weight-light px-2 px-sm-4 lh-1-5">
             Lovey is perfect for people who dream about a well-matching partner.
           </p>
@@ -101,27 +103,33 @@
         </div>
       </div>
       <div
-        class="download-section d-flex flex-column justify-content-center align-items-center">
-        <div role="button" class="download-card px-4">
-          <img src="" alt="">
+        class="download-section d-flex flex-column justify-content-between align-items-center flex-md-row justify-content-md-center">
+        <button role="button"
+          class="btn download-card d-flex justify-content-between align-items-center">
+          <img class="img-fluid" src="./assets/images/apple-logo-icon.webp"
+            alt="">
           <div
-            class="d-flex flex-column justify-content-center align-items-centwe">
-            <p class="small font-weight-light">GET IT ON</p>
-            <p>App Store</p>
+            class="mx-2 d-flex flex-column justify-content-center align-items-start">
+            <p class="small font-weight-bold mb-1">GET IT ON</p>
+            <p class="mb-1">App Store</p>
           </div>
-        </div>
-        <div role="button" class="download-card px-4">
-          <img src="" alt="">
+        </button>
+        <button role="button"
+          class="btn download-card d-flex justify-content-between align-items-center mt-3 mt-md-0 ml-md-3">
+          <img class="img-fluid"
+            src="./assets/images/google-playstore-icon.webp" alt="">
           <div
-            class="d-flex flex-column justify-content-center align-items-centwe">
-            <p class="small font-weight-light">GET IT ON</p>
-            <p>Play Store</p>
+            class="mx-2 d-flex flex-column justify-content-center align-items-start">
+            <p class="small font-weight-bold mb-1">GET IT ON</p>
+            <p class="mb-1">Play Store</p>
           </div>
-        </div>
+        </button>
       </div>
     </div>
   </header>
-  <main></main>
+  <main>
+
+  </main>
   <footer></footer>
 
   <!-- All javascript at the bottom of the page for fast page load -->

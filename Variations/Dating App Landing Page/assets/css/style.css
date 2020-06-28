@@ -105,6 +105,21 @@ transition: 0.4s all;
   background-color: var(--colr-primary-dark);
 }
 
+.download-card{
+  border: 1px solid var(--colr-primary-dark);
+  border-radius: 8px;
+}
+
+.download-card:hover{
+  border: 1px solid var(--colr-white);
+  border-radius: 8px;
+}
+
+.download-card img {
+  width: 48px;
+  height: 48px;
+}
+
 /* EFFECTS */
 
 /* BUTTOM SLIDE IN FROM LEFT */
