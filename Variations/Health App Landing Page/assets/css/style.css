@@ -1,0 +1,356 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* HEADER STARTS HERE */
+.health-header {
+  background: linear-gradient(125.1deg, #265ED7 30.13%, #A4DAD2 94.13%), #A4DAD2;
+}
+
+
+.health-nav-toggler {
+  border: none;
+
+}
+
+.health-logo {
+  width: 50%;
+}
+
+.health-logo-img {
+  width: 100%;
+}
+
+.health-nav-item {
+  color: #fff !important;
+}
+
+.health-nav-item:hover {
+  color: #FF9700 !important;
+}
+
+.health-nav-item:active {
+  color: #FF9700 !important;
+
+}
+
+.active {
+  color: #FF9700;
+}
+
+.health-nav-toggler:focus {
+  outline: none;
+}
+
+.hero {
+  padding: .5rem 1rem;
+}
+
+.health-hero-title {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.hero-text {
+  font-weight: 300;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.all-btn {
+  border-radius: 15px;
+  color: #FFFFFF;
+
+  margin-top: 5%;
+
+
+}
+
+.header-btn {
+  background: #FF9700;
+  transition: all .3s ease;
+  width: 50%;
+}
+
+.header-second-btn {
+  border: 3px solid #FFFFFF;
+  margin-bottom: 5%;
+  width: 50%;
+  transition: all .3s ease;
+
+}
+
+.all-btn:hover {
+  background: #cf9f58;
+  border: 3px solid #cf9f58;
+  color: #fff;
+}
+
+/* OVERVIEW SECTION */
+
+.all-texts {
+  padding: .5rem 1rem;
+  text-align: center;
+}
+
+.all-title {
+  color: #072B77;
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+
+.all-p {
+  font-size: 0.975rem;
+  color: #000;
+  line-height: 1.4;
+}
+
+.overview-link {
+  color: #072B77;
+  font-weight: 700;
+}
+
+.overview-section {
+  margin-bottom: 10%;
+}
+
+
+/* FEATURES SECTION */
+.feature-section {
+  background: #F0F8F6;
+  padding: 1px;
+}
+
+.cards {
+  text-align: center;
+}
+
+.icon-title {
+  font-size: 1.2rem;
+}
+
+.icon-p {
+  font-size: 0.875rem;
+}
+
+.middle-img {
+  display: none;
+}
+
+/* SCREENSHOT SECTION */
+
+.screen-row {
+  width: 80%;
+  margin: auto;
+}
+
+.screen-img {
+  width: 100%;
+}
+
+.app-img1 {
+  margin-right: -3%;
+  margin-left: 4%;
+}
+
+.app-img2 {
+  margin-right: -3%;
+  margin-left: 0%;
+  z-index: 10;
+}
+
+/* TESTIMONIAL SECTION */
+.user {
+  margin: 0 auto;
+}
+
+.user-name {
+  font-size: 1rem;
+  color: #000;
+  font-weight: 700;
+}
+
+.user-title {
+  color: #FF9700;
+}
+
+.user-details {
+  text-align: center;
+
+}
+
+.review-text {
+  font-size: 0.875rem;
+  color: #000;
+  text-align: center;
+}
+
+.after-icon {
+  margin: 0 auto;
+}
+
+.review {
+  background: #F0F8F6;
+  padding: 1px;
+}
+
+/* DOWNLOAD SECTION */
+.download-section {
+  background-image: url(../images/download-pic.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1px;
+
+}
+
+.download-img {
+  display: none;
+}
+
+.dl-container {
+  padding: .5rem 1rem;
+}
+
+.dl-pic {
+  width: 100%;
+}
+
+.dl-title {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+
+.dl-p {
+  font-size: 0.875rem;
+  color: #fff;
+  line-height: 1.4;
+  font-weight: lighter;
+
+}
+
+.dl-row {
+  text-align: center;
+}
+
+.app-btn:focus {
+  box-shadow: none !important;
+}
+
+/* FORM SECTION */
+.form-texts {
+  padding: .5rem 1rem;
+  text-align: center;
+}
+
+.form-title {
+  color: #072B77;
+  font-size: 1.4rem;
+  font-weight: 900;
+  border-top: 2px solid #FF9700;
+  padding: 13px 3%;
+  width: 100%;
+  margin: auto;
+}
+
+.form_input {
+  border: 3px solid #BEBCBC;
+  border-radius: 5px;
+}
+
+.feature-title {
+  transition: all .5 ease;
+
+}
+
+.form_input:focus {
+  border-color: #BEBCBC;
+  box-shadow: none;
+}
+
+.btn-form {
+  background: #FF9700;
+  margin-left: 25%;
+
+}
+
+.form_input::placeholder,
+textarea.form_input {
+  font-size: 0.875rem;
+  color: #BEBCBC;
+}
+
+/* SUPPORT */
+.contact-socials {
+  background: linear-gradient(156.98deg, #072B77 26.34%, #265ED7 113.59%), #A4DAD2;
+}
+
+.social-p {
+  color: #fff;
+  font-size: 0.875rem;
+}
+
+.social-icon {
+  width: 10%;
+}
+
+.addy-p {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* FOOTER SECTION */
+.footer-section {
+  background: linear-gradient(149.15deg, #072B77 26.34%, #265ED7 113.59%), #A4DAD2;
+  padding: 1px;
+}
+
+.top-scroll {
+  display: none;
+}
+
+.logo-img {
+  text-align: center;
+}
+
+.socials {
+  justify-content: center;
+  align-content: center;
+}
+
+hr {
+  border-top: 1px solid #fff;
+}
+
+.footer-links {
+  display: none;
+}
+
+.copy-p {
+  color: #fff;
+  font-size: 0.775rem;
+  text-align: center;
+}
+
+.foot-link {
+  font-size: 0.775rem;
+  color: #fff;
+  transition: all .3s ease;
+}
+
+.foot-link:hover {
+  color: #FF9700;
+  text-decoration: none;
+}

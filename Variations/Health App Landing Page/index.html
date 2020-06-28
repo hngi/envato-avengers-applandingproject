@@ -17,18 +17,460 @@
     <link rel="apple-touch-icon-precomposed" href="" />
     <!-- Google fonts -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
       rel="stylesheet"
     />
     <!-- CSS links-->
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/all.min.css" />
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/responsive.css" />
+   
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+    rel="stylesheet"
+    href="./assets/css/animate.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
   </head>
   <body>
+    <div class="wrapper">
+      <!-- HEADER STARTS -->
+      <header class="health-header">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand health-logo" href="index.html"
+              ><img
+                src="./assets/images/logo.svg"
+                alt=""
+                class="health-logo-img"
+            /></a>
+            <button
+              class="navbar-toggler health-nav-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto navlist">
+                <li class="nav-item pr-3">
+                  <a class="nav-link health-nav-item active" href="#">Home</a>
+                </li>
+                <li class="nav-item pr-3">
+                  <a class="nav-link health-nav-item" href="#features">Features</a>
+                </li>
+                <li class="nav-item pr-3">
+                  <a class="nav-link health-nav-item" href="#media">Media</a>
+                </li>
+                <li class="nav-item pr-3 health-nav-item">
+                  <a class="nav-link health-nav-item" href="#testimonials">Testimonials</a>
+                </li>
+                <li class="nav-item pr-3">
+                  <a class="nav-link health-nav-item" href="#download">Download</a>
+                </li>
+                <li class="nav-item pr-3">
+                  <a class="nav-link health-nav-item" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="hero mt-lg-5">
+            <h1 class="page-header text-capitalize health-hero-title">
+              health link app
+            </h1>
+            <p class="hero-text">
+              Take care of You Health Anytime, Anywhere
+            </p>
+            <button class="btn col-sm-12 col-md-3 col-lg-2 header-btn all-btn">
+              Download
+            </button>
+            <button
+              class="btn col-sm-12 col-md-3 col-lg-2 header-second-btn all-btn"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+      </header>
+      <!-- HEADER EBDS -->
+      <!-- OVERVIEW SECTION STARTS -->
+      <div class="container overview-section">
+        <div class="overview-texts all-texts mt-4">
+          <h2 class="overview-title all-title">Overview</h2>
+          <p class="overview-p all-p">
+            Health link App and custom development allow healthcare institutions
+            to create comprehensive cross-platform solutions that ensure
+            positive patient experiences.
+          </p>
+          <a href="" class="overview-link">Read More</a>
+        </div>
+        <div class="overview-img">
+          <img
+            src="./assets/images/overview-img.svg"
+            alt=""
+            class="view-img col-lg-10 img-fluid"
+          />
+        </div>
+      </div>
+      <!-- FEATURES SECTION -->
+      <section id="features" class="feature-section mb-4">
+        <div class="container mb-5">
+          <div class="feature-texts all-texts mt-4">
+            <h2 class="feature-title all-title wow animate__backInUp animate__delay-4s">Health Link Features</h2>
+            <p class="feature-p mt-3  all-p mx-auto">
+              Health link App and custom development allow healthcare
+              institutions to create comprehensive cross-platform solutions that
+              ensure positive patient experiences.
+            </p>
+          </div>
+          <div class="card-container mt-5">
+            <div class="cards mt-3">
+              <img
+                src="./assets/images/doctor search.svg"
+                alt=""
+                class="icon"
+              />
+              <p class="icon-title mt-2 mb-1">Doctor Search</p>
+              <p class="icon-p">Search for medical outlets around you</p>
+            </div>
+            <div class="cards mt-3">
+              <img
+                src="./assets/images/messaging.svg"
+                alt="icon"
+                class="icon"
+              />
+              <p class="icon-title mt-2 mb-1">Messaging</p>
+              <p class="icon-p">Search for medical outlets around you</p>
+            </div>
+            <div class="cards mt-3">
+              <img src="./assets/images/call.svg" alt="icon" class="icon" />
+              <p class="icon-title mt-2 mb-1">In App Call</p>
+              <p class="icon-p">Search for medical outlets around you</p>
+            </div>
+            <div class="middle-img">
+              <img
+                src="./assets/images/features-img.svg"
+                alt="picture"
+                class="feature-img"
+              />
+            </div>
+            <div class="cards mt-3">
+              <img
+                src="./assets/images/medication.svg"
+                alt="icon"
+                class="icon"
+              />
+              <p class="icon-title mt-2 mb-1">Medication Alert</p>
+              <p class="icon-p">Search for medical outlets around you</p>
+            </div>
+            <div class="cards mt-3">
+              <img
+                src="./assets/images/Emergency.svg"
+                alt="icon"
+                class="icon"
+              />
+              <p class="icon-title mt-2 mb-1">Emergency</p>
+              <p class="icon-p">Search for medical outlets around you</p>
+            </div>
+            <div class="cards last-card mt-3">
+              <img src="./assets/images/bot.svg" alt="icon" class="icon" />
+              <p class="icon-title">Health Analysis Bot</p>
+              <p class="icon-p">Search for medical outlets around you</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END OF FEATURES -->
+
+      <!-- SCREENSHOTS -->
+      <section id="media" class="screenshot-section">
+        <div class="container">
+          <div class="screenshot-texts all-texts mt-4">
+            <h2 class="screenshot-title all-title">App Screenshot</h2>
+            <p class="screenshot-p mt-3 all-p mx-auto">
+              Health link App and custom development allow healthcare
+              institutions to create comprehensive cross-platform solutions that
+              ensure positive patient experiences.
+            </p>
+          </div>
+
+          <div class="row screen-row">
+            <img
+              src="./assets/images/app-gallery1.svg"
+              alt="picture"
+              class="app-img1 col-4 img-fluid pr-0"
+            />
+            <img
+              src="./assets/images/app-gallery-img2.svg"
+              alt="picture"
+              class="app-img2 col-4 img-fluid px-0"
+            />
+            <img
+              src="./assets/images/app-gallery-img3.svg"
+              alt="picture"
+              class="col-4 img-fluid pl-0"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- END OF SCREENSHOT -->
+
+      <!-- TESTIMONIAL SECTION -->
+      <section id="testimonials" class="testimonial-section mb-4">
+        <div class="container">
+          <div class="testimonial-texts all-texts mt-4">
+            <h2 class="testimonial-title all-title">Testimonials</h2>
+            <p class="testimonial-p mt-3 all-p  mx-auto">
+              Health link App and custom development allow healthcare
+              institutions to create.
+            </p>
+          </div>
+          <div class="row review-row px-3">
+            <div class="review col-12 ml-md-5 col-md-5">
+              <div class="review-profile mt-4 row">
+                <img
+                  src="./assets/images/review-2.svg"
+                  alt="user pic"
+                  class="user ml-md-5"
+                />
+                <div class="user-details col-12">
+                  <p class="user-name mb-1">Mike Peson</p>
+                  <p class="user-title mb-1">Retired Soldier</p>
+                </div>
+              </div>
+              <p class="review-text mt-md-4">
+                Health link App and custom development allow healthcare
+                institutions to create comprehensive cross-platform solutions
+                that ensure positive patient experiences.
+              </p>
+              <img
+                src="./assets/images/p-after.svg"
+                alt="icon"
+                class="after-icon row mb-3"
+              />
+            </div>
+            <div class="review col-12 mt-4 mt-md-0 ml-md-5 col-md-5">
+              <div class="review-profile mt-4 row">
+                <img
+                  src="./assets/images/review-1.svg"
+                  alt="user pic"
+                  class="user ml-md-5"
+                />
+                <div class="user-details col-12">
+                  <p class="user-name mb-1">Tony Chevil</p>
+                  <p class="user-title mb-1">Pediatrician</p>
+                </div>
+              </div>
+              <p class="review-text mt-md-4">
+                Health link App and custom development allow healthcare
+                institutions to create comprehensive cross-platform solutions
+                that ensure positive patient experiences.
+              </p>
+              <img
+                src="./assets/images/p-after.svg"
+                alt="icon"
+                class="after-icon row mb-3"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- TESTIMONIALS END -->
+
+      <!-- DOWNLOAD SECTION -->
+      <section id="download" class="download-section mt-5">
+        <div class="container dl-container mt-4 mb-4">
+          <div class="row dl-row">
+            <div class="img-wrap col-lg-3">
+              <img
+                src="./assets/images/footer-img.svg"
+                alt="picture"
+                class="download-img img-fluid"
+              />
+            </div>
+
+            <div class="download-texts mt-4 col-lg-8">
+              <h2 class="dl-title text-capitalize">get the app now !</h2>
+              <p class="dl-p mt-3">
+                Health link App and custom development allow healthcare
+                institutions to create comprehensive cross-platform solutions
+                that ensure positive patient experiences.
+              </p>
+              <div class="download-links">
+                <a href="#" class="app-btn btn">
+                  <img
+                    src="./assets/images/apple.svg"
+                    alt="apple-icon"
+                    class="dl-pic"
+                  />
+                </a>
+                <a href="#" class="app-btn btn">
+                  <img
+                    src="./assets/images/google.svg"
+                    alt="playstore"
+                    class="dl-pic"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END OF DOWNLOAD SECTION -->
+
+      <!-- CONTACT FORM SECTION -->
+      <section id="contact" class="form-section">
+        <div class="container">
+          <div class="form-texts mt-4">
+            <!-- <hr /> -->
+            <h2 class="form-title px-3 py-3">Reach us Quickly</h2>
+          </div>
+          <form>
+            <div class="row form-row">
+              <div class="col col-12 col-md-6 mt-md-2 input-wrap">
+                <input
+                  type="text"
+                  class="form-control form_input"
+                  id="name"
+                  placeholder="NAME"
+                  required
+                />
+              </div>
+              <div class="col col-md-6 mt-3 mt-md-2">
+                <input
+                  type="email"
+                  class="form-control form_input"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="EMAIL"
+                  required
+                />
+              </div>
+              <div class="col col-md-6 col-12 mt-3">
+                <input
+                  type="tel"
+                  class="form-control form_input"
+                  placeholder="PHONE"
+                  required
+                />
+              </div>
+              <div class="col col-12 col-md-6 mt-3">
+                <input
+                  type="text"
+                  class="form-control form_input"
+                  placeholder="COMPANY NAME"
+                  required
+                />
+              </div>
+              <div class="col col-12 mt-3 mt-md-4">
+                <textarea
+                  class="form-control form_input"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                  placeholder="YOUR MESSAGE"
+                >
+YOUR MESSAGE
+                </textarea>
+              </div>
+            </div>
+            <button type="submit" class="btn all-btn btn-form">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+      <!-- END OF FORM -->
+
+      <!-- GET IN TOUCH BEGINS -->
+      <section class="support">
+        <div class="container">
+          <div class="support-texts all-texts mt-4">
+            <h2 class="support-title all-title ">Get in Touch</h2>
+            <div class="support-socials row mt-5">
+              <div class="contact-socials firstsc col-md-3 col-12 ml-md-5 px-0 pt-3">
+                <img src="./assets/images/call-icon.svg" alt="phone" class="social-icon">
+                <p class="social-p mt-2">Phone: +61 2 8376 6284</p>
+              </div>
+              <div class="contact-socials col-md-3 mt-3 ml-md-5  mt-md-0 col-12 px-0 pt-3">
+                <img src="./assets/images/messaging-icon.svg" alt="phone" class="social-icon">
+                <p class="social-p mt-2">Email: healthlink@tech.com</p>
+              </div>
+              <div class="contact-socials col-md-3 mt-3 ml-md-5  mt-md-0 col-12 px-0 pt-3">
+                <img src="./assets/images/address-iconn.svg" alt="phone" class="social-icon">
+                <p class="social-p mt-2 addy-p mb-2">Head Office: 121 King St, Melbourne VIC 3000, Australia</p>
+              </div>
+
+            </div>
+           
+            </p>
+          </div>
+
+        </div>
+
+      </section>
+      <!-- GET IN TOUCH ENDS HERE -->
+
+      <!-- FOOTER BEGINS HERE -->
+      <footer class="footer-section">
+        <div class="container">
+          <div class="logo-img mt-4">
+            <img src="./assets/images/Logo.svg" alt="logo" class="footer-logo">
+            <a href="#" id="topscroll" class="top-scroll"><img src="./assets/images/arrow.svg" alt="scrollup" class="arrow" ></a>
+            <div class="socials row mt-4">
+              <a href="" class="social-links ml-3"><img src="./assets/images/Facebook.svg" alt="facebook-icon" class="media-icon"></a>
+             
+             <a href="" class="social-links ml-3"><img src="./assets/images/twitter.svg" alt="twitter-icon" class="media-icon ml-4"></a>
+             
+             <a href="" class="social-links ml-3"><img src="./assets/images/linkedin.svg" alt="linkedin-icon" class="media-icon ml-4"></a>
+             
+            </div>
+            <hr>
+          </div>
+          <div class=" navbar copy">
+            <div class="copy-text mx-auto my-auto mx-lg-0 my-lg-0">
+              <p class="copy-p">Copyright HealthTech Landing Page Template 2020</p>
+            </div>
+            <div class="footer-links mb-2">
+              <a href="#" class="foot-link">Home</a>
+              <a href="#features" class="foot-link ml-1">Features</a>
+              <a href="#media" class="foot-link ml-1">Media</a>
+              <a href="#testimonials" class="foot-link ml-1">Testimonials</a>
+              <a href="#download" class="foot-link ml-1">Download</a>
+              <a href="#contact" class="foot-link ml-1">Contact</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
     <!-- All javascript at the bottom of the page for fast page load -->
-    <script src="./js/jquery-3.5.1.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/healthapp.js"></script>
+    <script src="./assets/js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
   </body>
 </html>

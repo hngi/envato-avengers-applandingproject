@@ -1,0 +1,238 @@
+/* MEDIA QUERIES FOR 576PX AND ABOVE */
+/* Only use the breakpoint necessary to your project */
+
+
+@media all and (min-width:768px) {
+  .health-logo {
+    width: auto
+  }
+
+  .health-logo-img {
+    width: 100%;
+  }
+
+  .all-btn {
+
+    margin-bottom: 4%;
+
+  }
+
+  .header-second-btn {
+    margin-left: 1%;
+  }
+
+  /* OVERVIEW SECTION */
+  .view-img {
+    margin-left: 25%;
+    width: 50%;
+  }
+
+  /* TESTIMONIAL SECTION */
+  .user-details {
+    margin-top: -17%;
+    margin-left: 10%;
+
+  }
+
+  .after-icon {
+    margin-left: 81%;
+  }
+
+  /* FORM SECTION */
+  .form-title {
+    width: 50%;
+  }
+
+  .btn-form {
+
+    margin-left: 40%;
+
+  }
+
+  .form_input {
+    width: 85%;
+    margin: auto;
+  }
+
+  textarea.form_input {
+    width: 93%;
+  }
+
+  /* SUPPORT */
+  .social-p {
+    font-size: 0.675rem;
+  }
+
+  .addy-p {
+    width: 100%;
+  }
+
+  /* FOOTER */
+
+
+}
+
+@media all and (min-width:992px) {
+  .health-header {
+    height: 65vh;
+  }
+
+  /* OVERVIEW SECTION */
+  .overview-texts {
+    text-align: left;
+  }
+
+  .overview-title {
+    font-size: 1.8rem;
+  }
+
+  .overview-p {
+    width: 50%;
+    font-size: 1rem;
+    line-height: 2;
+  }
+
+  .overview-section {
+    position: relative;
+  }
+
+  .overview-img {
+    position: absolute;
+    left: 46%;
+    top: -173%;
+  }
+
+  .view-img {
+    width: 100%;
+  }
+
+  /* FEATURES  */
+  .middle-img {
+    display: block;
+    grid-column: 2;
+    grid-row: 1/4;
+    text-align: center;
+  }
+
+  .feature-img {
+    width: 90%;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .last-card {
+    grid-column: 3;
+  }
+
+  .feature-p {
+    width: 80%;
+  }
+
+  /* SCREESNHOT SECTION */
+  .screenshot-p {
+    width: 80%;
+  }
+
+  /* TESTIMONIAL SECTION */
+  .user-details {
+    margin-left: 0%;
+    margin-top: -14%;
+  }
+
+  /* DOWNLOAD SECTION */
+  .download-img {
+    display: block;
+    width: 100%;
+  }
+
+  .download-texts {
+    margin-top: 10% !important;
+    text-align: left;
+    margin-left: 8%;
+  }
+
+  .dl-row {
+    padding-left: 6%;
+  }
+
+  .dl-p {
+    width: 80%;
+  }
+
+  /* FORM SECTION */
+  .btn-form {
+
+    margin-left: 45%;
+
+  }
+
+  /* SUPPORT */
+  .firstsc {
+    margin-left: 8% !important;
+  }
+
+  /* FOOTER */
+  .top-scroll {
+    display: block;
+    transition: all .3s;
+    position: fixed;
+    pointer-events: none;
+    bottom: 50px;
+    left: 88%;
+    opacity: 0;
+  }
+
+  .top-scroll.activescroll {
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+  }
+
+  .arrow {
+    margin-left: 78%;
+    margin-top: -5%;
+    width: 5%;
+    width: 100%;
+  }
+
+  .footer-links {
+    display: block;
+  }
+}
+
+
+
+@media all and (min-width:1200px) {
+  .overview-img {
+    left: 55%;
+  }
+
+  .user-details {
+    margin-top: -11%;
+    margin-left: -7%;
+  }
+
+}
+
+@media all and (min-width:1440px) {
+  .overview-img {
+    top: -235%;
+  }
+}
+
+@media all and (min-width:2560px) {
+  .health-header {
+    height: 28vh;
+  }
+
+  .overview-img {
+    top: -173%;
+  }
+
+  .overview-section {
+    margin-bottom: 7%;
+  }
+}
