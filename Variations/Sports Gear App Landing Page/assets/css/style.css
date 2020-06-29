@@ -1,0 +1,401 @@
+/* Header */
+.head{
+    background-color: #5FA6ED;
+}
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+h1 {
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 40px;
+    color: #f5f5f5;
+}
+.head a img {
+    width: 200px;
+    height: 50px;
+}
+
+.btn {
+    background-color: #3D85CC !important;
+    color: #fff;
+    border-radius: 20px;
+    border: 0 solid #3D85CC ;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 46px;
+    color: #000000;
+}
+
+p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #141414;
+}
+p span {
+    font-style: normal;
+    font-size: 20px;
+    line-height: 40px;
+    color: #f5f5f5; 
+}
+
+/* NAVBAR */
+#home {
+    background-color: #5FA6ED ;
+    border-bottom: 1px solid #5FA6ED;
+    /* color: #F5F5F5; */
+}
+.site-navbar {
+    height: 60px;
+    align-items: center;
+  }
+  
+  #nav_logo {
+    line-height: 60px;
+    float: left;
+    /* text-transform: uppercase; */
+    height: 40px;
+    width: 30px;
+  }
+  .menu {
+    float: right;
+    line-height: 60px;
+  }
+  .menu li {
+    display: inline;
+    padding: 10px;
+  }
+  .menu .navbar-link {
+    color: #F5F5F5;
+    font-weight: normal;
+    text-decoration: none;
+    padding: 10px 10px;
+    transition: all 0.4s;
+  }
+  .menu .navbar-link.create{
+      border : 0px solid #3D85CC;
+      background-color: #3D85CC;;
+      border-radius: 18px;
+  }
+  .menu .navbar-link.create:hover {
+    background: rgb(6, 43, 111);
+    color: #fff;
+  }
+  .show-menu-btn {
+    float: right;
+  }
+  .show-menu-btn i {
+    line-height: 60px;
+  }
+  .show-menu-btn,
+  .hide-menu-btn {
+    transition: all 0.4s;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+  }
+  #chk {
+    position: absolute;
+    visibility: hidden;
+    z-index: -1111;
+  }
+
+
+/* How it works $ App features */
+.ped {
+    background-color: #EBEBEB;
+    border-radius: 20px;
+    min-width: 240px;
+    height: 400px;
+}
+.ped h2 {
+    color: #5FA6ED;
+}
+
+/* Customer Review */
+.pedy {
+    background-color: #5FA6ED;
+    border-radius: 20px;
+    color: #f5f5f5;
+    min-width: 250px;
+    height: 400px;
+}
+.pedy p {
+    color: #f5f5f5;
+}
+
+/* Subscription */
+#apple, #google {
+    width: 250px;
+    height: 70px;
+}
+.form-col {
+    background-color: #EBEBEB;
+
+}
+.sub {
+    text-align: center;
+}
+.sub h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #141414;  
+}
+/* Footer */
+.footer {
+    background-color: #5FA6ED;
+    color: #f5f5f5;
+}
+.footer ul li a {
+    color: #f5f5f5;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+.footer h3 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+}
+.footer p {
+    color: #f5f5f5;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+.footer ul li a img {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+@media (min-width: 768px) {
+    /* Header */
+    h1 {
+        font-weight: 600;
+        font-size: 70px;
+        line-height: 80px;
+        color: #f5f5f5;
+    }
+
+    h2 {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 46px;
+    }
+    p {
+        font-style: normal;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    p span {
+        font-style: normal;
+        font-size: 40px;
+        line-height: 60px;
+        color: #f5f5f5; 
+    }
+
+    /* How it works $ App features */
+    .ped {
+        background-color: #EBEBEB;
+        border-radius: 20px;
+        min-width: 230px;
+        height: 400px;
+    }
+    .ped h2 {
+        font-size: 26px;
+        line-height: 34px;
+        color: #5FA6ED;
+    }
+    .ped p {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    /* Customer Review */
+    .pedy {
+        min-width: 320px;
+        height: 450px;
+    }
+    /* Subscription */
+    .form-col {
+        background-color: #EBEBEB;
+
+    }
+    .sub {
+        text-align: left;
+    }
+    .sub h3 {
+        font-size: 30px;
+        line-height: 46px; 
+    }
+    /* Footer */
+    .footer ul li a {
+        color: #f5f5f5;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .footer h3 {
+        font-size: 30px;
+        line-height: 46px;
+    }
+    .footer p {
+        color: #f5f5f5;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .show-menu-btn,
+    .hide-menu-btn {
+      display: block;
+      color: #062863;
+    }
+    .hide-menu-btn {
+      color: #F5F5F5;
+    }
+    .menu {
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      background: #141414;;
+      right: -100%;
+      top: 0;
+      text-align: center;
+      padding: 80px 0;
+      line-height: normal;
+      transition: 0.7s;
+      opacity: 0.88;
+      z-index: 9998;
+    }
+    .menu .navbar-link {
+      display: block;
+      padding: 20px;
+      color:#F5F5F5;
+    }
+    .menu .dropbtn {
+      padding: 30px;
+      color: #F5F5F5;
+    }
+    .hide-menu-btn {
+      position: absolute;
+      right: 40px;
+      top: 40px;
+    }
+    #chk:checked ~ .menu {
+      right: 0;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-weight: 600;
+        font-size: 70px;
+        line-height: 80px;
+        color: #f5f5f5;
+    }
+    p {
+        font-style: normal;
+        font-size: 30px;
+        line-height: 37px;
+    }
+    p span {
+        font-style: normal;
+        font-size: 60px;
+        line-height: 80px;
+        color: #f5f5f5; 
+    }
+
+    h2 {
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 46px;
+    }
+    
+    /* How it works $ App features */
+    .ped {
+        background-color: #EBEBEB;
+        border-radius: 20px;
+        min-width: 300px;
+        height: 430px;
+    }
+    .ped h2 {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 46px;
+        color: #5FA6ED;
+    }
+    .ped p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    /* Customer Review */
+    .pedy {
+        min-width: 320px;
+        height: 450px;
+    }
+    .pedy p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .cust {
+        margin-top: 5rem !important;
+    }
+
+    /* Subscription */
+    .form-col {
+        background-color: #EBEBEB;
+    }
+    .sub {
+        text-align: left;
+    }
+    .sub h3 {
+        font-size: 30px;
+        line-height: 46px; 
+    }
+    /* Footer */
+    .footer ul li a {
+        color: #f5f5f5;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .footer h3 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .footer ul li a img {
+        width: 50px;
+        height: 50px;
+    }
+    .footer p {
+        color: #f5f5f5;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+    } 
+    #shift{
+        margin-left: 12rem;
+      } 
+
+}
+@media screen and (min-width: 1200px) {
+    #shift{
+        margin-left: 20rem;
+      }
+}
