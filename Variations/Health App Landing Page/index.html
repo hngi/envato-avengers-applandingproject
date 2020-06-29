@@ -28,10 +28,6 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <link
-    rel="stylesheet"
-    href="./assets/css/animate.css"
-    />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/responsive.css" />
   </head>
@@ -82,6 +78,8 @@
               </ul>
             </div>
           </nav>
+          
+      
           <div class="hero mt-lg-5">
             <h1 class="page-header text-capitalize health-hero-title">
               health link app
@@ -124,7 +122,7 @@
       <section id="features" class="feature-section mb-4">
         <div class="container mb-5">
           <div class="feature-texts all-texts mt-4">
-            <h2 class="feature-title all-title wow animate__backInUp animate__delay-4s">Health Link Features</h2>
+            <h2 class="feature-title all-title">Health Link Features</h2>
             <p class="feature-p mt-3  all-p mx-auto">
               Health link App and custom development allow healthcare
               institutions to create comprehensive cross-platform solutions that
@@ -333,9 +331,9 @@
             <!-- <hr /> -->
             <h2 class="form-title px-3 py-3">Reach us Quickly</h2>
           </div>
-          <form>
+          <form class="form-wrap">
             <div class="row form-row">
-              <div class="col col-12 col-md-6 mt-md-2 input-wrap">
+              <div class="col col-12 input-wrap">
                 <input
                   type="text"
                   class="form-control form_input"
@@ -344,7 +342,7 @@
                   required
                 />
               </div>
-              <div class="col col-md-6 mt-3 mt-md-2">
+              <div class="col mt-3">
                 <input
                   type="email"
                   class="form-control form_input"
@@ -354,7 +352,7 @@
                   required
                 />
               </div>
-              <div class="col col-md-6 col-12 mt-3">
+              <div class="col col-12 mt-3">
                 <input
                   type="tel"
                   class="form-control form_input"
@@ -362,7 +360,7 @@
                   required
                 />
               </div>
-              <div class="col col-12 col-md-6 mt-3">
+              <div class="col col-12 mt-3">
                 <input
                   type="text"
                   class="form-control form_input"
@@ -370,20 +368,24 @@
                   required
                 />
               </div>
-              <div class="col col-12 mt-3 mt-md-4">
+              <div class="col col-12 mt-3">
                 <textarea
                   class="form-control form_input"
                   id="exampleFormControlTextarea1"
-                  rows="3"
+                  rows="6"
                   placeholder="YOUR MESSAGE"
                 >
 YOUR MESSAGE
                 </textarea>
               </div>
+              <a href="" class="btnlink col-12">
+                <button type="submit" class="btn all-btn btn-form">
+                  Send Message
+                </button>
+              </a>
             </div>
-            <button type="submit" class="btn all-btn btn-form">
-              Send Message
-            </button>
+           
+           
           </form>
         </div>
       </section>
@@ -421,32 +423,41 @@ YOUR MESSAGE
       <!-- FOOTER BEGINS HERE -->
       <footer class="footer-section">
         <div class="container">
-          <div class="logo-img mt-4">
-            <img src="./assets/images/Logo.svg" alt="logo" class="footer-logo">
-            <a href="#" id="topscroll" class="top-scroll"><img src="./assets/images/arrow.svg" alt="scrollup" class="arrow" ></a>
+          <div class="row mt-3">
+            <div class="logo-img col-lg-4 mt-lg-4 ml-lg-4">
+              <img src="./assets/images/Logo.svg" alt="logo" class="footer-logo">
+              <p class="footer-text mt-3 d-none d-md-block">
+                Health link App and custom development allow healthcare institutions to create comprehensive cross-platform solutions that ensure positive patient experiences.
+              </p>
+            </div>
+            <div class="quicklinks d-none d-md-block col-md-5 pl-4 col-lg-3 ml-5 mt-lg-4 ml-lg-4 ml-3 mt-3 mt-lg-0">
+              <h3 class="quick-text foot-title">Quick Links</h3>
+              <div class="footer-links row mb-2">
+                <a href="#" class="foot-link col-12 mt-2">Home</a>
+                <a href="#features" class="foot-link col-12 mt-2">Features</a>
+                <a href="#media" class="foot-link col-12 mt-2">Media</a>
+                <a href="#testimonials" class="foot-link col-12 mt-2">Testimonials</a>
+                <a href="#download" class="foot-link col-12 mt-2">Download</a>
+                <a href="#contact" class="foot-link col-12 mt-2">Contact</a>
+              </div>
+           </div>
+           <div class="connect col-md-5 ml-md-4 col-lg-3 mt-lg-4 ml-lg-4 mt-3 mt-lg-0">
+            <h3 class="connect-text foot-title">Connect with us</h3>
             <div class="socials row mt-4">
-              <a href="" class="social-links ml-3"><img src="./assets/images/Facebook.svg" alt="facebook-icon" class="media-icon"></a>
+              <a href="" class="social-links"><img src="./assets/images/Facebook.svg" alt="facebook-icon" class="media-icon"></a>
+              <a href="" class="social-links"><img src="./assets/images/twitter.svg" alt="twitter-icon" class="media-icon ml-4"></a>
+              <a href="" class="social-links"><img src="./assets/images/linkedin.svg" alt="linkedin-icon" class="media-icon ml-4"></a>
+             </div>
+             <div class="connect-btn mt-3"><button class="btn footer-btn all-btn">Subscribe</button></div>
              
-             <a href="" class="social-links ml-3"><img src="./assets/images/twitter.svg" alt="twitter-icon" class="media-icon ml-4"></a>
-             
-             <a href="" class="social-links ml-3"><img src="./assets/images/linkedin.svg" alt="linkedin-icon" class="media-icon ml-4"></a>
-             
-            </div>
-            <hr>
+           </div>
+           <a href="#" id="topscroll" class="top-scroll"><img src="./assets/images/arrow.svg" alt="scrollup" class="arrow" ></a>
+
           </div>
-          <div class=" navbar copy">
-            <div class="copy-text mx-auto my-auto mx-lg-0 my-lg-0">
-              <p class="copy-p">Copyright HealthTech Landing Page Template 2020</p>
-            </div>
-            <div class="footer-links mb-2">
-              <a href="#" class="foot-link">Home</a>
-              <a href="#features" class="foot-link ml-1">Features</a>
-              <a href="#media" class="foot-link ml-1">Media</a>
-              <a href="#testimonials" class="foot-link ml-1">Testimonials</a>
-              <a href="#download" class="foot-link ml-1">Download</a>
-              <a href="#contact" class="foot-link ml-1">Contact</a>
-            </div>
-          </div>
+          <hr>
+          <div class="copy-text mx-auto my-auto mx-lg-0 my-lg-0">
+            <p class="copy-p">Copyright HealthTech Landing Page Template 2020</p>
+          </div> 
         </div>
       </footer>
     </div>
@@ -468,9 +479,6 @@ YOUR MESSAGE
       crossorigin="anonymous"
     ></script>
     <script src="./assets/js/healthapp.js"></script>
-    <script src="./assets/js/wow.min.js"></script>
-    <script>
-    new WOW().init();
-    </script>
+   
   </body>
 </html>
