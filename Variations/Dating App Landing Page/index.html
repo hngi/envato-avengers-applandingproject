@@ -39,11 +39,17 @@
         data-toggle="collapse" data-target="#navbarSupportedContent"
         data-nav-toggler aria-controls="navbarSupportedContent"
         aria-expanded="false" aria-label="Toggle navigation">
-        <span class="nav-toggler-icon">
+        <div class="custom-nav-toggler-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <!-- <span class="nav-toggler-icon">
           <div class="bar bar-0"></div>
           <div class="bar bar-1"></div>
           <div class="bar bar-2"></div>
-        </span>
+        </span> -->
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -106,7 +112,7 @@
         class="download-section d-flex flex-column justify-content-between align-items-center flex-md-row justify-content-md-center">
         <button role="button"
           class="btn download-card d-flex justify-content-between align-items-center">
-          <img class="img-fluid" src="./assets/images/apple-logo-icon.webp"
+          <img class="img-fluid mx-2" src="./assets/images/apple-logo-icon.webp"
             alt="">
           <div
             class="mx-2 d-flex flex-column justify-content-center align-items-start">
@@ -116,7 +122,7 @@
         </button>
         <button role="button"
           class="btn download-card d-flex justify-content-between align-items-center mt-3 mt-md-0 ml-md-3">
-          <img class="img-fluid"
+          <img class="img-fluid mx-2"
             src="./assets/images/google-playstore-icon.webp" alt="">
           <div
             class="mx-2 d-flex flex-column justify-content-center align-items-start">
@@ -127,7 +133,11 @@
       </div>
     </div>
   </header>
-  <main>
+  <main class="container-fluid">
+
+    <section>
+
+    </section>
 
   </main>
   <footer></footer>
@@ -155,5 +165,5 @@
   - Fade hero image bottom
   - Add cssfx
   - tint shadow of brand name on hover
-
+  - close navbar when body or nav items is clicked
  -->
