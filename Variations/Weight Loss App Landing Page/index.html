@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
     integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <link rel="stylesheet" href="./assets/css/style.css" />
 
   <title>Fitness fam</title>
@@ -59,7 +61,7 @@
 
       <div class="row">
         <div class="col sm-7 d-flex flex-column justify-content-center align-items-start jumbotron-content">
-          <h1 class="display-4 jumbotron-header">FITNESS FAM APP</h1>
+          <h1 class="jumbotron-header">FITNESS FAM APP</h1>
           <p class="lead jumbotron-text">
             We inspire a culture of health with our innovative cooperate
             wellness solutions. We provide a way to help you keep your body and
@@ -77,20 +79,20 @@
 
   <!--FEATURES-->
 
-  <section class="features" id="features">
-    <div class="container">
-      <div class="text-center">
-        <h3>App Features</h3>
+  <section class="features" id="features" style="overflow-x: hidden;">
+    <div class="container" style="overflow-x: hidden;">
+      <div class="text-center"  data-aos="fade-right" data-aos-duration="1000">
+        <h3 class="feature-heading">App Features</h3>
         <p>Fitness Fam has nice and effective features for easy use.</p>
       </div>
     </div>
 
-    <div class="container text-center feature-container">
+    <div class="container text-center feature-container"  data-aos="fade-left" data-aos-duration="1000">
 
       <div class="row">
 
 
-        <div class="col-md-4 feature-row">
+        <div class="col-md-4 feature-row" >
           <div class="card feature-card">
             <div class="feature-card-body card-body d-flex flex-column justify-content-center align-items-center">
               <img src="./assets/images/work.png" alt="" class="feature-icon" />
@@ -100,7 +102,7 @@
               </p>
             </div>
           </div>
-          <!-- <img src="/images/WORK.svg" alt=""> -->
+          
         </div>
 
         <div class="col-md-4 feature-row">
@@ -144,16 +146,16 @@
   <section class="download" id="download">
     <div class="jumbotron download-bg">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-3 d-md-flex download-img">
+        <div class="row" style="overflow-x: hidden;">
+          <div class="col-sm-3 d-md-flex download-img" data-aos="zoom-in-right" data-aos-duration="1000">
             <img class="img-fluid header-img" src="./assets/images/jumbo-img2.png" alt="image" />
           </div>
 
-          <div class="col-sm-1"></div>
-          <div class="col-sm-8 d-flex download-block">
-            <div class=" d-flex flex-column justify-content-center align-items-center text-center">
-              <h4>DOWNLOAD FITNESS FAM APP</h4>
-              <p class="lead download-text">
+          <div class="col-sm-1" ></div>
+          <div class="col-sm-8 d-flex download-block" style="overflow-x: hidden;">
+            <div class=" d-flex flex-column justify-content-center align-items-center text-center download-content"  data-aos="fade-left" data-aos-duration="1000">
+              <h3 class="download-heading">DOWNLOAD FITNESS FAM APP</h3>
+              <p class="download-text">
                 There are a lot of activities to partake in on Fitness Fam app. These activities help you loss excess
                 fat and keep your shape intact. You do not have to go to the gym before you can be fit. Download the app
                 now to get started.
@@ -180,18 +182,18 @@
 
   <!--Reviews-->
 
-  <section class="reviews" id="reviews">
+  <section class="reviews" id="reviews" style="overflow-x: hidden;">
 
-    <div class="container mb-1">
+    <div class="container mb-1"  data-aos="fade-right" data-aos-duration="1000">
       <div class="text-center mb-4">
-        <h4>Reviews</h4>
+        <h3 class="review-heading">Reviews</h3>
 
       </div>
     </div>
 
     <section class="card-deck text-center feature-container">
 
-      <div class="row review-row">
+      <div class="row review-row"  data-aos="fade-left" data-aos-duration="1000">
 
         <div class="col-sm-12 col-md-6 col-lg-4 review1">
           <div class="card review-card">
@@ -239,11 +241,12 @@
 
   <!--CONTACT-->
 
-  <section class="contact" id="contact">
-    <div class="container">
+  <section class="contact" id="contact" style="overflow-x: hidden;">
+    <div class="container" data-aos="fade-up"
+    data-aos-duration="1000">
       <div class="row">
         <div class="col-md-6">
-          <h4>Get in touch with us</h4>
+          <h3 class="contact-heading">Get in touch with us</h3>
           <p>
             <span>If you have any question or you want to give us feedback, </span>please
             reach out to us by sending a direct mail or any other means that is
@@ -260,8 +263,8 @@
             <p><i class="contact-icon fas fa-envelope mr-3"></i> info@zuriacademy.com</p>
           </span>
         </div>
-        <div class="col-md-2"></div>
-        <div class="col-md-4">
+        <div class="col-md-1"></div>
+        <div class="col-md-5 contact-form">
           <div class="form-group">
             <label for="name">Name</label>
             <input type="text" id="name" class="form-control" />
@@ -272,7 +275,7 @@
           </div>
           <div class="form-group">
             <label for="textarea">Compose message:</label>
-            <textarea id="textarea" cols="10" rows="8" class="form-control"></textarea>
+            <textarea id="textarea"  class="form-control"></textarea>
           </div>
           <button type="btn" class="btn contact-btn btn-lg">SEND</button>
         </div>
@@ -282,12 +285,13 @@
 
   <!--NEWSLETTER-->
 
-  <section class="newsletter" id="newsletter">
-    <div class="container text-center">
-      <h4 class="subscribe-text">Subscribe to our Newsletter</h4>
+  <section class="newsletter" id="newsletter" style="overflow-x: hidden;">
+    <div class="container text-center newsletter-block" data-aos="flip-left"
+    data-aos-duration="1000">
+      <h3 class="subscribe-text">Subscribe to our Newsletter</h3>
       <p>Get recent Update about anything and everything on Fitness Fam</p>
 
-      <div class="form d-flex justify-content-center">
+      <div class="form d-flex justify-content-center newsletter-content">
 
         <label for="email" class="sr-only">Email</label>
         <input type="email" class="newsletter-input" placeholder="Enter your Email address" />
@@ -338,6 +342,10 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
