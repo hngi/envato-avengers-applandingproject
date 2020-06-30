@@ -119,27 +119,6 @@ header{
   left: 50%;
 }
 
-.bar{
-  width: 1.5rem;
-  height: 0.25rem;
-  background-color: var(--colr-primary);
-  margin: 0.25em 0;
-  transition: 0.4s;
-  border-radius: 10px;
-}
-
-.change .bar-0 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  transform: rotate(-45deg) translate(-9px, 6px);
-}
-
-.change .bar-1 {opacity: 0;}
-
-.change .bar-2 {
-  /* -webkit-transform: rotate(45deg) translate(-.75rem, -.75rem); */
-  transform: rotate(45deg) translate(-.75rem, -.75rem);
-}
-
 .lovey-btn{
 transition: 0.4s all;
 }
@@ -189,6 +168,29 @@ transition: 0.4s all;
   width: 48px;
   height: 48px;
 }
+
+
+/* MEDIA QUERIES FOR 700PX AND ABOVE */
+@media all and (min-width:576px) {
+  .about__img-container{
+    max-height: 50%;
+    max-width: 50%;
+  }
+}
+
+@media all and (min-width:768px) {
+  .about__img-container{
+    max-height:40%;
+    max-width:40%;
+    transform: rotate(8deg);
+  }
+
+}
+
+@media all and (min-width:992px) {}
+
+@media all and (min-width:1200px) {}
+
 
 /* EFFECTS */
 
