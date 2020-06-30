@@ -21,13 +21,15 @@
       rel="stylesheet"
     />
     <!-- CSS links-->
-   
+
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./assets/css/animate.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/responsive.css" />
   </head>
@@ -61,25 +63,32 @@
                   <a class="nav-link health-nav-item active" href="#">Home</a>
                 </li>
                 <li class="nav-item pr-3">
-                  <a class="nav-link health-nav-item" href="#features">Features</a>
+                  <a class="nav-link health-nav-item" href="#features"
+                    >Features</a
+                  >
                 </li>
                 <li class="nav-item pr-3">
                   <a class="nav-link health-nav-item" href="#media">Media</a>
                 </li>
                 <li class="nav-item pr-3 health-nav-item">
-                  <a class="nav-link health-nav-item" href="#testimonials">Testimonials</a>
+                  <a class="nav-link health-nav-item" href="#testimonials"
+                    >Testimonials</a
+                  >
                 </li>
                 <li class="nav-item pr-3">
-                  <a class="nav-link health-nav-item" href="#download">Download</a>
+                  <a class="nav-link health-nav-item" href="#download"
+                    >Download</a
+                  >
                 </li>
                 <li class="nav-item pr-3">
-                  <a class="nav-link health-nav-item" href="#contact">Contact</a>
+                  <a class="nav-link health-nav-item" href="#contact"
+                    >Contact</a
+                  >
                 </li>
               </ul>
             </div>
           </nav>
-          
-      
+
           <div class="hero mt-lg-5">
             <h1 class="page-header text-capitalize health-hero-title">
               health link app
@@ -101,16 +110,19 @@
       <!-- HEADER EBDS -->
       <!-- OVERVIEW SECTION STARTS -->
       <div class="container overview-section">
-        <div class="overview-texts all-texts mt-4">
+        <div
+          class="overview-texts all-texts mt-4 wow animate__fadeIn"
+          data-wow-duration="1s"
+        >
           <h2 class="overview-title all-title">Overview</h2>
           <p class="overview-p all-p">
             Health link App and custom development allow healthcare institutions
             to create comprehensive cross-platform solutions that ensure
             positive patient experiences.
           </p>
-          <a href="" class="overview-link">Read More</a>
+          <a href="#features" class="overview-link">Read More</a>
         </div>
-        <div class="overview-img">
+        <div class="overview-img wow animate__fadeInUp" data-wow-duration="2s">
           <img
             src="./assets/images/overview-img.svg"
             alt=""
@@ -121,9 +133,9 @@
       <!-- FEATURES SECTION -->
       <section id="features" class="feature-section mb-4">
         <div class="container mb-5">
-          <div class="feature-texts all-texts mt-4">
+          <div class="feature-texts all-texts mt-4" data-aos="fade-right">
             <h2 class="feature-title all-title">Health Link Features</h2>
-            <p class="feature-p mt-3  all-p mx-auto">
+            <p class="feature-p mt-3 all-p mx-auto">
               Health link App and custom development allow healthcare
               institutions to create comprehensive cross-platform solutions that
               ensure positive patient experiences.
@@ -153,7 +165,7 @@
               <p class="icon-title mt-2 mb-1">In App Call</p>
               <p class="icon-p">Search for medical outlets around you</p>
             </div>
-            <div class="middle-img">
+            <div class="middle-img d-none d-lg-block" data-aos="fade-up">
               <img
                 src="./assets/images/features-img.svg"
                 alt="picture"
@@ -191,7 +203,7 @@
       <!-- SCREENSHOTS -->
       <section id="media" class="screenshot-section">
         <div class="container">
-          <div class="screenshot-texts all-texts mt-4">
+          <div class="screenshot-texts all-texts mt-4" data-aos="fade-right">
             <h2 class="screenshot-title all-title">App Screenshot</h2>
             <p class="screenshot-p mt-3 all-p mx-auto">
               Health link App and custom development allow healthcare
@@ -214,7 +226,7 @@
             <img
               src="./assets/images/app-gallery-img3.svg"
               alt="picture"
-              class="col-4 img-fluid pl-0"
+              class="col-4 img-fluid pl-0 app-img3"
             />
           </div>
         </div>
@@ -224,15 +236,15 @@
       <!-- TESTIMONIAL SECTION -->
       <section id="testimonials" class="testimonial-section mb-4">
         <div class="container">
-          <div class="testimonial-texts all-texts mt-4">
+          <div class="testimonial-texts all-texts mt-4" data-aos="fade-right">
             <h2 class="testimonial-title all-title">Testimonials</h2>
-            <p class="testimonial-p mt-3 all-p  mx-auto">
+            <p class="testimonial-p mt-3 all-p mx-auto">
               Health link App and custom development allow healthcare
               institutions to create.
             </p>
           </div>
           <div class="row review-row px-3">
-            <div class="review col-12 ml-md-5 col-md-5">
+            <div class="review col-12 ml-md-5 col-md-5" data-aos="flip-right">
               <div class="review-profile mt-4 row">
                 <img
                   src="./assets/images/review-2.svg"
@@ -255,7 +267,10 @@
                 class="after-icon row mb-3"
               />
             </div>
-            <div class="review col-12 mt-4 mt-md-0 ml-md-5 col-md-5">
+            <div
+              class="review col-12 mt-4 mt-md-0 ml-md-5 col-md-5"
+              data-aos="flip-right"
+            >
               <div class="review-profile mt-4 row">
                 <img
                   src="./assets/images/review-1.svg"
@@ -287,15 +302,15 @@
       <section id="download" class="download-section mt-5">
         <div class="container dl-container mt-4 mb-4">
           <div class="row dl-row">
-            <div class="img-wrap col-lg-3">
+            <div class="img-wrap col-lg-3" data-aos="fade-left">
               <img
                 src="./assets/images/footer-img.svg"
                 alt="picture"
-                class="download-img img-fluid"
+                class="download-img d-none d-lg-block img-fluid"
               />
             </div>
 
-            <div class="download-texts mt-4 col-lg-8">
+            <div class="download-texts mt-4 col-lg-8" data-aos="fade-right">
               <h2 class="dl-title text-capitalize">get the app now !</h2>
               <p class="dl-p mt-3">
                 Health link App and custom development allow healthcare
@@ -325,7 +340,7 @@
       <!-- END OF DOWNLOAD SECTION -->
 
       <!-- CONTACT FORM SECTION -->
-      <section id="contact" class="form-section">
+      <section id="contact" class="form-section" data-aos="fade-up">
         <div class="container">
           <div class="form-texts mt-4">
             <!-- <hr /> -->
@@ -333,7 +348,7 @@
           </div>
           <form class="form-wrap">
             <div class="row form-row">
-              <div class="col col-12 input-wrap">
+              <div class="col col-12 col-lg-6 input-wrap">
                 <input
                   type="text"
                   class="form-control form_input"
@@ -342,7 +357,7 @@
                   required
                 />
               </div>
-              <div class="col mt-3">
+              <div class="col mt-3 col-lg-6 mt-lg-0">
                 <input
                   type="email"
                   class="form-control form_input"
@@ -352,7 +367,7 @@
                   required
                 />
               </div>
-              <div class="col col-12 mt-3">
+              <div class="col col-12 mt-3 col-lg-6">
                 <input
                   type="tel"
                   class="form-control form_input"
@@ -360,7 +375,7 @@
                   required
                 />
               </div>
-              <div class="col col-12 mt-3">
+              <div class="col col-12 col-lg-6 mt-3">
                 <input
                   type="text"
                   class="form-control form_input"
@@ -384,80 +399,95 @@ YOUR MESSAGE
                 </button>
               </a>
             </div>
-           
-           
           </form>
         </div>
       </section>
       <!-- END OF FORM -->
 
-      <!-- GET IN TOUCH BEGINS -->
-      <section class="support">
-        <div class="container">
-          <div class="support-texts all-texts mt-4">
-            <h2 class="support-title all-title ">Get in Touch</h2>
-            <div class="support-socials row mt-5">
-              <div class="contact-socials firstsc col-md-3 col-12 ml-md-5 px-0 pt-3">
-                <img src="./assets/images/call-icon.svg" alt="phone" class="social-icon">
-                <p class="social-p mt-2">Phone: +61 2 8376 6284</p>
-              </div>
-              <div class="contact-socials col-md-3 mt-3 ml-md-5  mt-md-0 col-12 px-0 pt-3">
-                <img src="./assets/images/messaging-icon.svg" alt="phone" class="social-icon">
-                <p class="social-p mt-2">Email: healthlink@tech.com</p>
-              </div>
-              <div class="contact-socials col-md-3 mt-3 ml-md-5  mt-md-0 col-12 px-0 pt-3">
-                <img src="./assets/images/address-iconn.svg" alt="phone" class="social-icon">
-                <p class="social-p mt-2 addy-p mb-2">Head Office: 121 King St, Melbourne VIC 3000, Australia</p>
-              </div>
-
-            </div>
-           
-            </p>
+      <!-- NEWSLETTER BEGINS -->
+      <section class="support mt-5">
+        <div class="container" data-aos="fade-right" data-aos-duration="500">
+          <div class="newsletter-texts all-texts mt-4">
+            <h2 class="newsletter-title all-title">Join Our Newsletter</h2>
           </div>
-
+          <div class="news-input form-row row">
+            <input
+              type="email"
+              class="form-control form_input col-lg-9 newsletter-input ml-lg-3"
+              id="email"
+              placeholder="YOUR EMAIL"
+              required
+            />
+            <a href="" class="sub-link col-12 col-lg-2 mb-3 mb-lg-0 px-lg-0">
+              <button class="btn all-btn mt-lg-0 mb-lg-5 sub-btn mx-auto">
+                Subscribe
+              </button></a
+            >
+          </div>
         </div>
-
       </section>
-      <!-- GET IN TOUCH ENDS HERE -->
+      <!-- NEWSLETTER ENDS HERE -->
 
       <!-- FOOTER BEGINS HERE -->
       <footer class="footer-section">
         <div class="container">
           <div class="row mt-3">
-            <div class="logo-img col-lg-4 mt-lg-4 ml-lg-4">
-              <img src="./assets/images/Logo.svg" alt="logo" class="footer-logo">
-              <p class="footer-text mt-3 d-none d-md-block">
-                Health link App and custom development allow healthcare institutions to create comprehensive cross-platform solutions that ensure positive patient experiences.
-              </p>
+            <div class="logo-img col-12 mt-3 mt-lg-4">
+              <img
+                src="./assets/images/Logo.svg"
+                alt="logo"
+                class="footer-logo"
+              />
             </div>
-            <div class="quicklinks d-none d-md-block col-md-5 pl-4 col-lg-3 ml-5 mt-lg-4 ml-lg-4 ml-3 mt-3 mt-lg-0">
-              <h3 class="quick-text foot-title">Quick Links</h3>
-              <div class="footer-links row mb-2">
-                <a href="#" class="foot-link col-12 mt-2">Home</a>
-                <a href="#features" class="foot-link col-12 mt-2">Features</a>
-                <a href="#media" class="foot-link col-12 mt-2">Media</a>
-                <a href="#testimonials" class="foot-link col-12 mt-2">Testimonials</a>
-                <a href="#download" class="foot-link col-12 mt-2">Download</a>
-                <a href="#contact" class="foot-link col-12 mt-2">Contact</a>
+            <div class="contactus mt-4 col-12">
+              <div class="footer-contact">
+                <h3 class="foot-title">Contact Us</h3>
               </div>
-           </div>
-           <div class="connect col-md-5 ml-md-4 col-lg-3 mt-lg-4 ml-lg-4 mt-3 mt-lg-0">
-            <h3 class="connect-text foot-title">Connect with us</h3>
-            <div class="socials row mt-4">
-              <a href="" class="social-links"><img src="./assets/images/Facebook.svg" alt="facebook-icon" class="media-icon"></a>
-              <a href="" class="social-links"><img src="./assets/images/twitter.svg" alt="twitter-icon" class="media-icon ml-4"></a>
-              <a href="" class="social-links"><img src="./assets/images/linkedin.svg" alt="linkedin-icon" class="media-icon ml-4"></a>
-             </div>
-             <div class="connect-btn mt-3"><button class="btn footer-btn all-btn">Subscribe</button></div>
-             
-           </div>
-           <a href="#" id="topscroll" class="top-scroll"><img src="./assets/images/arrow.svg" alt="scrollup" class="arrow" ></a>
-
+              <div class="foot-links row">
+                <p class="footer-text col-lg-4 mt-3">Phone: +61 2 8376 6284</p>
+                <p class="footer-text col-lg-4 mt-3">
+                  Head Office: 121 King St, Melbourne VIC 3000, Australia
+                </p>
+                <p class="footer-text col-lg-4 mt-3">
+                  Email: healthlink@tech.com
+                </p>
+              </div>
+            </div>
+            <div class="connect col-12 mt-lg-4 mt-3">
+              <div class="socials row mt-4">
+                <a href="" class="social-links"
+                  ><img
+                    src="./assets/images/Facebook.svg"
+                    alt="facebook-icon"
+                    class="media-icon"
+                /></a>
+                <a href="" class="social-links"
+                  ><img
+                    src="./assets/images/twitter.svg"
+                    alt="twitter-icon"
+                    class="media-icon ml-4"
+                /></a>
+                <a href="" class="social-links"
+                  ><img
+                    src="./assets/images/linkedin.svg"
+                    alt="linkedin-icon"
+                    class="media-icon ml-4"
+                /></a>
+              </div>
+            </div>
+            <a href="#" id="topscroll" class="top-scroll"
+              ><img
+                src="./assets/images/arrow.svg"
+                alt="scrollup"
+                class="arrow"
+            /></a>
           </div>
-          <hr>
+          <hr />
           <div class="copy-text mx-auto my-auto mx-lg-0 my-lg-0">
-            <p class="copy-p">Copyright HealthTech Landing Page Template 2020</p>
-          </div> 
+            <p class="copy-p">
+              Copyright HealthTech Landing Page Template 2020
+            </p>
+          </div>
         </div>
       </footer>
     </div>
@@ -478,7 +508,14 @@ YOUR MESSAGE
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <script src="./assets/js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({ offset: 300, duration: 1000 });
+    </script>
     <script src="./assets/js/healthapp.js"></script>
-   
   </body>
 </html>

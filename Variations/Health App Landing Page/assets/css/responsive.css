@@ -46,7 +46,7 @@
   }
 
   .form_input {
-    width: 85%;
+
     margin: auto;
   }
 
@@ -55,21 +55,38 @@
     margin: 0 auto;
   }
 
-
-
-  /* SUPPORT */
-  .social-p {
-    font-size: 0.675rem;
+  /* NEWSLETTER */
+  .news-input {
+    padding: 0 4rem;
   }
 
-  .addy-p {
-    width: 100%;
+  .sub-btn {
+    width: 28%;
   }
 
-  /* FOOTER */
+  /* ANIMATIONS */
+  .all-btn {
+    transition: all .3s linear;
+  }
 
-  .connect {
-    padding-left: 5rem;
+  .all-btn:hover {
+    transform: scale(1.1);
+  }
+
+  .app-img2,
+  .app-img1,
+  .app-img3 {
+    transition: all .3s linear;
+  }
+
+  .app-img2:hover {
+    transform: scale(1.1);
+  }
+
+  .app-img1:hover,
+  .app-img3:hover {
+    transform: scale(1.1);
+    z-index: 999;
   }
 
 
@@ -111,7 +128,6 @@
 
   /* FEATURES  */
   .middle-img {
-    display: block;
     grid-column: 2;
     grid-row: 1/4;
     text-align: center;
@@ -130,12 +146,9 @@
     grid-column: 3;
   }
 
-  .feature-p {
-    width: 80%;
-  }
-
-  /* SCREESNHOT SECTION */
-  .screenshot-p {
+  .feature-p,
+  .screenshot-p,
+  .dl-p {
     width: 80%;
   }
 
@@ -147,7 +160,6 @@
 
   /* DOWNLOAD SECTION */
   .download-img {
-    display: block;
     width: 100%;
   }
 
@@ -161,13 +173,23 @@
     padding-left: 6%;
   }
 
-  .dl-p {
-    width: 80%;
+  /*NEWSLETTER */
+  .sub-btn {
+    width: 100%;
+    border-radius: 0;
   }
 
-  /* SUPPORT */
-  .firstsc {
-    margin-left: 8% !important;
+  .sub-link {
+    text-align: left;
+  }
+
+  .news-input {
+    padding: 0 1rem 0 4rem;
+  }
+
+  .newsletter-input {
+    margin: 0;
+    margin-bottom: 0.7rem;
   }
 
   /* FOOTER */
@@ -189,12 +211,28 @@
 
   .arrow {
     margin-left: 28%;
-    margin-bottom: 253%;
+    margin-bottom: 367%;
     width: 100%;
   }
 
-  .logo-img {
-    text-align: left;
+  .arrow {
+
+    animation: scrollup 1s linear 1s infinite;
+  }
+
+  @keyframes scrollup {
+    0% {
+      transform: translate(0, 0);
+    }
+
+    50% {
+      transform: translate(0, 10px);
+    }
+
+    100% {
+      transform: translate(0, 0);
+    }
+
   }
 
   .footer-text {
@@ -204,6 +242,15 @@
   .connect {
     padding-left: 0;
   }
+
+  /* ANIMATIONS AND TRANSITIONS */
+
+  .overview-texts {
+    transition: all 3s ease 524ms;
+    animation-duration: 3s;
+    animation-delay: 0s;
+  }
+
 }
 
 
