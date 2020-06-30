@@ -2,7 +2,6 @@
 
 * {
     box-sizing: border-box;
-    /* border: 1px solid #f00; */
 }
 
 :root {
@@ -10,6 +9,18 @@
     --secondary-color: #3371AF;
     --hover-color: #FFFFFF;
     --body-color: #E3EAEF;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    font-family: 'poppins';
+    font-size: 15px;
+    scroll-behavior: smooth !important;
+    margin: 0;
+    padding: 0;
 }
 
 .btn-buy-now {
@@ -22,13 +33,6 @@
 .btn-buy-now:hover {
     background: #FFF;
     color: var(--primary-color) !important;
-}
-
-body {
-    font-family: 'poppins';
-    scroll-behavior: smooth;
-    margin: 0;
-    padding: 0;
 }
 
 .main-section {
@@ -44,23 +48,12 @@ body {
     font-weight: 400;
 }
 
-/* .app-btn:hover {
-    background: var(--body-color);
-    color: var(--primary-color) !important;
-    border: 1px solid var(--primary-color);
-} */
-
 .windows-btn {
     background: var(--hover-color);
     color: var(--secondary-color);
     border-radius: 12px;
     font-weight: 400;
 }
-
-/* .windows-btn:hover {
-    background: var(--secondary-color);
-    color: var(--hover-color) !important;
-} */
 
 .main-section-img .device-img {
     width: 400px;
@@ -223,7 +216,7 @@ section.pricing {
 @media(max-width: 767px) {
 
     .copyright {
-        text-align: center;
+        text-align: left;
     }
 }
 
