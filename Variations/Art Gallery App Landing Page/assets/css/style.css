@@ -5,10 +5,10 @@
     box-sizing: border-box;
 }
 
-
-.container-fluid{
-    text-align: center;
+body{
+    text-align: center
 }
+
 
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web");
 * {
@@ -157,10 +157,114 @@ body {
 .carousal{
     background: #D1D0FF;
     margin-top: 3rem;
+    
 }
 
 .carousal img{
     width: 100px;
+}
+
+.carousal h3{
+    padding-top: 3rem;
+}
+
+.carousal h5{
+    text-align: justify;
+    font-size: 1rem;
+}
+
+
+span img{
+    width: 25px;
+
+}
+
+.sub-carousal{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.sub-carousal img{
+    width: 50px;
+}
+
+figure.figimg{
+    width: 100px;
+}
+
+figcaption{
+    
+}
+.plain-text h5{
+    text-align: center;
+    font-size: 15px;
+}
+
+.plain-text h3{
+    font-weight: Medium;
+    font-size: 35.06px;
+    line-height: 43px;
+    padding-top: 3rem;
+}
+
+.plain-text a{
+    color: #870058;
+}
+
+.inner-flex{
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    margin: 1.4rem 1.4rem;
+    padding-top: 3rem;
+}
+
+.inner-flex a{
+    font-size: 14px;
+    line-height: 36px;
+    color: gray;
+}
+
+.footers{
+    background: #FAFAFA;
+}
+
+.footers h6{
+    text-align: justify;
+    margin-left: 1.2rem ;
+    padding-top: 2rem;
+    line-height: 32px;
+}
+
+.footers h5{
+    font-size: 17px;
+    margin-left: 1.3rem;
+    line-height: 32px;
+}
+
+.hero-svg{
+    padding-top: 3rem;
+}
+
+.social-icons{
+    border-bottom: 1px solid #3A3B3C;
+    margin: 0 1.4rem;
+}
+
+.social-icons img {
+    padding: 1rem;
+}
+
+.footer-links{
+    padding-bottom: 2rem;
+}
+
+.footer-links a{
+    padding-top: 1.5rem;
+    padding: 1rem;
+    font-size: 15px;
+    color: #3A3B3C;
 }
 
 }
