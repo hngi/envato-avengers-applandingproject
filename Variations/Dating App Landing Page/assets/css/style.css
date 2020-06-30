@@ -11,6 +11,7 @@
 
 body{
   font-family:var(--font-primary);
+  scroll-behavior: smooth;
 }
 
 header{
