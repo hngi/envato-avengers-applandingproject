@@ -1,401 +1,525 @@
 /* Header */
 .head{
-    background-color: #5FA6ED;
-}
-h1, h2, h3, h4, h5, p {
+    background-color: #2DAAE1;
+    }
+    h1, h2, h3, h4, h5, p {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-}
-h1 {
+    /* font-style: normal; */
+    }
+    h1 {
     font-weight: bolder;
     font-size: 40px;
     line-height: 40px;
-    color: #f5f5f5;
-}
-.head a img {
+    color: #fff;
+    }
+    .head a img {
     width: 200px;
     height: 50px;
-}
-
-.btn {
+    }
+    .btn {
     background-color: #3D85CC !important;
-    color: #fff;
+    color: #f5f5f5;
     border-radius: 20px;
     border: 0 solid #3D85CC ;
-}
-
-h2 {
+    }
+    .btn:hover{
+        background-color: #F5F5F5 !important;
+        color: #000000;
+    }
+    h2 {
     font-weight: bold;
     font-size: 30px;
     line-height: 46px;
     color: #000000;
-}
-
-p {
+    }
+    p {
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
     color: #141414;
-}
-p span {
+    }
+    p span {
     font-style: normal;
-    font-size: 20px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 50px;
     color: #f5f5f5; 
-}
-
-/* NAVBAR */
-#home {
-    background-color: #5FA6ED ;
-    border-bottom: 1px solid #5FA6ED;
+    }
+   
+    /* NAVBAR */
+    #home {
+    background-color: #2DAAE1 ;
+    border-bottom: 1px solid #2DAAE1;
     /* color: #F5F5F5; */
-}
-.site-navbar {
+    }
+    .site-navbar {
     height: 60px;
     align-items: center;
-  }
-  
-  #nav_logo {
-    line-height: 60px;
-    float: left;
-    /* text-transform: uppercase; */
-    height: 40px;
-    width: 30px;
-  }
-  .menu {
+    }
+    .logo a{ 
+        float: left;
+        line-height: 32px;
+        font-size: 26px;
+        color: #F5F5F5;
+    }
+    .logo a:hover{
+        text-decoration: none;
+    }
+    .menu {
     float: right;
     line-height: 60px;
-  }
-  .menu li {
+    }
+    .menu li {
     display: inline;
     padding: 10px;
-  }
-  .menu .navbar-link {
+    }
+    .menu .navbar-link {
     color: #F5F5F5;
+    font-size: 22px;
+    line-height: 27px;
     font-weight: normal;
     text-decoration: none;
     padding: 10px 10px;
     transition: all 0.4s;
-  }
-  .menu .navbar-link.create{
-      border : 0px solid #3D85CC;
-      background-color: #3D85CC;;
-      border-radius: 18px;
-  }
-  .menu .navbar-link.create:hover {
-    background: rgb(6, 43, 111);
-    color: #fff;
-  }
-  .show-menu-btn {
+    }
+    .menu .navbar-link.create{
+    border : 0px solid #3D85CC;
+    background-color: #3D85CC;
+    color: #F5F5F5;
+    font-size: 16px;
+    border-radius: 18px;
+    }
+    .menu .navbar-link.create:hover {
+    background: #F5F5F5;
+    color: #000000;
+    }
+    .show-menu-btn {
     float: right;
-  }
-  .show-menu-btn i {
+    }
+    .show-menu-btn i {
     line-height: 60px;
-  }
-  .show-menu-btn,
-  .hide-menu-btn {
+    }
+    .show-menu-btn,
+    .hide-menu-btn {
     transition: all 0.4s;
     font-size: 30px;
     cursor: pointer;
     display: none;
-  }
-  #chk {
+    }
+    #chk {
     position: absolute;
     visibility: hidden;
     z-index: -1111;
-  }
-
-
-/* How it works $ App features */
-.ped {
+    }
+    /* How it works $ App features */
+    .ped {
     background-color: #EBEBEB;
     border-radius: 20px;
     min-width: 240px;
     height: 400px;
-}
-.ped h2 {
+    }
+    .ped h2 {
     color: #5FA6ED;
-}
-
-/* Customer Review */
-.pedy {
+    }
+    /* Customer Review */
+    .pedy {
     background-color: #5FA6ED;
     border-radius: 20px;
     color: #f5f5f5;
     min-width: 250px;
     height: 400px;
-}
-.pedy p {
+    }
+    .pedy p {
     color: #f5f5f5;
-}
-
-/* Subscription */
-#apple, #google {
+    }
+    /* Subscription */
+    #apple, #google {
     width: 250px;
     height: 70px;
-}
-.form-col {
-    background-color: #EBEBEB;
+    }
 
-}
-.sub {
-    text-align: center;
-}
-.sub h3 {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    color: #141414;  
-}
-/* Footer */
-.footer {
+    /* Form */
+    .hide-section{
+        display: none;
+    }
+    #exampleFormControlInput1, #exampleFormControlTextarea1{
+        border: none;
+        border-radius: 0;
+        background-color: #F5F5F5;
+        border-bottom: 1px solid #000000;
+        padding-left: 0;
+    }
+    label{
+        font-weight: 500;
+        color: #292929;
+    }
+    
+    #form-btn{
+        width: 100%;
+        border-radius: 0;
+        font-size: 30px;
+        background-color: #5FA6ED;
+    }
+    .form_section {
+        background-color: #F5F5F5;
+    }
+    .form_section h3 {
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 45px;
+        color: #5FA6ED;
+    }
+    ::placeholder {
+        color: #707070 !important;
+        opacity: 1 !important;
+    }
+
+    /* Footer */
+    .footer {
     background-color: #5FA6ED;
     color: #f5f5f5;
-}
-.footer ul li a {
+    }
+    .footer ul li a {
     color: #f5f5f5;
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
-}
-.footer h3 {
+    }
+    .footer h3 {
     font-weight: 600;
     font-size: 28px;
     line-height: 38px;
-}
-.footer p {
+    }
+    .footer p {
     color: #f5f5f5;
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
-}
-.footer ul li a img {
-    width: 40px;
-    height: 40px;
-}
-
-
-
-@media (min-width: 768px) {
-    /* Header */
-    h1 {
-        font-weight: 600;
-        font-size: 70px;
-        line-height: 80px;
-        color: #f5f5f5;
-    }
-
-    h2 {
-        font-weight: bold;
-        font-size: 30px;
-        line-height: 46px;
-    }
-    p {
-        font-style: normal;
-        font-size: 20px;
-        line-height: 30px;
-    }
-    p span {
-        font-style: normal;
-        font-size: 40px;
-        line-height: 60px;
-        color: #f5f5f5; 
-    }
-
-    /* How it works $ App features */
-    .ped {
-        background-color: #EBEBEB;
-        border-radius: 20px;
-        min-width: 230px;
-        height: 400px;
-    }
-    .ped h2 {
-        font-size: 26px;
-        line-height: 34px;
-        color: #5FA6ED;
-    }
-    .ped p {
-        font-size: 18px;
-        line-height: 27px;
-    }
-    /* Customer Review */
-    .pedy {
-        min-width: 320px;
-        height: 450px;
-    }
-    /* Subscription */
-    .form-col {
-        background-color: #EBEBEB;
-
-    }
-    .sub {
-        text-align: left;
-    }
-    .sub h3 {
-        font-size: 30px;
-        line-height: 46px; 
-    }
-    /* Footer */
-    .footer ul li a {
-        color: #f5f5f5;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 30px;
-    }
-    .footer h3 {
-        font-size: 30px;
-        line-height: 46px;
-    }
-    .footer p {
-        color: #f5f5f5;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 30px;
-    }
-}
-@media screen and (max-width: 992px) {
-    .show-menu-btn,
-    .hide-menu-btn {
-      display: block;
-      color: #062863;
-    }
-    .hide-menu-btn {
-      color: #F5F5F5;
-    }
-    .menu {
-      position: fixed;
-      height: 100vh;
-      width: 100%;
-      background: #141414;;
-      right: -100%;
-      top: 0;
-      text-align: center;
-      padding: 80px 0;
-      line-height: normal;
-      transition: 0.7s;
-      opacity: 0.88;
-      z-index: 9998;
-    }
-    .menu .navbar-link {
-      display: block;
-      padding: 20px;
-      color:#F5F5F5;
-    }
-    .menu .dropbtn {
-      padding: 30px;
-      color: #F5F5F5;
-    }
-    .hide-menu-btn {
-      position: absolute;
-      right: 40px;
-      top: 40px;
-    }
-    #chk:checked ~ .menu {
-      right: 0;
-    }
-    
-}
-
-@media (min-width: 992px) {
-    h1 {
-        font-weight: 600;
-        font-size: 70px;
-        line-height: 80px;
-        color: #f5f5f5;
-    }
-    p {
-        font-style: normal;
-        font-size: 30px;
-        line-height: 37px;
-    }
-    p span {
-        font-style: normal;
-        font-size: 60px;
-        line-height: 80px;
-        color: #f5f5f5; 
-    }
-
-    h2 {
-        font-weight: bold;
-        font-size: 38px;
-        line-height: 46px;
-    }
-    
-    /* How it works $ App features */
-    .ped {
-        background-color: #EBEBEB;
-        border-radius: 20px;
-        min-width: 300px;
-        height: 430px;
-    }
-    .ped h2 {
-        font-weight: 600;
-        font-size: 30px;
-        line-height: 46px;
-        color: #5FA6ED;
-    }
-    .ped p {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 24px;
-    }
-    /* Customer Review */
-    .pedy {
-        min-width: 320px;
-        height: 450px;
-    }
-    .pedy p {
-        font-style: normal;
-        font-weight: normal;
-        font-size: 24px;
-        line-height: 30px;
-    }
-    .cust {
-        margin-top: 5rem !important;
-    }
-
-    /* Subscription */
-    .form-col {
-        background-color: #EBEBEB;
-    }
-    .sub {
-        text-align: left;
-    }
-    .sub h3 {
-        font-size: 30px;
-        line-height: 46px; 
-    }
-    /* Footer */
-    .footer ul li a {
-        color: #f5f5f5;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 30px;
-    }
-    .footer h3 {
-        font-size: 40px;
-        line-height: 46px;
     }
     .footer ul li a img {
-        width: 50px;
-        height: 50px;
+    width: 40px;
+    height: 40px;
+    }
+   
+    @media (min-width: 768px) {
+    /* Header */
+    h1 {
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 80px;
+    color: #f5f5f5;
+    }
+    h2 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 46px;
+    }
+    p {
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    }
+    p span {
+    font-style: normal;
+    font-size: 40px;
+    line-height: 60px;
+    color: #f5f5f5; 
+    }
+    /* How it works $ App features */
+    .ped {
+    background-color: #EBEBEB;
+    border-radius: 20px;
+    min-width: 230px;
+    height: 420px;
+    }
+    .ped h2 {
+    font-size: 26px;
+    line-height: 34px;
+    color: #5FA6ED;
+    }
+    .ped p {
+    font-size: 18px;
+    line-height: 27px;
+    }
+    /* Customer Review */
+    .pedy {
+    min-width: 320px;
+    height: 450px;
+    }
+    
+   /* Form */
+   .hide-section{
+    display: block;
+}
+    .bckgrd{
+        /* The image used */
+    background-image: url('./../images/Rectangle 32.png');
+    
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 350px;
+    color: #F5F5F5;
+    }
+
+    .bckgrd h3 {
+        font-size: 40px;
+        line-height: 46px;
+     }
+     .bckgrd p {
+        font-size: 18px;
+        line-height: 27px;
+     }
+    /* Footer */
+    .footer ul li a {
+    color: #f5f5f5;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 33px;
+    }
+    .footer li {
+    color: #f5f5f5;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 33px;
+    }
+    .footer h3 {
+    font-size: 40px;
+    line-height: 46px;
     }
     .footer p {
-        color: #f5f5f5;
-        font-weight: 400;
-        font-size: 20px;
+    color: #f5f5f5;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 33px;
+    }
+}
+    @media screen and (max-width: 992px) {
+    .show-menu-btn,
+    .hide-menu-btn {
+    display: block;
+    color: #062863;
+    }
+    .hide-menu-btn {
+    color: #F5F5F5;
+    }
+    .menu {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background: #141414;;
+    right: -100%;
+    top: 0;
+    text-align: center;
+    padding: 80px 0;
+    line-height: normal;
+    transition: 0.7s;
+    opacity: 0.88;
+    z-index: 9998;
+    }
+    .menu .navbar-link {
+    display: block;
+    padding: 20px;
+    color:#F5F5F5;
+    }
+    .menu .dropbtn {
+    padding: 30px;
+    color: #F5F5F5;
+    }
+    .hide-menu-btn {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    }
+    #chk:checked ~ .menu {
+    right: 0;
+    }
+    }
+    @media (min-width: 992px) {
+    h1 {
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 80px;
+    color: #f5f5f5;
+    }
+    p {
+    font-style: normal;
+    font-size: 30px;
+    line-height: 37px;
+    }
+    p span {
+    font-style: normal;
+    font-size: 60px;
+    line-height: 80px;
+    color: #f5f5f5; 
+    }
+    h2 {
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    }
+    /* How it works $ App features */
+    .ped {
+    background-color: #EBEBEB;
+    border-radius: 20px;
+    min-width: 300px;
+    height: 430px;
+    }
+    .ped h2 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 46px;
+    color: #5FA6ED;
+    }
+    .ped p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    }
+    /* Customer Review */
+    .pedy {
+    min-width: 320px;
+    height: 450px;
+    }
+    .pedy p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    }
+    .cust {
+    margin-top: 5rem !important;
+    }
+    .bckgrd h3 {
+        font-size: 45px;
+        line-height: 51px;
+     }
+     .bckgrd p {
+        font-size: 24px;
         line-height: 30px;
+     }
+    /* Footer */
+    .footer ul li a {
+        color: #f5f5f5;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 35px;
+        }
+        .footer li {
+        color: #f5f5f5;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 35px;
+        }
+        .footer h3 {
+        font-size: 45px;
+        line-height: 51px;
+        }
+        .footer ul li a img {
+        width: 55px;
+        height: 55px;
+        }
+        .footer p {
+        color: #f5f5f5;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 35px;
+        }  
+    #shift{
+    margin-left: 3rem;
     } 
-    #shift{
-        margin-left: 12rem;
-      } 
-
-}
-@media screen and (min-width: 1200px) {
-    #shift{
-        margin-left: 20rem;
-      }
-}
+    }
+    @media screen and (min-width: 1200px) {
+        h1 {
+            font-weight: bold;
+            font-size: 75px;
+            line-height: 85px;
+            color: #f5f5f5;
+            }
+            p {
+            font-style: normal;
+            font-size: 35px;
+            line-height: 42px;
+            }
+            p span {
+            font-weight: 100;
+            font-size: 65px;
+            line-height: 85px;
+            color: #f5f5f5; 
+            }
+            h2 {
+            font-weight: bolder;
+            font-size: 43px;
+            line-height: 51px;
+            }
+            /* How it works $ App features */
+            .ped {
+            background-color: #EBEBEB;
+            border-radius: 20px;
+            min-width: 320px;
+            height: 450px;
+            }
+            .ped h2 {
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 51px;
+            color: #5FA6ED;
+            }
+            .ped p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 23px;
+            line-height: 25px;
+            }
+            /* Customer Review */
+            .pedy {
+            min-width: 350px;
+            height: 450px;
+            }
+            .pedy p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 29px;
+            line-height: 35px;
+            }
+            .cust {
+            margin-top: 5rem !important;
+            }
+           
+            /* Footer */
+            .footer ul li a {
+            color: #f5f5f5;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 35px;
+            }
+            .footer li {
+            color: #f5f5f5;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 35px;
+            }
+            .footer h3 {
+            font-size: 45px;
+            line-height: 51px;
+            }
+            .footer ul li a img {
+            width: 55px;
+            height: 55px;
+            }
+            .footer p {
+            color: #f5f5f5;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 35px;
+            } 
+            #shift{
+            margin-left: 16rem;
+            }
+    
+    }
+    
