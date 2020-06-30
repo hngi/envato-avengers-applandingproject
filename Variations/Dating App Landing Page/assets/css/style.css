@@ -36,8 +36,10 @@ header{
 }
 
 .brand-logo{
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
   margin-right: .1rem;
 }
 .btn-nav-toggle:focus{
@@ -179,12 +181,7 @@ transition: 0.4s all;
 }
 
 .download-card{
-  border: 1px solid var(--colr-primary-dark);
-  border-radius: 8px;
-}
-
-.download-card:hover{
-  border: 1px solid var(--colr-white);
+  border: 1px solid var(--color-black);
   border-radius: 8px;
 }
 
