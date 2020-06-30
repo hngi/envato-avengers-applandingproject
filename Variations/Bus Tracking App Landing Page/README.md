@@ -2,5 +2,5 @@
 
 Envato Avengers App landing page
 
-Please post your hosted link to test your page here
-
+Project Name - Bus Tracking App
+Hosted Link - https://bus-tracking-app.netlify.app/
