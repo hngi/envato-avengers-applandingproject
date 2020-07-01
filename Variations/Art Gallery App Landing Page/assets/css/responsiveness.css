@@ -1,6 +1,6 @@
 
 
-@media only screen and (min-width:577px){
+@media only screen and (min-width:850px){
     *{
         margin: 0;
         padding: 0;
@@ -381,12 +381,3 @@
         line-height: 32px;
     }
 }
-
-/* @media only screen and(min-width:){
-    .gallery{
-        display: flex;
-        justify-content: space-around;
-        margin: 2rem 4rem;
-        background: red;
-    }   
-} */

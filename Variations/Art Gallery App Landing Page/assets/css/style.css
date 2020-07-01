@@ -1,4 +1,4 @@
-@media only screen and (max-width:768px){
+@media only screen and (max-width:850px){
 *{
     margin: 0;
     padding: 0;
@@ -276,6 +276,11 @@ figure.figimg{
 
 .hero-svg{
     padding-top: 3rem;
+}
+
+.address{
+    border-bottom: 1px solid black;
+    margin: 0rem 1rem;
 }
 
 .social-icons{
