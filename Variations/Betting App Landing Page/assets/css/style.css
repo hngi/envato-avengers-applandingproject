@@ -1,0 +1,482 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body    {
+    font-family: 'Raleway';
+}
+#nav-section    {
+    background: #FFFFFF;
+    width: 100vw;
+}
+a  {
+    color: black;
+    font-weight: 700;
+    font-size: 1.4rem;
+    font-family: 'Poppins';
+}
+
+a:hover {
+    background: #251297;
+    transition: 5s;
+    border-radius: 50px;
+}
+#download-btn   {
+    width: 269px;
+    height: 65px;
+    background: #251297;
+    color: white; 
+    font-weight:700;
+    font-family: 'Poppins';
+    margin-right: 3rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 500px;
+    font-size: 20px;
+    line-height: 30px;
+}
+#jumbotron-section  {
+    /* background-image: url('images/stad.svg'); */
+    background:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('images/stad.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45rem;
+    width: 100vw;
+}
+#acetext    {
+    margin-top: auto;
+}
+#jumbotron-paragraph    {
+    font-size: 1.2rem;
+    font-family: 'Raleway';
+}
+i   {
+    font-size: 2.5rem;
+    margin-right: 2rem;
+    
+}
+#apple-icon {
+    width: 269px;
+    height: 65px;
+    background: #251297;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 500px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50px;
+    margin-left: -3.5rem;
+    margin-right: -2rem;
+    border: 1px solid #251297;
+}
+#playstore-icon  {
+    width: 269px;
+    height: 65px;
+    background: #251297;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 500px;
+    border: 1px solid #251297;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 20px;
+}
+#installation-heading   {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: 'Poppins';
+}
+
+ /* Smaller-screen */
+#smaller-screen {
+    display: none;
+}
+ /* Smaller-screen */
+
+ #large-screen  {
+     /* display: block; */
+ }
+
+#installation-paragraph {
+    font-size: 25px;
+    line-height: 29px;
+    font-family: 'Raleway';
+}
+#one-img    {
+    height: 50%;
+}
+#features-section   {
+    background: rgba(37, 18, 151, 0.2);
+    width: 100vw;
+}
+
+#features   {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Poppins';
+    }
+    #features-sub   {
+        font-size: 24px;
+        font-weight: 700;
+        font-family: 'Raleway';
+    }
+    #features-paragraph {
+        font-size: 23px;
+        line-height: 27px;
+        font-family: 'Raleway';
+    }
+    #download-heading   {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50px;
+        font-family: 'Poppins';
+        
+    }
+#download-sub   {
+    font-size: 30px;
+    line-height: 35px; 
+    font-weight: 700;
+    margin-top: 2rem;
+    font-family: 'Raleway';
+}
+
+ #download-paragraph    {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 2rem;
+    font-family: 'Raleway';
+    }
+    #download-icons {
+        margin-top: 7rem;
+    }
+    #download-img   {
+        display: block;
+    }
+#apple2 {
+    width: 269px;
+    height: 65px;
+    background: #251297;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 500px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50px;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    border: 1px solid #251297;
+}
+#playstore2  {
+    width: 269px;
+    height: 65px;
+    background: #251297;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 500px;
+    border: 1px solid #251297;
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+#testimonies-section    {
+    background: rgba(37, 18, 151, 0.2); 
+    height: 45rem; 
+    width: 100%;
+}
+#testimonies-heading    {
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+    font-family: 'Poppins';
+}
+#testimonies-name   {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    font-family: 'Raleway';
+} 
+#testimonies-paragraph  {
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 600;
+    font-family: 'Raleway';
+}
+#card   {
+    border-radius: 1rem;
+    margin-top: 1px;
+    margin-bottom: 2rem;
+    width: 50%; 
+}
+#contact-heading    {
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+    font-family: 'Poppins';
+}
+
+input   {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 10px;
+    font-weight: 600;
+    width: 100%;
+    
+}
+
+textarea    {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px;
+    
+}
+#send   {
+    background: #251297;
+    color: white;
+    font-weight: 700;
+    border-radius: 2rem;
+    font-family: 'Raleway';
+}
+#location   {
+    font-weight: 700;
+    font-size: 1rem;
+}
+#contact-paragraph  {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    font-weight: 600;
+}
+footer  {
+    background:  black;
+}
+.container  {
+    border-bottom: 1px solid #8A8A8A;
+}
+#copy   {
+    color: #8A8A8A;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+
+/* Media Queries */
+
+/* Mobile */
+@media screen and (max-width: 760px)    {
+#navbar-section   {
+    width: 100vw;
+}
+a {
+    font-size: 1rem;
+}
+#download-btn   {
+    width: 120px;
+    height: 45px;
+    font-size: 15px;
+   
+}
+
+#jumbotron-section  {
+    /* background-image: url('images/stad.svg'); */
+    background:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('images/stad.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+    width: 100vw;
+}
+#acetext    {
+    margin-top: auto;
+}
+#jumbotron-paragraph    {
+    font-size: 1.2rem;
+}
+i   {
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+#apple-icon {
+    width: 120px;
+    height: 45px;
+    border-radius: 100px;
+    font-size: 10px;
+    line-height: 20px;
+    margin-left: -2rem;
+    margin-right: -3rem;
+}
+#playstore-icon  {
+    width: 120px;
+    height: 45px;
+    border-radius: 100px;
+
+    
+    font-size: 10px;
+    line-height: 20px;
+}
+
+#smaller-screen {
+    display: block;
+}
+#large-screen  {
+    display: none;
+}
+#download-heading   {
+    font-size: 25px;
+}
+#download-img   {
+    display: none;
+}
+#download-sub   {
+    font-size: 20px;
+    margin-top: 0.5rem;
+}
+
+#download-paragraph    {
+    font-size: 15px;
+    margin-top: 0.2rem;
+    }
+#download-icons {
+        margin-top: 0.1rem;
+    }
+#apple2 {
+    width: 120px;
+    height: 45px;
+    border-radius: 100px;
+    font-size: 10px;
+    line-height: 30px;
+    margin-left: -2.5rem;
+    margin-right: 1rem;
+}
+#playstore2  {
+    width: 120px;
+    height: 45px;
+    border-radius: 100px;
+    font-size: 10px;
+    line-height: 30px;
+}
+#testimonies-section    {
+    background: rgba(37, 18, 151, 0.2);
+    height: 20rem; 
+    width: 100%;
+    margin: 0;
+}
+#testimonies-heading    {
+    font-size: 25px;
+}
+
+#testimonies-name   {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700
+} 
+#testimonies-paragraph  {
+    font-size: 13px;
+    line-height: 15px;
+    margin-top: 1rem;
+    
+}
+
+/* Cards */
+#card   {
+    margin-bottom: 1rem;
+    width: 70%; 
+    height: 70%;
+}
+#card-img   {
+    height: 4rem;
+    width: 4rem;
+}
+#card-quote {
+    height: 1rem;
+    width: 1rem;
+}
+/* Cards */
+
+#contact-heading    {
+    font-size: 25px;
+    line-height: 20px;
+}
+input   {
+    font-size: 10px;
+    line-height: 20px;
+    width: 90%;
+    
+}
+
+textarea    {
+    font-size: 10px;
+    padding: 15px;
+    
+}
+#send   {
+    background: #251297;
+    color: white;
+    font-weight: 700;
+    border-radius: 2rem;
+}
+#location   {
+    font-weight: 700;
+    font-size: 1rem;
+}
+#contact-paragraph  {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    font-weight: 600;
+}
+footer  {
+    background:  black;
+}
+.container  {
+    border-bottom: 1px solid #8A8A8A;
+}
+#copy   {
+    color: #8A8A8A;
+    font-size: 11px;
+}
+}
+
+
+/* Tablet */
+@media only screen and (max-width: 1034px) and (min-width: 768px)  {
+    
+#smaller-screen {
+    display: block;
+}
+#large-screen  {
+    display: none;
+}
+
+#download-img   {
+    display: none;
+}
+#apple2 {
+    width: 180px;
+    height: 70px;
+    border-radius: 100px;
+    font-size: 20px;
+    line-height: 40px;
+    margin-left: 3rem;
+    /* margin-right: 1rem; */
+    margin: 0px auto;
+}
+#playstore2  {
+    width: 180px;
+    height: 70px;
+    border-radius: 100px;
+    font-size: 20px;
+    line-height: 40px;
+}
+i   {
+    font-size: 2rem;
+    margin-right: 1rem;
+    
+}
+}
