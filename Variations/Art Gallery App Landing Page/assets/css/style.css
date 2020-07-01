@@ -1,31 +1,23 @@
-@media only screen and (max-width:576px){
+@media only screen and (max-width:768px){
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body{
-    text-align: center
+    text-align: center;
 }
 
-
-@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
-* {
-  font-family: "Titillium Web", sans-serif;
-}
-body {
-  height: 2000px;
-}
-.navbar .navbar-brand {
-  font-size: 30px;
-}
 .navbar .nav-item {
   padding: 10px 20px;
+  background-color: black;
 }
 .navbar .nav-link {
   font-size: 20px;
   margin-left: 10px;
+  color: #ffffff;
 }
 .fa-bars {
   color: rgb(184, 179, 179);
@@ -63,9 +55,8 @@ body {
     
 }
 
-
-.block-image{
-    margin-top: 2rem;
+.block-image1 img{
+    display: none;
 }
 
 .container-dark{
@@ -125,10 +116,23 @@ body {
     width: 100%;
 }
 
+.gold-texture{
+    display: none;
+}
+
+.small-gold{
+    display: none;
+}
+
+.gold-wrapper{
+    display: none;
+}
+.gold-texture2{
+    display: none;
+}
 /* display of the various Art on mobile */
 
 .d-flex{
-    /* display: flex; */
     flex-direction: column;
 }
 
@@ -140,19 +144,45 @@ body {
 .gallery img{
     width: 270px;
 }
+
+.gallery-headings{
+    margin-top: 9rem;
+    text-align: justify;
+    margin-right: 5rem;
+    margin-left: 1rem;
+}
 .search img{
     width: 270px;
+}
+.search-headings{
+    margin: 1rem;
+}
+
+.collection{
+    display: block;
 }
 .collection img{
     width: 270px;
 }
+
+.collection-headings{
+    text-align: justify;
+    margin: 1rem;
+}
+
 .curato img{
     width: 270px;
 
 }
 
-.curato h5{
+.curato-headings{
     text-align: justify;
+    margin: 1rem;
+}
+
+.page{
+    text-align: justify;
+    margin: 1rem;
 }
 .carousal{
     background: #D1D0FF;
@@ -173,7 +203,10 @@ body {
     font-size: 1rem;
 }
 
-
+.sub-carousal h5{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
 span img{
     width: 25px;
 
@@ -248,7 +281,6 @@ figcaption{
 }
 
 .social-icons{
-    border-bottom: 1px solid #3A3B3C;
     margin: 0 1.4rem;
 }
 

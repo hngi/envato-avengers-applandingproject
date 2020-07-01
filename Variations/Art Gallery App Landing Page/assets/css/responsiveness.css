@@ -14,6 +14,7 @@
     
     body{
         text-align: center;
+        font-family: 'Montserrat', sans-serif;
     }
     
     .fa-bars{
@@ -28,13 +29,15 @@
         padding: 10px 20px;
       }
       .navbar .nav-link {
-        font-size: 20px;
-        color: rgb(214, 209, 209);
+        font-size: 16px;
+        color: #ffffff;
+        font-weight: 500;
         margin-left: 10px;
       }
 
       .search{
           padding-top: 1rem;
+          margin: 0 auto;
       }
 
       .hero-img{
@@ -42,7 +45,7 @@
       }
 
       .art-image{
-          max-width: 300px;
+          max-width: 360px;
           min-width: 200px;
           height: auto;
       }
@@ -56,10 +59,19 @@
           padding-top: 5rem;
           
       }
+      .left-flex h3{
+          font-size: 70px;
+          font-weight: 500;
+          font-style: normal;
+
+      }
 
       .block-image{
-          float: left;
-          margin-left: 8.5rem;
+          display: none;
+      }
+
+      .block-image1{
+          margin-top: 2rem;
       }
 
       .container-dark{
@@ -138,13 +150,33 @@
         margin-left: -1rem;
     }
     
-    #d-flex{
-        flex-direction: column;        
+    .small-gold img{
+        width: 50px;
+        float: left;
+        margin-left: 3rem;
+        margin-top: 3rem;
     }
 
+    .headings h3{
+        font-weight: 500;
+        font-size: 29px;
+    }
+
+    .headings h5{
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+     #d-flex{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;        
+    }
+
+
     .gallery img{
-        max-width: 300px;
-        min-width: 200px;
+        max-width: 259.66px;
+        min-width: 150px;
         height: auto;
     }
     
@@ -165,56 +197,68 @@
         display: flex;
         justify-content: space-around;
         flex-direction: row-reverse;
+        
     }
 
     .search-headings{
         text-align: justify;
         margin-top: 8rem;
+        margin-right: -2rem;
     }
 
+    .search img{
+        max-width: 259.66px;
+        min-width: 200px;
+        height: auto;
+        margin-right: 9rem;
+        margin-left: -7rem;
+    }
+
+    .collection img{
+        max-width: 259.66px;
+        min-width: 150px;
+        height: auto;
+        margin-top: -3rem;
+    }
+    
+    .collection-headings{
+        margin-top: 9rem;
+        margin-left: -8rem;
+        text-align: justify;
+        margin-right: 5rem;
+    }
     .collection{
         display: flex;
         justify-content: space-around;
-        margin-top: 8rem;
-    }
-    .collection img{
-        max-width: 300px;
-        min-width: 200px;
-        margin-right: -17rem;
-        height: auto;
-    }
-
-    .collection-headings{
-        text-align: justify;
-        margin-top: 11rem;
-        margin-right: -6rem;
-        margin-left: 4rem;
-    }
-    .search img{
-        max-width: 300px;
-        min-width: 200px;
-        height: auto;
-        margin-left: -7rem;
-    }
-    .curato img{
-        max-width: 300px;
-        min-width: 200px;
-        height: auto;
+        margin: 2rem 4rem;
+        padding-left: 15px;
     }
 
     .gold-texture2{
-        float:right;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: -9rem;
     }
 
     .curato{
         display: flex;
         justify-content: space-around;
         flex-direction: row-reverse;
+        
     }
 
     .curato-headings{
         text-align: justify;
         margin-top: 8rem;
+        margin-right: -2rem;
+    }
+
+    .curato img{
+        max-width: 259.66px;
+        min-width: 200px;
+        height: auto;
+        margin-right: 9rem;
+        margin-left: -7rem;
     }
 
     .gold-wrapper img{
@@ -226,7 +270,7 @@
         background-color: #D1D0FF;
         padding-top: 3rem;
         padding-bottom: 2rem;
-        margin-top: -1rem;
+        margin-top: -3rem;
     }
     .carousal h3, p{
         text-align: justify;
@@ -246,6 +290,9 @@
         margin-right:7rem ;
     }
 
+    .sub-carousal h5{
+        text-align: justify;
+    }
 
     .figimg{
         width: 130px;
@@ -268,6 +315,9 @@
         color: #870058;
         font-weight: 500;
         font-size: 20px;
+    }
+    .plain-text a:hover{
+        color: #887410;
     }
 
     .footers{
@@ -331,3 +381,12 @@
         line-height: 32px;
     }
 }
+
+/* @media only screen and(min-width:){
+    .gallery{
+        display: flex;
+        justify-content: space-around;
+        margin: 2rem 4rem;
+        background: red;
+    }   
+} */
