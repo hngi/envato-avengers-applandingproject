@@ -90,20 +90,28 @@ body {
     left: 70px;
 }
 
-.store { height: 30%;}
+.appstore {
+    margin-left: -145px;
+    width: 150%;
+}
 
 .container2 { 
-    margin-top: -300px;
-    height: 800px;
+    margin-top: -180px;
+    height: 700px;
  }
 
 
-.image2 { 
+ .image2 {
     top: 600px;
-    height: 40%;
+    height: 100%;
+    width: 90%;
+    padding-bottom: 150px;
 }
 
-.world-wide-section {  height: 500px; }
+.world-wide-section {  
+    height: 500px; 
+    margin-left: 20px;
+}
    
 .world-wide-list  {
     list-style: none;
@@ -112,7 +120,11 @@ body {
 
  .world-wide-list li {  list-style-type: square; }
    
-.image3 { height: 40%;} 
+.image3 { 
+    height: 100%;
+    width: 70%;
+    margin-top: 30px;
+} 
 
 .footer-header {
     background-color:  rgba(0, 0, 0, 0.8);
@@ -167,6 +179,10 @@ body {
         display: flex;
         padding-top: ;
     }
+
+    #vector {
+        margin-top: -500px;
+    }
         
     .bus1 {
         display: flex;
@@ -175,11 +191,15 @@ body {
     }
     .bus2 { display: none;}
 
+    .bus-section { height: 550px;}
+     
+
     .container2 {  margin-top: 0; }
 
     .image2 {
-        top: 100px;
-        height: 30%;
+        top: 60px;
+        height: 60%;
+        width: 100%;
     }
 
     .bus-section { height: 500px; }
@@ -187,6 +207,12 @@ body {
     .bus-text4 {
         margin-right: -50px;
         margin-left: 50px;
+    }
+
+    .world-wide-section {
+        height: 400px;
+        margin-left: -40px;
+        margin-top: 100px;
     }
 
     .container3 { padding: 50px 0;}
@@ -230,16 +256,31 @@ body {
 
     .mockup2 { display: none;}
 
+    #vector {
+        margin-top: -500px;
+    }
+
     .container4 { display: flex;}
+
+    .bus1 { height: 100%;}
+
 
     .image1 {
         top: -350px;
         left: 200px;
+        display: none;
+    }   
+
+    .image3 { 
+        height: 100%;
+        width: 100%;
     }
 
-    .image3 { height: 60%;}
-
-    .world-wide-section {  height: 80vh;}
+    .world-wide-section {
+        height: 400px;
+        margin-left: 0;
+        margin-top: 100px;
+    }
 
     .input-form { display: block;}
 
@@ -279,6 +320,12 @@ body {
     .vector3 {
         margin-top: 200px;
         margin-left: 40px;
+    }
+
+        
+    .image3 {  
+        height: 80%;
+        width: 100%;
     }
        
     .world-wide-section {  height: 80%;}
