@@ -91,7 +91,7 @@ body {
 }
 
 .appstore {
-    margin-left: -145px;
+    margin-left: -135px;
     width: 150%;
 }
 
@@ -154,7 +154,130 @@ body {
 
 
  /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
+@media (min-width: 576px) and (max-width: 767px) {
+    .bg-main { height: 60vh;}
+    .bg-main2 { 
+        margin-top: 300px;
+        height: 530px;
+    }
+
+    .bg-main3 { margin-top: 420px;}
+
+    #btn-sign-up, #btn-learn { width: 30%;}
+
+
+    .mockup1 { display: none;}
+
+    .mockup2 {  margin-left: 200px!important;}
+       
+     
+    .welcome-header { font-size: 2em;}
+
+    .welcome-text { font-size: 1.3em;}
+
+    .vector-section { height: 10vh; }
+
+    .vector-container { 
+        display: contents;
+        padding-top: ;
+    }
+    .vec { margin-left: 0!important;}
+    .vector1 { margin-top: 150px;}
+    .vector2 { margin-top: 150px;}
+    .vector3 { margin-top: 150px;}
+    .track-section { display: contents;}
+        
+    .bus1 {
+        display: block;
+        height: 100%;
+        width: 100%;
+        position: relative;
+        top: -500px;
+    }
+     
+    .bus2 { display: none;}
+
+    .bus-text1 { font-size: 1.8em;}
+    .bus-text3 {
+        font-size: 1.1rem;
+        margin: 5px 0 0 10px;
+        font-weight: 300;
+        width: 100%;
+    }
+
+    .bus-section { height: 550px;}
+
+    .bus-group { display: block;}
+     
+
+    .container2 {  
+        margin-top: 0;
+        top: -250px;
+     }
+
+    .image1 {
+        top: -325px;
+        left: -170px;
+        height: 60%;
+        width: 150%;
+    }
+
+    .image2 {
+        height: 60%;
+        width: 90%;
+    }
+
+    .bus-section { height: 500px; }
+
+    .bus-text4 {
+        font-size: 1.8em;
+        padding: 10px 0 10px 10px;
+    }
+
+    .btn { margin-top: 20px;}
+
+    .appstore { 
+        width: 100%;
+        margin-top: 2px;
+    }
+
+    .googleplay {
+        width: 150%;
+        margin-left: -100px!important;
+    }
+
+    .world-wide-section {
+        height: 400px;
+        margin-top: 100px;
+    }
+
+    .image3 { width: 80%;}
+
+    .container3 { padding: 50px 0;}
+
+    .form-control { width: 100%;}
+
+    .social {
+        top: 400px;
+        display: flex;
+        margin-left: -50px;
+    }
+
+    .footer-header { height: 800px;}
+
+    .text-center {
+        text-align: left!important;
+    }
+
+    .input-form { margin-right: 50px;}
+     
+
+    .footer-img { padding: 0 10px;}
+
+    .copyright { 
+        font-size: .85em;
+        padding-left: 45px!important;
+    }
 
  }
 
@@ -207,6 +330,11 @@ body {
     .bus-text4 {
         margin-right: -50px;
         margin-left: 50px;
+    }
+
+    .appstore { 
+        width: 170%;
+        margin-top: 3px;
     }
 
     .world-wide-section {
@@ -276,6 +404,14 @@ body {
         width: 100%;
     }
 
+    .appstore {
+        width: 130%;
+        margin-top: 3px;
+        margin-left: -20px;
+    }
+
+    .googleplay { margin-right: 150px;}
+
     .world-wide-section {
         height: 400px;
         margin-left: 0;
@@ -327,6 +463,12 @@ body {
         height: 80%;
         width: 100%;
     }
+
+    .download-header { font-size: 2em;}
+    .download-header2 { font-size: 1em;} 
+    .download-text {font-size: 1.3em; font-weight: 300;}
+
+    .appstore { width: 72%;}
        
     .world-wide-section {  height: 80%;}
     .world-wide { font-size: 1.5em;}
@@ -337,15 +479,15 @@ body {
     .footer-img { padding: 0 10px;}
     .footer-header { height: 70%;}
 
-    .download-text { 
-        font-size: 1.5em;
-        margin: 0 auto;
+    .bus-section {   
+        margin-left: 150px;
+        height: 600px;
     }
+    .bus-text3 { font-size: 1.4rem;}
+    .bus-text1, .bus-text1 { font-size: 2rem;}
 
-    .bus-section {   margin-left: 150px;}
-    .bus-text3 { font-size: 1.3rem;}
-        
-
- }
+    .image2 {  height: 80%;}
+       
+    }
 
 
