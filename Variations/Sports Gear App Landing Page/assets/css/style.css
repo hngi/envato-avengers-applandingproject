@@ -65,6 +65,7 @@
     }
     .logo a:hover{
         text-decoration: none;
+        color: #fff;
     }
     .menu {
     float: right;
@@ -72,7 +73,7 @@
     }
     .menu li {
     display: inline;
-    padding: 10px;
+    padding: 5px;
     }
     .menu .navbar-link {
     color: #F5F5F5;
@@ -80,8 +81,11 @@
     line-height: 27px;
     font-weight: normal;
     text-decoration: none;
-    padding: 10px 10px;
+    padding: 5px 10px;
     transition: all 0.4s;
+    }
+    .menu .navbar-link:hover{
+        color: #fff;
     }
     .menu .navbar-link.create{
     border : 0px solid #3D85CC;
@@ -98,12 +102,13 @@
     float: right;
     }
     .show-menu-btn i {
-    line-height: 60px;
+    line-height: 30px;
+    margin: 0;
     }
     .show-menu-btn,
     .hide-menu-btn {
     transition: all 0.4s;
-    font-size: 30px;
+    font-size: 20px;
     cursor: pointer;
     display: none;
     }
@@ -118,6 +123,11 @@
     border-radius: 20px;
     min-width: 240px;
     height: 400px;
+    
+    }
+    .ped:hover {
+        cursor: pointer;
+        box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
     }
     .ped h2 {
     color: #5FA6ED;
@@ -129,6 +139,10 @@
     color: #f5f5f5;
     min-width: 250px;
     height: 400px;
+    }
+    .pedy:hover{
+        cursor: pointer;
+        box-shadow: 0 1px 6px 0 #2DAAE1;
     }
     .pedy p {
     color: #f5f5f5;
@@ -150,6 +164,20 @@
         border-bottom: 1px solid #000000;
         padding-left: 0;
     }
+    #exampleFormControlInput1:hover{
+        border: 0;
+    }
+    #exampleFormControlInput1:focus {
+        border-radius: 1px;
+        border: 0 solid rgb(61, 133, 204);
+    }
+    #exampleFormControlTextarea1:hover{
+        border: 0;
+    }
+    #exampleFormControlTextarea1:focus{
+        border-radius: 2px;
+        border: 0 solid rgb(61, 133, 204);
+    }
     label{
         font-weight: 500;
         color: #292929;
@@ -163,7 +191,9 @@
     }
     .form_section {
         background-color: #F5F5F5;
+        box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
     }
+    
     .form_section h3 {
         font-weight: 500;
         font-size: 35px;
@@ -233,6 +263,7 @@
     min-width: 230px;
     height: 420px;
     }
+    
     .ped h2 {
     font-size: 26px;
     line-height: 34px;
@@ -263,15 +294,27 @@
     background-size: cover;
     min-height: 350px;
     color: #F5F5F5;
+    box-shadow: 0 1px 6px 0 #292929;
     }
 
     .bckgrd h3 {
+        font-weight: normal;
         font-size: 40px;
         line-height: 46px;
      }
      .bckgrd p {
+         font-weight: normal;
         font-size: 18px;
-        line-height: 27px;
+        line-height: 18px;
+        color: #f5f5f5;
+     }
+     .bckgrd p span {
+        font-size: 18px;
+        line-height: 18px;
+        color: #f5f5f5;
+     }
+     .mtt-extra{
+         margin-top: 8rem;
      }
     /* Footer */
     .footer ul li a {
@@ -314,7 +357,7 @@
     right: -100%;
     top: 0;
     text-align: center;
-    padding: 80px 0;
+    padding: 70px 0;
     line-height: normal;
     transition: 0.7s;
     opacity: 0.88;
@@ -394,14 +437,7 @@
     .cust {
     margin-top: 5rem !important;
     }
-    .bckgrd h3 {
-        font-size: 45px;
-        line-height: 51px;
-     }
-     .bckgrd p {
-        font-size: 24px;
-        line-height: 30px;
-     }
+    
     /* Footer */
     .footer ul li a {
         color: #f5f5f5;
@@ -446,8 +482,8 @@
             line-height: 42px;
             }
             p span {
-            font-weight: 100;
-            font-size: 65px;
+            font-weight: 50;
+            font-size: 75px;
             line-height: 85px;
             color: #f5f5f5; 
             }
