@@ -26,7 +26,7 @@
 
 <body>
 
-  <header class="pb-5">
+  <header class="pb-5 top-header">
     <!-- nav -->
     <nav class="navbar navbar-expand-md lovey-navbar-bg sticky-top">
       <a class="navbar-brand nav-brand-name font-weight-bold d-flex justify-content-between align-items-center"
@@ -50,7 +50,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto d-flex align-items-sm-center pr-sm-5">
           <li class="nav-item">
-            <a class="nav-link lovey-nav-link font-weight-bold"
+            <a class="nav-link lovey-nav-link active font-weight-bold"
               href="#home">HOME
               <span class="sr-only">(current)</span></a>
           </li>
@@ -117,8 +117,8 @@
       </div>
     </div>
   </header>
-  <main class="container-fluid">
-    <section id="about">
+  <main>
+    <section id="about" class="container-fluid">
       <div
         class="px-3 px-sm-1 d-flex flex-column align-items-center flex-md-row flex-md-nowrap justify-content-md-center align-items-md-center py-5">
         <div class="d-flex justify-content-center col-md-6 col-lg-5 col-xl-3">
@@ -148,9 +148,105 @@
         </div>
       </div>
     </section>
+    <section id="features" class="container-fluid">
+      <div
+        class="px-3 px-sm-5 d-flex flex-column align-items-center flex-md-row flex-md-nowrap justify-content-md-center align-items-md-center py-5">
+        <div class="about__text pt-4 pt-md-0 col-md-6 col-lg-5 col-xl-3">
+          <h2 class="mb-4">Features</h2>
+          <section class="">
+            <h3 class="h5 pt-2">Hints of the data of prospective partners</h3>
+            <p class="font-weight-light">We give you a sense of someone’s
+              personality.
+              You'll get to know potential dates through their
+              unique answers to prompts, and personal information
+              like religion, height, and politics.</p>
+          </section>
+          <section class="">
+            <h3 class="h5 pt-2">Login via social networks</h3>
+            <p class="font-weight-light">You don’t need to create a new account.
+              You can sign up with your
+              social media accounts. The process is fast and easy.</p>
+          </section>
+          <section class="">
+            <h3 class="h5 pt-2">Safe dating</h3>
+            <p class="font-weight-light">Our Photo Verification tool is in place
+              to give you confidence
+              that the person you’re talking to looks like their profile
+              picture. To ensure our members are who they say they are, we also
+              provide phone number and social media account verification</p>
+          </section>
+        </div>
+        <div class="d-flex justify-content-center col-md-6 col-lg-5 col-xl-3">
+          <img src="./assets/images/screenshot-02.png"
+            alt="a screenshot of the app"
+            class="img-fluid shadow-md features__img">
+        </div>
+      </div>
+    </section>
 
+    <section class="container-fluid" id="download">
+      <div class="d-flex flex-column align-items-center py-4">
+        <div class="img-wrapper pb-3">
+          <img src="./assets/images/screenshot-03.png"
+            alt="another screenshot of the app for download-section"
+            class="img-fluid">
+        </div>
+        <div
+          class="download-section d-flex flex-column justify-content-between align-items-center flex-md-row justify-content-md-center">
+          <button role="button"
+            class="btn download-card d-flex justify-content-between align-items-center">
+            <img class="img-fluid mx-2"
+              src="./assets/images/icons8-apple-app-store.svg" alt="">
+            <div
+              class="mx-2 d-flex flex-column justify-content-center align-items-start">
+              <p class="small font-weight-bold mb-1">GET IT ON</p>
+              <p class="mb-1 font-weight-bold">App Store</p>
+            </div>
+          </button>
+          <button role="button"
+            class="btn download-card d-flex justify-content-between align-items-center mt-3 mt-md-0 ml-md-3">
+            <img class="img-fluid mx-2"
+              src="./assets/images/icons8-google-play.svg" alt="">
+            <div
+              class="mx-2 d-flex flex-column justify-content-center align-items-start">
+              <p class="small font-weight-bold mb-1">GET IT ON</p>
+              <p class="mb-1 font-weight-bold">Play Store</p>
+            </div>
+          </button>
+        </div>
+      </div>
+    </section>
   </main>
-  <footer></footer>
+  <footer class="footer py-4">
+    <section class="container-fluid">
+      <header>
+        <div class="d-flex justify-content-center align-items-center">
+          <img src="./assets/images/icon-logo.png" alt="brand logo"
+            class="img-fluid brand-logo">
+          <h2 class="mb-0">LOVEY</h2>
+        </div>
+      </header>
+      <ul
+        class="footer-links d-flex flex-column align-items-center flex-sm-row flex-sm-nowrap justify-content-sm-center my-4 mx-2">
+        <li><a class="text-white mx-2" href="#home">Home</a></li>
+        <li><a class="text-white mx-2" href="#about">About</a></li>
+        <li><a class="text-white mx-2" href="#features">Contact us</a></li>
+      </ul>
+      <ul class="d-flex justify-content-center mx-2">
+        <li><a href="#"><img src="./assets/images/Vector-1.svg"
+              alt="facebok icon" class="img-fluid mx-1"></a>
+        </li>
+        <li><a href="#"><img src="./assets/images/Vector-2.svg"
+              alt="twitter icon" class="img-fluid mx-1"></a>
+        </li>
+        <li><a href="#"><img src="./assets/images/Group 10lovey.svg"
+              alt="instagram icon" class="img-fluid mx-1"></a></li>
+        <li><a href="#"><img src="./assets/images/Group.svg" alt="phone icon"
+              class="img-fluid mx-1"></a>
+        </li>
+      </ul>
+    </section>
+  </footer>
 
   <!-- All javascript at the bottom of the page for fast page load -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
