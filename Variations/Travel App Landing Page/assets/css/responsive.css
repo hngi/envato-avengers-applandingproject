@@ -1,0 +1,76 @@
+/* MEDIA QUERIES FOR 576PX AND ABOVE */
+/* Only use the breakpoint necessary to your project */
+@media all and (min-width: 576px) {
+}
+
+@media all and (min-width: 768px) {
+  .btn.landing-btn {
+    height: 49px;
+    border-radius: 0px;
+    font-size: 18px;
+  }
+  .btn.landing-btn * {
+    font-size: 18px;
+  }
+  .section-heading {
+    font-size: 48px;
+  }
+  .mega-text {
+    font-size: 64px;
+    line-height: 75px;
+  }
+  .work-group-heading,
+  .group-heading {
+    font-size: 24px;
+  }
+  .work-group-body,
+  .group-body {
+    font-size: 18px;
+  }
+  .work-text-group {
+    position: relative;
+  }
+  .work-text-group::after {
+    content: attr(data-number);
+    position: absolute;
+    color: #afafaf;
+    font-weight: 900;
+    font-size: 72px;
+  }
+  .work-text-group[data-right="true"]::after {
+    right: -30px;
+  }
+  .work-text-group[data-right="false"]::after {
+    left: -80px;
+  }
+  .f-md-18 {
+    font-size: 18px;
+  }
+  .f-md-20 {
+    font-size: 20px;
+  }
+  .f-md-24 {
+    font-size: 24px;
+  }
+  .f-md-48 {
+    font-size: 48px;
+  }
+  .f-md-64 {
+    font-size: 64px;
+  }
+  .footer-brand {
+    font-size: 52px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .navbar .nav-item > a.nav-link {
+    font-size: 18px;
+  }
+  .f-lg-18 {
+    font-size: 18px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+}
