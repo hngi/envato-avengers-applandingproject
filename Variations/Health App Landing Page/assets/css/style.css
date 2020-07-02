@@ -267,8 +267,16 @@ a {
 }
 
 .form_input:focus {
-  border-color: #222;
+  border-color: #222 !important;
   box-shadow: none;
+}
+
+.form-control:focus {
+  color: #222 !important;
+}
+
+.form_input:active {
+  border-color: #222;
 }
 
 .btn-form {
