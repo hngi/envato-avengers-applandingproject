@@ -9,12 +9,14 @@ body    {
 #nav-section    {
     background: #FFFFFF;
     width: 100vw;
+    
 }
 a  {
+    font-family: 'Poppins';
     color: black;
     font-weight: 700;
-    font-size: 1.4rem;
-    font-family: 'Poppins';
+    font-size: 25px;
+    
 }
 
 a:hover {
@@ -47,14 +49,19 @@ a:hover {
     margin-top: auto;
 }
 #jumbotron-paragraph    {
-    font-size: 1.2rem;
+    font-size: 30px;
     font-family: 'Raleway';
+    font-weight: 700;
+    margin: 1.4rem 0;
+    line-height: 35px;
 }
-i   {
-    font-size: 2.5rem;
-    margin-right: 2rem;
-    
+#icon   {
+    margin-right: 1rem;
 }
+#small-icon {
+    display: none;
+}
+
 #apple-icon {
     width: 269px;
     height: 65px;
@@ -65,14 +72,13 @@ i   {
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
-    line-height: 50px;
-    margin-left: -3.5rem;
-    margin-right: -2rem;
+    line-height: 60px;
+    margin-left: 0.2rem;
+    margin-right: 0.5rem;
     border: 1px solid #251297;
 }
 #playstore-icon  {
-    width: 269px;
-    height: 65px;
+    padding: 4px 47px;
     background: #251297;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 500px;
@@ -80,7 +86,7 @@ i   {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: bold;
-    line-height: 50px;
+    line-height: 60px;
     font-size: 20px;
 }
 #installation-heading   {
@@ -99,11 +105,15 @@ i   {
  #large-screen  {
      /* display: block; */
  }
-
+#installation-sub   {
+    font-size: 30px;
+    font-weight: 600;
+}
 #installation-paragraph {
     font-size: 25px;
     line-height: 29px;
     font-family: 'Raleway';
+    color: rgba(0, 0, 0, 0.5);;
 }
 #one-img    {
     height: 50%;
@@ -120,8 +130,12 @@ i   {
     color: rgba(0, 0, 0, 0.8);
     font-family: 'Poppins';
     }
+    #small-features-icon    {
+        display: none;
+    }
     #features-sub   {
         font-size: 24px;
+        line-height: 20px;
         font-weight: 700;
         font-family: 'Raleway';
     }
@@ -186,10 +200,12 @@ i   {
     font-size: 20px;
     font-family: 'Poppins';
 }
+
 #testimonies-section    {
     background: rgba(37, 18, 151, 0.2); 
     height: 45rem; 
-    width: 100%;
+    width: 100vw;
+    
 }
 #testimonies-heading    {
     font-size: 48px;
@@ -198,16 +214,16 @@ i   {
     font-family: 'Poppins';
 }
 #testimonies-name   {
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 40px;
     font-weight: 700;
-    font-family: 'Raleway';
+    font-family: 'Poppins';
 } 
 #testimonies-paragraph  {
-    font-size: 24px;
+    font-size: 25px;
     line-height: 40px;
     font-weight: 600;
-    font-family: 'Raleway';
+    font-family: 'Poppins';
+    color: rgba(0, 0, 0, 0.7);
 }
 #card   {
     border-radius: 1rem;
@@ -250,7 +266,7 @@ textarea    {
 }
 #contact-paragraph  {
     color: rgba(0, 0, 0, 0.5);
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
 }
 footer  {
@@ -271,6 +287,28 @@ footer  {
 /* Media Queries */
 
 /* Mobile */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2)  { 
+    #apple-icon {
+        width: 90px;
+        height: 45px;
+        border-radius: 100px;
+        font-size: 8px;
+        line-height: 20px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    #playstore-icon  {
+        width: 90px;
+        height: 45px;
+        border-radius: 100px;
+        font-size: 8px;
+        line-height: 20px;
+        padding: 0;
+    }    
+}
+
+
 @media screen and (max-width: 760px)    {
 #navbar-section   {
     width: 100vw;
@@ -284,6 +322,15 @@ a {
     font-size: 15px;
    
 }
+#icon   {
+    
+    display: none;
+}
+#small-icon  {
+ display: inline;
+ margin-right: 0.4rem;
+}
+
 
 #jumbotron-section  {
     /* background-image: url('images/stad.svg'); */
@@ -297,12 +344,12 @@ a {
     margin-top: auto;
 }
 #jumbotron-paragraph    {
-    font-size: 1.2rem;
+    font-size: 15px;
+    
+    margin: 0.4rem 0;
+    line-height: 15px;
 }
-i   {
-    font-size: 1rem;
-    margin-right: 1rem;
-}
+
 #apple-icon {
     width: 120px;
     height: 45px;
@@ -310,26 +357,55 @@ i   {
     font-size: 10px;
     line-height: 20px;
     margin-left: -2rem;
-    margin-right: -3rem;
+    margin-right: 1rem;
 }
 #playstore-icon  {
     width: 120px;
     height: 45px;
     border-radius: 100px;
-
-    
     font-size: 10px;
     line-height: 20px;
+    padding: 0;
 }
-
-#smaller-screen {
+#installation-heading   {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+#features   {
+    font-size: 30px;
+    line-height: 5px;
+}
+#small-features-icon    {
     display: block;
+}
+#large-features-icon    {
+    display: none;
+}
+#features-sub   {
+    font-size: 18px;
+}
+#features-paragraph {
+    font-size: 15px;
+
+}
+#sub-head   {
+    font-weight: 700;
+}
+#sub-paragraph  {
+    font-size: 15px;
+    text-align: center;
+    line-height: 21px;
+}
+#smaller-screen {
+    display: inline;
 }
 #large-screen  {
     display: none;
 }
 #download-heading   {
     font-size: 25px;
+    line-height: 10px;
 }
 #download-img   {
     display: none;
@@ -344,7 +420,7 @@ i   {
     margin-top: 0.2rem;
     }
 #download-icons {
-        margin-top: 0.1rem;
+        margin-top: -1.3rem;
     }
 #apple2 {
     width: 120px;
@@ -364,7 +440,7 @@ i   {
 }
 #testimonies-section    {
     background: rgba(37, 18, 151, 0.2);
-    height: 20rem; 
+    height: 24rem; 
     width: 100%;
     margin: 0;
 }
@@ -374,11 +450,11 @@ i   {
 
 #testimonies-name   {
     font-size: 18px;
-    line-height: 20px;
+    line-height: 60px;
     font-weight: 700
 } 
 #testimonies-paragraph  {
-    font-size: 13px;
+    font-size: 10px;
     line-height: 15px;
     margin-top: 1rem;
     
@@ -428,18 +504,18 @@ textarea    {
 }
 #contact-paragraph  {
     color: rgba(0, 0, 0, 0.5);
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 600;
 }
 footer  {
     background:  black;
 }
 .container  {
-    border-bottom: 1px solid #8A8A8A;
+    width: 80%;
 }
 #copy   {
     color: #8A8A8A;
-    font-size: 11px;
+    font-size: 10px;
 }
 }
 
@@ -457,15 +533,41 @@ footer  {
 #download-img   {
     display: none;
 }
+#icon   {
+    
+    display: none;
+}
+#sub-head   {
+    font-weight: 700;
+}
+#sub-paragraph  {
+    font-size: 15px;
+    text-align: center;
+    line-height: 21px;
+}
+#small-icon  {
+ display: inline;
+ margin-right: 0.4rem;
+}
+#small-features-icon    {
+    display: block;
+}
+#large-features-icon    {
+    display: none;
+}
+#features-paragraph {
+    line-height: 35px;
+
+}
+
 #apple2 {
     width: 180px;
     height: 70px;
     border-radius: 100px;
     font-size: 20px;
     line-height: 40px;
-    margin-left: 3rem;
-    /* margin-right: 1rem; */
-    margin: 0px auto;
+    margin-left: 5rem;
+    margin-right: -1rem;
 }
 #playstore2  {
     width: 180px;
@@ -479,4 +581,27 @@ i   {
     margin-right: 1rem;
     
 }
+#img-size   {
+    height: 70px;
+    width: 100px;
+    margin-left: 33%;
+  
+}
+}
+
+
+/* Ipad */
+@media only screen and (max-width: 1054px) and (min-width: 1400px)  {
+    #sub-head   {
+        font-weight: 700;
+       
+    }
+    #sub-paragraph  {
+        font-size: 15px;
+        text-align: center;
+        line-height: 21px;
+    }   
+    #img-size   {
+        height: 20px;
+    }
 }
