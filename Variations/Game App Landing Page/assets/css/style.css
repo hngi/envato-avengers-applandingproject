@@ -1,0 +1,579 @@
+/* ================================================= 
+   Base Elements Styles
+==================================================== */
+
+body {
+    font-family: '-apple-system', 'BlinkMacSystemFont', "Segoe UI", 'Roboto', Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* Navigation styles */
+
+.navbar-header
+{
+    display:block;
+    background-color: #29363b;
+}
+
+.nav-list {
+    background-color: rgba(41, 54, 59, 0.8);
+}
+
+.signup {
+    border: 3px solid #2ECEFF;
+    border-radius: 1rem;
+}
+
+.login {
+    background-color:#2ECEFF;
+    border-radius: 1rem;
+}
+
+/* Main Body Styles */
+
+.heading {
+    text-align: center;
+    background-image: url(../img/bg-img.png), url(../img/diagonal-bg-design-left.png);
+    background-position: center, 0% 40%;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, 60px 200px;
+}
+
+.features {
+    color: #f5f5f5;
+    background-color: #29363B;
+    box-sizing: border-box;
+}
+
+.feat-box {
+    text-align: center;
+    color: #373737;
+    padding: 0px 10px 2px;
+    width: 9rem;
+    background-color: #FFFFFF;
+    margin: 0.8rem auto;
+}
+
+.download {
+    background-color: #f5f5f5;
+    padding-bottom: 8.125rem;
+}
+
+.foot {
+    color: white;
+    background-color: #29363b;
+}
+
+/* ================================= 
+  Content Styles
+==================================== */
+
+/*Image Styles*/
+
+.brainy {
+    position: relative;
+    top: 3em;
+    width: 9.375rem;
+}
+
+.mobile1 {
+    width: 7.5rem;
+    height: 15.725rem;
+    z-index: 1;
+    position: relative;
+    top: 0em;
+    animation-name: mobile-1;
+    animation-duration: 3s;
+    animation-delay: 1s; 
+    animation-fill-mode: forwards;
+}
+  
+@keyframes mobile-1 {
+    from {right: 22em;}
+    to {right: -2em;}
+}
+
+.mobile2 {
+    width: 7.5rem;
+    height: 15.625rem;
+    position: relative;
+    top: 3em;
+    animation-name: mobile-2;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes mobile-2 {
+    from {right: -22em;}
+    to {right: 2em;}
+}
+
+.feat-img {
+    width: 7.5rem;
+    padding: 20px 10px 10px;
+}
+
+.download-img {
+    width: 16.875rem;
+}
+
+.download-link img {
+    width: 10.625rem;
+}
+
+.review-img {
+    width: 11.25rem;
+}
+
+/*Typography Styles*/
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.heading h3 {
+    text-align: center;
+    position: relative;
+    top: 1em;
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+.features h4 {
+    padding: 0.8rem 0.5rem;
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.37rem;
+    font-weight: bold;
+}
+
+.download-link p {
+    font-size: 0.875rem;
+    margin: 10px 10px 50px;
+}
+
+.foot p{
+    font-size: 0.69rem;
+}
+
+blockquote {
+    color: #434343;
+    font-size: 0.875rem;
+    position: relative;
+    margin: 0.5em;
+    padding: 0.5em 2em 0.5em 3em;
+}
+
+/*Icons, Forms and Input Styles*/
+
+blockquote:before {
+    font-family: Georgia, serif;
+    color: #698C9A;
+    position: relative;
+    font-size: 3.5em;
+    line-height: 1;
+    top: -0.1em;
+    left: -0.5em;
+    content: "\201C";
+}
+
+blockquote:after {
+    font-family: Georgia, serif;
+    color: #698C9A;
+    position: relative;
+    float:right;
+    font-size: 3.5em;
+    line-height: 1;
+    right: 0.9em;
+    bottom: -0.6em;
+    content: "\201D";
+}
+
+.icon-left {
+    padding: 20px 15px;
+    font-size: 1rem;
+    background-color: #698C9A;
+    border-radius: 6px 0px 0px 6px;
+    opacity: 1;
+    position: relative;
+    top: 0em;
+    right: 0.7em;
+}
+
+.icon-right {
+    padding: 20px 15px;
+    font-size: 1rem;
+    background-color: #698C9A;
+    border-radius: 0px 6px 6px 0px;
+    opacity: 1;
+    position: relative;
+    top: 0em;
+    right: -0.7em;
+}
+
+.email-text {
+    display: inline-block; 
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    width: 70%;
+    font-size: .75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 20px 0 0 20px;
+}
+
+.email-btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    color: #fff;
+    background-color: #2ECEFF;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: .75rem;
+    line-height: 1.5;
+    border-radius: 0 20px 20px 0;
+}
+
+.email {
+    padding: auto 0;
+}
+
+.foot a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {
+    .mobile1 {
+        top: 0.5rem;
+    }
+    
+    .mobile2 {
+        top: 3.5rem;
+    }
+    
+    .heading h3 {
+        top: 2.8rem;
+    }
+
+    .brainy {
+        top: 4.75em;
+        width: 9.75rem;
+    }
+    
+    .feat-box {
+        width: 10rem;
+        margin: 0.8rem auto;
+    }
+
+    blockquote:after {
+        right: 2.25em;
+    }
+
+    .foot .email-form {
+        width: 30rem;
+        margin: 0 auto;
+        position: static;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+    h4 {
+        font-size: 2.5rem;
+    }
+
+    .feat-box {
+        width: 10rem;
+    }
+
+    .features .row {
+        justify-content: space-around;
+    }
+    
+    .download-link img {
+        width: 15.5rem;
+    }
+
+    .download-img {
+        width: 20rem;
+        height: 27.625rem;
+    }
+
+    .download-link p {
+        text-align: justify;
+        width: 23rem;
+        font-size: 1.25rem;
+    }
+
+    .reviews h4 {
+        font-size: 2.5rem;
+    }
+
+    .icon-left {
+        right: 2.5rem;
+    }
+    
+    .icon-right {
+        right: -2.5rem;
+    }
+    
+
+    blockquote {
+        font-size: 1rem;
+        margin: 0.5em;
+    }
+
+    blockquote:after {
+        right: 4em;
+    }
+    
+    .foot p {
+        font-size: 1.25rem;
+    }
+    .foot .email-form {
+        right: -3rem;
+    }
+
+    .emial-form h5 {
+        text-align: center;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .main-nav {
+       background-color: #29363b;
+    }
+
+    .main-nav ul li {
+       padding: 20px 5px 10px;
+    }
+
+    .login {
+        background: transparent;
+        border: 3px solid #2eceff;
+        border-radius: 0.625rem;
+        margin-right: 5rem;
+    }
+   
+    .mobile1 {
+        width: 20.56rem;
+        height: 46rem;
+        z-index: 0;
+        top: 2rem;
+        right: -10rem;
+        animation: none;
+    }
+    
+    .mobile2 {
+        width: 20.56rem;
+        height: 46rem;
+        top: 6.5rem;
+        right: -6.5rem;
+        animation: none;
+    }
+
+    .brainy {
+        position: relative;
+        right: 20rem;
+        width: 17rem;
+        animation-name: brainyy;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        animation-timing-function: linear;
+    }
+
+    @keyframes brainyy {
+        0% {top: -45rem;}
+        50% {top: -70rem;}
+        100% {top: -45rem;}
+    }
+
+    .heading h3 {
+        font-size: 3.4rem;
+        position: relative;
+        top: -18rem;
+        right: 20rem;
+    }
+
+    .heading {
+        height: 76rem;
+       
+    }
+
+    .brief {
+        position: relative;
+        top: -24rem;
+    }
+
+    .brief h4 {
+        font-size: 2.5rem;
+        padding-bottom: 1.875rem;
+    }
+
+    .brief p {
+        font-size: 1.5rem;
+    }
+
+    .features h4 {
+        font-size: 2.5rem;
+    }
+
+    .feat-box {
+        box-sizing: border-box;
+        font-size: 1.5rem;
+        margin: 50px 8px;
+        padding: 1.25rem;
+        width: 12.75rem;
+        height: 14rem;
+    }
+
+    .feat-img {
+        width: 7rem;
+        padding: 1.75rem 0.625rem 0.625rem;
+    }
+    
+    .download h4 {
+        font-size: 2.5rem;
+    }
+
+    .download-img {
+        width: 24rem;
+        height: 31.625rem;
+        padding-top: 3rem;
+        margin-right: 4rem;
+    }
+
+    .download-link p {
+        text-align: justify;
+        width: 30rem;
+        font-size: 1.25rem;
+    }
+
+    .download-link img {
+        width: 22rem;
+        height: 7rem;
+    }
+
+    .reviews {
+        box-sizing: border-box;
+        padding: 30px 0px 70px;
+    }
+
+    .reviews .row {
+        margin: 1.875rem;
+    }
+
+    .reviews h4 {
+        font-size: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .review-img {
+        width: 12rem;
+    }
+
+    .review-col {
+        border-right: 1px solid black;
+    }
+
+    blockquote {
+        font-size: 16px;
+        width: 15rem;
+    }
+
+    blockquote:after {
+        right: -0.2em;
+        bottom: -0.6em;
+    }
+
+    .foot-signup,
+    .foot ul,
+    .foot h5,
+    .foot h4 {
+        text-align: justify;
+    }
+    
+    .foot h5,
+    .foot p {
+        font-size: 1.125rem;
+    }
+
+    .foot .email-form {
+        right: 1rem;
+    }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .mobile1 {
+        width: 23.75rem;
+        top: 2rem;
+        right: -16rem;
+        z-index: 0;
+    }
+    
+    .mobile2 {
+        width: 23.75rem;
+        top: 8rem;
+        right: -13rem;
+    }
+
+    .brainy {
+        position: relative;
+        top: -45rem;
+        right: 26rem;
+        width: 21.25rem;
+    }
+
+    .brief {
+        top: -30rem;
+    }
+
+    .heading h3 {
+        top: -12rem;
+        right: 26rem;
+    }
+
+    .download img {
+        width: 30.75rem;
+        margin-right: 7.25rem;
+    }
+
+    .download-link p {
+        width: 35rem;
+        font-size: 1.55rem;
+    }
+
+    .download-link img {
+        width: 25rem;
+    }
+}
