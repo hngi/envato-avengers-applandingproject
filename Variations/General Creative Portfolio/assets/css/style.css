@@ -1,4 +1,24 @@
+body {
+    color: #FFFFFF;
+}
+
+.custom-wrapper {
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+
 /* header */
+
+.hero header nav a {
+    color: #FFFFFF !important;
+}
+
+.overlay {
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.7;
+    /* padding-top: 45vh; */
+}
 
 header h1 {
     font-size: 50px;
@@ -6,4 +26,64 @@ header h1 {
 
 header h1 span {
     color: #4DC137;
+}
+
+
+/* main-hero */
+
+.hero {
+    background: url(../images/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero-intro {
+    padding-top: 10vh;
+    padding-bottom: 55vh;
+}
+
+.hero p {
+    font-size: 26px;
+    color: #4DC137;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.clients-section {
+    padding-top: 44px;
+    padding-bottom: 96px;
+}
+
+.clients-section .card img {
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+}
+
+.clients-section .card {
+    margin-bottom: 20px;
+    background: #E9E9E9;
+    border: none;
+}
+
+.clients-section h2 {
+    color: #1A191F;
+    text-align: center;
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: 2.5px;
+}
+
+.clients-section p {
+    color: #707070;
+    font-size: 25px;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding-bottom: 47px;
 }
