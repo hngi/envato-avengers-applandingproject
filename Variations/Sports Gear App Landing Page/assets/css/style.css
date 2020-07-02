@@ -2,19 +2,19 @@
 html{
     scroll-behavior: smooth;
 }
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.4;
+}
 .head{
     background-color: #2DAAE1;
     }
     h1, h2, h3, h4, h5, p {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    /* font-style: normal; */
     }
     h1 {
-    font-weight: bolder;
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 4rem;
     color: #fff;
     }
     .head a img {
@@ -32,21 +32,15 @@ html{
         color: #000000;
     }
     h2 {
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 46px;
+    font-size: 3rem;
     color: #000000;
     }
     p {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 1.5rem;
     color: #141414;
     }
     p span {
-    font-style: normal;
-    font-size: 30px;
-    line-height: 50px;
+    font-size: 3rem;
     color: #f5f5f5; 
     }
    
@@ -125,7 +119,7 @@ html{
     background-color: #EBEBEB;
     border-radius: 20px;
     min-width: 240px;
-    height: 400px;
+    height: 470px;
     
     }
     .ped:hover {
@@ -141,7 +135,7 @@ html{
     border-radius: 20px;
     color: #f5f5f5;
     min-width: 250px;
-    height: 400px;
+    height: 430px;
     }
     .pedy:hover{
         cursor: pointer;
@@ -215,20 +209,18 @@ html{
     }
     .footer ul li a {
     color: #f5f5f5;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 1.5rem;
     }
+    .footer li {
+        color: #f5f5f5;
+        font-size: 1.5rem;
+        }
     .footer h3 {
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 38px;
+    font-size: 2.5rem;
     }
     .footer p {
     color: #f5f5f5;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 1.5rem;
     }
     .footer ul li a img {
     width: 40px;
@@ -236,29 +228,6 @@ html{
     }
    
     @media (min-width: 768px) {
-    /* Header */
-    h1 {
-    font-weight: bold;
-    font-size: 70px;
-    line-height: 80px;
-    color: #f5f5f5;
-    }
-    h2 {
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 40px;
-    }
-    p {
-    font-style: normal;
-    font-size: 20px;
-    line-height: 30px;
-    }
-    p span {
-    font-style: normal;
-    font-size: 60px;
-    line-height: 70px;
-    color: #f5f5f5; 
-    }
     /* How it works $ App features */
     .ped {
     background-color: #EBEBEB;
@@ -266,20 +235,12 @@ html{
     min-width: 230px;
     height: 420px;
     }
-    
-    .ped h2 {
-    font-size: 26px;
-    line-height: 34px;
-    color: #2DAAE1;
-    }
     .ped p {
     font-size: 18px;
-    line-height: 27px;
     }
     /* Customer Review */
     .pedy {
     min-width: 320px;
-    height: 450px;
     }
     
    /* Form */
@@ -319,29 +280,6 @@ html{
      .mtt-extra{
          margin-top: 8rem;
      }
-    /* Footer */
-    .footer ul li a {
-    color: #f5f5f5;
-    font-weight: 500;
-    font-size: 23px;
-    line-height: 33px;
-    }
-    .footer li {
-    color: #f5f5f5;
-    font-weight: 500;
-    font-size: 23px;
-    line-height: 33px;
-    }
-    .footer h3 {
-    font-size: 40px;
-    line-height: 46px;
-    }
-    .footer p {
-    color: #f5f5f5;
-    font-weight: 500;
-    font-size: 23px;
-    line-height: 33px;
-    }
 }
     @media screen and (max-width: 992px) {
     .show-menu-btn,
@@ -385,180 +323,18 @@ html{
     }
     }
     @media (min-width: 992px) {
-    h1 {
-    font-weight: bold;
-    font-size: 70px;
-    line-height: 80px;
-    color: #f5f5f5;
-    }
-    p {
-    font-style: normal;
-    font-size: 25px;
-    line-height: 35px;
-    }
-    p span {
-    font-style: normal;
-    font-size: 60px;
-    line-height: 80px;
-    color: #f5f5f5; 
-    }
-    h2 {
-    font-weight: bold;
-    font-size: 35px;
-    line-height: 45px;
-    }
-    /* How it works $ App features */
-    .ped {
-    background-color: #EBEBEB;
-    border-radius: 20px;
-    min-width: 300px;
-    height: 400px;
-    }
-    .ped h2 {
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 35px;
-    color: #2DAAE1;
-    }
-    .ped p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-    }
-    /* Customer Review */
-    .pedy {
-    min-width: 320px;
-    height: 430px;
-    }
-    .pedy p {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 30px;
-    }
+
     .cust {
     margin-top: 5rem !important;
     }
     
-    /* Footer */
-    /* .footer ul li a {
-        color: #f5f5f5;
-        font-weight: 500;
-        font-size: 25px;
-        line-height: 33px;
-        }
-        .footer li {
-        color: #f5f5f5;
-        font-weight: 500;
-        font-size: 25px;
-        line-height: 33px;
-        }
-        .footer h3 {
-        font-size: 45px;
-        line-height: 51px;
-        }
-        .footer ul li a img {
-        width: 55px;
-        height: 55px;
-        }
-        .footer p {
-        color: #f5f5f5;
-        font-weight: 500;
-        font-size: 25px;
-        line-height: 33px;
-        }   */
-        #shift{
-        margin-left: 3rem;
-        } 
+    #shift{
+    margin-left: 3rem;
+    } 
     }
-    @media screen and (min-width: 1200px) {
-        /* h1 {
-            font-weight: bold;
-            font-size: 75px;
-            line-height: 85px;
-            color: #f5f5f5;
-            }
-            p {
-            font-style: normal;
-            font-size: 35px;
-            line-height: 42px;
-            }
-            p span {
-            font-weight: 50;
-            font-size: 75px;
-            line-height: 85px;
-            color: #f5f5f5; 
-            }
-            h2 {
-            font-weight: bolder;
-            font-size: 43px;
-            line-height: 51px;
-            } */
-            /* How it works $ App features */
-            /* .ped {
-            background-color: #EBEBEB;
-            border-radius: 20px;
-            min-width: 320px;
-            height: 450px;
-            }
-            .ped h2 {
-            font-weight: 700;
-            font-size: 35px;
-            line-height: 51px;
-            color: #5FA6ED;
-            }
-            .ped p {
-            font-style: normal;
-            font-weight: normal;
-            font-size: 23px;
-            line-height: 25px;
-            } */
-            /* Customer Review */
-            /* .pedy {
-            min-width: 350px;
-            height: 450px;
-            }
-            .pedy p {
-            font-style: normal;
-            font-weight: normal;
-            font-size: 29px;
-            line-height: 35px;
-            }
-            .cust {
-            margin-top: 5rem !important;
-            } */
-           
-            /* Footer */
-            /* .footer ul li a {
-            color: #f5f5f5;
-            font-weight: 500;
-            font-size: 25px;
-            line-height: 35px;
-            }
-            .footer li {
-            color: #f5f5f5;
-            font-weight: 500;
-            font-size: 25px;
-            line-height: 35px;
-            }
-            .footer h3 {
-            font-size: 45px;
-            line-height: 51px;
-            }
-            .footer ul li a img {
-            width: 55px;
-            height: 55px;
-            }
-            .footer p {
-            color: #f5f5f5;
-            font-weight: 500;
-            font-size: 25px;
-            line-height: 35px;
-            }  */
-            #shift{
-            margin-left: 16rem;
-            }
-    
+    @media screen and (min-width: 1200px) {    
+        #shift{
+        margin-left: 16rem;
+        }
     }
     
