@@ -87,3 +87,40 @@ header h1 span {
     letter-spacing: 1px;
     padding-bottom: 47px;
 }
+
+
+/* stats-section */
+
+.stats-section {
+    background: #1A191F;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.stats-section .card {
+    width: 301px;
+    height: 204px;
+    background: transparent;
+    border: #A7A5A5 1px solid;
+    text-align: center;
+    justify-content: center;
+}
+
+.stats-section h1 {
+    font-size: 60px;
+    color: #4DC137;
+    font-weight: bold;
+}
+
+.stats-section p {
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.stats-intro {
+    /* justify-content: center;
+     */
+    padding-top: 35px;
+}
