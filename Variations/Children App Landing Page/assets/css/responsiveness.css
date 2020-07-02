@@ -1,0 +1,92 @@
+@media all and (min-width: 0px) {
+}
+@media all and (max-width: 350px) {
+    .edu-buy-btn{
+        padding: 2px 5px!important;
+    
+    }
+}
+@media all and (max-width: 567px){
+    .header-container h1{
+        font-size: 32px;
+    }
+    .header-container p{
+        font-size: 16px;
+    }
+    .edu-buy-btn{
+        padding: 5px 20px!important;
+    
+        
+    }
+}
+@media all and (min-width: 560px) {
+}
+@media all and (min-width: 768px) {
+    /* NAVBAR STARTS  */
+.nav-logo{
+    max-width: 70%;
+}
+/* NAVBAR ENDS  */
+/* DOWNLOAD SECTION STARTS  */
+.download-row{
+    margin-top: 13%!important;
+}
+/* DOWNLOAD SECTION ENDS  */
+
+}
+@media all and (min-width: 992px) {
+    /* NAVBAR STARTS  */
+    .edu-navbar{
+        padding: 0!important;
+        position: fixed;
+        width: 100%;
+        z-index: 9999;
+    }
+    /* NAVBAR STARTS  */
+/* HEADER STARTS  */
+.header-background{
+    height: 100vh;
+}
+.header-row{
+    height: 80vh;
+}
+.header-col{
+    margin-top: 8%!important;
+}
+.feature-h2{
+    margin-left: -2%;
+}
+/* HEADER ENDS  */
+/* FEATURES STARTS  */
+.mobile-feature{
+    display: none!important;
+}
+.desktop-features{
+    display: flex!important;
+}
+/* FEATURES ENDS  */
+/* REVIEWS SECTION STARTS */
+.review-image{
+    display:flex!important;
+}
+.reviews-row-p{
+    margin-top: 10%!important;
+    font-size: 20px;
+}
+/* REVIEWS SECTION ENDS */
+/* FOOTER STARTS  */
+.desktop-footer-logo{
+    display: block!important;
+}
+.mobile-footer{
+    display: none!important;
+}
+/* FOOTER ENDS  */
+}
+@media all and (min-width: 1200px) {
+    .header-col{
+        margin-top: 15%!important;
+    }
+}
+@media all and (min-width: 1600px) {
+}
