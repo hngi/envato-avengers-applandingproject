@@ -4,7 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -35,11 +35,14 @@ body {
 
 
 .logo-style {
- color: #1947E5;
- background-color: #C4C4C4;
- padding: 2px 25px;
- border-radius: 3px;
- opacity: 0.8;
+  color: #1947E5;
+  background-color: #fff;
+  padding:0;
+  border-radius: 0px;
+  opacity: 1;
+  font-size: 2.1875rem;
+  font-family: "Montserrat";
+  font-weight: 900 !important;
 }
 
 .navbar li a.nav-link {
@@ -60,9 +63,23 @@ p.dont-show {
  line-height: 35px;
 }
 
+.adjust-font-size{
+  font-family: "Montserrat";
+  font-size: 50px;
+}
+
+.change-font-family {
+  font-family: "Gilroy";
+}
+
 .p1 span {
  color: #1947E5;
+ font-family: "Montserrat";
+  font-size: 50px;
  }
+
+
+ /* SHOWCASE AREA */
 
  #showcase {
   padding-left: 3rem;
@@ -89,12 +106,12 @@ p.dont-show {
 
 
 
-
+/* BLUEISH BACKGROUND */
 
 .skewed-bg{
   background: #466BEB;
-  -webkit-transform: skew(0deg, -15deg);
-  transform: skew(0deg, -15deg);
+  -webkit-transform: skew(0deg, 0deg);
+  transform: skew(0deg, 0deg);
   margin-top: -90px;
 }
 .skewed-bg .contained{
@@ -107,20 +124,20 @@ p.dont-show {
 
 .skewed-bg-2{
   background: #F96D45;
-  -webkit-transform: skew(0deg, -15deg);
-  transform: skew(0deg, -15deg);
+  -webkit-transform: skew(0deg, 0deg);
+  transform: skew(0deg, 0deg);
   margin-top: -90px;
 }
 .skewed-bg-2 .contained{
-  -webkit-transform: skew(0deg, 20deg);
-  transform: skew(0deg, 20deg);
+  -webkit-transform: skew(0deg, 0deg);
+  transform: skew(0deg, 0deg);
   padding: 0px;
   color: #fff;
 }
 
 
 
-
+/* OTHER BACKGROUNDS */
 .services-items {
   margin: 80px 0;
   position: relative;
@@ -165,6 +182,9 @@ p.dont-show {
   border-bottom: 1px solid #fc4e17 !important;
 }
 
+
+
+/* VIDEO SECTION */
 .video-section {
   margin-top: 200px;
 }
@@ -181,8 +201,13 @@ p.dont-show {
     color: #1947E5;
     }
 
+    video {
+      width: 100%;
+      height: 100%;
+    }
 
 
+    /* COLLAPSIBLE ACCORDION */
     .accordion-section .panel-default > .panel-heading {
       border: 0;
 
@@ -250,6 +275,7 @@ p.dont-show {
 
 
 
+
 .footer .shop-go {
   font-weight: 800;
   font-size: 30px;
@@ -284,6 +310,10 @@ p.dont-show {
   font-weight: normal !important;
   font-size: 1rem !important;
   
+}
+
+.my-font-awesome{
+  padding-right: 3px;
 }
 
 
@@ -373,7 +403,15 @@ p.dont-show {
 }
 
 
-/* @media only screen and (min-width: 1200px) { ... }*/
+@media only screen and (min-width: 1200px) { 
+  .logo-style {
+    color: #1947E5;
+    background-color: #fff;
+    padding-left:25px;
+    border-radius: 0px;
+    opacity: 1;
+  }
+ }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   body {
@@ -386,6 +424,16 @@ p.dont-show {
 
     background-size: 100%;
   }
+
+  .logo-style {
+    color: #1947E5;
+    background-color: #fff;
+    padding-left:25px;
+    border-radius: 0px;
+    opacity: 1;
+  }
+
+
  }
 
  @media only screen and (max-width: 992px) {
@@ -412,7 +460,11 @@ p.dont-show {
       padding:0;
       border-radius: 0px;
       opacity: 1;
+      font-size: 20px;
      }
+
+
+   
  }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -432,6 +484,14 @@ p.dont-show {
     line-height: 35px;
     margin-top: 70px;
     padding-left: 0.5rem;
+  }
+
+  .logo-style {
+    color: #1947E5;
+    background-color: #fff;
+    padding-left:35px;
+    border-radius: 0px;
+    opacity: 1;
   }
  }
 
@@ -489,6 +549,14 @@ p.dont-show {
     text-align: center;
     padding-top: 50px;
     color: #fff
+  }
+
+  .logo-style {
+    color: #1947E5;
+    background-color: #fff;
+    padding-left:30px;
+    border-radius: 0px;
+    opacity: 1;
   }
  }
 
@@ -720,3 +788,31 @@ p.dont-show {
 }
 
 }
+
+
+@media only screen and (max-width: 767px) {
+
+  .footer {
+    text-align: center;
+      }
+
+      .video-section, .video-section-2, .middle-text {
+        text-align: center !important;
+      }
+  
+  }
+
+
+
+@media only screen and (min-width: 756px)  and (max-width: 1077px) {
+
+  .skewed-bg{
+    background: #466BEB;
+    -webkit-transform: skew(0deg, 0deg);
+    transform: skew(0deg, 0deg);
+    margin-top: 0px;
+  }
+  
+  }
+
+
