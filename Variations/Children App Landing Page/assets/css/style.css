@@ -35,7 +35,7 @@ body{
 }
 .header-background{
     background-color: #bcf9ff;
-    height: 85vh;
+    /* height: 85vh; */
 }
 .header-row{
     background-image: url(../images/edu-bg.png);
@@ -45,10 +45,14 @@ body{
     
 }
 .header-col{
-    margin-top: 15%!important;
+    margin-top: 7%!important;
 }
 .header-col button{
     margin-top: 5%!important;
+}
+.header-kids{
+    max-width: 40%;
+    animation: bounce 2s infinite;
 }
 .desktop-features{
     display: none!important;
@@ -81,6 +85,17 @@ body{
     display:none!important;
     animation: bounce  2s;
     animation-iteration-count: infinite;
+}
+#desktop-review-cards{
+    display: none;
+}
+.card{
+    background-color: #003460;
+    color: white;
+    box-shadow: 0px 5px 15px 0px rgba(21,28,33,1);
+}
+.carousel-item{
+    box-shadow: 0px 5px 15px 0px rgba(21,28,33,1);   
 }
 /* REVIEWS SECTION ENDS */
 /* DOWNLOAD SECTION STARTS  */
