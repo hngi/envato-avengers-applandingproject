@@ -1,0 +1,269 @@
+/************************************************************************************
+   Please Do Not Touch My Codes Without Permmision! 
+        Dont Spoil My Work Please
+            ************ Author ***********
+
+                github : augustBemsen
+                slack : august
+                email : danireptor7@gmail.com
+            
+            ************ CodeBoy **********
+       You can borrow, copy and paste is not a crime! 
+   But do not ulter! Read access only! I am warning you
+************************************************************************************/
+/* General Variables */
+:root {
+    --body-color-1: #ffffff;
+    --btn-color: #5BAFCA;
+    ;
+    ;
+    --body-color-2: #5BA5CA;
+    --text-color-1: rgba(0, 0, 0, 0.5);
+    --text-color-2: #fff;
+    --heading-colors: rgba(0, 0, 0, 0.74);
+    --shadows: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+.heading {
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+
+.sub-heading {
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/************************** 
+      Header Sections
+**************************/
+/* Nav bar */
+nav {
+    background: var(--body-color-1);
+    width: 100%;
+    /* height: 15vh; */
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.nav-item {
+    margin-right: 1.8rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    color: var(--text-color-1);
+    font-weight: 600;
+}
+
+.download-btn {
+    background-color: var(--btn-color);
+    border-radius: 30rem;
+    padding: 0.5rem 2rem;
+    color: var(--text-color-2);
+    box-shadow: var(--shadows);
+
+}
+
+/* Hero section */
+.hero {
+    background: var(--body-color-2);
+    width: 100%;
+    height: 75vh;
+}
+
+.hero-img img {
+    width: 400px;
+}
+
+.hero-content {
+    width: 70%;
+    text-align: left;
+    color: var(--text-color-2);
+}
+
+.hero-content h3 {
+    width: 50%;
+}
+
+/************************** 
+      How It Works
+**************************/
+#products {
+    text-align: center;
+    width: 70%;
+    margin: 5% auto;
+    position: relative;
+}
+
+.product-heading {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.product-des {
+    text-align: left;
+    margin-top: 7rem !important;
+}
+
+.product-text {
+    width: 70%;
+    font-size: 1.05rem;
+}
+
+.product-img {
+    width: 350px;
+}
+
+.product-img1 {
+    width: 200px;
+}
+
+.product-img2 {
+    width: 250px;
+}
+
+.img-hiden {
+    position: absolute;
+    right: 10%;
+    top: 25%;
+    width: 70px;
+}
+
+.img-hiden1 {
+    position: relative;
+    right: 20%;
+    width: 70px;
+    top: -300;
+    bottom: 96.391;
+    bottom: 96px;
+}
+
+/************************** 
+      Download Sections
+**************************/
+
+#download {
+    text-align: center;
+    position: relative;
+    margin-top: 2rem;
+}
+
+.download-content {
+    width: 70%;
+    margin: 5% auto
+}
+
+.download-heading {
+    font-size: 1.2rem;
+    /* font-weight: bold; */
+}
+
+/************************** 
+      Testimony Sections
+**************************/
+#testimony {
+    background: var(--body-color-2);
+    height: 70vh;
+}
+
+.card-img {
+    width: 100px;
+    margin: 1rem auto;
+}
+
+.test-card {
+    padding: 0;
+    border-radius: 1rem;
+}
+
+.test-icon {
+    color: var(--btn-color);
+    font-size: 2.2rem;
+}
+
+.test-head {
+    padding: 2rem 0;
+}
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(33.333%);
+    }
+
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+    transform: translateX(0);
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 50px;
+    height: 50px;
+}
+
+/************************** 
+      Contact Sections
+**************************/
+#contact {
+    text-align: center;
+    margin-top: 2rem auto;
+}
+
+.contact-form {
+    width: 30%;
+    margin: 2rem auto;
+}
+
+input, textarea {
+    border: 0.09rem solid var(--text-color-1) !important;
+}
+.contact-btn {
+    background-color: var(--btn-color);
+    border-radius: 30rem;
+    padding: 0.5rem 7.9rem;
+    color: var(--text-color-2);
+    box-shadow: var(--shadows);
+
+}
+.contact-cta {
+    width: 35%;
+    margin: 1.5rem auto;
+}
+
+.cta-icon {
+    color: var(--btn-color);
+}
+
+.spacer-div {
+    width: 100%;
+    height: 1rem;
+    background: var(--body-color-2);
+}
