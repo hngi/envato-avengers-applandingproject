@@ -1,5 +1,6 @@
 body {
     color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .custom-wrapper {
@@ -123,4 +124,53 @@ header h1 span {
     /* justify-content: center;
      */
     padding-top: 35px;
+}
+
+
+/* testimonials sections */
+
+.testim-section {
+    color: #707070;
+    padding-top: 59px;
+    padding-bottom: 129px;
+}
+
+.testim-section p {
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    /* font-weight: ; */
+}
+
+.testim-section .section-heading h2 {
+    color: #1A191F;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 2.5px;
+    line-height: 61px;
+}
+
+.testim-section .card {
+    border: none;
+}
+
+.testim-section .section-heading p {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 30px;
+    padding-bottom: 63px;
+}
+
+.testim-section img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.card-label h5 {
+    margin-bottom: 0;
+    font-size: 28px;
+    color: #1A191F;
+    font-weight: bold;
 }
