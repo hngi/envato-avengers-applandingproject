@@ -73,10 +73,7 @@ a {
 .all-btn {
   border-radius: 15px;
   color: #FFFFFF;
-
   margin-top: 5%;
-
-
 }
 
 .header-btn {
@@ -93,10 +90,14 @@ a {
 
 }
 
+.header-second-btn:hover {
+  background: #fff;
+  color: #FF9700 !important;
+}
+
 .all-btn:hover {
-  background: #cf9f58;
-  border: 3px solid #cf9f58;
   color: #fff;
+  opacity: 0.8;
 }
 
 /* OVERVIEW SECTION */
@@ -127,7 +128,6 @@ a {
   margin-bottom: 10%;
 }
 
-
 /* FEATURES SECTION */
 .feature-section {
   background: #F0F8F6;
@@ -144,10 +144,6 @@ a {
 
 .icon-p {
   font-size: 0.875rem;
-}
-
-.middle-img {
-  display: none;
 }
 
 /* SCREENSHOT SECTION */
@@ -189,7 +185,6 @@ a {
 
 .user-details {
   text-align: center;
-
 }
 
 .review-text {
@@ -267,12 +262,12 @@ a {
 }
 
 .form_input {
-  border: 3px solid #BEBCBC;
+  border: 1px solid #222;
   border-radius: 5px;
 }
 
 .form_input:focus {
-  border-color: #BEBCBC;
+  border-color: #222;
   box-shadow: none;
 }
 
@@ -296,23 +291,21 @@ textarea.form_input {
   color: #BEBCBC;
 }
 
-/* SUPPORT */
-.contact-socials {
-  background: linear-gradient(156.98deg, #072B77 26.34%, #265ED7 113.59%), #A4DAD2;
-}
-
-.social-p {
+/* NEWSLETTER*/
+.sub-btn {
+  background: #FF9700;
   color: #fff;
-  font-size: 0.875rem;
+  width: 38%;
 }
 
-.social-icon {
-  width: 10%;
+.sub-link {
+  text-align: center;
+
 }
 
-.addy-p {
-  width: 80%;
-  margin: 0 auto;
+.sub-btn:focus {
+  outline: none;
+  box-shadow: none !important;
 }
 
 /* FOOTER SECTION */
@@ -341,22 +334,17 @@ hr {
   justify-content: center;
 }
 
+.contactus {
+  text-align: center;
+  margin: 0 auto;
+}
+
 .copy-p {
   color: #fff;
   font-size: 0.775rem;
   text-align: center;
 }
 
-.foot-link {
-  font-size: 0.775rem;
-  color: #fff;
-  transition: all .3s ease;
-}
-
-.foot-link:hover {
-  color: #FF9700;
-  text-decoration: none;
-}
 
 .foot-title {
   color: #FFFFFF;
@@ -365,14 +353,8 @@ hr {
 
 .footer-text {
   color: #FFFFFF;
-  font-size: 0.875rem;
+  font-size: 0.775rem;
   font-weight: 100;
   width: 80%;
   margin: 0 auto;
-}
-
-.footer-btn {
-  background: #FF9700;
-  color: #fff;
-  width: 70%;
 }

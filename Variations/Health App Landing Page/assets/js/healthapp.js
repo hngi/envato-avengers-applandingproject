@@ -7,3 +7,4 @@ window.addEventListener("scroll", () => {
     topScroll.classList.remove("activescroll");
   }
 });
+$(function() { AOS.init({ offset: 300, duration:1000, easing:"ease-out-quad", once:0 });  window.addEventListener('load', AOS.refresh);});
