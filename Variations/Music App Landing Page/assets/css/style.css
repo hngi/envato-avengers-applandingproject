@@ -242,15 +242,18 @@ li{
 /* ------------- s6_subscription -----------*/
            .subscription_grid{
                display: grid;
-               grid-template-columns: repeat(2, 1fr);
+               grid-template-columns: repeat(3, 1fr);
                grid-template-rows: repeat(1, auto);
-               grid-template-areas: "sub_left sub_right"
+               grid-template-areas: "sub_left sub_left sub_right"
+                                    "sub_left sub_left sub_right"
            }
            .sub_left{
                grid-area: sub_left;
+               grid-area: 
            }
            .sub_right{
                grid-area: sub_right;
+               grid-area:
            }
            
 
@@ -262,6 +265,22 @@ li{
            .subscription{
                background-color: #DB1DA8;
            }
+@media (max-width: 992px){
+    .subscription_grid{
+               grid-template-areas: "sub_left sub_left sub_left"
+                                    "sub_right sub_right sub_right"
+           }
+     .sub_left{
+               grid-area: sub_left;
+               grid-column: 1/3;
+           }
+    .sub_right{
+               grid-area: sub_right;
+                grid-column: 1/3;
+           }
+    
+}
+
 
 /* ------------- s7_contact_us -----------*/
            .contact_us_grid{
