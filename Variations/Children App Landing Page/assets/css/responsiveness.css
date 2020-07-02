@@ -58,6 +58,7 @@
         position: fixed;
         width: 100%;
         z-index: 9999;
+        box-shadow: 0px 1px 10px 0px rgba(0,52,96,1);
     }
     /* NAVBAR STARTS  */
 /* HEADER STARTS  */
