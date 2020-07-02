@@ -5,6 +5,10 @@
         padding: 2px 5px!important;
     
     }
+    .abc{
+        max-width: 80%!important;
+        margin-top: -5%!important;
+    }
 }
 @media all and (max-width: 567px){
     .header-container h1{
@@ -16,7 +20,7 @@
     .edu-buy-btn{
         padding: 5px 20px!important;
     
-        
+        font-size: 0.8rem;
     }
 }
 @media all and (min-width: 560px) {
@@ -27,9 +31,22 @@
     max-width: 70%;
 }
 /* NAVBAR ENDS  */
+.header-row{
+    margin-top: -3%!important;
+}
+.header-col button{
+    margin-top: 1%!important;
+}
+.header-col h1{
+ font-size: 1.5rem;
+}
 /* DOWNLOAD SECTION STARTS  */
 .download-row{
     margin-top: 13%!important;
+}
+.abc{
+    max-width: 40%!important;
+    margin-top: -40%!important;
 }
 /* DOWNLOAD SECTION ENDS  */
 
@@ -51,8 +68,12 @@
     height: 80vh;
 }
 .header-col{
-    margin-top: 8%!important;
+    margin-top: 14%!important;
+
 }
+.header-col h1{
+    font-size: 2.5rem;
+   }
 .feature-h2{
     margin-left: -2%;
 }
@@ -85,8 +106,16 @@
 }
 @media all and (min-width: 1200px) {
     .header-col{
-        margin-top: 15%!important;
+        margin-top: 18%!important;
+    }
+    .abc{
+        max-width: 35%!important;
+        margin-top: -35%!important;
     }
 }
-@media all and (min-width: 1600px) {
+@media all and (min-width: 1400px) {
+    .header-col{
+        margin-top: 20%!important;
+    
+    }
 }
