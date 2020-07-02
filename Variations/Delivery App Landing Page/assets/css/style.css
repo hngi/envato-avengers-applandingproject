@@ -1,0 +1,392 @@
+/***
+header-bg: This gives the header a backgound color of grey #d8dcdf;
+**/
+.divider{
+	display: inline-block;
+}
+
+.logo{
+	border-right: 3px solid black;
+  padding-right: 2em;
+}
+
+.divider-left, .divider-right{
+	content: "";
+	width: 30px;
+	height: 3.5px;
+	background: #000000;
+	display: inline-block;
+	position: absolute;
+}
+.divider-left{
+	top: 19px;
+  left: 1px;
+}
+.divider-right{
+	top: 19px;
+  right: 1px;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px){ 
+	.divider{
+		font-size: 1.5em
+	}
+	.divider-left{
+		top: 15px;
+	  left: 1px;
+	}
+	.divider-right{
+		top: 15px;
+	  right: 1px;
+	}
+}
+
+@media only screen and  (max-width: 768px){ 
+	.logo{
+		border-right: none;
+	  padding-right: 2em;
+	}
+	.divider{
+		font-size: 1.1em
+	}
+	.divider-left{
+		top: 11px;
+	  left: -5px;
+	}
+	.divider-right{
+		top: 11px;
+	  right: -5px;
+	}
+}
+
+.header-bg{
+  	background: #ffff;
+}
+.header-bg li a{
+	color: #2f305c!important;
+	font-weight: 600;
+}
+.banner-mobile{
+	background-image: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner-mobile-transparent{
+	background-color: rgba(0,0,0, 0.6);
+	min-height: 400px;
+	border-radius: 8px;
+	padding-top: 18em;
+	padding-bottom: 10em;
+	color:#ffff;
+
+}
+
+.banner-desktop-image{
+	background-image: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 400px;
+}
+.banner-desktop-bg{
+	padding-top: 15em;
+	padding-bottom: 15em;
+	background-color: rgba(0,0,0, 0.6);
+	/*background-color: #ffff!important;*/
+	font-family: Open Sans;
+}
+.no-border{
+	border: 0;
+}
+
+.feature-card{
+	border: 1px solid #2ebec7;
+	border-radius: 0 0 16px 16px;
+	max-height: 200px
+}
+
+.section-download{
+	background: #f5f9ff;
+}
+
+.footer-link li a{
+	padding: 0!important;
+	color: #2f305c!important;
+}
+.bolded-text{
+	font-weight: 700;
+}
+
+.custom-btn{
+	background: #ffae9e;
+	width: 12em;
+	border: 1px solid #ffae9e;
+	color: #2f305c!important;
+	font-weight: bold;
+}
+
+.custom-input{
+	background: #e5e5e5;
+}
+
+.grey-bg{
+	background: #d8dcdf;
+}
+
+.custom-card{
+	/*width: 20em;*/
+	/*border-radius: 2em;*/
+	/*height: 150px;*/
+	box-shadow: -1px 4px 0.8em grey;
+}
+
+.custom-card-1{
+	left: 35.6em;
+	top: 10em;
+	border-radius: 0 1em 1em 0;
+}
+
+.custom-card-img1{
+	background-image: url("../images/truck1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.custom-card-1 img, .custom-card-3 img{
+	border-radius: 0 1em 1em 0;
+}
+
+.custom-card-2{
+	right: 35.6em;
+	top: 25em;
+	border-radius: 1em 0 0 1em;
+}
+.custom-card-2 img{
+	border-radius: 1em 0 0 1em;
+}
+
+.custom-card-img2{
+	background-image: url("../images/truck2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.custom-card-3{
+	left: 35.6em;
+	top: 40em;
+	border-radius: 0 1em 1em 0;
+}
+
+.custom-card-img3{
+	background-image: url("../images/truck3.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/*styling for Tablet*/
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+	.heading{
+		font-size: 1em;
+	}
+
+  .grey-bg{
+		background: #d8dcdf;
+  }
+
+  .banner-desktop-image{
+		background-image: url("../images/bg.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		min-height: 400px;
+  }
+  .banner-desktop-bg{
+  	padding-top: 15em;
+  	padding-bottom: 15em;
+  	background-color: rgba(0,0,0, 0.6);
+  	/*background-color: #ffff!important;*/
+  	font-family: Open Sans;
+  }
+
+  .feature-card{
+  	font-size: 0.5em;
+  	min-height: 160px
+  }
+
+
+ 
+}
+
+@media only screen and (min-width: 768px) {
+	.phone{
+		width: 50%;
+	}
+	.custom-card{
+		/*width: 20em;*/
+		/*border-radius: 2em;*/
+		/*height: 150px;*/
+		box-shadow: -1px 4px 0.8em grey;
+		/*font-size: 0.6em;*/
+	}
+
+	.custom-card-1{
+		left: 22.6em;
+		top: 10em;
+		border-radius: 0 0.3em 0.3em 0;
+	}
+
+	.custom-card-1 img, .custom-card-3 img{
+		border-radius: 0 1em 1em 0;
+	}
+
+	.custom-card-2{
+		right: 22.6em;
+		top: 19em;
+		border-radius: 1em 0 0 1em;
+	}
+	.custom-card-2 img{
+		border-radius: 1em 0 0 1em;
+	}
+
+	.custom-card-3{
+		left: 22.6em;
+		top: 31em;
+		border-radius: 0 0.3em 0.3em 0;
+	}
+}
+
+
+
+
+
+
+/*styling for Desktop*/
+@media only screen and (min-width: 992px) {
+  /* For mobile phones: */
+ .feature-card{
+ 	font-size: 1.2em;
+ }
+
+ .custom-card{
+ 	/*width: 20em;*/
+ 	/*border-radius: 2em;*/
+ 	/*height: 150px;*/
+ 	box-shadow: -1px 4px 0.8em grey;
+ }
+
+ .custom-card-1{
+ 	left: 35.6em;
+ 	top: 10em;
+ 	border-radius: 0 1em 1em 0;
+ }
+
+ .custom-card-img1{
+ 	background-image: url("../images/truck1.png");
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ }
+
+ .custom-card-1 img, .custom-card-3 img{
+ 	border-radius: 0 1em 1em 0;
+ }
+
+ .custom-card-2{
+ 	right: 35.6em;
+ 	top: 25em;
+ 	border-radius: 1em 0 0 1em;
+ }
+ .custom-card-2 img{
+ 	border-radius: 1em 0 0 1em;
+ }
+
+ .custom-card-img2{
+ 	background-image: url("../images/truck2.png");
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ }
+
+ .custom-card-3{
+ 	left: 35.6em;
+ 	top: 40em;
+ 	border-radius: 0 1em 1em 0;
+ }
+
+ .custom-card-img3{
+ 	background-image: url("../images/truck3.png");
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ }
+
+
+}
+
+.custom-container{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+
+.item{
+	display: flex;
+	flex-direction: column;
+	/*padding: 20px;
+	margin: 20px;
+	width: 143px;
+	height: 143px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  border: 2px solid #eaefee;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px grey;*/
+}
+
+.item h1{
+	font-size: 4.8em;
+	font-weight: 800;
+	color: #d8dcdf
+}
+
+.sub-item{
+		padding: 20px;
+		margin: 20px;
+		width: 251px;
+		height: 251px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	  border: 2px solid #eaefee;
+	  border-radius: 10px;
+	  /*box-shadow: 1px 1px 8px grey;*/
+	  background: #ffff;
+}
+
+.sub-item p{
+	font-size: 1.7em;
+
+}
+
+.custom-bg-section{
+	background-color: #fffbfa;
+}
+
+.custom-heading{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+.divider{
+	content: "";
+	width: 30px;
+	height: 3.5px;
+	background: #000000;
+	/*align-items: center;*/
+	/*display: inline-block;*/
+	/*position: absolute;*/
+}
