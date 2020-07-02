@@ -6,6 +6,8 @@ body {
     overflow-x: hidden;
 }
 
+.logo1 { display: none;}
+
 #active-home {
     color: #e90505;
 }
@@ -52,18 +54,34 @@ body {
     background-color:#e90505;
 }
 
+.welcome-header, 
+.welcome-text {  
+    animation-name: slideInLeft;
+    animation-duration: 2s;
+}
+
 .mockup1 { display: none;}
+.mockup2 { 
+    justify-content: center;
+}
 .iphone-mockup {
     animation-name: fadeInUp;
     animation-duration: 2s;
 }
 
 .vector-section { height: 40vh;}
+.vector-container { 
+    animation-name: slideInLeft;
+    animation-duration: 2s;
+}
 
 .vector-text { color: #A5A5A5; }
 
 .bus1 { display: none;}
-.bus2 { margin-top: -550px; }
+.bus2 { 
+    margin-top: -550px;
+    min-width: 100%;
+ }
 .bus-text1 { z-index: 3;}
 .bus-text2 { 
     color: #e90505;
@@ -71,9 +89,8 @@ body {
 }
 .bus-text3 {
     position: relative; 
-    z-index: 3;
+    z-index: 9999;
     font-size: .95rem;
-    font-weight: 300;
 }
 
 
@@ -86,9 +103,14 @@ body {
 }
 
 .image1 { 
-    top: -420px;
+    top: -432px;
     left: 70px;
+    width: 82%;
 }
+
+.container3 { height: 350px;}
+
+.download-text { display: none;}
 
 .appstore {
     margin-left: -135px;
@@ -113,25 +135,24 @@ body {
     margin-left: 20px;
 }
    
-.world-wide-list  {
-    list-style: none;
-    color: #e90505;
-}
+.world-wide-list { display:none;}
+
 
  .world-wide-list li {  list-style-type: square; }
    
 .image3 { 
     height: 100%;
-    width: 70%;
+    width: 90%;
     margin-top: 30px;
 } 
 
 .footer-header {
     background-color:  rgba(0, 0, 0, 0.8);
-    height: 1100px;
+    height: 950px;
  }
 
- .social { top: 620px; }
+ .footer-logo { display: none;}
+
      
 .form-control {
     opacity: 0.7;
@@ -147,15 +168,12 @@ body {
     cursor: pointer;
 }
 
-.copyright { background-color: rgba(0, 0, 0, 0.5); }
-
-
-
+.copyright {display: none};
 
 
  /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767px) {
-    .bg-main { height: 60vh;}
+@media (min-width: 576px) {
+    /* .bg-main { height: 60vh;}
     .bg-main2 { 
         margin-top: 300px;
         height: 530px;
@@ -251,6 +269,8 @@ body {
         margin-top: 100px;
     }
 
+    .world-wide-list { display:none;}
+
     .image3 { width: 80%;}
 
     .container3 { padding: 50px 0;}
@@ -260,7 +280,7 @@ body {
     .social {
         top: 400px;
         display: flex;
-        margin-left: -50px;
+        margin-left: 50px;
     }
 
     .footer-header { height: 800px;}
@@ -277,14 +297,16 @@ body {
     .copyright { 
         font-size: .85em;
         padding-left: 45px!important;
-    }
+    } */
 
  }
 
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
     .bg-main { height: 50vh;}
-
+    .bg-main2 { height: 412px;}
+    .bg-main3 { margin-top: 70px;}
+    
     #btn-sign-up, #btn-learn { width: 30%;}
 
 
@@ -309,7 +331,8 @@ body {
         
     .bus1 {
         display: flex;
-        height: 50%;
+        height: 58.9%;
+        max-height: 57.9%;
         width: 100%;
     }
     .bus2 { display: none;}
@@ -325,7 +348,7 @@ body {
         width: 100%;
     }
 
-    .bus-section { height: 500px; }
+    .bus-section { height: 400px; }
 
     .bus-text4 {
         margin-right: -50px;
@@ -343,6 +366,11 @@ body {
         margin-top: 100px;
     }
 
+    .world-wide-list {
+        display: block;
+        color: red;
+    }
+
     .container3 { padding: 50px 0;}
 
     .form-control { width: 100%;}
@@ -356,6 +384,7 @@ body {
 
     .footer-img { padding: 0 10px;}
  }
+ 
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
@@ -366,10 +395,13 @@ body {
 
     .navbar-light .navbar-nav .nav-link {  padding: 0 30px;}
 
-    .bg-main { height: 50vh;}
+    .logo1 { display: block;}
+    .logo2 { display: none;}
+
+    .bg-main { height: 300px;;}
 
     .bg-main2 { 
-        height: 92vh;
+        height: 382px;
         margin-top: 250px;
     }
 
@@ -384,28 +416,39 @@ body {
 
     .mockup2 { display: none;}
 
-    #vector {
-        margin-top: -500px;
+    .vector-section {
+        height: 40vh;
+        margin-left: -35px;
     }
 
     .container4 { display: flex;}
 
-    .bus1 { height: 100%;}
+    .bus1 { 
+        height: 112.8%;
+        max-height: 57.5%;
+        width: 100%;
+        margin-top: -47px!important;
+    }
 
 
     .image1 {
-        top: -350px;
-        left: 200px;
-        display: none;
+        top: -367px;
+        left: 220px;
+        height: 380px;
+        z-index: 999;
     }   
 
     .image3 { 
         height: 100%;
         width: 100%;
+        margin-left: 100px!important;
     }
 
+    .download-text { display: block;}
+
     .appstore {
-        width: 130%;
+        min-width: 70%;
+        max-width: 130%;
         margin-top: 3px;
         margin-left: -20px;
     }
@@ -418,7 +461,128 @@ body {
         margin-top: 100px;
     }
 
+    .world-wide { width: 200%!important;}
+    .world-wide-list { width: 200%!important;}
+
     .input-form { display: block;}
+
+    .social { top: -60px;}
+
+    .footer-img { padding: 0 20px;}
+
+    .footer-header { height: 80vh;}
+    
+    .footer-container { 
+        max-width: 1500px;
+        min-width: 900px;
+    }
+
+   
+    
+    .footer-logo { display: block;}
+
+    .copyright {
+        display: block;
+        background-color: rgba(0, 0, 0, 0.5);;
+        }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    #btn-sign-up, #btn-learn { 
+        width: 120%;
+        margin-top: -5px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {  padding: 0 30px;}
+
+    .bg-main { height: 50vh;}
+
+    .bg-main2 { 
+        height: 429px;
+        margin-top: 150px;
+    }
+
+    .welcome-header { font-size: 2.5em;}
+
+    .welcome-text { font-size: 1.5em;}
+
+    .mockup1{ 
+        display: flex;
+        margin-top: -150px;
+    }
+
+    .mockup2 { display: none;}
+
+    .vector { width: 200%;}
+    .vector1 { margin-top: -139px!important;}
+    .vector2 , .vector3 { 
+        margin-left: 100px;
+        margin-top: -100px;
+    }
+
+    .vec2 { margin-left: 80px!important;}
+  
+
+    .container4 { display: flex;}
+
+    .bus-section { margin-left: 150px;}
+        
+
+    .bus1 { 
+        min-height: 57.1%;
+        width: 80%;
+        margin-top: -47px!important;
+        margin-left: 190px;
+        max-height: 55.5%;
+    }
+
+    
+
+    .tracker { width: 150%;}
+
+    .image1 {
+        top: -405px;
+        left: 320px;
+        height: 427px;
+        z-index: 999;
+        width: 500px;
+    }   
+  
+    
+    .image2 { 
+        left: -150px;
+        height: 70%;
+    }
+
+    .image3 { 
+        height: 100%;
+        width: 100%;
+    }
+
+    .appstore {
+        width: 100%;
+        height: 90%;
+        margin-top: 3px;
+        margin-left: -40px;
+    }
+
+    .googleplay { margin-right: 210px;}
+
+    .world-wide-section {
+        height: 400px;
+        margin-left: 0;
+        margin-top: 100px;
+    }
+
+    .input-form { display: block;}
+
+    .form-control { 
+        width: 60%;
+        height: 40px;
+        margin-left: 110px!important;
+    }
 
     .social { top: -30px;}
 
@@ -426,68 +590,8 @@ body {
 
     .footer-header { height: 70vh;}
 
-    .vector-container { margin: -300px 0 200px 50px;}
-
-    .vector-text {
-        font-size: .75em;
-        margin-left: 40px;
-    }
-
-    .vector2 { margin-left: 50px;}
-
-    .vector3 { margin-left: 40px;}
 
         
  }
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-    .bg-main2 {  padding-top: 80px;}
-
-    
-    .container3 { padding: 100px;}
-        
-    .vector-container { display: contents; }
-    .vector-text {  font-size: 1em; }
-    .vector2 { 
-        margin-left: 50px;
-        margin-top: 200px
-    }
-    .vector3 {
-        margin-top: 200px;
-        margin-left: 40px;
-    }
-
-        
-    .image3 {  
-        height: 80%;
-        width: 100%;
-    }
-
-    .download-header { font-size: 2em;}
-    .download-header2 { font-size: 1em;} 
-    .download-text {font-size: 1.3em; font-weight: 300;}
-
-    .appstore { width: 72%;}
-       
-    .world-wide-section {  height: 80%;}
-    .world-wide { font-size: 1.5em;}
-    .world-wide-list { font-size: 1em;}
-
-    .social { top: -30px;}
-
-    .footer-img { padding: 0 10px;}
-    .footer-header { height: 70%;}
-
-    .bus-section {   
-        margin-left: 150px;
-        height: 600px;
-    }
-    .bus-text3 { font-size: 1.4rem;}
-    .bus-text1, .bus-text1 { font-size: 2rem;}
-
-    .image2 {  height: 80%;}
-       
-    }
 
 
