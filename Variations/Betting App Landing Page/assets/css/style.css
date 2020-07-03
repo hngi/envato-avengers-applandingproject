@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+  }
+  
 body    {
     font-family: 'Raleway';
 }
@@ -17,12 +21,6 @@ a  {
     font-weight: 700;
     font-size: 25px;
     
-}
-
-a:hover {
-    background: #251297;
-    transition: 5s;
-    border-radius: 50px;
 }
 #download-btn   {
     width: 269px;
@@ -103,8 +101,15 @@ a:hover {
  /* Smaller-screen */
 
  #large-screen  {
-     /* display: block; */
- }
+    height: 57rem;
+    line-height: 70px;
+}
+#left-side-installation {
+    height: 50rem;
+}
+#right-side-installation    {
+    height: 58rem;
+}
 #installation-sub   {
     font-size: 30px;
     font-weight: 600;
@@ -144,6 +149,9 @@ a:hover {
         line-height: 27px;
         font-family: 'Raleway';
     }
+    #large-features-icon    {
+        display: block;
+    }
     #download-heading   {
         font-size: 40px;
         font-weight: 700;
@@ -153,7 +161,7 @@ a:hover {
     }
 #download-sub   {
     font-size: 30px;
-    line-height: 35px; 
+    line-height: 45px; 
     font-weight: 700;
     margin-top: 2rem;
     font-family: 'Raleway';
@@ -204,6 +212,7 @@ a:hover {
 #testimonies-section    {
     background: rgba(37, 18, 151, 0.2); 
     height: 45rem; 
+    max-height: 45rem;
     width: 100vw;
     
 }
@@ -230,6 +239,9 @@ a:hover {
     margin-top: 1px;
     margin-bottom: 2rem;
     width: 50%; 
+}
+.carousel-control-prev:hover, .carousel-control-next:hover  {
+    background: none;
 }
 #contact-heading    {
     font-size: 48px;
@@ -258,7 +270,10 @@ textarea    {
     color: white;
     font-weight: 700;
     border-radius: 2rem;
+    border: 1px solid #251297;
+    box-shadow: none;
     font-family: 'Raleway';
+
 }
 #location   {
     font-weight: 700;
@@ -271,6 +286,7 @@ textarea    {
 }
 footer  {
     background:  black;
+    width: 100vw
 }
 .container  {
     border-bottom: 1px solid #8A8A8A;
@@ -288,6 +304,27 @@ footer  {
 
 /* Mobile */
 
+@media(max-width:350px){
+
+    #apple-icon {
+        width: 90px;
+        height: 45px;
+        border-radius: 100px;
+        font-size: 8px;
+        line-height: 20px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    #playstore-icon  {
+        width: 90px;
+        height: 45px;
+        border-radius: 100px;
+        font-size: 8px;
+        line-height: 20px;
+        padding: 0;
+    }    
+
+    }
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2)  { 
     #apple-icon {
         width: 90px;
@@ -372,6 +409,10 @@ a {
     line-height: 30px;
     margin-bottom: 10px;
 }
+#features-section   {
+    width: 100%;
+    margin: 0;
+}
 #features   {
     font-size: 30px;
     line-height: 5px;
@@ -405,16 +446,20 @@ a {
 }
 #download-heading   {
     font-size: 25px;
-    line-height: 10px;
+    line-height: 1px;
+    
 }
 #download-img   {
     display: none;
 }
 #download-sub   {
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 0.5rem;
+    line-height: 20px;
 }
-
+#break  {
+    display: none;
+}
 #download-paragraph    {
     font-size: 15px;
     margin-top: 0.2rem;
@@ -444,6 +489,12 @@ a {
     width: 100%;
     margin: 0;
 }
+.card   {
+    height: 16rem!important;
+}
+/* .carousel-item {
+    height: 16rem!important;
+} */
 #testimonies-heading    {
     font-size: 25px;
 }
@@ -464,7 +515,7 @@ a {
 #card   {
     margin-bottom: 1rem;
     width: 70%; 
-    height: 70%;
+    height: 20rem;
 }
 #card-img   {
     height: 4rem;
