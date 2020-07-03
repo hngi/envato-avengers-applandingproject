@@ -410,4 +410,8 @@ section.pricing {
         margin-left: auto;
         margin-right: auto;
     }
+
+    .contact-form .row {
+        width: fit-content;
+    }
 }
