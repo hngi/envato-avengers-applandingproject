@@ -1,0 +1,322 @@
+/************************** 
+      Medie Queries
+**************************/
+
+/* Tablets */
+
+@media (max-width: 991px) {
+
+    /* Header */
+    .hero-img img {
+        width: 300px;
+    }
+
+    .hero-content h1 {
+        width: 100%;
+        font-weight: 700;
+        font-size: 1.8rem;
+        margin: 1rem auto;
+    }
+
+    .hero-content h3 {
+        width: 100%;
+        font-weight: 400;
+        font-size: 1.3rem;
+        margin: 1rem auto;
+    }
+
+    .hero-cta {
+        width: 100%;
+    }
+
+    .download-btn {
+        background-color: var(--btn-color);
+        border-radius: 30rem;
+        padding: 0.5rem 1.7rem;
+    }
+
+    /* Hero section */
+    #products {
+        width: 80%;
+        margin: 4% auto;
+    }
+
+    .product-heading {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .product-des {
+        margin-top: 2rem !important;
+    }
+
+    .product-text {
+        width: 80%;
+        font-size: 0.95rem;
+    }
+
+    .product-img {
+        width: 250px;
+    }
+
+    .product-img1 {
+        width: 100px;
+    }
+
+    .product-img2 {
+        width: 150px;
+    }
+
+    .product-grid {
+        margin: 3rem auto;
+    }
+
+    .img-hiden {
+        position: absolute;
+        right: 5%;
+        top: 35%;
+        width: 55px;
+    }
+
+    .img-hiden1 {
+        width: 55px;
+        top: -350;
+        bottom: 96px;
+    }
+
+    /* Download Section */
+
+    #download {
+        margin-top: 3rem;
+    }
+
+    .download-content {
+        width: 90%;
+        margin: 3% auto
+    }
+
+    /* Testimony Section */
+
+    #testimony {
+        background: var(--body-color-2);
+        height: 80vh;
+        margin-top: 4rem;
+    }
+    .card-img {
+        width: 90px;
+    }
+    .test-icon {
+        color: var(--btn-color);
+        font-size: 1.7rem;
+    }
+    .test-head {
+        padding: 1rem 0;
+    }
+
+    /* Contact Section */
+    .contact-form {
+        width: 50%;
+    }
+    .contact-btn {
+        padding: 0.5rem 7rem;
+    }
+
+    /* Footer */
+footer {
+    width: 85%;
+}
+.send-btn {
+    padding: 0.3rem 3.4rem;
+}
+footer h5 {
+    width: 80%;
+    font-size: .9.4rem;
+    font-weight: bold;
+}
+
+footer p {
+    font-size: .8.5rem;
+}
+
+footer form input {
+    width: 50%;
+    margin: 2rem auto 1rem;
+}
+
+.footer-nav-link a {
+    font-size: 0.93rem;
+    font-weight: 700;
+    padding-left: .5rem;
+}
+.footer-nav-link {
+    margin-top: 7.5rem;
+    padding-right: .5rem;
+}
+
+.foot-icon {
+    margin-top: 7.5rem;
+}
+.footer-img {
+    margin-top: 5.5rem;
+}
+
+}
+
+/* Mini Tablets */
+@media (max-width: 767px) {
+
+/* header */
+    .hero-img img {
+        display: none;
+    }
+
+    .hero-content h1 {
+        width: 100%;
+        font-weight: 500;
+        font-size: 1.2rem;
+        margin: 1rem auto;
+    }
+
+    .hero-content h3 {
+        width: 100%;
+        font-weight: 400;
+        font-size: 1.3rem;
+        margin: 1rem auto;
+    }
+
+    .hero-cta {
+        width: 100%;
+    }
+
+    .download-btn {
+        background-color: var(--btn-color);
+        border-radius: 30rem;
+        padding: 0.5rem 1.7rem;
+    }
+
+    /* Hero section */
+    #products {
+        width: 80%;
+        margin: 4% auto;
+    }
+
+    .product-heading {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .product-des {
+        margin-top: 2rem !important;
+    }
+
+    .product-text {
+        width: 80%;
+        font-size: 0.95rem;
+    }
+
+    .product-img {
+        width: 250px;
+    }
+
+    .product-img1 {
+        width: 100px;
+    }
+
+    .product-img2 {
+        width: 150px;
+    }
+
+    .product-grid {
+        margin: 3rem auto;
+    }
+
+    .img-hiden {
+        position: absolute;
+        right: 5%;
+        top: 35%;
+        width: 55px;
+    }
+
+    .img-hiden1 {
+        width: 55px;
+        top: -350;
+        bottom: 96px;
+    }
+
+    /* Download Section */
+
+    #download {
+        margin-top: 3rem;
+    }
+
+    .download-content {
+        width: 90%;
+        margin: 3% auto
+    }
+
+    /* Testimony Section */
+
+    #testimony {
+        background: var(--body-color-2);
+        height: 80vh;
+        margin-top: 4rem;
+    }
+    .card-img {
+        width: 90px;
+    }
+    .test-icon {
+        color: var(--btn-color);
+        font-size: 1.7rem;
+    }
+    .test-head {
+        padding: 1rem 0;
+    }
+
+    /* Contact Section */
+    .contact-form {
+        width: 50%;
+    }
+    .contact-btn {
+        padding: 0.5rem 7rem;
+    }
+
+    /* Footer */
+footer {
+    width: 85%;
+}
+.send-btn {
+    padding: 0.3rem 3.4rem;
+}
+footer h5 {
+    width: 80%;
+    font-size: .9.4rem;
+    font-weight: bold;
+}
+
+footer p {
+    font-size: .8.5rem;
+}
+
+footer form input {
+    width: 50%;
+    margin: 2rem auto 1rem;
+}
+
+.footer-nav-link a {
+    font-size: 0.93rem;
+    font-weight: 700;
+    padding-left: .5rem;
+}
+.footer-nav-link {
+    margin-top: 7.5rem;
+    padding-right: .5rem;
+}
+
+.foot-icon {
+    margin-top: 7.5rem;
+}
+.footer-img {
+    margin-top: 5.5rem;
+}
+
+}
