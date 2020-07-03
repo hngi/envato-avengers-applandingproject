@@ -1,0 +1,435 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    background-color: #E5E5E5;
+  }
+  
+  .navbar-css {
+    background-color: #000 !important;
+    color: #fff !important;
+  }
+  
+  .logo {
+    font-family: 'Salsa', cursive;
+    font-size: 30px;
+  }
+  
+  .sub-logo {
+    color: #C31162 !important;
+  }
+  
+  .nav-link {
+    color: #fff !important;
+  }
+  
+  .btn-primary {
+    background-color: #C31162 !important;
+    border: none;
+    border-radius: 15px;
+  }
+  
+  .nav-link {
+    margin-left: 50px;
+  }
+  
+  .nav-link:hover {
+    color: #C31162 !important;
+  }
+  
+  a[type="button"]:hover {
+    background-color: #000 !important;
+    color: #C31162 !important;
+    border: 1px solid #C31162;
+  }
+  
+  .display-section {
+    margin-top: 80px;
+  }
+  
+  .display-bg {
+    min-height: 100%;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(./assets/images/background-img.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./assets/images/background.png);
+    background-size: cover;
+  }
+  
+  .display-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  
+  .display-heading {
+    font-family: 'salsa', cursive;
+    font-size: 70px;
+    color: #fff !important;
+  }
+  
+  .display-subheading {
+    color: #C31162 !important;
+  }
+  
+  .display-buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .display-btn {
+    width: 241px;
+    height: 80px;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    transition: transform .5s ease, -webkit-transform .5s ease;
+  }
+  
+  .display-btn:hover {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+  
+  .display-btn:active {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    outline: none;
+  }
+  
+  .display-btn1 {
+    margin-right: 20px;
+  }
+  
+  .display-image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  
+  .couple {
+    margin: 80px 0;
+  }
+  
+  .couple-heading {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+  
+  .couple-sub {
+    font-size: 18px;
+  }
+  
+  .app-features {
+    background-color: rgba(195, 17, 98, 0.6);
+    padding-bottom: 60px;
+  }
+  
+  .features-text {
+    padding-top: 60px;
+    padding-bottom: 10px;
+    display: inline-block;
+    border-bottom: 2.65396px solid #C31162;
+  }
+  
+  .gallery {
+    margin: 60px 0;
+  }
+  
+  .gallery-text {
+    color: #212121 !important;
+    margin-bottom: 60px;
+    padding-bottom: 10px;
+    display: inline-block;
+    border-bottom: 2.65396px solid #C31162;
+  }
+  
+  .gallery-imgs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .image2 {
+    margin: 30px 20px;
+  
+  }
+  
+  .reviews {
+    background-color: rgba(195, 17, 98, 0.6);
+  }
+  
+  .reviews-text {
+    margin-top: 60px;
+    padding-bottom: 10px;
+    display: inline-block;
+    border-bottom: 2.65396px solid #C31162;
+    margin-bottom: 30px;
+  }
+  
+  .review-name {
+    margin-top: 20px;
+  }
+  
+  .review-image {
+    margin: 0 10px;
+    margin-bottom: 30px;
+  }
+  
+  .review-txt {
+    padding: 0 40px 80px 40px;
+  }
+  
+  .download {
+    margin: 80px 0;
+  }
+  
+  .download-heading {
+    color: #212121 !important;
+  }
+  
+  .download-btn1 {
+    margin-right: 30px;
+  }
+  
+  .download-btn2 {
+    height: 81px;
+    width: 241px;
+  }
+  
+  .download-btn {
+    border: none;
+    outline: none;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    transition: transform .5s ease, -webkit-transform .5s ease;
+  }
+  
+  .download-btn:hover {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+  
+  .download-btn:active {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    outline: none;
+  }
+  
+  .contact {
+    margin-bottom: 80px;
+  }
+  
+  .contact-main-text {
+    padding-right: 60px;
+  }
+  
+  .contact-text {
+    margin-bottom: 30px;
+  }
+  
+  .contact-sub {
+    color: #C31162 !important;
+  }
+  
+  .send-btn {
+    color: #fff !important;
+    background-color: rgba(195, 17, 98, 0.6);
+    font-size: 20px;
+    padding: .375rem 1.7rem;
+  }
+  
+  .form-control {
+    background-color: rgba(195, 17, 98, 0.6);
+  }
+  
+  ::-webkit-input-placeholder {
+    color: #fff !important;
+  }
+  
+  :-ms-input-placeholder {
+    color: #fff !important;
+  }
+  
+  ::-ms-input-placeholder {
+    color: #fff !important;
+  }
+  
+  ::placeholder {
+    color: #fff !important;
+  }
+  
+  .footer {
+    background-color: #000;
+  }
+  
+  .footer-logo {
+    padding: 20px 0;
+    color: #fff !important;
+    font-family: 'Salsa', cursive;
+    font-size: 30px;
+  }
+  
+  .footer-sub-logo {
+    color: #C31162 !important;
+  }
+  
+  .footer-icons {
+    margin-bottom: 10px;
+  }
+  
+  .copyright {
+    padding-bottom: 10px;
+  }
+  
+  @media (max-width: 1200px) {
+    .display-btn1 {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .display-heading {
+      font-size: 60px;
+    }
+    .gallery {
+      margin-bottom: 0;
+      margin-top: 40px;
+    }
+    .gallery-imgs {
+      -webkit-transform: scale(0.75);
+              transform: scale(0.75);
+    }
+    .gallery-text {
+      margin-bottom: 0px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .display-container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+           
+    }
+    .display-image {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+    }
+    .display-img {
+      -webkit-transform: scale(0.75);
+              transform: scale(0.75);
+    }
+    .display-btn1 {
+      margin-bottom: 0;
+    }
+    .download-btn1 {
+      margin-right: 0;
+    }
+    .contact-main-text {
+      padding-right: 15px;
+    }
+    .couple-heading,
+    .couple-sub,
+    .contact-text,
+    .contact-sub2,
+    .contact-ad1 {
+      text-align: center;
+    }
+    .gallery-imgs {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; 
+      align-items:center;
+      margin-top:-90px;
+      margin-bottom:-90px;
+      
+      }
+    
+  }
+  
+  @media (max-width: 576px) {
+    .display-buttons {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+    }
+    .reviews-img {
+      -webkit-transform: scale(0.8);
+              transform: scale(0.8);
+    }
+    .couple,
+    .download {
+      margin: 50px 0 !important;
+    }
+    .download-btn1 {
+      margin-bottom: 10px;
+    }
+    .contact {
+      margin-bottom: 50px;
+    }
+  }
+  
+  @media only screen and (max-width: 548px) {
+    .display-btn2 {
+      margin-right: 20px;
+      margin-top: 20px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) {
+    .reviews-img {
+      padding: 0 300px;
+    }
+  }
