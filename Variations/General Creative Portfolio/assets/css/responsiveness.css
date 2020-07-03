@@ -84,4 +84,7 @@
     .testim-section p {
         font-size: 20px;
     }
+    .navbar {
+        padding: .5rem 0rem;
+    }
 }

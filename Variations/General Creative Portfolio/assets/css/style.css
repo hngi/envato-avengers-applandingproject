@@ -24,7 +24,7 @@ body {
 
 /* header */
 
-navbar-light .navbar-toggler-icon {
+.navbar-light .navbar-toggler-icon {
     background-image: url(./../images/toggler-icon.svg);
 }
 
@@ -309,6 +309,11 @@ header h1 span {
 
 .portfolio-websites .card {
     /* background-image: url(../images/web_1@2x.png); */
+}
+
+.column-img {
+    background: url(../images/web_3.png);
+    background-size: cover;
 }
 
 
