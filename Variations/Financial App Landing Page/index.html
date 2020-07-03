@@ -17,7 +17,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
   <!-- Animation -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
-  <link rel="stylesheet" href="css/animate.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- CSS links-->
   <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
   <link rel="stylesheet" href="/assets/css/all.min.css" />
@@ -93,7 +93,7 @@
       <h3 class="heading product-heading mb-4">
         How it Works
       </h3>
-      <div class="row product-grid">
+      <div class="row product-grid" data-aos = "fade-left">
         <div class="col-sm-12 col-md-6 col-lg-6 product-des">
           <h3 class="sub-heading">
             Create Your Cwallet Account
@@ -105,11 +105,11 @@
           </p>
           <img class="img-hiden" src="./assets/images/01.png" alt="">
         </div>
-        <div class="mt-4 col-sm-12 col-md-6 col-lg-6 animate__animated animate__fadeInLeft animate__delay-1s">
+        <div class="mt-4 col-sm-12 col-md-6 col-lg-6 ">
           <img class="img-fluid product-img1" src="./assets/images/Frame1.png" alt="mobile">
         </div>
       </div>
-      <div class="row product-grid">
+      <div class="row product-grid" data-aos = "fade-right">
         <div class="col-sm-12 col-md-6 col-lg-6 animate__animated animate__fadeInLeft animate__delay-1s">
           <img class="img-fluid product-img" src="./assets/images/Frame2.png" alt="mobile">
         </div>
@@ -125,7 +125,7 @@
           <img class="img-hiden1" src="./assets/images/02.png" alt="">
         </div>
       </div>
-      <div class="row product-grid">
+      <div class="row product-grid" data-aos = "fade-out">
         <div class="col-sm-12 col-md-6 col-lg-6 product-des">
           <h3 class="sub-heading">
             Notification
@@ -138,11 +138,11 @@
           </p>
           <img class="img-hiden" src="./assets/images/03.png" alt="">
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-6 animate__animated animate__fadeInLeft animate__delay-1s">
+        <div class="col-sm-12 col-md-6 col-lg-6">
           <img class="img-fluid product-img2" src="./assets/images/Frame3.png" alt="mobile">
         </div>
       </div>
-      <div class="row product-grid">
+      <div class="row product-grid" data-aos = "fade-left">
         <div class="mt-4 col-sm-12 col-md-6 col-lg-6 animate__animated animate__fadeInLeft animate__delay-1s">
           <img class="img-fluid product-img" src="./assets/images/Frame4.png" alt="mobile">
         </div>
@@ -166,7 +166,7 @@
         Get App
       </h3>
       <div class="row download-content">
-        <div class=" mt-5 col-sm-12 col-md-6 col-lg-6">
+        <div class=" mt-5 col-sm-12 col-md-6 col-lg-6 " data-aos = "fade-up">
           <h3 class="sub-heading download-heading mb-4">
             Take control of your expenses with CBudget
           </h3>
@@ -181,7 +181,7 @@
               Play Store</a>
           </div>
         </div>
-        <div class="hero-img mt-4 col-sm-12 col-md-6 col-lg-6 animate__animated animate__fadeInLeft animate__delay-1s">
+        <div class="hero-img mt-4 col-sm-12 col-md-6 col-lg-6" data-aos = "fade-down">
           <img class="img-fluid" src="./assets/images/app.png" alt="mobile">
         </div>
       </div>
@@ -301,7 +301,7 @@
   </section>
   <!-- Contact Section -->
   <section id="contact">
-    <div class="container-fliud mt-5 contact-section">
+    <div class="container-fliud mt-5 contact-section" data-aos = "fade-in">
       <h3 class="heading product-heading">
         Get In Touch
       </h3>
@@ -433,10 +433,13 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
-    <script src="js/wow.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-    new WOW().init();
-    </script>
+          AOS.init( {
+            duration: 700
+          });
+      </script>
+  
   <script src="./assets/js/app.js"></script>
 </body>
 

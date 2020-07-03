@@ -166,129 +166,72 @@ footer form input {
 @media (max-width: 767px) {
 
 /* header */
-    .hero-img img {
+.real-logo {
+    width: 100px !important;
+    margin-left: 0;
+}
+    .hero .hero-img img, .img-hiden, .img-hiden1, .footer-img {
         display: none;
     }
-
+    .hero {
+        text-align: center;
+    }
+    .hero-content {
+        text-align: center;
+    }
     .hero-content h1 {
-        width: 100%;
-        font-weight: 500;
-        font-size: 1.2rem;
-        margin: 1rem auto;
+        font-weight: 800;
+        font-size: 1.7rem;
     }
 
     .hero-content h3 {
         width: 100%;
-        font-weight: 400;
-        font-size: 1.3rem;
-        margin: 1rem auto;
+        font-weight: 500;
+        font-size: 1.2rem;
     }
-
-    .hero-cta {
-        width: 100%;
-    }
-
     .download-btn {
-        background-color: var(--btn-color);
-        border-radius: 30rem;
-        padding: 0.5rem 1.7rem;
+        padding: 0.5rem 1.5rem;
     }
 
     /* Hero section */
     #products {
-        width: 80%;
+        width: 90%;
+        text-align: center;
         margin: 4% auto;
     }
 
     .product-heading {
-        font-size: 1.8rem;
-        margin-bottom: 1rem;
+        font-size: 1.5rem;
+        margin-bottom: .8rem;
     }
 
-    .product-des {
-        margin-top: 2rem !important;
+    .product-des, .product-text {
+        text-align: center;
     }
 
     .product-text {
         width: 80%;
         font-size: 0.95rem;
+        margin: auto;
     }
 
-    .product-img {
-        width: 250px;
-    }
+    /* Testimony */
 
-    .product-img1 {
-        width: 100px;
+    #testimony .container-fluid {
+        width: 80% !important;
     }
-
-    .product-img2 {
-        width: 150px;
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        display: none;
     }
-
-    .product-grid {
-        margin: 3rem auto;
-    }
-
-    .img-hiden {
-        position: absolute;
-        right: 5%;
-        top: 35%;
-        width: 55px;
-    }
-
-    .img-hiden1 {
-        width: 55px;
-        top: -350;
-        bottom: 96px;
-    }
-
-    /* Download Section */
-
-    #download {
-        margin-top: 3rem;
-    }
-
-    .download-content {
-        width: 90%;
-        margin: 3% auto
-    }
-
-    /* Testimony Section */
-
-    #testimony {
-        background: var(--body-color-2);
-        height: 80vh;
-        margin-top: 4rem;
-    }
-    .card-img {
-        width: 90px;
-    }
-    .test-icon {
-        color: var(--btn-color);
-        font-size: 1.7rem;
-    }
-    .test-head {
-        padding: 1rem 0;
-    }
-
-    /* Contact Section */
-    .contact-form {
-        width: 50%;
-    }
-    .contact-btn {
-        padding: 0.5rem 7rem;
-    }
-
     /* Footer */
 footer {
-    width: 85%;
+    width: 80%;
 }
 .send-btn {
-    padding: 0.3rem 3.4rem;
+    padding: 0.3rem 2rem;
 }
 footer h5 {
-    width: 80%;
+    width: 100%;
     font-size: .9.4rem;
     font-weight: bold;
 }
@@ -298,8 +241,8 @@ footer p {
 }
 
 footer form input {
-    width: 50%;
-    margin: 2rem auto 1rem;
+    width: 30% !important;
+    margin: .8rem auto .7rem;
 }
 
 .footer-nav-link a {
@@ -307,16 +250,94 @@ footer form input {
     font-weight: 700;
     padding-left: .5rem;
 }
-.footer-nav-link {
-    margin-top: 7.5rem;
-    padding-right: .5rem;
-}
 
 .foot-icon {
-    margin-top: 7.5rem;
+    margin-top: 2.3rem;
 }
-.footer-img {
-    margin-top: 5.5rem;
 }
 
+@media (max-width: 575px) {
+    .hero {
+        text-align: center;
+    }
+    .hero-content {
+        margin: auto;
+    }
+    .hero-content h1 {
+        font-size: 1.5rem;
+    }
+    .hero-content h3 {
+        width: 100%;
+        font-weight: 500;
+        font-size: 1.1rem;
+    }
+    .download-btn {
+        padding: 0.5rem 1.5rem;
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 513px) {
+    .hero-content {
+        width: 85%;
+    }
+    footer form input {
+        width: 40% !important;
+        margin: .8rem auto .7rem;
+    }
+}
+
+
+@media (max-width: 422px) {
+    .download-btn {
+        padding: 0.3rem 1rem;
+    }
+    .send-btn {
+        padding: 0.3rem 2rem;
+    }   
+}
+
+@media (max-width: 384px) {
+    .hero-content h1 {
+        font-weight: 600;
+        font-size: 1.4rem;
+    }
+    .sub-heading {
+        font-weight: bold;
+        font-size: 1.03rem;
+    }
+    .hero-content h3 {
+        width: 100%;
+        font-weight: 300;
+        font-size: 1.03rem;
+    }
+    .download-btn {
+        padding: 0.24rem .7rem;
+    }
+    .send-btn {
+        padding: 0.24rem 1rem;
+    }   
+}
+
+@media (max-width: 362px) {
+    .hero-content h1 {
+        font-weight: 600;
+        font-size: 1.4rem;
+    }
+    .sub-heading {
+        font-weight: bold;
+        font-size: 1.03rem;
+    }
+    .hero-content h3 {
+        width: 100%;
+        font-weight: 300;
+        font-size: 1.03rem;
+    }
+    .download-btn {
+        margin-top: 1rem;
+        margin-left: 0 !important;
+    }
+    .send-btn {
+        padding: 0.2rem .9rem;
+    }   
 }
