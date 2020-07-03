@@ -141,12 +141,18 @@ body{
 
 @media screen and (max-width: 576px){
   .about__image-wrapper > img, .about__text-wrapper{
-    max-width: calc(100% - 72px);
+    max-width: calc(100% - 52px);
   }
 }
 
-/* @media screen and (min-width: 576px){
-  .about__image-wrapper > img, .about__text-wrapper{
-    max-width: calc(100% - 72px);
+@media screen and (min-width: 576px){
+  .about__image-wrapper > img{
+    max-width: calc(100% - 36px);
   }
-} */
+}
+
+@media screen and (min-width: 768px){
+  .about__image-wrapper > img{
+    max-width: calc(100% - 48px);
+  }
+}
