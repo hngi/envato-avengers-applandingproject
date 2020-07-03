@@ -3,6 +3,11 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
 .custom-wrapper {
     padding-left: 10vw;
     padding-right: 10vw;
@@ -171,6 +176,101 @@ header h1 span {
 .card-label h5 {
     margin-bottom: 0;
     font-size: 28px;
+    color: #1A191F;
+    font-weight: bold;
+}
+
+
+/* contact section */
+
+.contact {
+    padding-top: 37px;
+    background: #E9E9E9;
+}
+
+.contact form {
+    margin-top: 15vh;
+}
+
+.contact .form-control {
+    background: transparent;
+}
+
+.contact .section-heading h2 {
+    color: #707070;
+    font-size: 50px;
+    letter-spacing: 2.5px;
+    line-height: 61px;
+    font-weight: bold;
+}
+
+.contact .section-heading p {
+    color: #707070;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.contact .form-group input {
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: #707070;
+    border-radius: 0px;
+    height: 100px;
+}
+
+.contact .form-group textarea {
+    outline: none;
+    resize: none;
+    border-width: 0 0 1px;
+    border-color: #707070;
+    border-radius: 0px;
+    height: 100px;
+}
+
+::placeholder {
+    letter-spacing: 1.75px;
+    color: #E9E9E9;
+    opacity: 0.1;
+}
+
+.form-btn {
+    background: #1A191F;
+    border: 1px solid #707070 !important;
+    width: 208px;
+    height: 62px;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contact-info {
+    color: #1A191F;
+}
+
+.contact-info li {
+    list-style: none;
+}
+
+.contact-info p {
+    margin-bottom: 0.2rem;
+}
+
+.contact-info .heading {
+    color: #1A191F;
+    font-weight: bold;
+}
+
+.hr-border {
+    border: 1px solid #707070;
+}
+
+.bot-copyright p {
+    margin-bottom: 0;
+    text-align: center;
+    padding-top: 19px;
+    padding-bottom: 19px;
     color: #1A191F;
     font-weight: bold;
 }
