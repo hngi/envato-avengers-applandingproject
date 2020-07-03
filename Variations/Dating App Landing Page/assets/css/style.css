@@ -14,7 +14,7 @@ body{
   scroll-behavior: smooth;
 }
 
-.hero{
+.hero, .features{
   background: linear-gradient(89.76deg, #FF5130 1.31%, #DF2674 99.87%);
 }
 
@@ -139,7 +139,7 @@ body{
   flex: 1;
 }
 
-@media screen and (max-width: 576px){
+/* @media screen and (max-width: 576px){
   .about__image-wrapper > img, .about__text-wrapper{
     max-width: calc(100% - 52px);
   }
@@ -154,5 +154,5 @@ body{
 @media screen and (min-width: 768px){
   .about__image-wrapper > img{
     max-width: calc(100% - 48px);
-  }
-}
+  } */
+/* } */
