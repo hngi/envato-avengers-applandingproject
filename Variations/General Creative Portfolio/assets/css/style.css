@@ -24,6 +24,10 @@ body {
 
 /* header */
 
+navbar-light .navbar-toggler-icon {
+    background-image: url(./../images/toggler-icon.svg);
+}
+
 .hero header nav a {
     color: #FFFFFF !important;
 }
@@ -98,6 +102,82 @@ header h1 span {
     padding-top: 5vh;
     padding-bottom: 5vh;
 }
+
+
+/* invest section */
+
+.invest-section {
+    background: #E9E9E9;
+    color: #1A191F;
+}
+
+.invest-section h1 {
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 2.1px;
+    line-height: 73px;
+}
+
+.hr-config {
+    width: 117px;
+    height: 16px;
+    border-radius: 12px;
+    background-color: #4DC137;
+    margin-top: 37px;
+    margin-bottom: 37px;
+}
+
+.invest-section p {
+    font-size: 25px;
+    letter-spacing: 1.75px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.testimonials-btn {
+    background: #1A191F;
+    color: #FFFFFF;
+    width: 266px;
+    height: 72px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.invest-section .card {
+    border: none;
+    background: transparent;
+}
+
+.card-imgs .card {
+    width: 446px;
+    height: 271px;
+}
+
+.card-1 {
+    position: absolute;
+}
+
+.card-2 {
+    position: absolute;
+    top: 15vh;
+    left: -13vw;
+}
+
+.card-3 {
+    position: absolute;
+    top: 35vh;
+    left: -4vw;
+}
+
+.pad-70 {
+    padding-top: 70px;
+    padding-bottom: 67px;
+}
+
+
+/* clients section */
 
 .clients-section {
     padding-top: 44px;
@@ -228,7 +308,7 @@ header h1 span {
 /* porfolio websites */
 
 .portfolio-websites .card {
-    background-image: url(../images/web_1@2x.png);
+    /* background-image: url(../images/web_1@2x.png); */
 }
 
 
