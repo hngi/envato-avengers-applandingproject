@@ -1,6 +1,14 @@
+@font-face {
+    font-family: 'amostely_signatureregular';
+    src: url('../fonts/amostelysignature-webfont.woff2') format('woff2'), url('../fonts/amostelysignature-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 * {
@@ -46,7 +54,13 @@ header h1 span {
 
 .hero-intro {
     padding-top: 10vh;
-    padding-bottom: 55vh;
+    padding-bottom: 25vh;
+}
+
+.hero-intro span h1 {
+    font-family: 'amostely_signatureregular';
+    font-size: 50px;
+    font-weight: 400;
 }
 
 .hero p {
@@ -59,6 +73,30 @@ header h1 span {
     font-size: 80px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+}
+
+.hero-bot-content {
+    box-shadow: 0px 15px 40px #00000029;
+    background: #E9E9E9;
+    z-index: 5;
+    margin-top: -5rem;
+}
+
+.left-content {
+    border-right: 1px solid #707070;
+}
+
+.hero-bot-content p {
+    color: #707070;
+    text-align: center;
+}
+
+.hero-bot-content .card {
+    background: transparent;
+    border: none;
+    justify-content: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 .clients-section {
@@ -75,6 +113,12 @@ header h1 span {
     margin-bottom: 20px;
     background: #E9E9E9;
     border: none;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.clients-section .card:hover {
+    transform: scale(1.1);
 }
 
 .clients-section h2 {
@@ -178,6 +222,13 @@ header h1 span {
     font-size: 28px;
     color: #1A191F;
     font-weight: bold;
+}
+
+
+/* porfolio websites */
+
+.portfolio-websites .card {
+    background-image: url(../images/web_1@2x.png);
 }
 
 

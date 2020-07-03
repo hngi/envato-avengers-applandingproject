@@ -31,7 +31,7 @@
     <section>
         <div class="hero">
             <div class="overlay">
-                <div class="container-fluid">
+                <div class="container-fluid custom-wrapper">
                     <!-- header section -->
                     <header class="header">
                         <div class="">
@@ -60,13 +60,30 @@
                     </header>
                     <div class="hero-intro">
                         <p>Welcome, I'm Max</p>
-                        <h1>I design and build website</h1>
-                        <p>I love to visualize ideas and make the come to live in website</p>
+                        <h1>I design and <br>build website</h1>
+                        <p>I love to visualize ideas and make the come to live<br> in website</p>
+                        <span><h1>Max</h1></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-5 hero-bot-content">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-md-6 left-content">
+                            <p>Web design</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p>Web development</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!-- clients sections -->
     <section class="clients-section">
@@ -122,7 +139,7 @@
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <div class="card">
-                        <span><h1>75</h1></span>
+                        <span class="counter" data-count="75"><h1>75</h1></span>
                         <p>Websites designed</p>
                     </div>
                 </div>
@@ -184,6 +201,22 @@
     </section>
 
     <!-- portfolio websites -->
+    <section class="portfolio-websites">
+        <div class="container-fluid custom-wrapper">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-lg-4">
+                    <div class="card p-0 m-0">
+
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-lg-4">
+                    <a href=""> <img src="./assets/images/web_1@2x.png" class="img-fluid d-block w-100" alt="">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-12 col-lg-4">row3</div>
+            </div>
+        </div>
+    </section>
 
 
     <!-- contact me  section-->
@@ -259,6 +292,33 @@
     <!-- All javascript at the bottom of the page for fast page load -->
     <script src="./js/jquery-3.5.1.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        $('.counter').each(function() {
+            var $this = $(this),
+                countTo = $this.attr('data-count');
+
+            $({
+                countNum: $this.text()
+            }).animate({
+                    countNum: countTo
+                },
+
+                {
+                    duration: 5000,
+                    easing: 'linear',
+                    step: function() {
+                        $this.text(commaSeparateNumber(Math.floor(this.countNum)));
+                    },
+                    complete: function() {
+                        $this.text(commaSeparateNumber(this.countNum));
+                        //alert('finished');
+                    }
+                }
+            );
+
+        });
+    </script> -->
 </body>
 
 </html>
