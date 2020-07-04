@@ -1,0 +1,299 @@
+/* MEDIA QUERIES FOR 576PX AND ABOVE */
+/* Only use the breakpoint necessary to your project */
+
+
+@media all and (min-width:768px) {
+  .health-logo {
+    width: auto
+  }
+
+  .health-logo-img {
+    width: 100%;
+  }
+
+  .all-btn {
+
+    margin-bottom: 4%;
+
+  }
+
+  .header-second-btn {
+    margin-left: 1%;
+  }
+
+
+
+  /* OVERVIEW SECTION */
+  .view-img {
+    margin-left: 25%;
+    width: 50%;
+  }
+
+  /* TESTIMONIAL SECTION */
+  .user-details {
+    margin-top: -17%;
+    margin-left: 10%;
+
+  }
+
+  .after-icon {
+    margin-left: 81%;
+  }
+
+  /* FORM SECTION */
+  .form-title {
+    width: 50%;
+  }
+
+  .form_input {
+
+    margin: auto;
+  }
+
+  .form-wrap {
+    width: 83%;
+    margin: 0 auto;
+  }
+
+  /* NEWSLETTER */
+  .news-input {
+    padding: 0 4rem;
+  }
+
+  .sub-btn {
+    width: 28%;
+  }
+
+  /* ANIMATIONS */
+  .all-btn {
+    transition: all .3s linear;
+  }
+
+  .all-btn:hover {
+    transform: scale(1.1);
+  }
+
+  .app-img2,
+  .app-img1,
+  .app-img3 {
+    transition: all .3s linear;
+  }
+
+  .app-img2:hover {
+    transform: scale(1.1);
+  }
+
+  .app-img1:hover,
+  .app-img3:hover {
+    transform: scale(1.1);
+    z-index: 999;
+  }
+
+
+}
+
+@media all and (min-width:992px) {
+  .health-header {
+    height: 65vh;
+  }
+
+  /* OVERVIEW SECTION */
+  .overview-texts {
+    text-align: left;
+  }
+
+  .overview-title {
+    font-size: 1.8rem;
+  }
+
+  .overview-p {
+    width: 50%;
+    font-size: 1rem;
+    line-height: 2;
+  }
+
+  .overview-section {
+    position: relative;
+  }
+
+  .overview-img {
+    position: absolute;
+    left: 46%;
+    top: -173%;
+  }
+
+  .view-img {
+    width: 100%;
+  }
+
+  /* FEATURES  */
+  .middle-img {
+    grid-column: 2;
+    grid-row: 1/4;
+    text-align: center;
+  }
+
+  .feature-img {
+    width: 90%;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .last-card {
+    grid-column: 3;
+  }
+
+  .feature-p,
+  .screenshot-p,
+  .dl-p {
+    width: 80%;
+  }
+
+  /* TESTIMONIAL SECTION */
+  .user-details {
+    margin-left: 0%;
+    margin-top: -14%;
+  }
+
+  /* DOWNLOAD SECTION */
+  .download-img {
+    width: 100%;
+  }
+
+  .download-texts {
+    margin-top: 10% !important;
+    text-align: left;
+    margin-left: 8%;
+  }
+
+  .dl-row {
+    padding-left: 6%;
+  }
+
+  /*NEWSLETTER */
+  .sub-btn {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .sub-link {
+    text-align: left;
+  }
+
+  .news-input {
+    padding: 0 1rem 0 4rem;
+  }
+
+  .newsletter-input {
+    margin: 0;
+    margin-bottom: 0.7rem;
+  }
+
+  .newsletter-title {
+    text-align: left;
+    margin-left: 4rem;
+  }
+
+  /* FOOTER */
+  .top-scroll {
+    display: block;
+    transition: all .3s;
+    position: fixed;
+    pointer-events: none;
+    bottom: 50px;
+    left: 88%;
+    opacity: 0;
+  }
+
+  .top-scroll.activescroll {
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+  }
+
+  .arrow {
+    margin-left: 28%;
+    margin-bottom: 367%;
+    width: 100%;
+  }
+
+  .arrow {
+
+    animation: scrollup 1s linear 1s infinite;
+  }
+
+  @keyframes scrollup {
+    0% {
+      transform: translate(0, 0);
+    }
+
+    50% {
+      transform: translate(0, 10px);
+    }
+
+    100% {
+      transform: translate(0, 0);
+    }
+
+  }
+
+  .footer-text {
+    width: 100%;
+  }
+
+  .connect {
+    padding-left: 0;
+  }
+
+  /* ANIMATIONS AND TRANSITIONS */
+
+  .overview-texts {
+    transition: all 3s ease 524ms;
+    animation-duration: 3s;
+    animation-delay: 0s;
+  }
+
+}
+
+
+
+@media all and (min-width:1200px) {
+
+
+  .overview-img {
+    left: 55%;
+  }
+
+  .user-details {
+    margin-top: -11%;
+    margin-left: -7%;
+  }
+
+}
+
+@media all and (min-width:1440px) {
+  .overview-img {
+    top: -235%;
+  }
+}
+
+@media all and (min-width:2560px) {
+  .health-header {
+    height: 28vh;
+  }
+
+  .overview-img {
+    top: -173%;
+  }
+
+  .overview-section {
+    margin-bottom: 7%;
+  }
+
+  .arrow {
+    margin-left: -498%;
+  }
+}
