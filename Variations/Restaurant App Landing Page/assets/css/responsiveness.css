@@ -1,0 +1,127 @@
+@media screen and (max-width: 1200px) {
+  .item-nav {
+    font-size: 24px;
+    margin: 0 0 10px 40px;
+  }
+  .body-wrap {
+    background: url(../images/back_img.svg);
+    background-repeat: no-repeat;
+    background-position: left 0% top -25%;
+    background-size: cover;
+  }
+  .workings--desc {
+    flex-direction: column;
+  }
+  .workings--desc-img {
+    margin-top: 50px;
+  }
+  .workings--desc-img-3 {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .header--wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .header--img {
+    margin: 85px auto;
+  }
+  .workings--desc {
+    margin: 150px auto !important;
+  }
+}
+@media screen and (max-width: 772px) {
+  .header--title {
+    font-size: 4rem;
+  }
+  .header--subtitle {
+    font-size: 3rem;
+  }
+  .workings--title {
+    font-size: 3.5rem;
+  }
+  .gallery--title {
+    margin-bottom: 0 !important;
+  }
+  .gallery--img {
+    flex-direction: column;
+    padding-right: 20px;
+  }
+  .gallery--img-1, .gallery--img-2, .gallery--img-3 {
+    display: none;
+  }
+  .gallery--img-mobile {
+    display: block;
+  }
+  .gallery--img-prev {
+    content: url(../images/left_arrow.svg);
+    position: relative;
+    left: -35px;
+    width: 30px;
+  }
+  .gallery--img-next {
+    content: url(../images/right_arrow.svg);
+    position: relative;
+    right: -35px;
+    width: 30px;
+  }
+  .review--wrap {
+    flex-direction: column;
+  }
+  .review__head {
+    justify-content: space-around;
+  }
+  .testimonial--carousel {
+    display: none;
+  }
+  .testimonial--carousel-mobile {
+    display: block;
+  }
+  .testimonial--card-mobile {
+    width: 280px;
+    margin: auto;
+  }
+  .testimonial--title {
+    font-size: 2.2rem;
+    color: #EC5451;
+    font-weight: 900;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 576px) {
+  .header--title {
+    font-size: 3rem;
+  }
+  .header--subtitle {
+    font-size: 2rem;
+  }
+  .header--para {
+    width: auto;
+  }
+  .header--brands {
+    flex-direction: column;
+  }
+  .header--brands-i {
+    margin-bottom: 40px;
+  }
+  .header--img {
+    width: 285px;
+  }
+  .workings--desc-para {
+    min-width: 250px;
+  }
+  .workings--title {
+    font-size: 2.8rem;
+  }
+  .footer-groups {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-group-1, .footer-group-2 {
+    margin-bottom: 100px;
+  }
+  .below-footer {
+    flex-direction: column;
+  }
+}
