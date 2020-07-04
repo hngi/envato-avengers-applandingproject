@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans=Lora&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+html.body {
+  height: 100%;
+  width: 100%;
+  font-family: "Open Sans" sans-serif;
+}
+.navbar {
+  padding: 0.8rem;
+  color: white;
+  background-color: #595bc3;
+}
+
+nav img {
+  position: absolute;
+  top: 3px;
+  left: 12%;
+}
+
+a:link {
+  color: white;
+}
+
+h1 h2 h3 {
+  text-shadow: black;
+}
+.padding {
+  padding-bottom: 0rem;
+  margin: 0 auto;
+}
+.container-fluid1 {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.container-fluid2 {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.container-fluid5 {
+  min-height: 100vh;
+  background-image: url(\assets\Group14.png);
+  background-size: cover;
+  /* background-color: black; */
+}
+
+.bslanding {
+  width: 400px;
+  height: 600px;
+}
+.intro{
+  text-align: left;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  color: #2A4F6D;
+}
+.intro1{
+  text-align: left;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  color: white;
+}
+
+
+hr {
+  border-top: 1px solid white;
+  width: 30%;
+  text-align: center;
+  margin-top: 0rem;
+  margin: 0.2rem auto 0.9rem auto;
+}
+
+/* .section1{
+  background: url(images/Rectangle10.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  transition: all 0.5s;
+} */
+/* 
+background: url(images/Rectangle10.png) no-repeat {
+  background-color: #e6e4ff;
+  padding: 5px 5px;
+  margin-top: 1rem;
+} */
+.card {
+  border: none;
+  margin-bottom: 1rem;
+}
+  
+
+.full-card:not(:last-child) {
+  margin-right: 5rem;
+}
+
+.bg-img1 {
+  min-height: 80vh;
+  background: url(../assets/images/Group15.png) no-repeat;
+  background-size: 1779px 700px;
+}
+.bg-img2 {
+
+  min-height: 100vh;
+  background: url(../assets/images/Group14.png) no-repeat;
+  background-size: contain;
+  height: 659px;
+  width: 100%;
+  /* background-size:100% 359px; */
+  
+}
+
+.bg-img3 {
+  min-height: 60vh;
+  background: url(../assets/images/Rectangle10.png) no-repeat;
+  background-size: cover;
+}
+.h1 {
+  padding-top: 5rem;
+}
+footer {
+  background-color: #595bc3;
+  color: white;
+  padding-top: 2rem;
+}
+
+.blue{
+  background-color: #595bc3;
+  color: white;
+}
+@media (max-width: 576px){
+  .bg-img1 {
+    
+    background: url(../assets/images/Group15.png) no-repeat;
+    background-size: cover;
+  }
+  .display-none{
+    display: none;
+  }
+}
+
+
+
+/*
+@media (max-width: 992px){ 
+    footer{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px){
+    footer{
+        width: 100%;
+    }
+}
+
+@
+    footer{
+        width: 100%;
+    }
+}
+*/
+
+/*Extra small (xs) devices (portraite phones, less than 576px)
+no media query since this is the default in bootstrap
+small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px){}
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px){}
+
+L
