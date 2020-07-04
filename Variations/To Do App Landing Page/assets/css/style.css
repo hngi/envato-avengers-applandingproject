@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans";
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+.nav-box {
+  background-color: #4b29dd;
+}
+
+.logo-box {
+  width: 80px;
+  height: 80px;
+  background: #fff;
+
+  border-radius: 25px 0px 35px 28px;
+}
+.logo-box .navbar-brand {
+  color: #4b29dd;
+  font-size: 3.8rem;
+}
+
+.nav-hov:hover {
+  opacity: 0.3;
+}
+
+.section-text {
+  font-family: "Open sans";
+  font-size: 2rem;
+  color: #fff;
+  line-height: 1.3;
+  padding-left: 16%;
+}
+.section-text-2 {
+  padding-left: 16%;
+}
+
+.section-btn {
+  color: #4b29dd;
+  margin-left: 16%;
+}
+
+.download {
+  padding-right: 2px;
+}
+
+.phone-box {
+  position: relative;
+  left: 25%;
+  top: 10%;
+}
+.phonediv {
+  position: relative;
+  top: 50%;
+}
+
+.phonediv-1 {
+  position: relative;
+  z-index: 10;
+  left: 2px;
+  padding-right: 3px;
+  padding-top: 40%;
+}
+
+.phonediv-2 {
+  position: absolute;
+  top: 2%;
+  left: 38%;
+  padding-top: 40%;
+}
+
+/* Premium-features Section */
+
+.p-icons {
+  width: 70px;
+  height: 70px;
+}
+
+.p-text {
+  font-size: 14px;
+}
+
+#tools-section {
+  background: #a3a3a3;
+}
+.left-col {
+  display: flex;
+  flex-direction: column;
+}
+
+/* POWER TOOLS SECTION */
+
+.light-grey-bg {
+  background-color: #f9f9fe;
+}
+
+.left-mobile-screen {
+  max-width: 80%;
+  padding-left: 20%;
+}
+
+.check-mark,
+.notif-icon,
+.edit-icon,
+.activity-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.notif-icon,
+.edit-icon,
+.activity-icon {
+  background-color: #fff;
+}
+
+.right-mobile-screen {
+  max-width: 80%;
+  padding-left: 20%;
+}
+
+.feature-icons {
+  background-color: #e5e5e5;
+  width: 45px;
+  height: 45px;
+  border-radius: 3px;
+  padding-left: 10px;
+  margin-top: 4px;
+  padding-top: 4px;
+}
+
+.learn-btn {
+  background-color: #4b29dd;
+}
+
+/* BLUE-BACKGROUND-SECTION */
+.blue-bg {
+  background-color: #4b29dd;
+}
+.inner-text {
+  font-size: 14px;
+}
+/* INTERFACE-SECTION */
+
+.review-pic {
+  border-radius: 50%;
+}
+.review-text {
+  font-size: 14px;
+}
+
+/* SUBSCRIBE-SECTION */
+
+.subscribe-bg-image {
+  background-image: url("../images/tablet-bg.png");
+  background-repeat: no-repeat;
+
+  background-position: center center;
+}
+
+.subscribe-header {
+  letter-spacing: 0.05rem;
+}
+
+.sub-italic-text {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+/*CONTACT-SECTION */
+.contact-form {
+  background: #f6f9fe;
+}
+.contact-icon {
+  width: 50px;
+  height: 50px;
+  background: #4b29dd;
+  border-radius: 2px;
+}
+
+/* FOOTER */
+
+.logo-box-2 {
+  width: 80px;
+  height: 80px;
+  background: #4b29dd;
+
+  border-radius: 25px 0px 35px 28px;
+}
+.logo-box-2 .navbar-brand-2 {
+  color: #fff;
+  font-size: 3.8rem;
+}
+.social-media {
+  width: 40px;
+  height: 40px;
+  border-radius: 2px;
+  background: #3b5998;
+}
+
+.facebook-icon {
+  background: #3b5998;
+}
+
+.twitter-icon {
+  background: #55acee;
+}
+
+.instagram-icon {
+  background: #4b29dd;
+}
+
+.linkedin-icon {
+  background: #190768;
+}
+.right-col {
+  flex-direction: column;
+}
+
+.up-icon {
+  background-color: #c5c5c5;
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  padding-left: 7px;
+  padding-top: 4px;
+}
