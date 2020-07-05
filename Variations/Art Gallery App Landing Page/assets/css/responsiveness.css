@@ -1,11 +1,10 @@
 
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 @media only screen and (min-width:850px){
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
     
     h5,h6{
         font-size: 20px;
@@ -35,8 +34,8 @@
         margin-left: 10px;
       }
 
-      .search{
-          padding-top: 1rem;
+      .search-icon{
+          padding-top: 0.5rem;
           margin: 0 auto;
       }
 
@@ -45,9 +44,12 @@
       }
 
       .art-image{
-          max-width: 360px;
-          min-width: 200px;
-          height: auto;
+        left: 757px;
+        top: 826px;
+        max-width: 548.87px;
+        min-width: 200px;
+        height: 421.08px;
+        margin-bottom: 9rem;
       }
 
       .art-image img{
@@ -57,35 +59,46 @@
       .left-flex{
           text-align: justify;
           padding-top: 5rem;
+          width: 350px;
           
       }
       .left-flex h3{
-          font-size: 70px;
+          font-size: 76px;
           font-weight: 500;
           font-style: normal;
 
       }
 
+      .text-dark{
+        width: 423px; 
+        letter-spacing: -3px;
+      }
+      .left-flex h5{
+          font-size: 20px;
+          font-weight: normal;
+      }
       .block-image{
           display: none;
       }
 
       .block-image1{
-          margin-top: 2rem;
+          margin-top: 12rem;
       }
 
       .container-dark{
         background-color: black;
-        margin-top: 4rem;
+        margin-top: 12rem;
         padding-top: 4rem;
-        height: 500px;
         display: flex;
+        height: 700px;
         justify-content: space-around;
+        
     }
 
     .headings{
         text-align: justify;
-        padding-top: 5rem;
+        padding-top: 12rem;
+        width: 500px;
     }
 
       .flex-items{
@@ -106,8 +119,8 @@
     }
     
     .gold-circle{
-        width: 170px;
-        height: auto;
+        width: 233px;
+        /* height: 100%; */
     }
     
     .gold-circle img{
@@ -115,18 +128,22 @@
     }
     
     .rec-19{
-        width: 130px;
-        height: auto;
-        margin-top: -2.5rem;
+        width: 233px;
+        height: 100%;
+        margin-top: -4rem;
+        margin-left: -3rem;
     }
     
     .rec-19 img{
         width: 100%;
+        margin-right: 3rem;
+
     }
     
     .rec-20{
-        width: 130px;
-        height: auto;
+        width: 233px;
+        margin-top: 3rem;
+        /* height: 100%; */
     }
     
     .rec-20 img{
@@ -134,8 +151,8 @@
     }
     
     .rec-21{
-        width: 130px;
-        height: auto;
+        width: 233px;
+        /* height: 100%; */
         margin-top: 1rem;
     }
     
@@ -170,14 +187,15 @@
      #d-flex{
         flex-direction: column;
         justify-content: center;
-        align-content: center;        
+        align-content: center; 
+        margin-top: 10rem;       
     }
 
 
     .gallery img{
-        max-width: 259.66px;
-        min-width: 150px;
+        width: 300px;
         height: auto;
+        margin-right: 8rem;
     }
     
     .gallery-headings{
@@ -189,7 +207,7 @@
     .gallery{
         display: flex;
         justify-content: space-around;
-        margin: 2rem 4rem;
+        margin: -8rem 0rem;
         padding-left: 15px;
     }
 
@@ -197,35 +215,38 @@
         display: flex;
         justify-content: space-around;
         flex-direction: row-reverse;
+        margin: 8rem 0rem;
+        padding-left: 15px;
         
     }
 
     .search-headings{
         text-align: justify;
         margin-top: 8rem;
-        margin-right: -2rem;
+        margin-right: 2rem;
+        margin-left: -4rem;
     }
 
     .search img{
-        max-width: 259.66px;
-        min-width: 200px;
+        width: 300px;
         height: auto;
         margin-right: 9rem;
-        margin-left: -7rem;
+        margin-left: -12rem;
     }
 
     .collection img{
-        max-width: 259.66px;
-        min-width: 150px;
+        width:300px;
         height: auto;
         margin-top: -3rem;
+        margin-left: -2rem;
     }
     
     .collection-headings{
         margin-top: 9rem;
-        margin-left: -8rem;
+        margin-left: -12rem;
         text-align: justify;
-        margin-right: 5rem;
+        margin-right: 10rem;
+        
     }
     .collection{
         display: flex;
@@ -238,12 +259,18 @@
         display: flex;
         justify-content: flex-end;
         margin-bottom: -9rem;
+        margin-top: -9rem;
+        margin-right: -0.9rem;
     }
 
+    .gold-texture2 img{
+        width: 260px;
+    }
     .curato{
         display: flex;
         justify-content: space-around;
         flex-direction: row-reverse;
+        margin-left: -4rem;
         
     }
 
@@ -254,9 +281,8 @@
     }
 
     .curato img{
-        max-width: 259.66px;
-        min-width: 200px;
-        height: auto;
+        width: 300px;
+        height: auto;      
         margin-right: 9rem;
         margin-left: -7rem;
     }
@@ -272,9 +298,13 @@
         padding-bottom: 2rem;
         margin-top: -3rem;
     }
+
+    .page{
+        margin-left: 3.3rem;
+    }
     .carousal h3, p{
         text-align: justify;
-        margin-left: 8rem;
+        margin-left: 11rem;
     }
 
 
@@ -292,6 +322,7 @@
 
     .sub-carousal h5{
         text-align: justify;
+        margin-top: 3rem;
     }
 
     .figimg{
@@ -302,6 +333,14 @@
         margin-left: 2rem;
     }
 
+    .carousel-item img{
+        width: 130px;
+        margin: 0 auto;
+    }
+
+    .carousal-item h5{
+        text-align: justify;
+    }
     .plain-text{
         margin-top: 3rem;
     }
@@ -351,7 +390,7 @@
         margin-left: -2rem;
     }
     .flex-items2{
-        margin-left: 2rem;
+        margin-left: 4rem;
     }
 
     .footer-links{
