@@ -1,9 +1,10 @@
+
 /* ================================================= 
    Base Elements Styles
 ==================================================== */
 
 body {
-    font-family: '-apple-system', 'BlinkMacSystemFont', "Segoe UI", 'Roboto', Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     max-width: 100%;
@@ -19,20 +20,20 @@ body {
 .navbar-header
 {
     display:block;
-    background-color: #29363b;
+    background-color: #1d0230;
 }
 
 .nav-list {
-    background-color: rgba(41, 54, 59, 0.8);
+    background-color:#1d0230;
 }
 
 .signup {
-    border: 3px solid #2ECEFF;
+    border: 3px solid #f3558e;
     border-radius: 1rem;
 }
 
 .login {
-    background-color:#2ECEFF;
+    background-color:#f3558e;
     border-radius: 1rem;
 }
 
@@ -40,35 +41,27 @@ body {
 
 .heading {
     text-align: center;
-    background-image: url(../img/bg-img.png), url(../img/diagonal-bg-design-left.png);
-    background-position: center, 0% 40%;
-    background-repeat: no-repeat, no-repeat;
-    background-size: cover, 60px 200px;
+}
+
+.brief {
+    background-color: #daabfc;
+    color: #1d0230;
 }
 
 .features {
     color: #f5f5f5;
-    background-color: #29363B;
-    box-sizing: border-box;
-}
-
-.feat-box {
-    text-align: center;
-    color: #373737;
-    padding: 0px 10px 2px;
-    width: 9rem;
-    background-color: #FFFFFF;
-    margin: 0.8rem auto;
+    background-color: #1d0230;
+    background-origin: border-box;
 }
 
 .download {
-    background-color: #f5f5f5;
-    padding-bottom: 8.125rem;
+    background-color: #daabfc;
+    padding-bottom: 0.5rem;
 }
 
 .foot {
     color: white;
-    background-color: #29363b;
+    background-color: #1d0230;
 }
 
 /* ================================= 
@@ -90,13 +83,12 @@ body {
     position: relative;
     top: 0em;
     animation-name: mobile-1;
-    animation-duration: 3s;
-    animation-delay: 1s; 
+    animation-duration: 5s;
     animation-fill-mode: forwards;
 }
-  
+
 @keyframes mobile-1 {
-    from {right: 22em;}
+    from {right: 2em;}
     to {right: -2em;}
 }
 
@@ -106,19 +98,33 @@ body {
     position: relative;
     top: 3em;
     animation-name: mobile-2;
-    animation-duration: 3s;
-    animation-delay: 1s;
+    animation-duration: 8s;
+    animation-delay: 5s;
     animation-fill-mode: forwards;
 }
 
 @keyframes mobile-2 {
-    from {right: -22em;}
-    to {right: 2em;}
+    0% {right: 2em}
+    50% {right: -2em;}
+    100% {right: 2em;}
+}
+
+.appfeat-img1 {
+    width: 6.8rem;
+    position: relative;
+    top: -1rem;
+    right: -6rem;
+}
+
+.appfeat-img2 {
+    width: 6.8rem;
+    position: relative;
+    top: 2rem;
+    right: -4rem;
 }
 
 .feat-img {
-    width: 7.5rem;
-    padding: 20px 10px 10px;
+    width: 6.75rem;
 }
 
 .download-img {
@@ -135,12 +141,21 @@ body {
 
 /*Typography Styles*/
 
+.wrapper {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    font-family: 'Poppins', sans-serif;
+}
+
 a {
     text-decoration: none;
     color: white;
 }
 
 .heading h3 {
+    color: #1d0230;
     text-align: center;
     position: relative;
     top: 1em;
@@ -148,8 +163,27 @@ a {
     font-size: 1.75rem;
 }
 
+.brief h4{
+    font-weight: bold;
+}
+.carousel h4,
+.brief,
+.reviews h4 {
+    color: #1d0230;
+    text-align: center;
+}
+
 .features h4 {
     padding: 0.8rem 0.5rem;
+    font-weight: bold;
+}
+
+.features h5{
+    font-size: 0.875rem;
+}
+
+.features p{
+    font-size: 0.5rem;
 }
 
 h4 {
@@ -159,16 +193,17 @@ h4 {
 }
 
 .download-link p {
+    color: #1d0230;
     font-size: 0.875rem;
     margin: 10px 10px 50px;
 }
 
 .foot p{
-    font-size: 0.69rem;
+    font-size: 0.75rem;
 }
 
 blockquote {
-    color: #434343;
+    color: #1d0230;
     font-size: 0.875rem;
     position: relative;
     margin: 0.5em;
@@ -179,7 +214,7 @@ blockquote {
 
 blockquote:before {
     font-family: Georgia, serif;
-    color: #698C9A;
+    color: #f3558e;
     position: relative;
     font-size: 3.5em;
     line-height: 1;
@@ -190,7 +225,7 @@ blockquote:before {
 
 blockquote:after {
     font-family: Georgia, serif;
-    color: #698C9A;
+    color: #f3558e;
     position: relative;
     float:right;
     font-size: 3.5em;
@@ -203,7 +238,8 @@ blockquote:after {
 .icon-left {
     padding: 20px 15px;
     font-size: 1rem;
-    background-color: #698C9A;
+    color: e5e5e5;
+    background-color: #f3558e;
     border-radius: 6px 0px 0px 6px;
     opacity: 1;
     position: relative;
@@ -214,7 +250,8 @@ blockquote:after {
 .icon-right {
     padding: 20px 15px;
     font-size: 1rem;
-    background-color: #698C9A;
+    color: #e5e5e5;
+    background-color: #f3558e;
     border-radius: 0px 6px 6px 0px;
     opacity: 1;
     position: relative;
@@ -227,7 +264,7 @@ blockquote:after {
     height: calc(1.5em + .75rem + 2px);
     padding: .375rem .75rem;
     width: 70%;
-    font-size: .75rem;
+    font-size: .675rem;
     font-weight: 400;
     line-height: 1.5;
     color: #495057;
@@ -244,10 +281,10 @@ blockquote:after {
     vertical-align: middle;
     user-select: none;
     color: #fff;
-    background-color: #2ECEFF;
+    background-color: #f3558e;
     border: 1px solid transparent;
     padding: .375rem .75rem;
-    font-size: .75rem;
+    font-size: .675rem;
     line-height: 1.5;
     border-radius: 0 20px 20px 0;
 }
@@ -281,12 +318,27 @@ blockquote:after {
         top: 4.75em;
         width: 9.75rem;
     }
+
+    .appfeat-img1 {
+        width: 7.8rem;
+        top: -1rem;
+        right: -9rem;
+    }
     
-    .feat-box {
-        width: 10rem;
-        margin: 0.8rem auto;
+    .appfeat-img2 {
+        width: 7.8rem;
+        top: 2rem;
+        right: -7rem;
     }
 
+    .features h5{
+        font-size: 0.925rem;
+    }
+    
+    .features p{
+        font-size: 0.65rem;
+    }
+    
     blockquote:after {
         right: 2.25em;
     }
@@ -306,12 +358,28 @@ blockquote:after {
         font-size: 2.5rem;
     }
 
-    .feat-box {
-        width: 10rem;
+    .heading p {
+        font-size: 1rem;
     }
 
-    .features .row {
-        justify-content: space-around;
+    .appfeat-img1 {
+        width: 9.25rem;
+        top: -1rem;
+        right: -13rem;
+    }
+    
+    .appfeat-img2 {
+        width: 9.25rem;
+        top: 3rem;
+        right: -11rem;
+    }
+
+    .features h5{
+        font-size: 1.125rem;
+    }
+    
+    .features p{
+        font-size: 0.85rem;
     }
     
     .download-link img {
@@ -320,7 +388,7 @@ blockquote:after {
 
     .download-img {
         width: 20rem;
-        height: 27.625rem;
+        height: 23.25rem;
     }
 
     .download-link p {
@@ -351,9 +419,19 @@ blockquote:after {
         right: 4em;
     }
     
+    .foot h5 {
+        font-size: 1.45rem;
+        font-weight: bold;
+    }
+
     .foot p {
         font-size: 1.25rem;
     }
+
+    .foot a {
+        font-size: 1.25rem;
+    }
+
     .foot .email-form {
         right: -3rem;
     }
@@ -367,7 +445,7 @@ blockquote:after {
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
     .main-nav {
-       background-color: #29363b;
+       background-color: #1d0230;
     }
 
     .main-nav ul li {
@@ -376,7 +454,7 @@ blockquote:after {
 
     .login {
         background: transparent;
-        border: 3px solid #2eceff;
+        border: 3px solid #f3558e;
         border-radius: 0.625rem;
         margin-right: 5rem;
     }
@@ -405,14 +483,13 @@ blockquote:after {
         animation-name: brainyy;
         animation-duration: 3s;
         animation-iteration-count: infinite;
-        animation-delay: 1s;
         animation-fill-mode: forwards;
         animation-timing-function: linear;
     }
 
     @keyframes brainyy {
         0% {top: -45rem;}
-        50% {top: -70rem;}
+        50% {top: -58rem;}
         100% {top: -45rem;}
     }
 
@@ -424,13 +501,11 @@ blockquote:after {
     }
 
     .heading {
-        height: 76rem;
-       
+        height: 62rem;   
     }
 
     .brief {
         position: relative;
-        top: -24rem;
     }
 
     .brief h4 {
@@ -442,22 +517,47 @@ blockquote:after {
         font-size: 1.5rem;
     }
 
+    .features {
+        max-height: 52rem;
+    }
+
     .features h4 {
         font-size: 2.5rem;
     }
 
-    .feat-box {
-        box-sizing: border-box;
-        font-size: 1.5rem;
-        margin: 50px 8px;
-        padding: 1.25rem;
-        width: 12.75rem;
-        height: 14rem;
+    .appfeat-img1 {
+        width: 19rem;
+        top: -1rem;
+        right: -2rem;
+    }
+    
+    .appfeat-img2 {
+        width: 19rem;
+        top: -37rem;
+        right: -12rem;
+    }
+
+    .feat-list {
+        flex-wrap: wrap;
+        width: 36rem;
+        position: relative;
+        right: -2rem;
+    }
+
+    .feat {
+        display: inline-flex;
     }
 
     .feat-img {
-        width: 7rem;
-        padding: 1.75rem 0.625rem 0.625rem;
+        width: 10rem;
+    }
+
+    .features h5{
+        font-size: 1.5rem;
+    }
+    
+    .features p{
+        font-size: 0.9rem;
     }
     
     .download h4 {
@@ -521,9 +621,17 @@ blockquote:after {
         text-align: justify;
     }
     
-    .foot h5,
+    .foot h5{
+        font-size: 1.175rem;
+        font-weight: bold;
+    }
+
     .foot p {
-        font-size: 1.125rem;
+        font-size: 0.85rem;
+    }
+
+    .foot a {
+        font-size: 0.85rem;
     }
 
     .foot .email-form {
@@ -554,13 +662,15 @@ blockquote:after {
         width: 21.25rem;
     }
 
-    .brief {
-        top: -30rem;
-    }
-
     .heading h3 {
         top: -12rem;
         right: 26rem;
+    }
+
+    .appfeat-img2 {
+        width: 19rem;
+        top: -37rem;
+        right: -17rem;
     }
 
     .download img {
