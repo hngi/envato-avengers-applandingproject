@@ -1,34 +1,515 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <!-- Optimized viewport for mobile -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <!-- Website description -->
-    <meta name="description" content="apps, technology" />
-    <meta name="keywords" content="" />
-    <!-- Website title-->
-    <title>APP LANDING PAGE</title>
-    <link rel="shortcut icon" href="" type="image/x-icon" />
-    <link rel="apple-touch-icon-precomposed" href="" />
-    <!-- Google fonts -->
+
+    <!-- Bootstrap CSS -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <!-- CSS links-->
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/all.min.css" />
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/responsive.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+      integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA="
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+
+    <title>Charity App Landing Page</title>
   </head>
+
   <body>
-    <!-- All javascript at the bottom of the page for fast page load -->
-    <script src="./js/jquery-3.5.1.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
+    <!--NAVIGATION-->
+    <header style="background-image: url('./assets/images/background.PNG');">  
+
+      <nav class="navbar navbar-light  navbar-expand-lg  navbar-css  brand-logo">
+      <div class="container">
+
+
+        <a href="#" class="navbar-brand nav-logo"><img src="./assets/images/Charity App Logo.png" class="img-responsive" width="150px"></a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#myNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+  
+        <div class="collapse navbar-collapse" id="myNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item nav-item-css"><a href="#" class="nav-link nav-link-css">ABOUT</a></li>
+            <li class="nav-item nav-item-css"><a href="#features" class="nav-link nav-link-css">FEATURES</a></li>
+            <li class="nav-item nav-item-css"><a href="#SCREENSHOOTS" class="nav-link nav-link-css">SCREENSHOOTS</a>
+            </li>
+            <li class="nav-item nav-item-css">
+              <a href="#TESTIMONIES" class="nav-link nav-link-css">TESTIMONIES</a>
+            </li>
+            <li class="nav-item nav-item-css">
+              <a href="#contact" class="nav-link nav-link-css">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    
+
+    <!--JUMBOTRON-->
+
+    <div class="jumbotron jumbotron-bg-color text-white">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col sm-7 d-flex flex-column justify-content-center align-items-start">
+            <h5 class="display-9 jumbotron-header amaze-charity text-dark">AMAZING CHARITY APP THAT RESONATES</h5>
+            <h1 class="lead jumbotron-text jumbotron-charity-word display-4 text-dark mt-3 mb-3">
+              GIVE YOUR BEST <br> WITH iCHARITY 
+            </h1>
+            <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit</p>
+            <div class="download-btns">
+
+          <button class="btn btn-light download-btn">
+            <img class="img-fluid" src="./assets/images/apple.png" alt="" />
+          </button>
+  
+          <button class="btn btn-light download-btn">
+            <img src="./assets/images/Google play.png" class="img-fluid" alt="play store" />
+          </button>
+
+        </div>
+          </div>
+          <div class="col-sm-2"></div>
+          <div class="col-sm-3 d-none d-md-flex jumbotron-img">
+            <img class="img-fluid" src="./assets/images/Group 6.png" alt="image" />
+          </div>
+        </div>
+      </div>
+    </div>
+</header>
+    <!--More Information on The Application -->
+
+    <section>
+      <div class="container">
+        <div class="row">
+        <div class="col-md-5">
+          <img src="./assets/images/1_YKwkoFKQatETslzLErYJSg (2).png" class="max-width-md img-head d-block img-thumbnail pr-4 mr-3">
+        </div>
+        <div class="col-md-7 container">
+          <div class="col sm-7 d-flex flex-column justify-content-center align-items-start">
+            <h5 class="display-9 jumbotron-header text-dark mt-5 pt-3">GET TO KNOW iCHARITY APPLICATION</h5>
+            <h1 class="lead jumbotron-text display-9 text-dark mt-3 mb-3">
+              BEST CHARITY APPLICATION TO START YOUR <br>DONATION TODAY 
+            </h1>
+            <p class="text-dark align-items-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit</p>
+             <p class="text-dark align-items-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+             cillum dolore eu fugiat nulla pariatur.</p>
+          <button class="btn bg-btn-dark read-more">Read More</button>
+         </div>
+        </div>
+      </div>
+
+    </section>
+
+
+
+
+            <!-- APP FEATURES--->
+
+<section style="background-image: url('./assets/images/background.PNG');">
+  <div class="container align-items-center">
+    <p class="section-title mb-2 p text-center mt-1">WE HAVE THE BEST QUALITY CHARITY APP</p>
+      <h3 class="text-center text-dark mb-5 h3">SOME OF OUR BEST FEATURES YOU WILL NEED</h3>
+ 
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+          <div class="wrap">
+              <div class="ico-wrap">
+                 <span class="mr-3 p-2"><img src="./assets/images/Vector (7).png"></span>
+                    </div>
+                      <div class="text-wrap vcenter">
+                        <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">Customize to Taste</h2>
+                        <p class="mbr-fonts-style text1 mbr-text display-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <div class="wrap ml-4 mr-4">
+              <div class="ico-wrap">
+                  <span class="mr-3 p-2"><img src="./assets/images/Vector (7).png"></span>
+                    </div>
+                       <div class="text-wrap vcenter">
+                        <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">Secured Donations</h2>
+                        <p class="mbr-fonts-style text1 mbr-text display-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                    </div>
+                </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                  <div class="wrap">
+              <div class="ico-wrap">
+                  <span class="mr-3 p-2"><img src="./assets/images/Vector (7).png"></span>
+                    </div>
+                       <div class="text-wrap vcenter">
+                        <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">Aesthetic Feel</h2>
+                        <p class="mbr-fonts-style text1 mbr-text display-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                    </div>
+                </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                 <div class="wrap">
+              <div class="ico-wrap">
+                  <span class="mr-3 p-2"><img src="./assets/images/Vector (7).png"></span>
+                    </div>
+                       <div class="text-wrap vcenter">
+                        <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">Awesome Customer Support</h2>
+                        <p class="mbr-fonts-style text1 mbr-text display-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!-- APP Features End -->
+
+
+
+<!-- Services section -->
+
+
+
+<section class="max-width-md margin-top-lg margin-bottom-lg">
+     <div class="container mt-5">
+        <div class="row">     
+    
+                <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 panel-group pl-5 pb-5 ml-auto d-flex flex-column" id="faqAccordion0">
+                    <p class="category-title pt-1 mb-1 text-center">POWER TO DO MUCH MORE</p>
+                    <h3 class="category-title pt-3  mb-4 text-center"> MORE FEATURES</h3>
+                    <div class="panel panel-default p-3">
+                        <div class="panel-heading accordion-toggle question-toggle collapsed pl-3"
+                            data-toggle="collapse" data-parent="#faqAccordion0" data-target="#question00">
+                            <h5 class="panel-title">
+                                <a class="faq-trigger" href="#0"><span>WE'RE READY TO START NOW</span></a>
+                            </h5>
+                        </div>
+                    </div>
+                    <div id="question00" class="panel-collapse collapse" style="height: 0px;">
+                        <div class="panel-body">
+                            <div class="answer ml-5 mr-4 mb-1 p-4">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                            </div>
+                       </div>
+                    </div>
+
+
+                    <div class="panel panel-default p-3">
+                        <div class="panel-heading accordion-toggle question-toggle collapsed pl-3"
+                            data-toggle="collapse" data-parent="#faqAccordion0" data-target="#question06">
+                            <h5 class="panel-title">
+                                <a class="faq-trigger" href="#0"><span>WE DELIVER THE HIGHEST QUALITY</span></a>
+                            </h5>
+                        </div>
+                    </div>
+                    <div id="question06" class="panel-collapse collapse" style="height: 0px;">
+                        <div class="panel-body">
+                            <div class="answer ml-5 mr-4 mb-1 p-4">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="panel panel-default p-3">
+                        <div class="panel-heading accordion-toggle question-toggle collapsed pl-3"
+                            data-toggle="collapse" data-parent="#faqAccordion0" data-target="#question01">
+                            <h5 class="panel-title">
+                                <a class="faq-trigger" href="#0"><span>PREMIUM FUCNTIONALITY!</span></a>
+                            </h5>
+
+                        </div>
+                    </div>
+                    <div id="question01" class="panel-collapse collapse" style="height: 0px;">
+                        <div class="panel-body">
+                            <div class="answer ml-5 mr-4 mb-2 p-4">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default p-3">
+                        <div class="panel-heading accordion-toggle question-toggle collapsed pl-3"
+                            data-toggle="collapse" data-parent="#faqAccordion0" data-target="#question02">
+                            <h5 class="panel-title">
+                                <a class="faq-trigger" href="#0"><span>UNIQUE AND BOLD APPLICATION DESIGN</span></a>
+                            </h5>
+                        </div>
+                    </div>
+                    <div id="question02" class="panel-collapse collapse" style="height: 0px;">
+                        <div class="panel-body">
+                            <div class="answer ml-5 mr-4 mb-2 p-4">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+             <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+          <img src="./assets/images/1_9LOwiYFMwWULKYokkw9Htw.png" class="img-size-more-feature  img-thumbnail">
+        </div>
+      </div>
+
+    </section>
+
+
+
+                                    <!-- /features section -->
+
+<section class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2 col-xl-2">
+      <img src="./assets/images/1_9LOwiYFMwWULKYokkw9Htw.png" class="img-size  img-thumbnail">
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2 col-xl-2">
+      <img src="./assets/images/1_G7V_ZLDUZXRzN5W2CHWfow (2).png" class="img-size  img-thumbnail">
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2 col-xl-2">
+      <img src="./assets/images/1_Kc5-bQgZTk0GUTc0CCsIyQ.png" class="img-size  img-thumbnail">
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 col-xl-2">
+      <img src="./assets/images/1_N7dR-GXSGj2tStTqwoLmeA.png" class="img-size  img-thumbnail">
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+      <h5 class="text-right mt-5 pt-5">iCHARITY APP SCREEENSHOTS </h5>
+      <p class="text-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore</p>
+    </div>
+  </div>
+</section>
+
+
+
+<!--Video-->
+
+
+
+<div class="container">
+  
+  <video controls poster="./assets/images/poster.PNG" class="col-12 col-md-12">
+  <iframe class="embed-responsive-item embed-responsive-item"></iframe>
+  <source src="./assets/images/Trending Instagram Photo Editing - PicsArt Editing Tutorial.mp4" type="video/mp4">
+</video>
+
+</div>
+
+
+
+
+<!-- Testimony-->
+
+<section class="container">
+  <h2 class="text-center mb-4">TESTIMONIES</h2>
+  <div class="row">
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+      <div class="row justify-content-center ">
+          <img class="align-self-center text-center rounded-circle outside img-fluid" src="./assets/images/Ellipse 4.png" width="110" height="110"> 
+        </div>   
+           <div class="card-body pt-0 text-center pb-3 ">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 col">
+                            <p class="bold"> <span><img class="img-fluid quotes" src="https://i.imgur.com/U20aFIt.png" width="40" height="40"></span> Growth of data is exponential and our ability to get true insight that matter was challenging with classic, traditional Bi tools. Vertix allow us to unserstand what is driving exceptions so we can take action </p>
+                        </div>
+                        </div>
+                    </div>
+<div class="row text-center name">
+    <div class="col">
+      <h5 class="mb-3 profile-pic">lorem Lorem</h5>
+      </div>
+    </div>   
+    </div>
+
+
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+            <div class="row justify-content-center ">
+          <img class="align-self-center text-center rounded-circle  outside img-fluid" src="./assets/images/Ellipse 4.png" width="110" height="110"> 
+        </div>  
+ 
+           <div class="card-body pt-0 text-center pb-3 ">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 col">
+                            <p class="bold"> <span><img class="img-fluid quotes" src="https://i.imgur.com/U20aFIt.png" width="40" height="40"></span> Growth of data is exponential and our ability to get true insight that matter was challenging with classic, traditional Bi tools. Vertix allow us to unserstand what is driving exceptions so we can take action </p>
+                        </div>
+                        </div>
+                    </div>
+<div class="row text-center name">
+    <div class="col">
+      <h5 class="mb-3 profile-pic">lorem Lorem</h5>
+      </div>
+    </div>  
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+            <div class="row justify-content-center ">
+          <img class="align-self-center text-center rounded-circle outside img-fluid" src="./assets/images/Ellipse 4.png" width="110" height="110"> 
+        </div>       
+ 
+           <div class="card-body pt-0 text-center pb-3 ">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 col">
+                            <p class="bold"> <span><img class="img-fluid quotes" src="https://i.imgur.com/U20aFIt.png" width="40" height="40"></span> Growth of data is exponential and our ability to get true insight that matter was challenging with classic, traditional Bi tools. Vertix allow us to unserstand what is driving exceptions so we can take action </p>
+                        </div>
+                        </div>
+                    </div>
+<div class="row text-center name">
+    <div class="col">
+      <h5 class="mb-3 profile-pic">lorem Lorem</h5>
+      </div>
+    </div>  
+    </div>
+  </div>
+</section>
+
+
+
+<!--Give Your Best Section-->
+
+
+    <div class="jumbotron-bg-color1 text-white">
+      <div class="container textimony-bg">
+        <div class="row">
+          <div class="col sm-12 d-flex flex-column justify-content-center align-items-center">
+            <h2 class="lead jumbotron-text jumbotron-charity-word display-9 text-dark mt-5 mb-2">
+              GIVE YOUR BEST <br> WITH iCHARITY 
+            </h2>
+            <p class="lead text-center jumbotron-text text-dark mt-3 mb-3">
+              Lorem ipsum dolor sit amet, consectetur sed do<br>
+              dolor ipsum hoksit amet, consectetur sed dofjfjj<br>
+              ipsum dolor sit amet, consectetur sed doLorem <br>
+              Lorem ipsum dolor sit amet, consectetur sed do<br>
+              amet, consectetur sed doLorem ipsum dolor sit <br>
+               sit g amet, consectetur sed doLorem ipsum dolor<br>
+              dolor sit amet, consectetur sed dLorem ipsum o<br>
+              yey ipsum dolor sit amet, consectetur sed ueue<br>
+            </p>
+            <div class="download-btns mb-5">
+
+          <button class="btn download-btn text-center">
+            <img class="img-fluid" src="./assets/images/apple.png" alt="Apple Store" />
+          </button>
+  
+          <button class="btn download-btn text-center">
+            <img src="./assets/images/Google play.png" class="img-fluid" alt="play store" />
+          </button>
+
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+<div class="jumbotron text-center container">
+  <h1 class="text-dark">Subscribe to our newsletter</h1> 
+  <p class="text-dark">Subscribe to our newsletter Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard</p> 
+  <form class="form-inline align-items-center justify-content-center">
+    <div class="input-group">
+      <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-danger">Subscribe</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+<footer  class="footer-bg">
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4 text-dark">
+      <a href="#" class="navbar-brand nav-logo"><img src="./assets/images/Charity App Logo.png" class="img-responsive" width="150px"></a>
+      <p> Lorem ipsum dolor sit amet,consectetur adipiscing elit. porta enim consectetur adipiscing elit. porta enim tincidunt ut a </p>
+    </div>
+    <div class="col-sm-4 text-dark align-items-center">
+      <h4>Quick Links</h4>
+      <ul class="list-unstyled">
+        <li>About</li>
+        <li>Features</li>
+        <li>Pricing</li>
+        <li>Download</li>
+        <li>Reviews </li>
+      </ul>
+    </div>
+
+    <div class="col-sm-4 text-dark">
+      <h5 class="text-center mb-3 text-dark">CONTACT US</h5>
+      <div class="row">
+
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Fullname" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button type="button" class="btn btn-danger pull-right">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</footer>
+
+    <!-- Optional JavaScript -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

@@ -1,0 +1,338 @@
+small {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+
+a.faq-trigger>span,
+.faq-trigger:hover
+ {
+    text-decoration: none;
+    color: #000;
+}
+
+a.nav-link{
+    color: #fff;
+}
+
+.answer {
+    background-color: #fff;
+}
+
+.panel {
+    background-color: rgb(255, 255, 255);
+    border: solid #fff 1px;
+    box-shadow: 3px 7px 10px #888888;
+}
+
+.panel-group{
+    padding-bottom: 0px;
+}
+
+.faq-trigger,
+.panel-heading {
+    cursor: pointer;
+}
+
+.panel.panel-default{
+    background: #fff;
+}
+
+
+@media only screen and (min-width: 768px){
+    
+    .faq-trigger::after{
+        content: "+";
+        position: absolute;
+        left: 90%;
+        color: #000;
+        }
+
+    .faq-trigger.clicked::after{
+        content: "-";
+        position: absolute;
+        left: 90%;
+        color: #000;
+
+    }
+}
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.more{
+  height: 100vh;
+  width: 100%;
+
+}
+
+.img-size{
+  background-color: rgba(250, 250, 250, 0);
+  border: none;
+  transition: 1s;
+}
+
+.img-size:hover{
+    transform: scale(1.2);
+}
+.img-head{
+    background-color: rgba(250, 250, 250, 0);
+    border: none;
+    width: 594px;
+    height: 480px;
+    transition: 1s ease-in-out;
+}
+
+.img-head:hover{
+    transform: scale(1.2);
+}
+
+.img-size-more-feature{
+  position: absolute;
+  width: 341.65px;
+  height: 450.25px;
+  background-color: rgba(250, 250, 250, 0);
+  border: none;
+ transform: rotate(-30.65deg);
+ transition: 1s ease-in-out;
+}
+
+.img-size-more-feature:hover{
+    transform: scale(1.1);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+p{
+  font-size: 1rem;
+}
+.read-more{
+  background: #CD223C;
+  color: #fff;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  background-color: #fff;
+  color: #000;
+}
+
+.nav-logo {
+  font-family: 'Montserrat', sans-serif;
+  color: #525CE0 !important;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.nav-item-css {
+  margin-right: 2rem;
+}
+
+.nav-link-css {
+  font-weight: 500;
+  color: #333 !important;
+  border-radius: 5px;
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+}
+
+.nav-link-css:hover {
+  color: #525CE0 !important;
+}
+
+.btn-css {
+  background: #525CE0;
+  border-radius: 5px;
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+  border: 1px solid #525CE0;
+}
+
+.btn-css:hover {
+  background: #fff;
+  color: #525CE0 !important;
+}
+
+.jumbotron-bg-color {
+  margin-top: 20px;
+ background: rgba(250, 250, 250, 0.1);
+ color: #000;
+}
+
+.textimony-bg{
+  background-color: #E1A54D;
+}
+
+
+.jumbotron-charity-word{
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #000;
+  
+}
+
+.jumbotron-btn {
+  font-size: 22px;
+  color: #525CE0 !important;
+  font-weight: 500;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  background-color: #fff;
+}
+
+.jumbotron-btn:hover {
+  background-color: #525CE0;
+  color: #fff !important;
+}
+
+
+
+.download-bg {
+  background: rgba(82, 92, 224, 0.5);
+  border-radius: 0;
+  padding: 80px 200px;
+  color: #333 !important;
+}
+
+.download-text {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.download-btn {
+  height: 65px;
+  width: 200px;
+  border-radius: 6px;
+  margin: 10px;
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+  .feature-card {
+    height: 180px;
+    width: 180px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .jumbotron-header {
+    font-size: 45px;
+  }
+  .jumbotron-btn {
+    font-size: 20px !important;
+  }
+  .download-bg {
+    padding: 70px 120px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-logo {
+    font-size: 25px;
+  }
+  .jumbotron-header {
+    font-size: 35px;
+  }
+  .jumbotron-text {
+    font-size: 16px;
+  }
+
+  .img-size-more-feature{
+    visibility: hidden;
+  }
+
+  .download-bg {
+    padding: 40px 80px;
+  }
+  .download-btn {
+    height: 55px;
+    width: 160px;
+    border-radius: 6px;
+    margin: 8px;
+  }
+  .footer-item {
+    margin: 0 10px;
+  }
+
+  .jumbotron-charity-word{
+    font-size: 2rem;
+  }
+
+  .amaze-charity{
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .jumbotron-btn {
+    font-size: 16px !important;
+  }
+
+  .padding {
+    padding: 0;
+  }
+  .download-bg {
+    padding: 40px 60px;
+  }
+  .download-btn {
+    height: 55px;
+    width: 140px;
+  }
+  .download-text {
+    font-size: 10px;
+  }
+  .img-head{
+    
+    transform: none;
+    transition: none;
+  }
+
+   .img-head:hover{
+    
+    transform: none;
+    transition: none;
+  }
+
+  .img-size{
+
+  transition: none;
+}
+
+.img-size:hover{
+    transform:none;
+}
+
+}
+
+
+
+
+section {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    background-color: #fff;
+}
+.wrap {
+    display: flex;
+    background: white;
+    padding: 1rem 1rem 1rem 1rem;
+    margin-bottom: 2rem;
+}
