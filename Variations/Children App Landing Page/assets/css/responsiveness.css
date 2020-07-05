@@ -1,0 +1,150 @@
+@media all and (min-width: 0px) {
+}
+@media all and (max-width: 350px) {
+    .edu-buy-btn{
+        padding: 2px 5px!important;
+    
+    }
+    .abc{
+        max-width: 80%!important;
+        margin-top: -5%!important;
+    }
+    .mobile-feature img{
+        max-width: 100%;
+    }
+}
+@media all and (max-width: 567px){
+    .header-container h1{
+        font-size: 32px;
+    }
+    .header-container p{
+        font-size: 16px;
+    }
+    .edu-buy-btn{
+        padding: 5px 20px!important;
+    
+        font-size: 0.8rem;
+    }
+}
+@media all and (min-width: 560px) {
+}
+@media all and (min-width: 768px) {
+    /* NAVBAR STARTS  */
+.nav-logo{
+    max-width: 70%;
+}
+/* NAVBAR ENDS  */
+.header-row{
+    margin-top: -3%!important;
+}
+.header-col button{
+    margin-top: 1%!important;
+}
+.header-col h1{
+ font-size: 1.5rem;
+}
+.header-kids{
+    max-width: 25%;
+    margin-left: -30%;
+    margin-top: -3%;
+    margin-bottom: 0%;
+    
+}
+/* DOWNLOAD SECTION STARTS  */
+.download-row{
+    margin-top: 13%!important;
+}
+.abc{
+    max-width: 40%!important;
+    margin-top: -40%!important;
+}
+/* DOWNLOAD SECTION ENDS  */
+
+}
+@media all and (min-width: 992px) {
+    /* NAVBAR STARTS  */
+    .edu-navbar{
+        padding: 0!important;
+        position: fixed;
+        width: 100%;
+        z-index: 9999;
+        box-shadow: 0px 1px 10px 0px rgba(0,52,96,1);
+    }
+    /* NAVBAR STARTS  */
+/* HEADER STARTS  */
+.header-background{
+    /* height: 100vh; */
+}
+.header-row{
+    height: 80vh;
+}
+.header-col{
+    margin-top: 14%!important;
+
+}
+.header-kids{
+    max-width: 20%;
+    margin-left: -35%;
+    margin-top: -5%;
+    
+}
+.header-col h1{
+    font-size: 2.5rem;
+   }
+.feature-h2{
+    margin-left: -2%;
+}
+/* HEADER ENDS  */
+/* FEATURES STARTS  */
+.mobile-feature{
+    display: none!important;
+}
+.desktop-features{
+    display: flex!important;
+}
+/* FEATURES ENDS  */
+/* REVIEWS SECTION STARTS */
+#desktop-review-cards{
+    display: flex;
+}
+.carousel{
+    display: none;
+}
+.review-image{
+    display:flex!important;
+}
+.reviews-row-p{
+    margin-top: 10%!important;
+    font-size: 20px;
+}
+/* REVIEWS SECTION ENDS */
+/* FOOTER STARTS  */
+.desktop-footer-logo{
+    display: block!important;
+}
+.mobile-footer{
+    display: none!important;
+}
+/* FOOTER ENDS  */
+}
+@media all and (min-width: 1200px) {
+    .header-col{
+        /* margin-top: 18%!important; */
+    }
+    .abc{
+        max-width: 35%!important;
+        margin-top: -35%!important;
+    }
+}
+@media all and (min-width: 1400px) {
+    .header-col{
+        margin-top: 20%!important;
+    
+    }
+    .header-kids{
+        max-width: 35%;
+        margin-left: -45%;
+        margin-top: -10%;
+        
+    }
+}

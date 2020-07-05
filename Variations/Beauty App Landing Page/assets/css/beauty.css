@@ -1,0 +1,1258 @@
+
+/*Font Import*/
+ @import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/***** Navbar Body ******/
+
+.navbar-beauty{
+    background: #FFBB74;
+}
+
+
+.navbar-brand-name{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 49px;
+    color: #775531;
+    padding-left: 104px;
+}
+
+.navbar-brand-name:hover{
+    text-decoration: none;
+    color: #cc9459;;
+}
+
+/* Nav Links arrangements */
+
+.nav-list{
+    padding-right: 50px;
+}
+
+.nav-link-beauty{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-right: 30px;
+
+}
+
+.nav-link-act{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #775531;
+    padding-right: 30px;
+}
+
+.nav-link-act:hover{
+    text-decoration: none;
+    color: #c99b6b;
+}
+
+.nav-link-beauty:hover{
+    text-decoration: none;
+    color: #a78989;
+}
+
+/* background image for the header */
+.header-img{
+    position: relative;
+    background: url(/assets/images/image/Rectangle.jpg);
+    width: 100%;
+    height: 959px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+/* Overlay for background Image opacity */
+
+.overlay-img{
+    width: 100%;
+    height: 959px;
+    background: black;
+    opacity: 0.7;
+    position: absolute;
+}
+
+/* Header text and images */
+
+.header-text{
+    width: 100%;
+    height: 330px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 110px;
+    color: #FFFFFF;
+    padding-top: 428px;
+    padding-right: 130px;
+    
+}
+
+.weight-change{
+    font-weight: 600;
+}
+
+.color-change{
+    color:  #E1764C;
+}
+
+
+.phone-top{
+    width: 100%;
+    height: 552.53px;
+    padding-top: 304px;
+    padding-right: 118px;
+}
+
+/* Store Icons */
+
+.store{
+    display: inline;
+}
+
+
+/* Main body */
+
+.body-bg{
+    background: #E5E5E5;
+}
+
+/* .img-top{
+    border-radius: 50%;
+    align-items: center;
+    padding: 40px;
+} */
+
+/********* CAROUSEL SECTION ONE ****************************/
+.carousel-inner{
+    background-color: #E5E5E5;
+}
+.card{
+    background-color: #E5E5E5;
+}
+
+.carousel-web{
+    background-color: #E5E5E5;
+}
+
+.card-img-high{
+    background-color: #E5E5E5;
+}
+
+.card-deck .card .card-img-top{
+    background-color: #E5E5E5;
+    width: 100%;
+    /* border-radius: 2px solid #e5e5e5 ; */
+}
+
+/* .mobile-carousel{
+    display: none;
+} */
+
+
+/********* CAROUSEL SECTION TWO ****************************/
+
+
+/* .mobile-cont-carousel{
+    padding: 20px;
+    display: ;
+    background-color: #FFBB74;
+    
+} */
+
+
+
+
+
+
+/********* MAIN TWO SECTION *********/
+
+
+.below-head{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2C2C2C;
+}
+
+.main2-head{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+
+.main2-txt{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.side-lines{
+    padding: 30px;
+}
+
+.col-head{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.col-body{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/********* MAIN THREE SECTION *********/
+
+
+.middle-lvl{
+    background: #FFBB74;
+}
+
+.main3-head{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    color: #2C2C2C;
+    padding-top: 60px;
+}
+
+.main3-body{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #2C2C2C;
+    padding-bottom: 20px;
+}
+
+/********* MAIN FOUR SECTION *********/
+
+
+.feedback{
+    padding: 20px;
+}
+
+.main4-head{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    color: #2C2C2C;
+}
+
+.main4-body{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #2C2C2C;
+}
+
+.client{
+    border-radius: 50%;
+    padding: 40px;
+}
+
+.clt-head{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    font-variant: small-caps;
+    color: #2C2C2C;
+}
+
+.clt-body{
+    width: 100%;
+    height: 158px;
+}
+
+
+
+/********* FOOTER SECTION ONE *********/
+
+
+/********** Download background Image *******************/
+
+.download-bg{
+    position: relative;
+    background: url(/assets/images/image/toolKit.PNG);
+    width: 100%;
+    height: 547px;
+}
+
+/* Overlay for download background Image opacity */
+
+.over-download{
+    position: absolute;
+    width: 100%;
+    height: 547px;
+    background: rgba(173, 144, 118, 0.7);
+}
+
+
+.d-head{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 418px;
+    top: 165px;
+}
+
+.d-text{
+    position: absolute;
+    left: 290px;
+    top: 227px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+
+}
+
+.play-store1{
+    position: absolute;
+    left: 469px;
+    top: 306px;
+}
+
+
+.play-store2{
+    position: absolute;
+    left: 703px;
+    top: 306px;
+}
+
+.create-space{
+    height: 20vh;
+}
+
+.footer-two{
+    padding-top: 108px;
+    padding-left: 120px;
+    width: 100%;
+    height: 641px;
+    background: #FFBB74;
+} 
+
+.foot-hd2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+    padding-top: 108px;
+} 
+
+.foot-hdtext{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.foot-hd3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+    padding-top: 31px;
+}
+
+
+.foot-hd1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    /* padding-top: 20px; */
+}
+
+.foot-form{
+    padding-top: 127px;
+    /* padding-bottom: 162px; */
+}
+
+.foot-input{
+    height: 49px;
+    width: 43%;
+    margin-top: 30px;
+    border: 2px solid #FFBB74;
+    border-radius: 5px;
+    padding: 17px;
+}
+
+#foot-holder{
+    height: 120px;
+    width: 87%;
+    margin-top: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+}
+
+.footer-btn{
+    margin-left: 280px;
+    width: 190px;
+    height: 52px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+}
+
+
+.page-footer{
+    height: 317px;
+}
+
+
+.last-foot{
+    padding-top: 81px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 49px;
+    color: #E1764C;
+}
+
+
+.foot-media{
+    padding-top:38px;
+    padding-left: 60px;
+}
+
+.footer-copyright{
+    /* padding-top: 38px; */
+    margin-bottom: 63px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+
+
+
+/*******************MEDIA QUERIES***************/
+
+
+@media screen and (max-width: 1024px){
+    .header-text{
+        width: 100%;
+        height: 300px;
+        font-size: 52px;
+        padding-top: 400px;
+        padding-right: 80px;
+    }
+
+    .d-head{
+        font-size: 40px;
+        line-height: 49px;
+        left: 270px;
+        top: 165px;
+    }
+    
+    .d-text{
+        left: 40px;
+        top: 227px;
+        font-size: 20px;
+        line-height: 24px;    
+    }
+
+    .store1 , .store2{
+        width: 40%
+    }
+
+    .play-store1{
+        left: 200px;
+    }
+
+    .play-store2{
+        left: 500px;
+    }
+
+    .side-lines{
+        padding: 10px;
+    }
+
+    .foot-input{
+        height: 49px;
+        width: 175px;
+        margin-top: 30px;
+        padding: 10px;
+    }
+    
+    #foot-holder{
+        height: 100px;
+        width: 84%;
+        margin-top: 30px;
+        padding: 5px;
+    }
+    
+
+    .footer-btn{
+        margin-left: 202px;
+        width: 150px;
+        height: 42px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .header-text{
+        width: 100%;
+        height: 200px;
+        font-size: 43px;
+        padding-top: 350px;
+        padding-right: 60px;
+    }
+
+    .store1 , .store2{
+        width: 40%
+    }
+
+    .side-lines{
+        width: 50%;
+        padding-left: 80px;
+    }
+
+    .clt-head{
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .download-bg{
+        position: relative;
+    }
+
+    .d-head{
+        font-size: 30px;
+        line-height: 39px;
+        position: absolute;
+        left: 200px;
+        top: 135px;
+    }
+    
+    .d-text{
+        position: absolute;
+        left: 90px;
+        top: 227px;
+        font-size: 15px;
+        line-height: 24px;
+        
+    
+    }
+    
+    .play-store1{
+        position: absolute;
+        left: 170px;
+        top: 306px;
+        width: 25%;
+    }
+    
+    .play-store2{
+        position: absolute;
+        left: 410px;
+        top: 306px;
+        width: 25%;
+    }
+
+    .foot-form{
+        padding-top: 100px;
+    }
+    .foot-input{
+        height: 40px;
+        width: 84%;
+        margin-top: 5px;
+        padding: 5px;
+    }
+    
+    #foot-holder{
+        height: 90px;
+        width: 84%;
+        margin-top: 10px;
+        padding: 5px;
+    }
+    
+
+    .footer-btn{
+        margin-left: 128px;
+        width: 124px;
+        height: 39px;
+        font-size: 15px;
+    }
+
+    .footer-two{
+        padding-top: 80px;
+        padding-left: 100px;
+        width: 100%;
+    } 
+    
+    .foot-hd2{
+        font-size: 30px;
+        line-height: 39px;
+        padding-top: 80px;
+    } 
+    
+    .foot-hdtext{
+        font-size: 20px;
+        line-height: 18px;
+    }
+    
+    .foot-hd3{
+        font-size: 25px;
+        line-height: 27px;
+        padding-top: 17px;
+    }
+    
+    
+    .foot-hd1{
+        font-size: 13px;
+        line-height: 14px;
+
+    }
+
+    .last-foot{
+        padding-top: 71px;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 30px;
+      
+    }
+    
+    /************************** Mobile carousel ***************************/
+
+    /* .card-img-high{
+        height: 150px;
+    }  */
+
+    /* .mobile-carousel{
+        display: block;
+    }
+    
+    .carousel-web{
+        display: none;
+        background: #E5E5E5;
+    } */
+
+}
+
+/*******MEDIA********/
+
+@media screen and (max-width:640px){
+
+    .phone-top{
+        padding-top: 190px;
+        padding-left: 60px;
+        /* display: none; */
+    }
+
+    
+    .d-head{
+        font-size: 28px;
+        line-height: 20px;
+        left: 140px;
+        top: 135px;
+    }
+    
+    .d-text{
+        position: absolute;
+        left: 25px;
+        top: 227px;
+        font-size: 17px;
+        line-height: 17px;
+        
+    
+    }
+    
+    .play-store1{
+        position: absolute;
+        left: 130px;
+        top: 306px;
+        width: 25%;
+    }
+    
+    .play-store2{
+        position: absolute;
+        left: 340px;
+        top: 306px;
+        width: 25%;
+    }
+
+    .footer-two{
+        padding-top: 30px;
+        padding-left: 60px;
+        width: 100%;
+    } 
+
+    .foot-form{
+        padding-top: 10px;
+    }
+    .foot-input{
+        height: 30px;
+        width: 84%;
+        margin-top: 2px;
+        padding: 5px;
+    }
+    
+    #foot-holder{
+        height: 70px;
+        width: 84%;
+        margin-top: 5px;
+        padding: 5px;
+    }
+    
+
+    .footer-btn{
+        margin-left: 300px;
+        width: 124px;
+        height: 39px;
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+ 
+    
+    .header-text{
+        width: 100%;
+        height: 50px;
+        line-height: 20px;
+        font-size: 32px;
+        padding-top: 120px;
+        padding-left: 60px;
+    }
+
+    .phone-top{
+        padding-top: 190px;
+        padding-left: 60px;
+        /* display: none; */
+    }
+
+    .store1 , .store2{
+        width: 20%
+    }
+
+    .side-lines{
+        width: 50%;
+        padding-left: 80px;
+    }
+
+    .clt-head{
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .download-bg{
+        position: relative;
+    }
+
+    .d-head{
+        font-size: 25px;
+        line-height: 39px;
+        position: absolute;
+        left: 80px;
+        top: 135px;
+    }
+    
+    .d-text{
+        position: absolute;
+        left: 29px;
+        text-align: center;
+        top: 180px;
+        font-size: 14px;
+        line-height: 24px; 
+    
+    }
+    
+    .play-store1{
+        position: absolute;
+        left: 80px;
+        top: 306px;
+        width: 150px;
+    }
+    
+    .play-store2{
+        position: absolute;
+        left: 260px;
+        top: 306px;
+        width: 150px;
+    }
+
+    .footer-two{
+        padding-top: 10px;
+        padding-left: 10px;
+    } 
+
+    .foot-form{
+        padding-top: 5px;
+    }
+
+    .foot-input{
+        height: 30px;
+        width: 100%;
+        padding: 5px;
+    }
+    
+    #foot-holder{
+        height: 70px;
+        width: 100%;
+        margin-top: 10px;
+        padding: 5px;
+    }
+    
+
+    .footer-btn{
+        margin-left: 320px;
+        width: 120px;
+        height: 44px;
+        font-size: 13px;
+    }
+
+    
+    .foot-hd2{
+        font-size: 30px;
+        line-height: 29px;
+        padding-top: 60px;
+    } 
+    
+    .foot-hdtext{
+        font-size: 16px;
+        line-height: 15px;
+    }
+    
+    .foot-hd3{
+        font-size: 25px;
+        line-height: 23px;
+        padding-top: 14px;
+    }
+    
+    
+    .foot-hd1{
+        font-size: 13px;
+        line-height: 14px;
+
+    }
+
+    .last-foot{
+        padding-top: 71px;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 30px;
+      
+    }
+    
+    /**********carousel**********/
+
+    /* .card-img-high{
+        height: 150px;
+    } */
+
+    /* .mobile-carousel{
+        display: block;
+    }
+    
+    .carousel-web{
+       display: none;
+    } */
+
+
+}
+
+
+
+
+
+@media screen and (max-width:411px){
+    .footer-btn{
+        margin-left: 250px;
+        width: 120px;
+        height: 47px;
+        font-size: 13px;
+    }
+
+    .foot-media{
+        padding-top:38px;
+        padding-left: 40px;
+    }
+}
+
+
+@media screen and (max-width:414px){
+    .footer-btn{
+        margin-left: 252px;
+        width: 120px;
+        height: 47px;
+        font-size: 14px;
+    }
+
+    .foot-media{
+        padding-top:38px;
+        padding-left: 40px;
+    }
+}
+
+
+@media screen and (max-width:375px){
+
+    .header-text{
+        width: 100%;
+        height: 50px;
+        line-height: 20px;
+        font-size: 32px;
+        padding-top: 120px;
+        padding-left: 60px;
+    }
+
+    .phone-top{
+        padding-top: 190px;
+        padding-left: 60px;
+        /* display: none; */
+    }
+
+    .store1 , .store2{
+        width: 20%
+    }
+
+    .side-lines{
+        width: 50%;
+        padding-left: 80px;
+    }
+
+    .clt-head{
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .download-bg{
+        position: relative;
+    }
+
+    .d-head{
+        font-size: 25px;
+        line-height: 25px;
+        position: absolute;
+        left: 80px;
+        top: 120px;
+    }
+    
+    .d-text{
+        position: absolute;
+        left: 29px;
+        text-align: center;
+        top: 180px;
+        font-size: 14px;
+        line-height: 20px; 
+    
+    }
+    
+    .play-store1{
+        position: absolute;
+        left: 40px;
+        top: 306px;
+        width: 150px;
+    }
+    
+    .play-store2{
+        position: absolute;
+        left: 200px;
+        top: 306px;
+        width: 150px;
+    }
+
+    .footer-two{
+        padding-top: 10px;
+        padding-left: 10px;
+    } 
+
+    .foot-form{
+        padding-top: 5px;
+    }
+
+    .foot-input{
+        height: 30px;
+        width: 100%;
+        padding: 5px;
+    }
+    
+    #foot-holder{
+        height: 70px;
+        width: 100%;
+        margin-top: 10px;
+        padding: 5px;
+    }
+    
+
+    .footer-btn{
+        margin-left: 215px;
+        width: 120px;
+        height: 44px;
+        font-size: 13px;
+    }
+
+    
+    .foot-hd2{
+        font-size: 30px;
+        line-height: 29px;
+        padding-top: 60px;
+    } 
+    
+    .foot-hdtext{
+        font-size: 16px;
+        line-height: 15px;
+    }
+    
+    .foot-hd3{
+        font-size: 25px;
+        line-height: 23px;
+        padding-top: 14px;
+    }
+    
+    
+    .foot-hd1{
+        font-size: 13px;
+        line-height: 14px;
+
+    }
+
+    .last-foot{
+        padding-top: 71px;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 30px;
+      
+    }    
+
+    .foot-media{
+        padding-top:28px;
+        padding-left: 30px;
+    }
+
+    /**********carousel**********/
+
+    /* .card-img-high{
+        height: 150px;
+    } */
+/* 
+    .mobile-carousel{
+        display: block;
+    }
+    
+    .carousel-web{
+        display: none;
+    }
+} */
+
+
+@media screen and (max-width:360px){
+    .footer-btn{
+        margin-left: 199px;
+        width: 120px;
+        height: 47px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:320px){
+
+    .header-text{
+        width: 100%;
+        height: 80px;
+        line-height: 80px;
+        font-size: 37px;
+        padding-top: 200px;
+        padding-left: 60px;
+    }
+
+    .phone-top{
+        display: none;
+        /* padding-top: 190px;
+        padding-left: 60px; */
+    }
+
+    .store1 , .store2{
+        width: 90%;
+        padding:20px
+    }
+
+    .side-lines{
+        width: 50%;
+        padding-left: 80px;
+    }
+
+    .mid-img{
+        width: 100%;
+    }
+
+    .clt-head{
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .download-bg{
+        position: relative;
+    }
+
+    .d-head{
+        font-size: 20px;
+        line-height: 18px;
+        position: absolute;
+        left: 70px;
+        top: 120px;
+    }
+    
+    .d-text{
+        position: absolute;
+        left: 20px;
+        text-align: center;
+        top: 180px;
+        font-size: 14px;
+        line-height: 15px; 
+    
+    }
+    
+    .play-store1{
+        position: absolute;
+        left: 20px;
+        top: 280px;
+        width: 120px;
+    }
+    
+    .play-store2{
+        position: absolute;
+        left: 170px;
+        top: 280px;
+        width: 120px;
+    }
+
+    .footer-two{
+        padding-top: 10px;
+        padding-left: 10px;
+    } 
+
+    .foot-form{
+        padding-top: 5px;
+    }
+
+    .foot-input{
+        height: 30px;
+        width: 100%;
+        padding: 5px;
+    }
+    
+    #foot-holder{
+        height: 70px;
+        width: 100%;
+        margin-top: 10px;
+        padding: 5px;
+    }
+    
+
+    .footer-btn{
+        margin-left: 161px;
+        width: 120px;
+        height: 44px;
+        font-size: 13px;
+    }
+
+    
+    .foot-hd2{
+        font-size: 30px;
+        line-height: 29px;
+        padding-top: 60px;
+    } 
+    
+    .foot-hdtext{
+        font-size: 16px;
+        line-height: 15px;
+    }
+    
+    .foot-hd3{
+        font-size: 25px;
+        line-height: 23px;
+        padding-top: 14px;
+    }
+    
+    
+    .foot-hd1{
+        font-size: 13px;
+        line-height: 14px;
+
+    }
+
+    .last-foot{
+        padding-top: 71px;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 30px;
+      
+    }    
+
+    .foot-media{
+        padding-top:18px;
+        padding-left: 20px;
+    } 
+    
+    /**********carousel**********/
+
+    /* .card-img-high{
+        
+    }
+
+    .mobile-carousel{
+        display: block;
+    } 
+    
+    .carousel-web{
+        display: none;
+    } */
+
+}
+
+
+
+
+

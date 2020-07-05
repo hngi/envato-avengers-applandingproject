@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans=Lora&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+html.body {
+  height: 100%;
+  width: 100%;
+  font-family: "Open Sans" sans-serif;
+}
+.navbar {
+  padding: 0.8rem;
+  background-color: white;
+}
+
+.navbar-toggler,
+.navbar-light {
+  border: none;
+}
+
+/* .navbar-light .navbar-toggler,
+.navbar-toggler-icon {
+  color: #fd954e;
+} */
+
+nav img {
+  position: absolute;
+  top: 3px;
+  left: 12%;
+}
+.navbar-light,
+.navbar-nav,
+.nav-link {
+  font-family: lora bold, serif;
+  color: #2b1c13 !important;
+}
+a:link {
+  color: #2b1c13;
+}
+.sign-up {
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 16px;
+}
+
+h1 h2 h3 {
+  font-style: "Lora bold ", serif;
+
+  color: #2b1c13;
+  text-shadow: black;
+}
+.padding {
+  padding-bottom: 0rem;
+}
+.container-fluid1 {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.container-fluid2 {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.container-fluid5 {
+  min-height: 60vh;
+  background-image: url(../images/Rectangle21.png);
+  background-size: cover;
+  /* background-color: black; */
+}
+
+.bslanding {
+  width: 300px;
+  height: 600px;
+}
+
+hr {
+  border-top: 0.5px solid #fd954e;
+  width: 50%;
+  text-align: center;
+
+  margin: 0.2rem auto 0.9rem auto;
+}
+.col-btn {
+  max-width: 50%;
+}
+.icon-btn {
+  display: flex;
+  max-height: 54px;
+  padding: 5px 10px;
+  /* flex-wrap: wrap; */
+}
+.icon-btnGP {
+  background-color: black;
+  color: white;
+  height: 100%;
+}
+.icon-btnAS {
+  background-color: #eaeaea;
+  border: none;
+  height: 100%;
+}
+.icon-text {
+  /* display: block;
+  align-items: flex-start; */
+  margin: 3px 0;
+}
+
+.app-icon {
+  max-width: 50px;
+  margin: 3px 0;
+}
+.app-iconAS {
+  width: 80px;
+}
+
+.cenpos {
+  display: block;
+  width: 100%;
+}
+/* .app-icon {
+  float: right;
+  #4CFFE1
+#FFDEC8 
+  #E0ECEB
+  #E6E4FF
+} */
+
+.textbox {
+  background-color: #e8faff;
+  padding: 5px 5px;
+  margin-top: 1rem;
+}
+
+.card {
+  display: inline;
+  border: none;
+
+  margin: 1rem 1rem;
+}
+.card-icon {
+  width: 100px;
+  height: 100px;
+}
+.bookish-text {
+  font-size: 2.5rem;
+  font-family: lora bold;
+}
+
+.icon {
+  height: 60px;
+  width: 60px;
+}
+
+footer {
+  background-image: url(../images/footer-img.jpg);
+  background-size: cover;
+  color: white;
+  padding-top: 2rem;
+}
+.footer-text {
+  font-size: 13px;
+}
+/*---- media queries---*/
+
+@media (max-width: 992px) {
+  .display-none {
+    display: none;
+  }
+  .icon-text {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .bookish-text {
+    font-size: 24px;
+  }
+
+  .bslanding {
+    width: 240px;
+    height: 237px;
+  }
+
+  .card {
+    width: 100%;
+    margin: 1rem 5px;
+  }
+  .card-icon {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+/*
+@media (max-width: 992px){ 
+    footer{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px){
+    footer{
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px){
+    footer{
+        width: 100%;
+    }
+}
+*/
+
+/*Extra small (xs) devices (portraite phones, less than 576px)
+no media query since this is the default in bootstrap
+small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px){}
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px){}
+
+Large (lg) devices (desktopss, 992px and up)
+@media (min-width: 992px){}
+
+Extra (xl)  large devices (Large Desktops, 1200px and up)
+@media (min-width: 1200px){}
+*/

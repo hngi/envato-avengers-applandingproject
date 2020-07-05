@@ -1,0 +1,105 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    border: 2px solid red;
+}
+
+.btn-arzena {
+    background: #5001B4;
+    color: #ffffff;
+}
+
+span {
+    color: #5001B4;
+}
+
+.header-bg-image {
+    background: url("./assets/images/Arzena App Assets/App.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 2;
+}
+
+.right-container {
+    background-image: url("./assets/images/Arzena App Assets/Desktop-blob.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-line-height {
+    line-height: 2rem !important;
+}
+
+.box {
+ width: 70px;
+ height: 70px;
+ transform: translateX(100%);
+}
+.move {
+    transform: translateY(50%);
+}
+
+.uniform-size-fav-chart {
+    background: rgba(80, 1, 180, 0.15);
+}
+
+.uniform-size-video-call {
+    background: rgba(215, 64, 0, 0.15);
+}
+
+.uniform-size-charts {
+    background: rgba(0, 132, 174, 0.15);
+}
+
+.uniform-size-groups {
+    background: rgba(193, 0, 93, 0.15);
+}
+
+.testimonial-card {
+    transform: translateY(-50%);
+}
+
+.download-color {
+    color: #13002B !important;
+}
+.download-bg-color {
+    background: #bbb !important;
+    color: #13002B !important;
+}
+
+.download-width {
+    width: 190px;
+    height: 190px;
+}
+
+.btn-bg-color {
+    background: #5001B4;
+    color: #ffffff;
+}
+
+/* $bp-small: 48em; // 768px
+$bp-medium: 64em; // 1024px
+$bp-large: 85.375em; // 1366px
+$bp-xlarge: 120em; // 1920px
+$bp-xxlarge: 160em; // 2560px
+*/
+
+@media only screen and (min-width: 768px) {
+   
+  }
+@media only screen and (min-width: 1024px) {
+   
+  }
+@media only screen and (min-width: 1366px) {
+   
+  }
+@media only screen and (min-width: 1920px) {
+   
+  }
+@media only screen and (min-width: 2560px) {
+   
+  }

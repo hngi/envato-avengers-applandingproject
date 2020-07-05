@@ -1,34 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- Optimized viewport for mobile -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"
-    />
-    <!-- Website description -->
-    <meta name="description" content="apps, technology" />
-    <meta name="keywords" content="" />
-    <!-- Website title-->
-    <title>APP LANDING PAGE</title>
-    <link rel="shortcut icon" href="" type="image/x-icon" />
-    <link rel="apple-touch-icon-precomposed" href="" />
-    <!-- Google fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <!-- CSS links-->
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/all.min.css" />
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/responsive.css" />
-  </head>
-  <body>
-    <!-- All javascript at the bottom of the page for fast page load -->
-    <script src="./js/jquery-3.5.1.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ace Bet page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href=" https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <script src="https://kit.fontawesome.com/74091f2b8e.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <link href='https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800|Raleway:300,400,500,600,700,800' rel='stylesheet'>
+    
+
+</head>
+<body class="container-fluid">
+    <section class="overall-container">
+         <!--Header nav section-->
+
+    <nav class="navbar sticky-top navbar-expand-lg row py-4 navbar-light" id="nav-section">
+        <img class="navbar-brand ml-2 ml-md-5"  src="images/Ace.svg" alt="logo" id="brand-logo">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+       <!--Nav collapse section-->
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#jumbotron-section">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-section">Contacts</a>
+            </li>
+            
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <button class="btn my-2 mr--xl-5 " type="submit" id="download-btn">Download</button>
+          </form>
+        </div>
+        
+    </nav>   
+
+      <!-- Jumbotron section -->
+      <section class="row py-3 align-items-center justify-content-center" id="jumbotron-section">
+            <div class="col-12 py-auto">
+                <img class="img-fluid mx-auto my-auto d-block" id="acetext" src="images/ACEText.svg" alt="acetext">
+                <h5 class="text-white text-center my-4" id="jumbotron-paragraph">The best bookmaker is now in your mobile <br>
+                download the app and enjoy 20% bonus on <br> 
+                your first game.</h5> 
+                <br>
+                <div class="row col-10 col-xl-12 mx-auto mt-5 justify-content-center">
+                    <div class="col-">
+                      <button class="text-white mr-4 mr-md-5 mr-sm-1" id="apple-icon"><img src="images/smallapple.png" alt="apple" id="small-icon" ><img id="icon" src="images/bigapple.png" alt="apple"> APP STORE</button>
+                    </div>
+                    <div class="col-">
+                      <button class="text-white ml-xl-5 ml-sm-1" id="playstore-icon"><img class="ml-1" src="images/smallandroid.png" alt="" id="small-icon" ><img id="icon" src="images/bigandroid.png" alt=""> PLAY STORE</button>
+                    </div>
+                  </div>
+            </div>
+      </section>
+
+      <!--Installation-section-->
+      <section id="installation-section" class="row py-4 mx-auto justify-content-center">
+          <h2 class="text-center mx-auto mb-3 mb-xl-1" id="installation-heading">How To Install</h2>
+
+          <!--Smaller screen-->
+            <div class="col-12" id="smaller-screen">
+                <div class="col-12">
+                    <div class="col-4 mx-auto justify-content-center">
+                        <img class="img-fluid col-12  mr-auto" src="images/settings.png" alt="settings" id="img-size">
+                    </div>
+                    
+                    <h6 id="sub-head" class="col-12 text-center mt-3 mt-md-5" >Modify  Settings</h6>
+                    <p id="sub-paragraph" class="col-12 text-center my-3" >Tick “Unknown Sources” under your 
+                        device’s Security or Application Settings.</p>
+                </div>
+                <div class="col-12">
+                    <div class="col-4 mx-auto justify-content-center">
+                        <img class="img-fluid col-12 mr-auto" src="images/download.png" alt="settings" id="img-size">
+                    </div>
+                    <h6 class="col-12 text-center  mt-3" id="sub-head">Download</h6>
+                    <p class="col-12 text-center my-3" id="sub-paragraph" >Click on the Play store button for 
+                        android, App store for ios
+                         </p>
+                </div>
+                <div class="col-12">
+                    <div class="col-4 mx-auto justify-content-center">
+                        <img class="img-fluid col-12 mr-auto" src="images/open.png" alt="settings" id="img-size">
+                    </div>
+                    
+                    <h6 class="col-12 text-center  mt-3" id="sub-head">Open</h6>
+                    <p class="col-12 text-center my-3" id="sub-paragraph" >Open the app and enjoy  amazing offer 
+                        from our wide range of services.</p>
+                </div>
+
+            </div>
+            <!--Smaller screen-->
+
+            <!--Larger screen-->
+          <div class="row col-12 py-3 my-4 justify-content-center" id="large-screen"  >
+              <div class="col-5 ml-4 pb-0" id="left-side-installation">
+                    
+                  <img  class="img-responsive d-block col-6 mb-3 ml-auto mr-auto justify-content-center" src="images/shotsnappone.png" alt="snapone" ><br>
+                  <br>
+                  <div class="col-12" id="installation-break">
+                      <div class="col-8 float-left">
+                      <h3 class="text-left" id="installation-sub">Download</h3>
+                  <p class="text-left" id="installation-paragraph">Click on the Play store 
+                 button for android,
+                    App store for ios
+                     </p>
+                      </div>
+                      <img class="col-3 float-right" src="images/02.png" alt="two">
+                  </div>
+                  <br>
+                  <br>
+                  <div class="mt-5" style="margin-top: 50px;">
+                    <img class="img-responsive d-block col-6 mt-5 ml-auto mr-auto justify-content-end" src="images/shotsnappthree.png" alt="snapthree">
+                  </div>
+                     
+              </div>
+              <div class="col-5 pt-6 " id="right-side-installation">
+                <br>
+                <div class="row col-12 mt-5" >
+                    <div class="col-3 float-left" >
+                        <img class="img-fluid " src="images/01.png" alt="one" id="one-img">
+                    </div>
+                    
+                    <div class="col-9" >
+                        <h3 id="installation-sub">Modify Settings</h3>
+                    <p class="text-left" id="installation-paragraph">Tick “Unknown Sources” under your device’s Security or Application Settings.</p>
+                    </div>
+                    
+                </div>
+                <br>
+                <img class="img-responsive col-6 my-3 ml-auto mr-auto justify-content-end" src="images/shotsnapptwo.png" alt="snaptwo" >
+                <br>
+                <br>
+                <div class="col-12 mt-auto" style="margin-top: 2rem;" >
+                    <img class="col-3 float-left" src="images/03.png" alt="three">
+                    <div class="col-9">
+                        <h3 class="mt5" id="installation-sub">Open</h3>
+                    <p id="installation-paragraph">Open the app and enjoy  amazing offer from our wide range of services.</p>
+                    </div>
+                    
+                </div>
+              </div>
+          </div>
+           <!--Larger screen-->
+
+        </section>
+          
+      <!--Features section-->
+      <section id="features-section" class="row justify-content-around py-3">
+        <div class="row col-12 my-5 justify-content-center" >
+            <h3 class="text-center" id="features">Features</h3>
+        </div>
+          <div class="col-sm-12 col-md-3 col-lg-3 align-items-center justify-content-center" >
+            <img class="img-fluid justify-content-center mx-auto" src="images/odds.svg" alt="calculate" id="large-features-icon" >
+            <img class="rounded mx-auto" src="images/smallodds.svg" alt="" id="small-features-icon">
+            <h4 class="text-center my-3" id="features-sub">Best Odds For Grab</h4>
+            <p class="text-center" id="features-paragraph">ACEBET has the best odds on the bookmakers’ markert. We don’t wait until odds will be lower,place bet </p>
+          </div>
+          <div class="col-sm-12 col-md-3 col-lg-3">
+            <img class="rounded mx-auto mb-3" src="images/bet.svg" alt="pure" id="large-features-icon">
+            <img class="rounded mx-auto" src="images/smallpay.svg" alt="" id="small-features-icon">
+            <h4 class="text-center  my-3" id="features-sub">Live  Betting</h4>
+            <p class="text-center" id="features-paragraph">Earn money fast than usual by betting live and stand to make higher profit.</p>
+          </div>
+          <div class="col-sm-12 col-md-3 col-lg-3">
+            <img class="rounded mx-auto" src="images/pay.svg" alt="payment" id="large-features-icon">
+            <img class="rounded mx-auto" src="images/smallbet.svg" alt="" id="small-features-icon">
+            <h4 class="text-center  my-3" id="features-sub">Easy Payments</h4>
+            <p class="text-center" id="features-paragraph">We pay out very fast and accept
+                deposit convenient for your payment method</p>
+          </div>
+      </section>
+
+
+      <!--Download section-->
+      <section id="download-section" class="row py-4">
+        <div class="row col-12 my-2 my-sm-1 justify-content-center ">
+          <h6 class="text-center" id="download-heading">App Download</h6>
+        </div>
+      <div class="col-sm-12 col-md-5 col-lg-5 pr-0">
+      <img class="img-responsive col-8  pr-0 float-right mt-2 justify-content-end " src="images/shotsnap4.png" alt="phone" id="download-img">
+      </div>
+    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 mt-1 mt-sm-1 mt-md-5  pt-5 pt-sm-1" >
+        <h2 class="text-center my-1 my-lg-3 "  id="download-sub">ACEBET At your Finger Tips, Bet Any Time.</h2>
+        <p class="text-center my-0 my-lg-4 " id="download-paragraph">The best bookmaker is now in your mobile
+            download the app and enjoy 20% bonus on 
+            your first game.</p>
+            <br id="break">
+        <div class="row col-12 col-md-12 col-lg-10 col-xl-10 justify-content-around mt-5 mt-sm-1 ml-xl-1 ml-md-auto" id="download-icons">
+            <div class="col-">
+              <button class="text-white ml-3 ml-md-auto "  id="apple2"><img src="images/smallapple.png" alt="apple" id="small-icon"><img id="icon" src="images/bigapple.png" alt="apple">APP STORE</button>
+            </div>
+            <div class="col-">
+              <button class="text-white" id="playstore2"><img src="images/smallandroid.png" alt="" id="small-icon"><img id="icon" src="images/bigandroid.png" alt="">PLAY STORE</button>
+            </div>
+            <br>
+          </div>
+    </div>
+      </section>
+
+      <!--Testimonies section-->
+      <section class="row" id="testimonies-section">
+          <div class="row col-12 my-2 my-sm-1 justify-content-center ">
+            <h6 class="text-center" id="testimonies-heading">Testimonies</h6>
+          </div>
+          <div id="carouselExampleControls" class="carousel slide mx-auto " data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" id="carousel-items">
+                <div class="card h-50 mx-auto mt-1 mb-5 py-1 pt-3 pb-2 pb-xl-1 pt-xl-5 " id="card">
+                  <img src="images/Wick.png" class="img-fluid mx-auto " alt="..." id="card-img">
+                  <div class="card-body mb-4 mb-lg-0">
+                    
+                    <img class="img-fluid mx-auto text-center my-3 my-sm-1 d-block" src="images/quote.png" alt="" id="card-quote">
+                    <p class=" text-center mb-2 mb-xl-5 " id="testimonies-paragraph">Ace bets offers amazing odds, quick cashouts
+                      and lots of amazing games  to chose and play
+                      .</p>
+                  <h4 class="text-center" id="testimonies-name">John Wick</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" id="carousel-items">
+                <div class="card mx-auto mt-1 mb-5 py-1 pt-3 pb-2 pb-xl-1 pt-xl-5 " id="card">
+                  <img src="images/Wick.png" class="img-fluid mx-auto " alt="..." id="card-img">
+                  <div class="card-body mb-4 mb-lg-0">
+                    
+                    <img class="img-fluid mx-auto text-center my-3 my-sm-1 d-block" src="images/quote.png" alt="" id="card-quote">
+                    <p class=" text-center mb-2 mb-xl-5 " id="testimonies-paragraph">Ace bets offers amazing odds, quick cashouts
+                      and lots of amazing games  to chose and play
+                      .</p>
+                  <h4 class="text-center" id="testimonies-name">John Wick</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" id="carousel-items">
+                <div class="card mx-auto mt-1 mb-5 py-1 pt-3 pb-2 pb-xl-1 pt-xl-5 " id="card">
+                  <img src="images/Wick.png" class="img-fluid mx-auto " alt="..." id="card-img">
+                  <div class="card-body mb-4 mb-lg-0">
+                    
+                    <img class="img-fluid mx-auto text-center my-3 my-sm-1 d-block" src="images/quote.png" alt="" id="card-quote">
+                    <p class=" text-center mb-2 mb-xl-5 " id="testimonies-paragraph">Ace bets offers amazing odds, quick cashouts
+                      and lots of amazing games  to chose and play
+                      .</p>
+                  <h4 class="text-center" id="testimonies-name">John Wick</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a href="#carouselExampleControls" role="button"data-slide="prev" class="carousel-control-prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#carouselExampleControls" role="button" data-slide="next" class="carousel-control-next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div><br>
+      </section><br>
+
+
+      <!--Contact section-->
+      <section class="rows mx-sm-1 mx-md-auto mx-lg-auto mt-sm-4" id="contact-section">
+        <h4 class="text-center mt-sm-4" id="contact-heading">Get in Touch</h4>
+        <div class="col-12 col-md-6 mx-auto justify-content-center">
+            <form class="form-group mx-auto w-sm-90 justify-content-center" action="">
+                <input class="form-control" type="text" placeholder="Full Name"><br>
+                <input class="form-control" type="email" placeholder="Your Email"><br>
+                <input class="form-control" type="text" placeholder="Subject"><br>
+                <textarea class="w-100 form-control" name="" id="" cols="30" rows="7" placeholder="Message"></textarea><br>
+                <button class="py-3 w-100" id="send">SEND MESSAGE</button>
+            </form>
+        </div>
+        <div class="row col-8 py-2 mx-sm-2 ml-1 ml-md-auto mr-md-auto my-4 justify-content-center">
+            <div class="col-12 col-md-3">
+                <img class="col-3 img-fluid float-left" src="images/location.png" alt="location" id="imgtab">
+                    <h6 id="location">Location:</h6> 
+                    <p class="text-right ml-2" id="contact-paragraph">Lagbaja Julio street Abeta</p>
+            </div>
+            <div class="col-12 col-md-3">
+                <img class="col-3 img-fluid float-left" src="images/mail.png" alt="mail">
+                <h6 id="location">Email:</h6>
+                <p class="text-center" id="contact-paragraph">Info@Acebet.com</p> 
+            </div>
+            <div class="col-12 col-md-3">
+                <img class="col-3 img-fluid float-left" src="images/phone.png" alt="phone">
+                <h6 id="location">Phone:</h6>
+                <p class="text-center" id="contact-paragraph">+023000020000</p> 
+            </div>
+        </div>
+
+      </section>
+     
+      <!--Footer section-->
+      <footer class="row py-4 mt-1">
+        <div class="container  ">
+            <p id="copy">&copy; Copyright 2020 ACEBET |
+                All Rights Reserved | HNGi7</p>
+        </div>
+      </footer>
+    </section>
+    
+</body>
 </html>

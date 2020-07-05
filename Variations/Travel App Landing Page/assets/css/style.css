@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+body {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.74);
+  overflow-x: hidden;
+}
+.second-bg {
+  background-color: #fafafa;
+}
+.navbar {
+  min-height: 105px;
+  background-color: #ffffff;
+}
+.navbar-brand {
+  font-size: 52px;
+  color: rgba(0, 0, 0, 0.9);
+}
+.ox-hidden {
+  overflow-x: hidden;
+}
+.navbar .nav-item > a.nav-link {
+  font-weight: 700;
+  white-space: nowrap;
+}
+.navbar .nav-item.active > a.nav-link {
+  color: #2871fa;
+}
+.f-18 {
+  font-size: 18px;
+}
+.section-home {
+  min-height: calc(100vh - 105px);
+  margin-top: 105px;
+}
+.img-contain {
+  max-width: 240px;
+  object-fit: contain;
+}
+.btn {
+  background-color: #2871fa;
+  color: #ffffff;
+}
+.btn.btn-outline {
+  border-color: #2871fa;
+  background-color: transparent;
+  color: #2871fa;
+}
+.btn.btn-outline:hover {
+  background-color: #2871fa;
+  color: #ffffff;
+}
+.btn.landing-btn {
+  height: 32px;
+  border-radius: 0px;
+}
+.mega-text {
+  font-weight: 700;
+  font-size: 36px;
+}
+.bold {
+  font-weight: 900;
+}
+.highlight {
+  color: #2871fa;
+}
+.section-heading {
+  font-weight: 900;
+  font-size: 36px;
+  margin-bottom: 90px;
+}
+/* User Review section */
+.my-slider-controls > span {
+  transition: transform 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+.my-slider-controls span:hover {
+  transform: scale(1.1);
+}
+.my-slider-controls > span:hover img {
+  box-shadow: 0px 4px 51px rgba(63, 63, 63, 0.07),
+    0px 1px 2px rgba(0, 0, 0, 0.08);
+}
+
+.user-review-card-group {
+  margin-top: 65px;
+  padding-top: 65px;
+  box-shadow: 0px 4px 51px rgba(63, 63, 63, 0.07),
+    0px 1px 2px rgba(0, 0, 0, 0.08);
+}
+.review-card-img {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  position: absolute;
+  left: calc(50% - 65px);
+  top: -65px;
+}
+.card-head {
+  font-size: 24px;
+}
+.card-desc {
+  font-size: 15px;
+}
+.card-icon {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30px;
+  height: 30px;
+  background-color: #2871fa;
+  border-radius: 50%;
+}
+.card-content {
+  width: 80%;
+  max-width: 500px;
+  margin: auto;
+  font-size: 18px;
+}
+.tns-nav {
+  display: none;
+}
+/* How it works */
+.work-group-heading,
+.group-heading {
+  font-size: 18px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+/* App Features */
+.feature-icon {
+  width: 15%;
+  max-height: 60px;
+  max-width: 60px;
+}
+.feature-heading {
+  font-size: 18px;
+}
+/* In touch */
+.mw-form {
+  max-width: 800px;
+}
+.form-group {
+  margin-bottom: 1.5rem;
+}
+input.form-control,
+textarea.form-control {
+  border-color: rgba(63, 63, 63, 0.7);
+  border-radius: 0;
+}
+.form-inline input.form-control {
+  border-color: #2871fa;
+}
+/* Footer */
+.footer-brand {
+  font-size: 36px;
+  color: rgba(0, 0, 0, 0.9);
+}
+.social-icon {
+  height: 27.85px;
+  width: 27.85px;
+}
+.social-icon-circled {
+  color: #ffffff;
+  background-color: #2871fa;
+  border-radius: 50%;
+}
+.quicklink {
+  color: rgba(0, 0, 0, 0.74);
+}
+.quicklink:hover {
+  text-decoration: none;
+}

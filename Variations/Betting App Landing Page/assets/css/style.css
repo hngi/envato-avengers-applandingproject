@@ -1,0 +1,658 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+body    {
+    font-family: 'Raleway';
+}
+#nav-section    {
+    background: #FFFFFF;
+    width: 100vw;
+    
+}
+a  {
+    font-family: 'Poppins';
+    color: black;
+    font-weight: 700;
+    font-size: 25px;
+    
+}
+#download-btn   {
+    width: 269px;
+    height: 65px;
+    background: #251297;
+    color: white; 
+    font-weight:700;
+    font-family: 'Poppins';
+    margin-right: 3rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 500px;
+    font-size: 20px;
+    line-height: 30px;
+}
+#jumbotron-section  {
+    /* background-image: url('images/stad.svg'); */
+    background:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('images/stad.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45rem;
+    width: 100vw;
+}
+#acetext    {
+    margin-top: auto;
+}
+#jumbotron-paragraph    {
+    font-size: 30px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    margin: 1.4rem 0;
+    line-height: 35px;
+}
+#icon   {
+    margin-right: 1rem;
+}
+#small-icon {
+    display: none;
+}
+
+#apple-icon {
+    width: 269px;
+    height: 65px;
+    background: #251297;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 500px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 60px;
+    margin-left: 0.2rem;
+    margin-right: 0.5rem;
+    border: 1px solid #251297;
+}
+#playstore-icon  {
+    padding: 4px 47px;
+    background: #251297;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 500px;
+    border: 1px solid #251297;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    line-height: 60px;
+    font-size: 20px;
+}
+#installation-heading   {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.74);
+    font-family: 'Poppins';
+}
+
+ /* Smaller-screen */
+#smaller-screen {
+    display: none;
+}
+ /* Smaller-screen */
+
+ #large-screen  {
+    height: 57rem;
+    line-height: 70px;
+}
+#left-side-installation {
+    height: 50rem;
+}
+#right-side-installation    {
+    height: 58rem;
+}
+#installation-sub   {
+    font-size: 30px;
+    font-weight: 600;
+}
+#installation-paragraph {
+    font-size: 25px;
+    line-height: 29px;
+    font-family: 'Raleway';
+    color: rgba(0, 0, 0, 0.5);;
+}
+#one-img    {
+    height: 50%;
+}
+#features-section   {
+    background: rgba(37, 18, 151, 0.2);
+    width: 100vw;
+}
+
+#features   {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Poppins';
+    }
+    #small-features-icon    {
+        display: none;
+    }
+    #features-sub   {
+        font-size: 24px;
+        line-height: 20px;
+        font-weight: 700;
+        font-family: 'Raleway';
+    }
+    #features-paragraph {
+        font-size: 23px;
+        line-height: 27px;
+        font-family: 'Raleway';
+    }
+    #large-features-icon    {
+        display: block;
+    }
+    #download-heading   {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50px;
+        font-family: 'Poppins';
+        
+    }
+#download-sub   {
+    font-size: 30px;
+    line-height: 45px; 
+    font-weight: 700;
+    margin-top: 2rem;
+    font-family: 'Raleway';
+}
+
+ #download-paragraph    {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 2rem;
+    font-family: 'Raleway';
+    }
+    #download-icons {
+        margin-top: 7rem;
+    }
+    #download-img   {
+        display: block;
+    }
+#apple2 {
+    width: 269px;
+    height: 65px;
+    background: #251297;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 500px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50px;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    border: 1px solid #251297;
+}
+#playstore2  {
+    width: 269px;
+    height: 65px;
+    background: #251297;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 500px;
+    border: 1px solid #251297;
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+
+#testimonies-section    {
+    background: rgba(37, 18, 151, 0.2); 
+    height: 45rem; 
+    max-height: 45rem;
+    width: 100vw;
+    
+}
+#testimonies-heading    {
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+    font-family: 'Poppins';
+}
+#testimonies-name   {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Poppins';
+} 
+#testimonies-paragraph  {
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    color: rgba(0, 0, 0, 0.7);
+}
+#card   {
+    border-radius: 1rem;
+    margin-top: 1px;
+    margin-bottom: 2rem;
+    width: 50%; 
+}
+.carousel-control-prev:hover, .carousel-control-next:hover  {
+    background: none;
+}
+#contact-heading    {
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+    font-family: 'Poppins';
+}
+
+input   {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 10px;
+    font-weight: 600;
+    width: 100%;
+    
+}
+
+textarea    {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px;
+    
+}
+#send   {
+    background: #251297;
+    color: white;
+    font-weight: 700;
+    border-radius: 2rem;
+    border: 1px solid #251297;
+    box-shadow: none;
+    font-family: 'Raleway';
+
+}
+#location   {
+    font-weight: 700;
+    font-size: 1rem;
+}
+#contact-paragraph  {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    font-weight: 600;
+}
+footer  {
+    background:  black;
+    width: 100vw
+}
+.container  {
+    border-bottom: 1px solid #8A8A8A;
+}
+#copy   {
+    color: #8A8A8A;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+
+/* Media Queries */
+
+/* Mobile */
+
+@media(max-width:350px){
+
+    #apple-icon {
+        width: 90px;
+        height: 45px;
+        border-radius: 100px;
+        font-size: 8px;
+        line-height: 20px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    #playstore-icon  {
+        width: 90px;
+        height: 45px;
+        border-radius: 100px;
+        font-size: 8px;
+        line-height: 20px;
+        padding: 0;
+    }    
+
+    }
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2)  { 
+    #apple-icon {
+        width: 90px;
+        height: 45px;
+        border-radius: 100px;
+        font-size: 8px;
+        line-height: 20px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    #playstore-icon  {
+        width: 90px;
+        height: 45px;
+        border-radius: 100px;
+        font-size: 8px;
+        line-height: 20px;
+        padding: 0;
+    }    
+}
+
+
+@media screen and (max-width: 760px)    {
+#navbar-section   {
+    width: 100vw;
+}
+a {
+    font-size: 1rem;
+}
+#download-btn   {
+    width: 120px;
+    height: 45px;
+    font-size: 15px;
+   
+}
+#icon   {
+    
+    display: none;
+}
+#small-icon  {
+ display: inline;
+ margin-right: 0.4rem;
+}
+
+
+#jumbotron-section  {
+    /* background-image: url('images/stad.svg'); */
+    background:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('images/stad.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+    width: 100vw;
+}
+#acetext    {
+    margin-top: auto;
+}
+#jumbotron-paragraph    {
+    font-size: 15px;
+    
+    margin: 0.4rem 0;
+    line-height: 15px;
+}
+
+#apple-icon {
+    width: 120px;
+    height: 45px;
+    border-radius: 100px;
+    font-size: 10px;
+    line-height: 20px;
+    margin-left: -2rem;
+    margin-right: 1rem;
+}
+#playstore-icon  {
+    width: 120px;
+    height: 45px;
+    border-radius: 100px;
+    font-size: 10px;
+    line-height: 20px;
+    padding: 0;
+}
+#installation-heading   {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+#features-section   {
+    width: 100%;
+    margin: 0;
+}
+#features   {
+    font-size: 30px;
+    line-height: 5px;
+}
+#small-features-icon    {
+    display: block;
+}
+#large-features-icon    {
+    display: none;
+}
+#features-sub   {
+    font-size: 18px;
+}
+#features-paragraph {
+    font-size: 15px;
+
+}
+#sub-head   {
+    font-weight: 700;
+}
+#sub-paragraph  {
+    font-size: 15px;
+    text-align: center;
+    line-height: 21px;
+}
+#smaller-screen {
+    display: inline;
+}
+#large-screen  {
+    display: none;
+}
+#download-heading   {
+    font-size: 25px;
+    line-height: 1px;
+    
+}
+#download-img   {
+    display: none;
+}
+#download-sub   {
+    font-size: 15px;
+    margin-top: 0.5rem;
+    line-height: 20px;
+}
+#break  {
+    display: none;
+}
+#download-paragraph    {
+    font-size: 15px;
+    margin-top: 0.2rem;
+    }
+#download-icons {
+        margin-top: -1.3rem;
+    }
+#apple2 {
+    width: 120px;
+    height: 45px;
+    border-radius: 100px;
+    font-size: 10px;
+    line-height: 30px;
+    margin-left: -2.5rem;
+    margin-right: 1rem;
+}
+#playstore2  {
+    width: 120px;
+    height: 45px;
+    border-radius: 100px;
+    font-size: 10px;
+    line-height: 30px;
+}
+#testimonies-section    {
+    background: rgba(37, 18, 151, 0.2);
+    height: 24rem; 
+    width: 100%;
+    margin: 0;
+}
+.card   {
+    height: 16rem!important;
+}
+/* .carousel-item {
+    height: 16rem!important;
+} */
+#testimonies-heading    {
+    font-size: 25px;
+}
+
+#testimonies-name   {
+    font-size: 18px;
+    line-height: 60px;
+    font-weight: 700
+} 
+#testimonies-paragraph  {
+    font-size: 10px;
+    line-height: 15px;
+    margin-top: 1rem;
+    
+}
+
+/* Cards */
+#card   {
+    margin-bottom: 1rem;
+    width: 70%; 
+    height: 20rem;
+}
+#card-img   {
+    height: 4rem;
+    width: 4rem;
+}
+#card-quote {
+    height: 1rem;
+    width: 1rem;
+}
+/* Cards */
+
+#contact-heading    {
+    font-size: 25px;
+    line-height: 20px;
+}
+input   {
+    font-size: 10px;
+    line-height: 20px;
+    width: 90%;
+    
+}
+
+textarea    {
+    font-size: 10px;
+    padding: 15px;
+    
+}
+#send   {
+    background: #251297;
+    color: white;
+    font-weight: 700;
+    border-radius: 2rem;
+}
+#location   {
+    font-weight: 700;
+    font-size: 1rem;
+}
+#contact-paragraph  {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    font-weight: 600;
+}
+footer  {
+    background:  black;
+}
+.container  {
+    width: 80%;
+}
+#copy   {
+    color: #8A8A8A;
+    font-size: 10px;
+}
+}
+
+
+/* Tablet */
+@media only screen and (max-width: 1034px) and (min-width: 768px)  {
+    
+#smaller-screen {
+    display: block;
+}
+#large-screen  {
+    display: none;
+}
+
+#download-img   {
+    display: none;
+}
+#icon   {
+    
+    display: none;
+}
+#sub-head   {
+    font-weight: 700;
+}
+#sub-paragraph  {
+    font-size: 15px;
+    text-align: center;
+    line-height: 21px;
+}
+#small-icon  {
+ display: inline;
+ margin-right: 0.4rem;
+}
+#small-features-icon    {
+    display: block;
+}
+#large-features-icon    {
+    display: none;
+}
+#features-paragraph {
+    line-height: 35px;
+
+}
+
+#apple2 {
+    width: 180px;
+    height: 70px;
+    border-radius: 100px;
+    font-size: 20px;
+    line-height: 40px;
+    margin-left: 5rem;
+    margin-right: -1rem;
+}
+#playstore2  {
+    width: 180px;
+    height: 70px;
+    border-radius: 100px;
+    font-size: 20px;
+    line-height: 40px;
+}
+i   {
+    font-size: 2rem;
+    margin-right: 1rem;
+    
+}
+#img-size   {
+    height: 70px;
+    width: 100px;
+    margin-left: 33%;
+  
+}
+}
+
+
+/* Ipad */
+@media only screen and (max-width: 1054px) and (min-width: 1400px)  {
+    #sub-head   {
+        font-weight: 700;
+       
+    }
+    #sub-paragraph  {
+        font-size: 15px;
+        text-align: center;
+        line-height: 21px;
+    }   
+    #img-size   {
+        height: 20px;
+    }
+}

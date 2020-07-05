@@ -1,0 +1,818 @@
+/* GENERAL BODY STYLES */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-image: url("../img/sega-img.png");
+
+
+  background-repeat: no-repeat;
+
+  background-position: 50px 1150px;
+  background-clip: padding-box;
+  background-size: auto;
+}
+
+
+
+
+
+/* NAVBAR */
+.navbar {
+  background: #FFF;
+
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 25px;
+  z-index: 5;
+}
+
+
+
+.logo-style {
+  color: #1947E5;
+  background-color: #fff;
+  padding:0;
+  border-radius: 0px;
+  opacity: 1;
+  font-size: 2.1875rem;
+  font-family: "Montserrat";
+  font-weight: 900 !important;
+}
+
+.navbar li a.nav-link {
+  color: rgb(7, 8, 8) !important;
+}
+
+
+/* SECTIONS */
+p.dont-show {
+  font-size: 2rem;
+  line-height: 35px;
+  margin-top: 70px;
+  padding-left: 0.5rem;
+}
+
+.p1 {
+ font-size: 2.5rem;
+ line-height: 35px;
+}
+
+.adjust-font-size{
+  font-family: "Montserrat";
+  font-size: 50px;
+}
+
+.change-font-family {
+  font-family: "Gilroy";
+}
+
+.p1 span {
+ color: #1947E5;
+ font-family: "Montserrat";
+  font-size: 50px;
+ }
+
+
+ /* SHOWCASE AREA */
+
+ #showcase {
+  padding-left: 3rem;
+ }
+
+ .move-right {
+   margin-right: 2rem;
+ }
+
+ .move-down {
+  padding-top: 6rem;
+}
+
+.dont-show {
+  display: none;
+}
+
+
+
+.move-down-1 {
+  padding-left: 0px !important;
+  margin-left: 0px !important;
+}
+
+
+
+/* BLUEISH BACKGROUND */
+
+.skewed-bg{
+  background: #466BEB;
+  -webkit-transform: skew(0deg, 0deg);
+  transform: skew(0deg, 0deg);
+  margin-top: -90px;
+}
+.skewed-bg .contained{
+  -webkit-transform: skew(0deg, 0deg);
+  transform: skew(0deg, 0deg);
+  padding: 20px;
+  color: #466BEB;
+}
+
+
+.skewed-bg-2{
+  background: #F96D45;
+  -webkit-transform: skew(0deg, 0deg);
+  transform: skew(0deg, 0deg);
+  margin-top: -90px;
+}
+.skewed-bg-2 .contained{
+  -webkit-transform: skew(0deg, 0deg);
+  transform: skew(0deg, 0deg);
+  padding: 0px;
+  color: #fff;
+}
+
+
+
+/* OTHER BACKGROUNDS */
+.services-items {
+  margin: 80px 0;
+  position: relative;
+}
+
+.services-header {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.services-arc {
+  position: absolute;
+  right: 0;
+  top: 30%;
+}
+
+.service-item {
+  margin: 2rem 1rem;
+  padding: 1rem 1.5rem;
+  width: 336px;
+  max-width: 336px;
+  min-height: 260.16px;
+  background: #ffffff;
+  box-shadow: 0px 2px 30px rgba(177, 31, 31, 0.25);
+  border-radius: 5px;
+  height: auto;
+}
+
+.service-header {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.service-desc {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.service-link {
+  color: #fc4e17 !important;
+  border-bottom: 1px solid #fc4e17 !important;
+}
+
+
+
+/* VIDEO SECTION */
+.video-section {
+  margin-top: 200px;
+}
+
+.video-section h3{
+  color: #1947E5;
+  }
+
+  .video-section-2 {
+    margin-top: 100px;
+  }
+
+  .video-section-2 h3{
+    color: #1947E5;
+    }
+
+    video {
+      width: 100%;
+      height: 100%;
+    }
+
+
+    /* COLLAPSIBLE ACCORDION */
+    .accordion-section .panel-default > .panel-heading {
+      border: 0;
+
+      padding: 0;
+  }
+  .accordion-section .panel-default .panel-title a {
+      display: block;
+      font-size: 1rem;
+      color: #000;
+      align-items: center;
+  }
+  .accordion-section .panel-default .panel-title a:after {
+      font-family: 'FontAwesome';
+      font-style: normal;
+      font-size: 1.5rem;
+      content: "\f106";
+      color: #000;
+      float: right;
+      margin-top: -12px;
+  }
+  .accordion-section .panel-default .panel-title a.collapsed:after {
+      content: "\f107";
+  }
+  .accordion-section .panel-default .panel-body {
+      font-size: 1.2rem;
+  }
+
+  .qst-1 hr {
+    border: solid 0.2px;
+    color: #BFBFBF
+  }
+
+  .qst-1 a {
+    text-decoration: none;
+  }
+
+  .qst-1 h3 {
+   color: #1947E5;
+  }
+
+  .mobile-view-color {
+    background: #F96D45;
+  }
+
+  .push-down {
+    padding-bottom: 50px;
+  }
+
+
+
+  /* FOOTER */
+
+  ul {
+    list-style: none
+  }
+
+.footer {
+  background: #466BEB;
+  color: #fff;
+}
+
+.footer .container {
+  padding: 2rem 0 0 0
+}
+
+
+
+
+.footer .shop-go {
+  font-weight: 800;
+  font-size: 30px;
+  color: #C9C8C8;
+}
+
+.footer .trusted-brands {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.footer .brands {
+  font-family: 'Nova Square', cursive;
+  color: #C9C8C8;
+  font-size: 25px;
+}
+
+.footer ul li {
+  font-size: 0.8rem
+}
+
+.footer ul a:first-child {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+
+.link-style {
+  color: #fff !important;
+  font-weight: normal !important;
+  font-size: 1rem !important;
+  
+}
+
+.my-font-awesome{
+  padding-right: 3px;
+}
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 992px) {
+  .navbar {
+    height: 100px;
+    background: #fff;
+  }
+  .navbar li {
+    margin-right: 20px;
+  }
+  .navbar li:last-child {
+    margin-right: 0px;
+  }
+  .signin {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 375px) {
+  #showcase {
+    padding-left: 0rem;
+   }
+
+   .p1 {
+    font-size: 2.5rem;
+    line-height: 35px;
+   }
+
+   .dont-show {
+     display: block;
+   }
+
+   p.dont-show {
+    font-size: 2rem;
+    line-height: 35px;
+    margin-top: 70px;
+    padding-left: 0.5rem;
+  }
+
+   .show {
+     display: none
+   }
+
+   p.dont-show span {
+    color: #1947E5;
+    }
+
+  .center-mobile {
+    text-align: center;
+  }
+
+  .move-down-1 {
+    margin-top: 50px;
+  }
+
+  .move-down-2 {
+    margin-top: 30px;
+  }
+
+  .move-down {
+    padding-top: 2rem;
+  }
+
+  .skewed-bg{
+    background: #466BEB;
+    -webkit-transform: skew(0deg, 0deg);
+    transform: skew(0deg, -0deg);
+    margin-top: -140px;
+  }
+  .skewed-bg .contained{
+    -webkit-transform: skew(0deg, 0deg);
+    transform: skew(0deg, 0deg);
+    padding: 20px;
+    color: #466BEB;
+  }
+
+}
+
+
+@media only screen and (min-width: 1200px) { 
+  .logo-style {
+    color: #1947E5;
+    background-color: #fff;
+    padding-left:25px;
+    border-radius: 0px;
+    opacity: 1;
+  }
+ }
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  body {
+    background-image: url("../img/sega-img.png");
+
+
+    background-repeat: no-repeat;
+
+    background-position: 10px 1400px;
+
+    background-size: 100%;
+  }
+
+  .logo-style {
+    color: #1947E5;
+    background-color: #fff;
+    padding-left:25px;
+    border-radius: 0px;
+    opacity: 1;
+  }
+
+
+ }
+
+ @media only screen and (max-width: 992px) {
+  #position-navbar {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  p.dont-show {
+    font-size: 2rem;
+    line-height: 35px;
+    margin-top: 70px;
+    padding-left: 0.5rem;
+  }
+
+  .dont-show span {
+    color: #1947E5;
+    }
+
+
+    .logo-style {
+      color: #1947E5;
+      background-color: #fff;
+      padding:0;
+      border-radius: 0px;
+      opacity: 1;
+      font-size: 20px;
+     }
+
+
+   
+ }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    background-image: url("../img/sega-img.png");
+
+
+    background-repeat: no-repeat;
+
+    background-position: 10px 1400px;
+
+    background-size: 100%;
+  }
+
+  p.dont-show {
+    font-size: 2rem;
+    line-height: 35px;
+    margin-top: 70px;
+    padding-left: 0.5rem;
+  }
+
+  .logo-style {
+    color: #1947E5;
+    background-color: #fff;
+    padding-left:35px;
+    border-radius: 0px;
+    opacity: 1;
+  }
+ }
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .to-add-img-background {
+    background-image: url("../img/sega-img.png");
+
+
+    background-repeat: no-repeat;
+
+    background-position: 10px 0px;
+
+    background-size: 100%;
+  }
+
+  body {
+    background-image: none;
+  }
+
+  .dont-show {
+    display: block;
+  }
+
+  .show {
+    display: none
+  }
+
+  .skewed-bg{
+    background: #466BEB;
+    -webkit-transform: skew(0deg, 0deg);
+    transform: skew(0deg, -0deg);
+    margin-top: -140px;
+  }
+  .skewed-bg .contained{
+    -webkit-transform: skew(0deg, 0deg);
+    transform: skew(0deg, 0deg);
+    padding: 20px;
+    color: #466BEB;
+  }
+
+  p.dont-show {
+    font-size: 2rem;
+    line-height: 35px;
+    margin-top: 70px;
+    padding-left: 0.5rem;
+  }
+
+  .move-down-1 .move-right {
+    border: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .center-mobile-2 {
+    text-align: center;
+    padding-top: 50px;
+    color: #fff
+  }
+
+  .logo-style {
+    color: #1947E5;
+    background-color: #fff;
+    padding-left:30px;
+    border-radius: 0px;
+    opacity: 1;
+  }
+ }
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+  .to-add-img-background {
+    background-image: url("../img/sega-img.png");
+
+
+    background-repeat: no-repeat;
+
+    background-position: 10px 0px;
+
+    background-size: 100%;
+  }
+
+  body {
+    background-image: none;
+  }
+
+  .dont-show {
+    display: block;
+  }
+
+  .show {
+    display: none
+  }
+
+  p.dont-show {
+    font-size: 2rem;
+    line-height: 35px;
+    margin-top: 70px;
+    padding-left: 0.5rem;
+  }
+
+  .move-down-1 .move-right {
+    border: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .skewed-bg{
+    background: #466BEB;
+    -webkit-transform: skew(0deg, 0deg);
+    transform: skew(0deg, -0deg);
+    margin-top: -140px;
+  }
+  .skewed-bg .contained{
+    -webkit-transform: skew(0deg, 0deg);
+    transform: skew(0deg, 0deg);
+    padding: 20px;
+    color: #466BEB;
+  }
+
+  .center-mobile-2 {
+    text-align: center;
+    padding-top: 50px;
+    color: #fff
+  }
+ }
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .to-add-img-background {
+  background-image: url("../img/sega-img.png");
+
+
+  background-repeat: no-repeat;
+
+  background-position: 10px 0px;
+
+  background-size: 100%;
+}
+
+body {
+  background-image: none;
+}
+
+.dont-show {
+  display: block;
+}
+
+.show {
+  display: none
+}
+
+p.dont-show {
+  font-size: 2rem;
+  line-height: 35px;
+  margin-top: 70px;
+  padding-left: 0.5rem;
+}
+
+.move-down-1 .move-right {
+  border: none;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.move-down-2 {
+  padding-top: 25px
+} 
+
+
+.move-right {
+  padding-left: 14px;
+}
+
+#showcase {
+  padding-left: 0rem;
+ }
+ .skewed-bg{
+  background: #466BEB;
+  -webkit-transform: skew(0deg, 0deg);
+  transform: skew(0deg, -0deg);
+  margin-top: -140px;
+}
+.skewed-bg .contained{
+  -webkit-transform: skew(0deg, 0deg);
+  transform: skew(0deg, 0deg);
+  padding: 20px;
+  color: #466BEB;
+}
+
+.center-mobile-2 {
+  text-align: center;
+  padding-top: 50px;
+  color: #fff
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 319px) {
+  .to-add-img-background {
+    background-image: url("../img/sega-img.png");
+
+
+    background-repeat: no-repeat;
+
+    background-position: 10px 0px;
+
+    background-size: 100%;
+  }
+
+  body {
+    background-image: none;
+  }
+
+  
+ }
+
+/* special breakpoints */
+ 
+@media only screen and (min-width: 570px) and (max-width: 1100px) {
+.special-break{
+  display: block;
+}
+}
+
+@media only screen and (max-width: 569px){
+  .special-break{
+    display: none;
+  }
+  }
+
+
+@media only screen and (min-width: 1100px){
+  .special-break{
+    display: none;
+  }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+ 
+  
+  .service-item {
+    margin: 2rem 1rem;
+    padding: 1rem 1.5rem;
+    width: 198px;
+    max-width: 198px;
+    min-height: 260.16px;
+    background: #ffffff;
+    box-shadow: 0px 2px 30px rgba(177, 31, 31, 0.25);
+    border-radius: 5px;
+    height: auto;
+  }
+  
+
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+ 
+  
+  .service-item {
+    margin: 2rem 1rem;
+    padding: 1rem 1.5rem;
+    width: 278px;
+    max-width: 278px;
+    min-height: 260.16px;
+    background: #ffffff;
+    box-shadow: 0px 2px 30px rgba(177, 31, 31, 0.25);
+    border-radius: 5px;
+    height: auto;
+  }
+  
+
+
+}
+
+
+@media only screen and (min-width: 430px) and (max-width: 740px) {
+
+.skewed-bg{
+  background: #466BEB;
+  -webkit-transform: skew(0deg, 0deg);
+  transform: skew(0deg, -0deg);
+  margin-top: -140px;
+}
+.skewed-bg .contained{
+  -webkit-transform: skew(0deg, 0deg);
+  transform: skew(0deg, 0deg);
+  padding: 90px;
+  color: #466BEB;
+}
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+  .footer {
+    text-align: center;
+      }
+
+      .video-section, .video-section-2, .middle-text {
+        text-align: center !important;
+      }
+  
+  }
+
+
+
+@media only screen and (min-width: 756px)  and (max-width: 1077px) {
+
+  .skewed-bg{
+    background: #466BEB;
+    -webkit-transform: skew(0deg, 0deg);
+    transform: skew(0deg, 0deg);
+    margin-top: 0px;
+  }
+  
+  }
+
+

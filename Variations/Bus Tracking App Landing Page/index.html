@@ -1,34 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- Optimized viewport for mobile -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"
-    />
-    <!-- Website description -->
-    <meta name="description" content="apps, technology" />
-    <meta name="keywords" content="" />
-    <!-- Website title-->
-    <title>APP LANDING PAGE</title>
-    <link rel="shortcut icon" href="" type="image/x-icon" />
-    <link rel="apple-touch-icon-precomposed" href="" />
-    <!-- Google fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <!-- CSS links-->
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/all.min.css" />
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/responsive.css" />
-  </head>
-  <body>
-    <!-- All javascript at the bottom of the page for fast page load -->
-    <script src="./js/jquery-3.5.1.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="./assets/css/animate.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Bus Tracking App</title>
+</head>
+<body>
+
+    <header class="bg-header">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+                <img src="./assets/images/Group 1.png" alt="Logo" class="logo1">
+                <img src="./assets/images/aaa.png" alt="Logo" class="logo2"> 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-3 pl-md-5">
+                <li class="nav-item active">
+                  <a class="nav-link" id="active-home" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Nearest Pickup</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Sign In</a>
+                  </li>
+                  <li class="nav-item px-3 my-2 my-lg-0">
+                    <a class="nav-link btn px-5 py-1 ml-n3" id="btn-sign-up" href="index.html">Sign Up</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+
+
+
+    <main class=" bg-main p-3 mb-2 text-white">
+      <div class="container welcome-section">
+        <div class="ml-n3 mt-5 text-sm-left wow slideInLeft" data-wow-duration="2s">
+          <h1 class="h4 font-weight-bold welcome-header pt-xl-5">Secure Your Bus Now</h1>
+          <p class="welcome-text">Fast & secure way to manage & track your <br> bus with LocoNav’s BUS GPS TRACKER</p>
+        </div>
+  
+        <div class=" justify-content-sm-center iphone-mockup float-md-right mt-md-n5 mt-lg-n5 mr-xl-n5 pr-xl-n5 wow fadeInUp" data-wow-duration="2s">
+          <img src="./assets/images/Bus App Desktop.png" class="mockup1 ml-4 mr-xl-5" alt="Bus App">
+          <img src="./assets/images/Bus App Mobile.png" class="mockup2 justify-content-sm-center mt-md-n5 mt-lg-n5" alt="Bus App">
+        </div>
+
+      </div>
+    </main>
+
+    <section class="vector-section wow slideInLeft" data-wow-duration="2s">
+      <div class="container mt-5 mt-md-n5 pt-5 vector-container mt-lg-n5 ml-lg-5 mt-xl-5">
+        <div class="row mt-5 ml-4 ml-lg-2 mt-lg-n5 mt-xl-n5">
+          <div class="col-sm ml-lg-2 col-xl mt-xl-n5 vector1">
+            <img src="./assets/images/Vector1.png" class="mt-5 mb-3 ml-5 pl-5 mt-md-n5 ml-md-n2 mt-xl-n5 pt-xl-5 ml-xl-5"  alt="Vector1">
+            <p class="ml-n5 font-weight-bolder vector-text mr-lg-n5 text-center vector">ROUTE OPTIMISATION AND GEOFENCE</p>
+          </div>
+          <div class="col-sm col-md col-xl vector2">
+            <img src="./assets/images/Vector2.png" class="mt-5 mb-3 ml-5 pl-5 mt-md-n5 ml-md-n2 mr-lg-n5 ml-xl-5 vec2" alt="Vector2">
+            <p class="ml-4 font-weight-bold vector-text ml-xl-4 pl-xl-4 mr-lg-n5 vector">INTELLIGENT BUS TRACKING</p>
+          </div>
+          <div class="col-sm col-md col-xl vector3">
+            <img src="./assets/images/Vector3.png" class="mt-5 mb-3 ml-5 pl-5 mt-md-n5 mr-lg-n5 xl-mr-n5"  alt="Vector3">
+            <p class="ml-5 pl-2 font-weight-bold vector-text mr-lg-n5 xl-mr-n5 vector">REAL TIME ALERTS</p>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <section class="bg-main2">
+        <div class="row" data-aos="fade-left">
+          <div class="col-sm col-md-6 col-xl-4 float-md-right mt-xl-3">
+            <div class="ml-md-n5 pl-md-2 ml-xl-n3 pl-xl-0">
+              <h1 class="bus-text1 h4  pl-5 ml-3 mt-5 font-weight-bold position-relative mb-n3">Why <span class="bus-text2 position-relative ">Bus Tracking ?</span></h1>
+            </div>
+           
+            <p class="bus-text3 mr-md-n5 p-4 pl-xl-5">When buses ferry around citizens on the roads, there are certain aspects that the fleet owners, and the passengers, are most concerned about. In lieu of that, Bus tracking system ensures that all worries of the fleet owners and the people on board are taken care of. Passengers look for a safe and efficient transport experience, while fleet owners are concerned about optimising their business costs.</p>
+             <a class="ml-5 pl-3" href="#nextSection4"><button type="button" class="h1 ml-4 mb-5 py-2 px-5 ml-md-n4 btn text-white border-0 font-weight-bold ">Learn More</button></a>
+            <div>
+              <img src="./assets/images/Vector.png" class="position-relative image1" alt="Vector">
+            </div>
+          </div>
+          <div class="col-sm col-md-6 col-xl-8">
+              <img src="./assets/images/Bus desktop 2.png" class="bus1 mt-md-n5 pt-md-5 mt-xl-0" alt="Bus">
+              <img src="./assets/images/Mobile 4.png" class="bus2 " alt="Bus">
+
+          </div>
+        </div>
+    </section>
+
+     
+    <section class="bus-section" id="nextSection4">
+      <div class="row container bus-group"  data-aos="fade-right">
+        <div class="col-sm col-md-6">
+          <img src="./assets/images/Desktop 3.png" class="position-relative image2" alt="">
+        </div>
+  
+        <div class="col-sm col-md-6 container2 float-xl-right pl-xl-5 mt-xl-5 bus-group2">
+          <h1 class="bus-text4 h4 ml-3 ml-md-5 pl-md-3 mt-5 font-weight-bold position ml-xl-5">Enhanced <span class="bus-text2 position-relative">Compatibility</span></h1>
+          <p class="bus-text3 pl-3 float-xl-right ml-md-5 mr-md-n5 ml-xl-5">Our bus tracking system is compatible with all bus types making integration of GPS tracking device for buses a seamless process. LocoNav’s proprietary technology makes sure that our bus location app works well on Android as well as iOS. Now you can get a comprehensive look into how the buses in your fleet, and your drivers, are performing by utilising our live bus tracking app.</p>
+            <a class="ml-3 ml-md-4" href="#nextSection5"><button class="h1 ml-5 pl-3 py-2 px-5 mt-xl-4 btn text-white border-0 font-weight-bold">More Features</button></a>
+        </div>
+      </div>
+      
+    </section>
+
+    
+    <section class="bg-main3" id="nextSection5"> 
+      <div class="container3">
+        <div class="text-center">
+          <h1 class="download-header p-3 font-weight-bold h4"><span class="download-header2 font-weight-bold h4 p-3 mb-2 text-white">Experience Tracking on</span> Any Device</h1>
+          <p class="ml-lg-5 mr-lg-5 pl-lg-5 pr-lg-5 pl-4 text-white text-left download-text text-center">Bus Traking works on all major platforms, enabling you to work seamlessly across your browser, mobile device, tablet, and computer.</p>
+        </div>
+  
+        <div class="container store">
+          <div class="row">
+            <div class="col">
+
+            </div>
+            <div class="col">
+              <a href="https://www.apple.com/ios/app-store"><img src="./assets/images/appstore.png" class="mr-sm-5 mr-xl-0  appstore" alt="App Store" data-aos="zoom-in"> </a>
+            </div>
+          
+            <div class="col">
+              <div class="col ml-xl-n5">
+               <a href="https://play.google.com/store"><img src="./assets/images/googleplay.png" class="ml-2 googleplay" alt="Google Play" data-aos="zoom-out"></a>
+              </div>
+          </div>
+        </div>
+      </section>
+  
+      
+      <section class="world-wide-section">
+        <div class="container4 ml-lg-5 pl-lg-5 mt-lg-5 ml-xl-5 pl-xl-5">
+          <div class="row ml-xl-5 pl-xl-5">
+            <div class="col-sm ml-md-5 col-lg-3 world-wide" data-aos="slide-right">
+              <h1 class="h4 ml-3 mt-5 font-weight-bold ml-lg-2 pl-lg-3 tracker">Bus Tracking <span class="bus-text2">World Wide</span></h1>
+              <ul class="world-wide-list ml-4 ml-lg-4 pl-lg-4">
+                <li>Used in different counteries</li>
+                <li>Charges in any currency</li>
+                <li>Fast & Secure</li>
+              </ul>
+            </div>
+           
+            <div class="col-sm pl-md-5 col-lg-5">
+              <img src="./assets/images/Desktop 4.png" class="image3 ml-1 ml-lg-0 mt-xl-n4 mb-xl-5" alt="World-wide">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-header">
+      <div class="container ml-md-n5 footer-container">
+        <div class="row text-white">
+          <div class="col-sm mt-lg-5 mt-n5 ml-lg-5 pl-lg-5">
+            <img src="./assets/images/Desktop Footer.png" class="footer-logo" alt="">
+            <p class="footer-logo">Fast & secure way to manage & track your <br> bus with LocoNav’s BUS GPS TRACKER</p>
+            
+          </div>
+  
+          <div class="col-sm mt-5 text-center ml-md-n5 pl-md-n5 ml-lg-0 pl-lg-n0 mr-md-5 pr-md-5 mr-lg-0 pr-lg-0">
+            <h5 class="text-md-left  ml-lg-5">Support</h5>
+            <ul class="list-unstyled text-md-left ml-lg-5 text-lg-left">
+              <li>Account</li>
+              <li>Support Center</li>
+              <li>Feedback</li>
+              <li>Contact Us</li>
+              <li>Accessibility</li>
+              <li>Privacy and Security</li>
+            </ul>
+          </div>
+  
+          <div class="col-sm mt-5 text-center">
+            <h5 class="text-md-left  ml-lg-5">About</h5>
+            <ul class="list-unstyled text-md-left ml-lg-5 text-lg-left">
+              <li>Customers</li>
+              <li>Our Team</li>
+              <li>Why Track</li>
+              <li>Features</li>
+              <li>Careers</li>
+              <li>Integrations</li>
+              <li>Partners</li>
+              <li>Features</li>
+              <li>How to Videos</li>
+              <li>Brand Guidelines</li>
+            </ul>
+          </div>
+  
+          <div class="col-sm pt-5 input-form ml-md-n5 pl-md-n5 mt-md-n5 mr-md-5">
+            <div class=" mt-md-n5 ml-md-n1">
+              <p class="h6 ml-n5 ml-md-4 ml-lg-0 mt-md-5 pt-md-5  mt-lg-5 text-center">Language</p>
+              <select class="form-control ml-5 ml-xl-0">
+                <option>English</option>
+                <option>French</option>
+                <option>German</option>
+              </select>
+            </div>
+            
+            <br>
+            
+            <div class=" mt-md-n5 ml-md-n5 pl-md-5 mt-lg-5">
+              <p class="h6 ml-n5 ml-md-4 ml-lg-0 mt-md-5 text-center">Currency</p>
+              <select class="form-control ml-5" id="currency">
+                <option>Naira #</option>
+                <option>Dollar $</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="social ml-5  pl-3 mt-5 ml-md-5 mt-md-n5 ml-lg-0 mt-lg-n5 pl-xl-4 position-relative wow bounceIn" data-wow-duration="2s">
+        <a href="#" target="_blank"><img src="./assets/images/mail.png" class="footer-img pl-4 mt-lg-n4 v" alt="Instagram"></a>
+        <a href="#" target="_blank"><img src="./assets/images/twitter.png" class="footer-img pl-4 pl-md-0 mt-lg-n4" alt="Twitter"></a>
+        <a href="#" target="_blank"><img src="./assets/images/linkedIn.png" class="footer-img pl-4 pl-md-0 mt-lg-n4" alt="LinkedIn"></a>
+        <a href="#" target="_blank"><img src="./assets/images/facebook.png" class="footer-img pl-4 pl-md-0 mt-lg-n4" alt="Facebook"></a>
+   </div>
+    </footer>
+    <div class="copyright h6 p-3 text-white text-center mb-0">
+    Copyright ©2020 Bus Tracking Communications, Inc. All rights reserved.
+    </div>
+
+  
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script src="./assets/js/wow.min.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="./assets/js/script.js"></script>
+          
+</body>
 </html>

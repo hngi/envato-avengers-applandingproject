@@ -1,34 +1,225 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- Optimized viewport for mobile -->
+
+<head>
+    <!--  Optimized viewport for mobile -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"
-    />
-    <!-- Website description -->
-    <meta name="description" content="apps, technology" />
-    <meta name="keywords" content="" />
-    <!-- Website title-->
-    <title>APP LANDING PAGE</title>
-    <link rel="shortcut icon" href="" type="image/x-icon" />
-    <link rel="apple-touch-icon-precomposed" href="" />
-    <!-- Google fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <!-- CSS links-->
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/all.min.css" />
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/responsive.css" />
-  </head>
-  <body>
-    <!-- All javascript at the bottom of the page for fast page load -->
-    <script src="./js/jquery-3.5.1.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-  </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no" />
+  <!-- Website description -->
+  <meta name="description" content="apps, technology" />
+  <meta name="keywords" content="messenger, messaging app, app, landing page,page" />  
+    <!-- Bootstrap CSS -->
+    <link rel="icon" href="./assets/images/Arzena App Assets/Arzena-favicon.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="./assets/images/Arzena App Assets/Arzena-favicon.png" sizes="16x16" type="image/png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style.css">
+     <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
+     <!-- Website title-->
+    <title>Messaging App landing Page</title>
+</head>
+
+<body>
+    <div class="container container-sm container-md">
+        <!-- Homepage Nav  And  Header-->
+        <nav class="navbar navbar-expand-lg navbar-light transperent">
+            <a class="navbar-brand" href="#"><img src="./assets/images/Arzena App Assets/Arzena Logo.svg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FAGs</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Header Section-->
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-sm-6 mb-5">
+                    <h2 class="mt-5 pt-5 header-line-height">Always Stay Connected <br> To Families & Friends <br> With
+                        <span>Arzena</span></h2>
+                    <p class="text-secondary pt-3">Arzena is a messaging app that allows you to always stay connected
+                        with
+                        friends and families through group chats, group video calls and special messages.
+                    </p><button type="button" class="btn btn-arzena btn-sm rounded-sm">Get Started</button>
+                </div>
+                <div class="col-sm-6 header-bg-image">
+                    <div class="right-container">
+                        <img class="header-image" src="./assets/images/Arzena App Assets/Desktop-blob.svg" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature Section-->
+        <div class="container mt-5 mb-5">
+            <p class="text-center text-secondary small">
+                APP FEATURES
+            </p>
+            <h2 class="text-center font-weight-bold mb-5">
+                Why Arzena Is The Best Messaging App?
+            </h2>
+            <!-- <div class="container d-flex justify-content-between mt-3"> -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-md-3 col-md-3 col-lg-3 col-xl-3">
+                        <div class=" text-center ">
+                            <div class="box rounded-circle uniform-size  uniform-size-fav-chart"><img class="move"
+                                    src="./assets/images/Arzena App Assets/Chats.svg" alt=""></div>
+                            <p class="text-center font-weight-bold">Favorite charts</p>
+                            <p class="text-center small ">You can now easily access your favorite contacts and chat them
+                                up easily
+                                without
+                                going through hassle.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-md-3 col-lg-3 col-xl-3">
+                        <div class=" text-center ">
+                            <div class="box rounded-circle uniform-size uniform-size-video-call"><img class="move"
+                                    src="./assets/images/Arzena App Assets/Video.svg" alt=""></div>
+                            <p class="text-center font-weight-bold">Video call</p>
+                            <p class="text-center small ">Always get in touch with families and friends by organizing a
+                                group video
+                                call
+                                to share gifts and many more.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-md-3 col-lg-3 col-xl-3">
+                        <div class=" text-center ">
+                            <div class="box rounded-circle uniform-size uniform-size-charts"><img class="move"
+                                    src="./assets/images/Arzena App Assets/Encryted.svg" alt=""></div>
+                            <p class="text-center font-weight-bold">Encrpyted Charts</p>
+                            <p class="text-center small ">All your chats and messages are now encrypted with our F2F
+                                encryption
+                                method.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-md-3 col-md-3 col-lg-3 col-xl-3">
+                        <div class=" text-center ">
+                            <div class="box rounded-circle uniform-size uniform-size-groups"><img class="move"
+                                    src="./assets/images/Arzena App Assets/users.svg" alt=""></div>
+                            <p class="text-center font-weight-bold">Groups</p>
+                            <p class="text-center small ">Our groups allow up to 1000+ people to connect, gist with,
+                                share knowledge
+                                and
+                                get to know each other better.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Testimonial Section-->
+
+        <div class="container mt-5 mb-5">
+            <p class="text-center text-secondary small mt-5">
+                TESTIMONIALS
+            </p>
+            <h2 class="text-center font-weight-bold mb-5">
+                What Our Customers Say About Arzena
+            </h2>
+
+            <div class="card mb-5 m-auto shadow-lg" style="width:20rem;">
+                <img class="w-25 mx-auto testimonial-card" src="./assets/images/Arzena App Assets/Ellipse 2.svg" class="card-img-top testimonial-card mx-auto"
+                    alt="users-photo">
+                <div class="card-body">
+                    <h5 class="card-title text-center font-weight-bold">Jannie Marie</h5>
+                    <p class="card-text text-center text-secondary small">Some quick example text to build on the card
+                        title
+                        and make up the bulk of the card's content.</p>
+                    <p class=" text-center"><span>CEO Marie Groups</span></p>
+                </div>
+            </div>
+
+        </div>
+        <!--Download Section-->
+        <div class="container mb-5 mx-auto rounded p-download-bg-color">
+            <p class="text-center text-secondary p-download-color">Available for your smartphone</p>
+            <p class="text-center text-secondary p-download-color"> Download it Now</p>
+            <div class="container mx-auto">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 text-center"><a href="#"><img class="w-50" src="./assets/images/Arzena App Assets/Playstore.svg"
+                    alt="download for android"></a>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 text-center"><a href="#"><img class="w-50" src="./assets/images/Arzena App Assets/App Store.svg"
+                                alt="download for ios"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Subsription Section-->
+
+        <div class="container mt-3 mb-5">
+            <p class="text-center font-weight-bold"> Subscribe to Our Newsletter</p>
+            <p class="text-center font-weight-bold">Get Early Updates </p>
+
+            <div class="input-group mb-3 w-50 mx-auto rounded shadow-lg">
+                <input type="text" class="form-control" placeholder=" Enter Your Email Address"
+                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                <div class="input-group-append rounded">
+                    <button class="btn btn-bg-color" type="button" id="button-addon2">Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <!--Footer Section-->
+
+    <div class="jumbotron p-0 mb-0" style="margin-bottom:0">
+
+        <div class="d-flex justify-content-around mb-3">
+            <div class="p-2 "><a href="#"> <img src="./assets/images/Arzena App Assets/Arzena Logo.svg" alt=""></a>
+            </div>
+            <div class="p-2 ">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><img src="./assets/images/Arzena App Assets/Facebook.svg"
+                                alt=""></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="./assets/images/Arzena App Assets/Instagram.svg"
+                                alt=""></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="./assets/images/Arzena App Assets/Twitter.svg"
+                                alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <p class="text-center m-0 p-3"> &copy; Copyright 2020. Arzena All Right Reserved</p>
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>

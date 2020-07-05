@@ -1,34 +1,386 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Required meta tags-->
     <meta charset="UTF-8" />
-    <!-- Optimized viewport for mobile -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <!-- Website description -->
-    <meta name="description" content="apps, technology" />
-    <meta name="keywords" content="" />
-    <!-- Website title-->
-    <title>APP LANDING PAGE</title>
-    <link rel="shortcut icon" href="" type="image/x-icon" />
-    <link rel="apple-touch-icon-precomposed" href="" />
-    <!-- Google fonts -->
+    <title>Book App Landing Page</title>
+    <!-- Bootstrap css -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <!-- CSS links-->
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/all.min.css" />
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/responsive.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/bookApp.css" />
+    <!-- <link rel="icon" href="favicon.ico"> -->
+    <!-- <script src="js/font-awesome.min.js"></script> -->
   </head>
   <body>
-    <!-- All javascript at the bottom of the page for fast page load -->
-    <script src="./js/jquery-3.5.1.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
+    <!--nav bar-->
+    <br />
+    <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top">
+      <div class="container-fluid">
+        <a href=""
+          ><img src="assets/logo (3).png" alt="img" width="100px" height="40px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                ><button
+                  type="button"
+                  class="btn btn-outline-secondary btn-sm"
+                  style="border: 3px solid #fd954e;"
+                >
+                  Home
+                </button></a
+              >
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Review</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link sign-up" href="#" style="background-color: #fd954e;"
+                >Sign Up For Free</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--this is the header section-->
+    <br /><br />
+    <div class="container-fluid1 padding">
+      <div class="row padding">
+        <div class="col-md-12 col-lg-6">
+          <h4>Are You Bookish?</h4>
+          <h2>
+            With Bookish, You Proof-read, <br />
+            Buy And Read Books Online <br />
+            And Offline
+          </h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed cum,
+            reprehenderit non porro blanditiis dolorem facere rem similique
+            saepe assumenda numquam debitis perferendis eveniet? Recusandae
+            repellat distinctio enim eveniet minima?
+          </p>
+
+          <form>
+            <div class="row">
+              <div class="col col-btn">
+                <a href="#"><button type="button" class="btn btn-outline-secondary btn-sm icon-btn icon-btnGP text-nowrap">
+                  <h4 class="icon-text"><h4></h4> GET IT ON <br/> Google Play</h4>
+                  <img src="assets/1a49226d155846acb790eeb919f63c8e-removebg-preview.png" width="30px" class="app-icon "/></button></a>
+              </div>
+              <div class="col col-btn">
+                <a href="#"><button type="button" class="btn btn-outline-secondary btn-sm icon-btn icon-btnAS text-nowrap ">
+                <h4 class="icon-text"> <h4></h4>DOWNLOAD ON </h4> <br> the App Store</h4>
+                <img src="assets/download__10_-removebg-preview.png" width="60px" class="app-icon app-iconAS "/></button></a>
+              </div>
+            </div>
+          </form>
+
+          <div class="row text left-bottom">
+            <img
+              src="assets/Ellipse 8.png"
+              class="img-fluid display-none"
+              alt="img"
+              width="50px"
+              height="50pk"
+            />
+            <img
+              src="assets/Ellipse 7.png"
+              class="img-fluid display-none"
+              alt="img"
+              width="80px"
+              height="80pk"
+            />
+          </div>
+        </div>
+        <div class="col-lg-6 text-center">
+          <img
+            src="images/bookish hero.png"
+            class="img-fluid my-5"
+            alt="img"
+            width="300px"
+            height="300pk"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!--section 1-->
+
+    <div class="container-fluid1 padding">
+      <div class="row text-center padding">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <h2>3M</h2>
+          <hr />
+          <h4>Download</h4>
+          <p >
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+            perferendis hic vel neque! Quam, autem.
+          </p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <h2>50K</h2>
+          <hr />
+          <h4>Great Reviews</h4>
+          <p >
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+            perferendis hic vel neque! Quam, autem.
+          </p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <h2>4.9/5</h2>
+          <hr />
+          <h4>Ratings</h4>
+          <p >
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+            perferendis hic vel neque! Quam, autem.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <br /><br /><br />
+    <!--section 2-->
+    <figure>
+      <div class="container-fluid5 container padding">
+        <div class="row welcomee text-center">
+          <div class="col-12">
+            <h2 class="bookish-text">All-in One Book App</h2>
+            <div class="col-12">
+              <p >
+                Bookish is the new-ish, with the best features any book app
+                could have
+              </p>
+            </div>
+          </div>
+        </div>
+     
+      <!-- all in one book section -->
+      
+        <div class="row">
+          <div class="col-sm-5 mt-5 pt-5">
+            <div class="text-center">
+            <img
+              src="images/BookSquad Landing.png"
+              alt="BookSquad Landing"
+              class="img-fluid bslanding"
+            />
+             <img
+              src="assets/Ellipse10.png"
+              alt="shadow"
+              class="img-fluid "
+            />
+          </div>
+          </div>
+          <div class="col-sm col-6 mt-5">
+            <div class="row my-5">
+              <div class="col-12 mt-2 pt-5">
+                <img src="images/Frame 5.png" class="icon mb-3" alt="icon"/>
+                <h4>Easy Navigation</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Necessitatibus.
+                </p>
+              </div>
+              <div class="col-12 mt-2 pt-5">
+                <img src="images/Frame 8 (1).png" class="icon  mb-3"  alt="icon"/>
+                <h4>Proof-read 10 Pages</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Necessitatibus.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm col-6 my-5">
+            <div class="row my-5">
+              <div class="col-12 mt-2 pt-5">
+                <img src="images/Frame 6 (1).png" class="icon  mb-3"  alt="icon"/>
+                <h4>Read Purchased Book Offline</h4>
+                <p>
+                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </p>
+              </div>
+              <div class="col-12 mt-2 pt-5">
+                <img src="images/Frame 7 (1).png" class="icon  mb-3"   alt="icon"/>
+                <h4>Al Enchanced Search Optimization</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Necessitatibus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+       
+      </div>
+    </figure>
+    <br /><br /><br />
+    <!--section 3-->
+
+    <div class="container-fluid1 padding">
+      <div class="row welcome text-center">
+        <div class="col-lg-12">
+          <h2 class="bookish-text">What People Think About Bookish</h2>
+          <p >
+            Check out amazing reviews from our 2million bookish users
+          </p>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+    <div class="container-fluid1 padding">
+      <div class="row padding">
+        <div class="col-lg-12 text-center">
+            <img
+                  src="images/Ellipse 14.png"
+                  class="card-img-top img-fluid"
+                  style="width: 100px;"
+                  height="100px"
+                />
+          <div class="textbox" >
+            <p >
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br />
+                Asperiores deserunt nobis ipsa praesentium sunt mollitia.<br />
+                Pariatur corporis quis magnam. Quia tenetur nostrum nihil
+                <br />doloribus eos non quas dolorem! Dolor, corporis!
+              </p>
+              <hr>
+              <h3> Bisi Chinwe<span>, Lagos</span></h3>
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="24" height="24" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#2eceff"><path d="M86,128.1185l48.9555,29.54817l-12.99317,-55.685l43.25083,-37.46733l-56.9535,-4.83033l-22.25967,-52.51733l-22.25967,52.51733l-56.9535,4.83033l43.25083,37.46733l-12.99317,55.685z"></path></g></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#2eceff"><path d="M86,128.1185l48.9555,29.54817l-12.99317,-55.685l43.25083,-37.46733l-56.9535,-4.83033l-22.25967,-52.51733l-22.25967,52.51733l-56.9535,4.83033l43.25083,37.46733l-12.99317,55.685z"></path></g></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 172 172"style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#2eceff"><path d="M86,128.1185l48.9555,29.54817l-12.99317,-55.685l43.25083,-37.46733l-56.9535,-4.83033l-22.25967,-52.51733l-22.25967,52.51733l-56.9535,4.83033l43.25083,37.46733l-12.99317,55.685z"></path></g></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 172 172"style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#2eceff"><path d="M86,128.1185l48.9555,29.54817l-12.99317,-55.685l43.25083,-37.46733l-56.9535,-4.83033l-22.25967,-52.51733l-22.25967,52.51733l-56.9535,4.83033l43.25083,37.46733l-12.99317,55.685z"></path></g></g></svg>
+                <img src="https://img.icons8.com/android/24/000000/star.png"/>
+              </div> 
+          </div>
+          <div class="row my-3 ">
+
+            <div class="col-sm-12 text-nowrap text-center">
+            <div class="card ">
+
+                <img
+                  src="images/Ellipse 16.png"
+                  class="card-img-top img-fluid card-icon"
+                  
+                  height="100px"
+                />
+              
+            </div>
+           
+              <div class="card">
+                <img
+                  src="images/Ellipse 11.png"
+                  class="card-img-top img-fluid card-icon"
+                  
+                  height="100px"
+                />
+              </div>
+           
+            
+              <div class="card">
+                <img
+                  src="images/Ellipse 15.png"
+                  class="card-img-top img-fluid card-icon"
+                  
+                  height="100px"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+         
+         
+        </div>
+      </div>
+    </div>
+    
+
+    <!--footer-->
+    <footer class="footer">
+      <div class="container-fluid1 padding">
+        <div class="row welcome text-center">
+          <div class="col-lg-12">
+            <h2 class="bookish-text">Say Hello To Us</h2>
+          </div>
+        </div>
+      </div>
+      <br /><br />
+      <div class="container-fluid1 padding">
+        <div class="row text-center ml-2">
+          <div class="col-md-4 col-12">
+            <img src="assets/logo (3).png" alt="img" class="mb-3" />
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+              Am sunt mollitia.
+              doloribus eos non quas dolorem! Dolor, corporis!
+            </p>
+          </div>
+          <div class="col-md-4 col-6   text-left mt-2 footer-text">
+            <p>Email: <em style="color: #fd954e;">info@bookish.com</em></p>
+            <p>Phone Number: +234 590 838 3839</p>
+            <p>
+              Address: 348C Seliat Adekunle, <br />Bourdillion, Lagos Nigeria.
+            </p>
+          </div>
+          <div class="col-md-4 col-6  mt-2  footer-text">
+            <p style="color: #eddefc;">Facebook</p>
+            <p style="color: #bae7f5;">Twitter</p>
+            <p style="color: #ef93d0;">Instagram</p>
+            <p style="color: #a7e2f4;">Linkedin</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
