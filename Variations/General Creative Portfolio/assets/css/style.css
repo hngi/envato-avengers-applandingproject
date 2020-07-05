@@ -307,13 +307,20 @@ header h1 span {
 
 /* porfolio websites */
 
-.portfolio-websites .card {
-    /* background-image: url(../images/web_1@2x.png); */
+.works-section {
+    background: #1A191F;
 }
 
-.column-img {
-    background: url(../images/web_3.png);
-    background-size: cover;
+.works-section h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 61px;
+    letter-spacing: 2.5px;
+}
+
+.works-section {
+    background: #1A191F;
 }
 
 
