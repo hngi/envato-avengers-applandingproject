@@ -2,33 +2,491 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- Optimized viewport for mobile -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"
-    />
-    <!-- Website description -->
-    <meta name="description" content="apps, technology" />
-    <meta name="keywords" content="" />
-    <!-- Website title-->
-    <title>APP LANDING PAGE</title>
-    <link rel="shortcut icon" href="" type="image/x-icon" />
-    <link rel="apple-touch-icon-precomposed" href="" />
-    <!-- Google fonts -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto"
+    rel="stylesheet"
     />
-    <!-- CSS links-->
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/all.min.css" />
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/responsive.css" />
+    <!-- font awesome -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/ui.css" />
+
+    <title>UI Inspiration</title>
   </head>
   <body>
-    <!-- All javascript at the bottom of the page for fast page load -->
-    <script src="./js/jquery-3.5.1.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
+    <div class="container-fluid remove-bootstrap-padding">
+      <!------------------------------------------ Nav-------------------------------->
+      <!-- nav element -->
+
+      <nav class="navbar navbar-expand-md navbar-dark bg-primary mt-3">
+        <a class="navbar-brand abs mx-4" href="#"
+          ><img src="./assets/images/Vector.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsingNavbar"
+          >
+          <i class="fa fa-search mr-3"  style="font-size: 28px; color: #6e6d7a;"></i>
+          <i class="fa fa-bars" style="font-size: 36px; color: #6e6d7a;"></i>
+        </button>
+
+        <div class="navbar-collapse collapse" id="collapsingNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item active mx-2">
+              <a class="nav-link" href="#">Explore</a>
+            </li>
+
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="">For Designers</a>
+            </li>
+
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="" data-toggle="collapse"
+                >Hiring Designers?</a
+              >
+            </li>
+          </ul>
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-2">
+              <a class="nav-link hide-search" href=""><i class="fa fa-search"></i></a>
+            </li>
+
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="">Login</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a
+                class="nav-link btn sign-up-text"
+                href=""
+                data-target="#myModal"
+                data-toggle="modal"
+                >Sign up</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- end of nav element -->
+
+      <!------------------------------------------ Nav---------------------------------->
+
+      <!-- header section -->
+      <header class="header mt-5">
+        <div class="header-wrapper">
+          <div class="bg-header">
+            <div class="row">
+              <div
+                class="col-md-5 mx-5 header-img-pos header-pos header-side-1"
+              >
+                <div class="images-pos">
+                  <img src="./assets/images/iphone-2.png" class="img-responsive phone-img" alt="" />
+                  <img class="img-responsive img-pos phone-img" src="./assets/images/iphone-1.png" alt="" />
+                </div>
+              </div>
+
+              <div class="col-md-5 header-where-text mt-5 header-side-2">
+                <h1>Where Designers meet <br />inspiration</h1>
+
+                <p>
+                  Dribble is the leading destination to find & showcase creative
+                  <br />
+                  work and home to the world's best design professionals
+                </p>
+                <img src="./assets/images/google.png" class="store-img-size" alt="" />
+                <img
+                  class="store-img-size"
+                  src="images/apple-app-store-travel-awards-globestamp-7 3.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 class="header-h2 mx-5">Interesting Features</h2>
+      </header>
+      <!-- End of header section -->
+
+      <!-- product section -->
+      <!-- Feature section -->
+
+      <section class="feature">
+      
+          <div class="container-fluid">
+            <div class="row">
+              <!-- products - row-1 -begins here -->
+              <div class="py-5 pl-5 col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <h1 class="product-fade-text">01</h1>
+                <div class="row">
+                    <h5 class="my-3 product-text">
+                      Browse popular & inspiring shots
+                    </h5>
+                    <img src="./assets/images/prod1.png" class="img-size" style="margin-top: 1rem;" alt="" />
+                 
+                </div>
+
+              </div>
+              <div class="py-5 pl-5 col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <h3 class="product-fade-text">02</h3>
+                <div class="row">    
+                    <h5 class="my-4 product-text">
+                      Upload shots (images, GIFS or videos)
+                    </h5> 
+                    <img src="./assets/images/prod2.png" class="img-size" alt="" />     
+                </div>
+               
+                
+              </div>
+              <div class="py-5 pl-5 col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <h3 class="product-fade-text">03</h3>
+                <div class="row">    
+                    <h5 class="my-4 product-text">
+                      Spare your eyes at night with dark theme
+                    </h5> 
+                    <img src="./assets/images/prod3.png" class="img-size" alt="" />     
+                </div>
+               
+                
+              </div>
+
+              <!-- products - row-1 -begins here -->
+            </div>
+          </div>
+        
+      </section>
+      <!-- endproduct section -->
+
+      <!-- rating & review section -->
+
+      <section class="rating-review text-center">
+        <h2 class="text-center py-5 rating-review-text">Rating & Reviews</h2>
+        <div class="row p-5 remove-margin">
+
+          <!-- rating and review - row-5 -begins here -->
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-2 review-left">
+            <h2 class="h2-review-point">4.0</h2>
+            <i class="fa fa-star star-size" aria-hidden="true"></i>
+            <i class="fa fa-star star-size " aria-hidden="true"></i>
+            <i class="fa fa-star star-size " aria-hidden="true"></i>
+            <i class="fa fa-star star-size " aria-hidden="true"></i>
+            <i class="fa fa-star grey star-size " aria-hidden="true"></i>
+            <p class="rating-p">10,306 Ratings</p>
+          </div>
+
+          <div class=" col-xl-4 col-lg-4 col-md-4 col-sm-4 review-right">
+           <div class="row">
+             <div class="col-md-1 col-sm-1 ">
+               <h4 class="progress-text">5</h4>
+             </div>
+
+             <div class="col-md-10 col-sm-4 col-xs-2">
+              <div class="progress1 progress-moved">
+                <div class="progress-bar1"></div>
+              </div>
+             </div>
+           </div>
+          
+           <div class="row">
+             <div class="col-md-1 col-sm-1">
+               <h4 class="progress-text">4</h4>
+             </div>
+             <div class="col-md-10 col-sm-4">
+              <div class="progress1 progress-moved my-3">
+                <div class="progress-bar2"></div>
+              </div>
+             </div>
+           </div>
+
+            
+
+            <div class="row">
+              <div class="col-md-1 col-sm-1">
+                <h4 class="progress-text">3</h4>
+              </div>
+              <div class="col-md-10 col-sm-4">
+                <div class="progress1 progress-moved my-3">
+                  <div class="progress-bar3"></div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-md-1 col-sm-1">
+                <h4 class="progress-text">2</h4>
+              </div>
+              <div class="col-md-10 col-sm-1">
+            <div class="progress1 progress-moved my-3">
+              <div class="progress-bar4"></div>
+            </div>
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-md-1 col-sm-1">
+                  <h4 class="progress-text">1</h4>
+              </div>
+              <div class="col-md-10 col-sm-4">
+                
+            <div class="progress1 progress-moved my-3">
+              <div class="progress-bar5"></div>
+            </div>
+              </div>
+            </div>
+
+
+            
+          </div>
+          </div>
+          <!-- row-5 ends here -->
+        </div>
+
+        <!-- end rating and review -->
+
+
+        <!-- card  -->
+
+        <div class="card-section rating-review">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card mb-3 p-3" style="max-width: 540px;">
+                  <div class="row no-gutters">
+                    <div class="col-md-2">
+                      <img src="./assets/images/circle-img1.png" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-10">
+                      <div class="card-body">
+                        <h5 class="card-title">Valerie</h5>
+                        <i class="fa fa-star star-size" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i> <span>4/14/20</span>
+            
+                      </div>
+                      
+                    </div>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at elit eget justo commodomollis ut malesuada turpis.</p>
+                  </div>
+                </div>
+      
+                <!-- end card-1 -->
+              </div>
+              <div class="col-md-6">
+                              <!-- start card 1 -->
+            <div class="card mb-3 p-3" style="max-width: 540px;">
+              <div class="row no-gutters">
+                <div class="col-md-2">
+                  <img src="./assets/images/circle-img2.png" class="card-img" alt="...">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body">
+                    <h5 class="card-title">Toke</h5>
+                    <i class="fa fa-star"  aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i> <span>4/14/20</span>
+                    
+                  </div>
+                </div>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at elit eget justo commodomollis ut malesuada turpis.</p>
+              </div>
+            </div>
+  
+            <!-- end card-2 -->
+              </div>
+            </div>
+  
+          </div>
+
+         
+      
+
+
+        </div>
+        <!-- end card section -->
+        
+      
+      </section>
+      <!-- end rating & review section -->
+
+      
+
+       <div class="card-section rating-review" style="margin-bottom: 10px;">
+        
+
+        </div>
+
+      
+  
+
+      <section class="app">
+
+        <div class="app-section">
+          <div class="row p-5 text-section">
+            <!-- products - row-5 -begins here -->
+            <div class="col-xl-4 col-lg-4 col-md-4 offset-md-1 display-b">
+              <img
+                class="img-responsive img-dribble"
+                src="./assets/images/rotatetd-image.png"
+                alt=""
+              />
+            </div>
+            <div class="mt-5 col-xl-6 col-lg-6 col-md-6">
+              <img src="./assets/images/img.png" class="img-responsive  mx-auto d-block dribble-img" alt="">
+                <h3 class="m-2 text-center dribble-text"> <span class="colored-dribble-text">12,381,394 shots dribbbled <img src="images/Group 83.png" class="ball-size" alt=""></h3>
+                
+                <h5 class="colored-dribble-text-h5 text-center">works faster & easier</h5>
+
+                <h2 class="text-center dribble-h2-text">Get the app</h2>
+                <div class="wrap">
+
+                  <img src="./assets/images/google.png" class="store-img-size-2" alt="" />
+                  <img
+                    class="store-img-size-2"
+                    src="./assets/images/apple-app-store-travel-awards-globestamp-7 3.png"
+                    alt=""
+                  />
+                </div>
+            </div>
+            <!-- row-5 ends here -->
+          </div>
+  
+        </div>
+      </section>
+
+
+      <!------------------------------------------ FOOTER-------------------------------->
+      <!-- footer -->
+      <footer class="footer py-5 text-light">
+        <div class="container text-md-left">
+          <div class="row">
+            
+            <div
+              class="slide col-10 col-md-2 col-sm-8 mb-md-0 mb-3"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <img src="./assets/images/dribbble2.png" class="mb-2" alt="">
+              <ul class="list-unstyled">
+                <li class="footer-dribble-text">
+                  Dribbble is the world’s leading community for creatives to share, grow, and get hired.
+                </li>
+                
+
+                <div class="justify-content-between social-icons">
+                  <i class="fa fa-dribbble mr-3 mt-3" aria-hidden="true" style="font-size: 26px;"></i>
+                  <i class="fa fa-twitter mr-3 mt-3" aria-hidden="true"  style="font-size: 26px;"></i>
+                  <i class="fa fa-facebook mr-3 mt-3" aria-hidden="true" style="font-size: 26px;"></i>
+                  <i class="fa fa-instagram mr-3 mt-3" aria-hidden="true" style="font-size: 26px;"></i>
+                 </div>
+              </ul>
+            </div>
+
+
+            <div
+              class="slide col-5 col-md-2 col-sm-6 mb-md-0 mb-3"
+              data-aos="fade-up"
+              data-aos-delay="250"
+            >
+              <h5 class="">For designers </h5>
+              <ul class="list-unstyled">
+                <li>
+                  Go Pro!
+                </li>
+                <li>
+                 Explore designs
+                </li>
+              </ul>
+            </div>
+            
+            <div
+              class="slide col-5 col-md-2 col-sm-6 mb-md-0 mb-3"
+              data-aos="fade-up"
+              data-aos-delay="250"
+            >
+              <h5 class="">Hire designers</h5>
+              <ul class="list-unstyled">
+                <li>
+                  Post a job opening
+                </li>
+                <li>
+                  Search designers
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="slide col-5 col-md-2 col-sm-6 mb-md-0 mb-3"
+              data-aos="fade-up"
+              data-aos-delay="250"
+            >
+              <h5 class="">Company</h5>
+              <ul class="list-unstyled">
+                <li>
+                  About
+                </li>
+                <li>
+                  Careers
+                </li>
+              </ul>
+            </div>
+
+
+            
+            <div
+              class="footer-btn col-5 col-md-2 col-sm-6 mt-md-0 mb-3 clearfix"
+              data-aos="fade-up"
+              data-aos-delay="250"
+            >
+            <h5 class="">Directories</h5>
+            <ul class="list-unstyled">
+              <li>
+                Top Designers
+              </li>
+              <li>
+                Top design teams
+              </li>
+            </ul>
+              
+             
+            </div>
+            <!-- </div> -->
+          </div>
+        </div>
+        <!-- Copyright -->
+        
+        
+        <div class="container d-flex justify-content-between footer-copyright text-center text-light ">
+          <h5>12,381,394 shots dribbbled <img src="./assets/images/drib.png" class="ball-size" alt=""></h5>
+
+          <small class="pr-5 text-center">© 2020 Dribbble. All rights reserved.</small>
+         <div class="justify-content-between">
+          <i class="fa fa-dribbble" aria-hidden="true" style="font-size: 26px; margin-right: 0.8rem;"></i>
+          <i class="fa fa-twitter" aria-hidden="true"  style="font-size: 26px; margin-right: 0.8rem;"></i>
+          <i class="fa fa-facebook" aria-hidden="true" style="font-size: 26px; margin-right: 0.8rem;"></i>
+          <i class="fa fa-instagram" aria-hidden="true" style="font-size: 26px; margin-right: 0.8rem;"></i>
+         </div>
+        </div>
+        <small class="pr-5 text-center copyright">© 2020 Dribbble. All rights reserved.</small>
+        <!-- Copyright -->
+      </footer>
+    </div>
+
+    <script src="beauty.js"></script>
+    <script src="bootstrap/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
   </body>
 </html>
