@@ -1,0 +1,90 @@
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 576px) {
+    .custom-wrapper {
+        padding-left: 5vw !important;
+        padding-right: 5vw !important;
+    }
+    .hero h1 {
+        font-size: 52px;
+    }
+    .hero p {
+        font-size: 23px;
+    }
+    .hero-intro span h1 {
+        font-size: 40px;
+    }
+    .hero-bot-content {
+        width: 85vw;
+    }
+    .left-content {
+        border: none;
+    }
+    .invest-section h1 {
+        font-size: 44px;
+        letter-spacing: 1.1px;
+        line-height: 52px;
+    }
+    .invest-section p {
+        font-size: 23px;
+        letter-spacing: 0.75px;
+        line-height: 34px;
+    }
+    .invest-section p {
+        font-size: 20px;
+        letter-spacing: 0.75px;
+        line-height: 31px;
+    }
+    .testimonials-btn {
+        width: 212px;
+        height: 52px;
+        font-size: 16px;
+    }
+    .clients-section p {
+        font-size: 20px;
+        letter-spacing: 1px;
+        padding-bottom: 21px;
+    }
+    .stats-section .card {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .stats-section {
+        padding-top: 25px;
+        padding-bottom: 37px;
+    }
+    .contact .section-heading h2 {
+        font-size: 44px;
+        letter-spacing: 1.5px;
+        line-height: 47px;
+    }
+    .contact form {
+        margin-top: 3vh;
+    }
+    .contact .form-group input {
+        height: 68px;
+    }
+    .form-btn {
+        width: 180px;
+        height: 47px;
+        font-size: 23px;
+    }
+    .testim-section p {
+        font-size: 22px;
+        letter-spacing: 1px;
+        line-height: 29px;
+    }
+    .mt-5 {
+        margin-top: 1rem !important;
+        margin-bottom: 3rem;
+    }
+    .card-label h5 {
+        font-size: 23px;
+    }
+    .testim-section p {
+        font-size: 20px;
+    }
+    .navbar {
+        padding: .5rem 0rem;
+    }
+}

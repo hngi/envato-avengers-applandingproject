@@ -1,0 +1,419 @@
+@font-face {
+    font-family: 'amostely_signatureregular';
+    src: url('../fonts/amostelysignature-webfont.woff2') format('woff2'), url('../fonts/amostelysignature-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.custom-wrapper {
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+
+/* header */
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(./../images/toggler-icon.svg);
+}
+
+.hero header nav a {
+    color: #FFFFFF !important;
+}
+
+.overlay {
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.7;
+    /* padding-top: 45vh; */
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+header h1 span {
+    color: #4DC137;
+}
+
+
+/* main-hero */
+
+.hero {
+    background: url(../images/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero-intro {
+    padding-top: 10vh;
+    padding-bottom: 25vh;
+}
+
+.hero-intro span h1 {
+    font-family: 'amostely_signatureregular';
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.hero p {
+    font-size: 26px;
+    color: #4DC137;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.hero-bot-content {
+    box-shadow: 0px 15px 40px #00000029;
+    background: #E9E9E9;
+    z-index: 5;
+    margin-top: -5rem;
+}
+
+.left-content {
+    border-right: 1px solid #707070;
+}
+
+.hero-bot-content p {
+    color: #707070;
+    text-align: center;
+}
+
+.hero-bot-content .card {
+    background: transparent;
+    border: none;
+    justify-content: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+
+/* invest section */
+
+.invest-section {
+    background: #E9E9E9;
+    color: #1A191F;
+}
+
+.invest-section h1 {
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 2.1px;
+    line-height: 73px;
+}
+
+.hr-config {
+    width: 117px;
+    height: 16px;
+    border-radius: 12px;
+    background-color: #4DC137;
+    margin-top: 37px;
+    margin-bottom: 37px;
+}
+
+.invest-section p {
+    font-size: 25px;
+    letter-spacing: 1.75px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.testimonials-btn {
+    background: #1A191F;
+    color: #FFFFFF;
+    width: 266px;
+    height: 72px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.invest-section .card {
+    border: none;
+    background: transparent;
+}
+
+.card-imgs .card {
+    width: 446px;
+    height: 271px;
+}
+
+.card-1 {
+    position: absolute;
+}
+
+.card-2 {
+    position: absolute;
+    top: 15vh;
+    left: -13vw;
+}
+
+.card-3 {
+    position: absolute;
+    top: 35vh;
+    left: -4vw;
+}
+
+.pad-70 {
+    padding-top: 70px;
+    padding-bottom: 67px;
+}
+
+
+/* clients section */
+
+.clients-section {
+    padding-top: 44px;
+    padding-bottom: 96px;
+}
+
+.clients-section .card img {
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+}
+
+.clients-section .card {
+    margin-bottom: 20px;
+    background: #E9E9E9;
+    border: none;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.clients-section .card:hover {
+    transform: scale(1.1);
+}
+
+.clients-section h2 {
+    color: #1A191F;
+    text-align: center;
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: 2.5px;
+}
+
+.clients-section p {
+    color: #707070;
+    font-size: 25px;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding-bottom: 47px;
+}
+
+
+/* stats-section */
+
+.stats-section {
+    background: #1A191F;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.stats-section .card {
+    width: 301px;
+    height: 204px;
+    background: transparent;
+    border: #A7A5A5 1px solid;
+    text-align: center;
+    justify-content: center;
+}
+
+.stats-section h1 {
+    font-size: 60px;
+    color: #4DC137;
+    font-weight: bold;
+}
+
+.stats-section p {
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.stats-intro {
+    /* justify-content: center;
+     */
+    padding-top: 35px;
+}
+
+
+/* testimonials sections */
+
+.testim-section {
+    color: #707070;
+    padding-top: 59px;
+    padding-bottom: 129px;
+}
+
+.testim-section p {
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    /* font-weight: ; */
+}
+
+.testim-section .section-heading h2 {
+    color: #1A191F;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 2.5px;
+    line-height: 61px;
+}
+
+.testim-section .card {
+    border: none;
+}
+
+.testim-section .section-heading p {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 30px;
+    padding-bottom: 63px;
+}
+
+.testim-section img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.card-label h5 {
+    margin-bottom: 0;
+    font-size: 28px;
+    color: #1A191F;
+    font-weight: bold;
+}
+
+
+/* porfolio websites */
+
+.works-section {
+    background: #1A191F;
+}
+
+.works-section h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 61px;
+    letter-spacing: 2.5px;
+}
+
+.works-section {
+    background: #1A191F;
+}
+
+
+/* contact section */
+
+.contact {
+    padding-top: 37px;
+    background: #E9E9E9;
+}
+
+.contact form {
+    margin-top: 15vh;
+}
+
+.contact .form-control {
+    background: transparent;
+}
+
+.contact .section-heading h2 {
+    color: #707070;
+    font-size: 50px;
+    letter-spacing: 2.5px;
+    line-height: 61px;
+    font-weight: bold;
+}
+
+.contact .section-heading p {
+    color: #707070;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.contact .form-group input {
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: #707070;
+    border-radius: 0px;
+    height: 100px;
+}
+
+.contact .form-group textarea {
+    outline: none;
+    resize: none;
+    border-width: 0 0 1px;
+    border-color: #707070;
+    border-radius: 0px;
+    height: 100px;
+}
+
+::placeholder {
+    letter-spacing: 1.75px;
+    color: #E9E9E9;
+    opacity: 0.1;
+}
+
+.form-btn {
+    background: #1A191F;
+    border: 1px solid #707070 !important;
+    width: 208px;
+    height: 62px;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contact-info {
+    color: #1A191F;
+}
+
+.contact-info li {
+    list-style: none;
+}
+
+.contact-info p {
+    margin-bottom: 0.2rem;
+}
+
+.contact-info .heading {
+    color: #1A191F;
+    font-weight: bold;
+}
+
+.hr-border {
+    border: 1px solid #707070;
+}
+
+.bot-copyright p {
+    margin-bottom: 0;
+    text-align: center;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    color: #1A191F;
+    font-weight: bold;
+}
