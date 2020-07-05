@@ -54,26 +54,13 @@ body {
     background-color:#e90505;
 }
 
-.welcome-header, 
-.welcome-text {  
-    animation-name: slideInLeft;
-    animation-duration: 2s;
-}
 
 .mockup1 { display: none;}
 .mockup2 { 
     justify-content: center;
 }
-.iphone-mockup {
-    animation-name: fadeInUp;
-    animation-duration: 2s;
-}
 
 .vector-section { height: 40vh;}
-.vector-container { 
-    animation-name: slideInLeft;
-    animation-duration: 2s;
-}
 
 .vector-text { color: #A5A5A5; }
 
@@ -100,6 +87,10 @@ body {
     border-radius: 20px;
     outline: none;
     z-index: 3;
+}
+
+.btn:hover {
+    opacity: 0.8;
 }
 
 .image1 { 
