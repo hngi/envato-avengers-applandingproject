@@ -1,0 +1,126 @@
+body{
+    font-family: "Ubuntu";
+    color: #eaeaea !important;
+}
+
+/* Globals */
+.purple-color{
+    color: #CF29AB !important;
+}
+
+/* Header Section */
+#header{
+    position: relative !important;
+    background:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/Rectangle 4.png") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 2em;
+}
+
+/* Navs */
+.light-color{
+    color: #eaeaea !important;
+}
+
+.black-nav{
+    background: #000000 !important;
+}
+
+.navbar-brand{
+    font-size: 2.5em;
+}
+
+#header .navbar-nav .nav-item a{
+    color: #eaeaea !important;
+    margin-right: 1.2em;
+}
+
+#header .navbar-nav .nav-item a:hover{
+    color: #CF29AB !important;
+    transition:ease-in 300ms !important;
+}
+
+#intro-section h1{
+    margin-top: 0.5em;
+    margin-bottom:0px !important;
+    line-height: 1 !important;
+}
+
+#intro-section .ml-5{
+    margin-left: 2.2em !important;
+    font-size: 2.5em !important;
+}
+
+#intro-section .lead{
+    margin-top: 1em;
+    text-align: center;
+    font-size: 1.85em !important;
+}
+
+#intro-section img{
+    margin-right: 0.7em;
+}
+
+
+/* Section 2 */
+#section-2 .mb{
+    margin-top: 22em;
+}
+
+
+
+/* Section 4 */
+#section-4{
+    background: #000000;
+    padding: 1em !important;
+}
+
+
+#section-4 p{
+    line-height: 0.6;
+}
+
+.br{
+    border-right: 1px solid #333;
+    border-left: 1px solid #333;
+    margin: px !important;
+}
+
+
+/* Footer */
+#footer{
+    background:#000000;
+    padding: 1.5em;
+}
+
+
+#footer .first-icon{
+    background:#CF29AB;
+    color: #eaeaea;
+    font-size: 1.5em;
+    padding: 0.5em 0.6em;
+    margin: 8px;
+    border-radius: 50%;
+}
+
+#footer i{
+    margin: 16px;
+    font-size: 2.5em;
+}
+
+.input-group input{
+    height: 60px !important;
+    background: #fff !important;
+    border-radius: 0 !important;
+}
+
+.input-group-text{
+    background:#CF29AB !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 0 !important;
+    padding-right: 2em !important;
+    padding-left: 2em !important;
+}
+
+
