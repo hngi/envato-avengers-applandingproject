@@ -12,7 +12,7 @@
     <meta name="description" content="apps, technology" />
     <meta name="keywords" content="" />
     <!-- Website title-->
-    <title>APP LANDING PAGE</title>
+    <title>UPPI LANDING PAGE</title>
     <link rel="shortcut icon" href="" type="image/x-icon" />
     <link rel="apple-touch-icon-precomposed" href="" />
     <!-- Google fonts -->
@@ -20,15 +20,360 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <!-- CSS links-->
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/all.min.css" />
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/css/all.min.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <!-- <link rel="stylesheet" href="./css/responsive.css" /> -->
+
+    <!-- animate.css cdn -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+
+    <!-- Animate on scroll CDN -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   </head>
   <body>
+
+    <!-- HEADER/TOP SECTION -->
+    <header id="main-header">
+      <div class="container-xl header-padding">
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-md navbar-light pl-0 pr-0">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/images/Uppi.png" alt="" class="header-logo">
+          </a>
+          <button class="navbar-toggler header-custom-nav" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="./assets/images/short_text-black-18dp.svg" alt="" class="header-custom-nav-img">
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto text-nowrap header-nav-list">
+              <li class="nav-item header-top-item active">
+                <a class="nav-link header-top-link" href="#main-header">Home</a>
+              </li>
+              <li class="nav-item header-top-item">
+                <a class="nav-link header-top-link" href="#works">How it Works</a>
+              </li>
+              <li class="nav-item header-top-item">
+                <a class="nav-link header-top-link" href="#reviews">Reviews</a>
+              </li>
+              <li class="nav-item header-top-item">
+                <a class="nav-link header-top-link" href="#main-footer">Contact Us</a>
+              </li>
+            </ul>
+
+            <a href="#" class="btn header-nav-btn text-white border border-white rounded-pill">Get Started</a>
+          </div>
+        </nav>
+        <!-- HEADER/TOP CONTENT -->
+        <div class="row" id="header-content">
+          <div class="col-md-6 pt-2">
+            <h1>Let's Build the Future Together</h1>
+            <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto repellat vero quam numquam quas animi nisi.</p>
+            <div class="row header-action-links">
+              <div class="col-4">
+                <a href="#"><img src="./assets/images/Group 3050.png" alt="" class="header-action-link"></a>
+              </div>
+              <div class="col-4">
+                <a href=""><img src="./assets/images/Group 3051.png" alt="" class="header-action-link"></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 p-0 header-img-container">
+            <img src="./assets/images/fiverr 1.png" alt="" class="header-img">
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+
+    <!-- HOW IT WORKS SECTIONS (SHORTENED TO 'WORKS') -->
+    <section id="works">
+      <div class="container-xl">
+        <img src="./assets/images/Ellipse 340.png" alt="" class="works-ellipse">
+
+      <div class="works-head text-center">
+        <h3 class="works-head-title">How it <span class="works-head-span">works</span></h3>
+        <p class="works-head-text mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, blanditiis?</p>
+      </div>
+
+      <div class="container-fluid works-padding text-center" id="works-items">
+        <div class="row works-item" data-aos="fade-up">
+          <div class="col-md-4">
+            <img src="./assets/images/appi-image6 1.png" alt="">
+            <p class="works-item-title mt-5">Fully Responsive</p>
+            <p class="works-item-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, exercitationem quis!</p>
+          </div>
+          <div class="col-md-4 align-self-center works-item-number-container">
+            <img src="./assets/images/01.png" alt="" class="works-item-number">
+          </div>
+        </div>
+
+        <div class="row works-item" data-aos="fade-up">
+          <div class="col-md-4 offset-md-4 align-self-center works-item-number-container">
+            <img src="./assets/images/02.png" alt="" class="works-item-number">
+          </div>
+          <div class="col-md-4">
+            <img src="./assets/images/appi-image7 1.png" alt="">
+            <p class="works-item-title mt-5">Help</p>
+            <p class="works-item-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, exercitationem quis!</p>
+          </div>
+        </div>
+
+        <div class="row works-item" data-aos="fade-up">
+          <div class="col-md-4">
+            <img src="./assets/images/appi-image5 1.png" alt="">
+            <p class="works-item-title mt-5">Settings</p>
+            <p class="works-item-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, exercitationem quis!</p>
+          </div>
+          <div class="col-md-4 align-self-center works-item-number-container">
+            <img src="./assets/images/03.png" alt="" class="works-item-number">
+          </div>
+        </div>
+      </div>
+      </div>
+      
+    </section>
+
+    <!-- FEATURES SECTION -->
+
+    <section id="features">
+      <div class="container-xl">
+        <h3 class="text-center features-head works-head-title">Interesting <span class="works-head-span">Features</span></h3>
+
+      <div class="container-fluid features-padding">
+        <div class="features-wrapper" data-aos="fade" data-duration="1000">
+          <img src="./assets/images/Group 3155.png" alt="" class="d-none d-md-block">
+          <img src="./assets/images/Group 3155 1.png" alt="" class="d-md-none features-main-img">
+
+          <div class="features-card features-first-card">
+            <div class="features-card-head d-flex">
+              <img src="./assets/images/security.png" alt="" class="features-card-img">
+              <h4 class="ml-md-4 ml-3 features-security">Advanced Security</h4>
+            </div>
+            <p class="features-text mt-md-4 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aliquam soluta dolore?</p>
+          </div>
+
+          <div class="features-card features-second-card">
+            <div class="features-card-head d-flex">
+              <img src="./assets/images/security.png" alt="" class="features-card-img">
+              <h4 class="ml-md-4 ml-3 features-security">Advanced Security</h4>
+            </div>
+            <p class="features-text mt-md-4 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aliquam soluta dolore?</p>
+          </div>
+
+          <div class="features-card features-third-card">
+            <div class="features-card-head d-flex">
+              <img src="./assets/images/security.png" alt="" class="features-card-img">
+              <h4 class="ml-md-4 ml-3 features-security">Advanced Security</h4>
+            </div>
+            <p class="features-text mt-md-4 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aliquam soluta dolore?</p>
+          </div>
+
+        </div>
+        
+      </div>
+      </div>
+      
+    </section>
+
+
+    <!-- REVIEWS SECTION -->
+     
+    <section id="reviews">
+      <div class="container-xl reviews-padding">
+        <h3 class="text-center reviews-head works-head-title">User <span class="works-head-span">Reviews</span></h3>
+
+        <div class="card reviews-card" id="slide-1">
+          <div class="row no-gutters reviews-card-wrapper">
+            <div class="col-lg-5 order-2 order-md-1 reviews-card-image-wrapper">
+              <img src="./assets/images/girl face 1.png" alt="" class="reviews-card-image">
+            </div>
+            <div class="col-lg-7 order-1 order-md-2 reviews-card-content">
+              <div class="reviews-quotes d-flex mb-md-4 mb-3">
+                <img src="./assets/images/'.png" alt="" class="reviews-quote">
+                <img src="./assets/images/'.png" alt="" class="px-md-3 px-2 reviews-quote">
+              </div>
+
+              <p class="reviews-card-p mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique facere repudiandae sunt necessitatibus.</p>
+              <p class="reviews-card-p mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero unde placeat facilis modi atque sed ex molestias?</p>
+              <p class="reviews-card-p mb-md-4 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, totam autem corporis reiciendis neque est velit.</p>
+
+              <p class="reviews-name">Jane Doe</p>
+              <div class="stars d-flex">
+                <img src="./assets/images/Star 1.png" alt="" class="reviews-star">
+                <img src="./assets/images/Star 1.png" alt="" class="pl-md-2 ml-1 reviews-star">
+                <img src="./assets/images/Star 1.png" alt="" class="pl-md-2 ml-1 reviews-star">
+                <img src="./assets/images/Star 1.png" alt="" class="pl-md-2 ml-1 reviews-star">
+                <img src="./assets/images/Star 1.png" alt="" class="pl-md-2 ml-1 reviews-star">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card reviews-card custom-hide" id="slide-2">
+          <div class="row no-gutters reviews-card-wrapper">
+            <div class="col-lg-5 order-2 order-md-1 reviews-card-image-wrapper">
+              <img src="./assets/images/girl face 1.png" alt="" class="reviews-card-image">
+            </div>
+            <div class="col-lg-7 order-1 order-md-2 reviews-card-content">
+              <div class="reviews-quotes d-flex mb-md-4 mb-3">
+                <img src="./assets/images/'.png" alt="" class="reviews-quote">
+                <img src="./assets/images/'.png" alt="" class="px-md-3 px-2 reviews-quote">
+              </div>
+
+              <p class="reviews-card-p mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique facere repudiandae sunt necessitatibus.</p>
+              <p class="reviews-card-p mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero unde placeat facilis modi atque sed ex molestias?</p>
+              <p class="reviews-card-p mb-md-4 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, totam autem corporis reiciendis neque est velit.</p>
+
+              <p class="reviews-name">Jane Doe</p>
+              <div class="stars d-flex">
+                <img src="./assets/images/Star 1.png" alt="" class="reviews-star">
+                <img src="./assets/images/Star 1.png" alt="" class="pl-md-2 ml-1 reviews-star">
+                <img src="./assets/images/Star 1.png" alt="" class="pl-md-2 ml-1 reviews-star">
+                <img src="./assets/images/Star 1.png" alt="" class="pl-md-2 ml-1 reviews-star">
+                <img src="./assets/images/Star 1.png" alt="" class="pl-md-2 ml-1 reviews-star">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card reviews-card custom-hide" id="slide-3">
+          <div class="row no-gutters reviews-card-wrapper">
+            <div class="col-lg-5 order-2 order-md-1 reviews-card-image-wrapper">
+              <img src="./assets/images/girl face 1.png" alt="" class="reviews-card-image">
+            </div>
+            <div class="col-lg-7 order-1 order-md-2 reviews-card-content">
+              <div class="reviews-quotes d-flex mb-md-4 mb-3">
+                <img src="./assets/images/'.png" alt="" class="reviews-quote">
+                <img src="./assets/images/'.png" alt="" class="px-md-3 px-2 reviews-quote">
+              </div>
+
+              <p class="reviews-card-p mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique facere repudiandae sunt necessitatibus.</p>
+              <p class="reviews-card-p mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero unde placeat facilis modi atque sed ex molestias?</p>
+              <p class="reviews-card-p mb-md-4 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, totam autem corporis reiciendis neque est velit.</p>
+
+              <p class="reviews-name">Jane Doe</p>
+              <div class="stars d-flex">
+                <img src="./assets/images/Star 1.png" alt="" class="reviews-star">
+                <img src="./assets/images/Star 1.png" alt="" class="pl-md-2 ml-1 reviews-star">
+                <img src="./assets/images/Star 1.png" alt="" class="pl-md-2 ml-1 reviews-star">
+                <img src="./assets/images/Star 1.png" alt="" class="pl-md-2 ml-1 reviews-star">
+                <img src="./assets/images/Star 1.png" alt="" class="pl-md-2 ml-1 reviews-star">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="reviews-icons d-flex justify-content-center">
+          <img src="./assets/images/Polygon 11.png" alt="" class="align-self-center reviews-left-icon rounded-circle reviews-icon custom-hide-two">
+          <img src="./assets/images/Ellipse 335.png" alt="" class="align-self-center ml-md-5 ml-4 reviews-center-icon">
+          <img src="./assets/images/Ellipse 336.png" alt="" class="align-self-center ml-md-5 ml-4 reviews-center-icon">
+          <img src="./assets/images/Polygon 13.png" alt="" class="align-self-center ml-md-5 ml-4 reviews-right-icon rounded-circle reviews-icon">
+        </div>
+      </div>
+    </section>
+   
+
+    <!-- SPONSORS SECTION -->
+    <div class="container-xl sponsors-padding">
+      <div class="sponsors-icons d-md-flex justify-content-between align-items-center">
+        <img src="./assets/images/purchaser-microsoft.png" alt="" class="sponsors-icon sponsors-microsoft">
+        <img src="./assets/images/purchaser-siemens.png" alt="" class="sponsors-icon sponsors-siemens">
+        <img src="./assets/images/appi-image14.png" alt="" class="sponsors-icon sponsors-infinix">
+        <img src="./assets/images/appi-image15.png" alt="" class="sponsors-icon sponsors-google">
+      </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer id="main-footer">
+
+      <!--  (DESKTOP VERSION WHICH IS HIDDEN ON MOBILE SCREENS) -->
+      <div class="container-fluid d-none d-md-block footer-padding-big">
+        <div class="row">
+          <div class="col-6 footer-main-img-big">
+            <img src="./assets/images/cut 2.png" alt="">
+          </div>
+          <div class="col-6 align-self-end">
+            <h3 class="works-head-title text-center footer-title-big">Download The Latest Version Of The App</h3>
+
+            <div class="footer-action-links-big d-flex justify-content-around">
+              <a href="#"><img src="./assets/images/Group 3050.png" alt="" class="footer-action-img-big"></a>
+              <a href=""><img src="./assets/images/Group 3051.png" alt="" class="footer-action-img-big"></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-icons-big d-flex align-items-center justify-content-center">
+          <img src="./assets/images/Uppi.png" alt="" class="px-4">
+
+          <div class="footer-socials-big px-4">
+            <a href="#"><img src="./assets/images/Vector.png" alt="" class="footer-social-big px-2"></a>
+            <a href="#"><img src="./assets/images/Vector (1).png" alt="" class="footer-social-big px-2"></a>
+            <a href="#"><img src="./assets/images/Vector (2).png" alt="" class="footer-social-big px-2"></a>
+            <a href="#"><img src="./assets/images/Vector (3).png" alt="" class="footer-social-big px-2"></a>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- MOBILE VERSION WHICH IS HIDDEN ON DESKTOP SCREENS-->
+      <div class="container-fluid d-md-none d-block footer-padding-sm">
+        <div class="footer-main-img-sm">
+          <img src="./assets/images/cut 2.png" alt="">
+        </div>
+        
+        <h3 class="works-head-title text-center footer-title-sm">Download The Latest Version Of The App</h3>
+      </div>
+
+      <div class=" d-md-none d-block footer-icons-wrapper-sm container-fluid">
+        <div class="footer-icons-sm">
+          <div class="footer-action-links-sm d-flex justify-content-center">
+            <a href="#" class="d-flex justify-content-center"><img src="./assets/images/Group 3050.png" alt="" class="footer-action-img-sm img-fluid"></a>
+            <a href="" class="d-flex justify-content-center"><img src="./assets/images/Group 3051.png" alt="" class="footer-action-img-sm img-fluid"></a>
+          </div>
+
+          <div class="footer-logo-wrapper-sm">
+            <img src="./assets/images/Uppi.png" alt="" class="footer-logo-sm">
+          </div>
+          
+
+          <div class="footer-socials-sm d-flex justify-content-center">
+            <a href="#"><img src="./assets/images/Vector.png" alt="" class="footer-social-sm px-2"></a>
+            <a href="#"><img src="./assets/images/Vector (1).png" alt="" class="footer-social-sm px-2"></a>
+            <a href="#"><img src="./assets/images/Vector (2).png" alt="" class="footer-social-sm px-2"></a>
+            <a href="#"><img src="./assets/images/Vector (3).png" alt="" class="footer-social-sm px-2"></a>
+          </div>
+        </div>
+
+      </div>
+        
+      
+    </footer>
+
+
+
+
+
     <!-- All javascript at the bottom of the page for fast page load -->
-    <script src="./js/jquery-3.5.1.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 100,
+        duration: 400
+      });
+    </script>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
